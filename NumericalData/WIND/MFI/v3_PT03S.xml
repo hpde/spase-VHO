@@ -6,7 +6,7 @@
     <ResourceID>spase://GSFC/obs/WIND/MFI/WIND_MFI_v3</ResourceID>
     <ResourceHeader>
       <ResourceName>WIND MFI Version 3 Data</ResourceName>
-      <ReleaseDate>2007-05-30T20:02:41Z</ReleaseDate>
+      <ReleaseDate>2007-05-31T20:38:59Z</ReleaseDate>
       <Description>WIND MFI composite data. The files contain multiple time resolution data: 3-second, 1-minute, and 1-hour. Calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the WIND MFI instrument team in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
@@ -1194,6 +1194,7 @@ mode - no useful data
       <Structure>
         <StructureType>Array</StructureType>
         <Size>3 8</Size>
+        <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_I.</Description>
       </Structure>
       <Support>Other</Support>
     </PhysicalParameter>
@@ -1207,6 +1208,7 @@ mode - no useful data
       <Structure>
         <StructureType>Array</StructureType>
         <Size>3 8</Size>
+        <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_I.</Description>
       </Structure>
       <Support>Other</Support>
     </PhysicalParameter>
@@ -1220,6 +1222,7 @@ mode - no useful data
       <Structure>
         <StructureType>Array</StructureType>
         <Size>3 8</Size>
+        <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_I.</Description>
       </Structure>
       <Support>Other</Support>
     </PhysicalParameter>
@@ -1265,6 +1268,7 @@ mode - no useful data
       <Structure>
         <StructureType>Array</StructureType>
         <Size>3 8</Size>
+        <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_O.</Description>
       </Structure>
       <Support>Other</Support>
     </PhysicalParameter>
@@ -1278,6 +1282,7 @@ mode - no useful data
       <Structure>
         <StructureType>Array</StructureType>
         <Size>3 8</Size>
+        <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_O.</Description>
       </Structure>
       <Support>Other</Support>
     </PhysicalParameter>
@@ -1291,6 +1296,7 @@ mode - no useful data
       <Structure>
         <StructureType>Array</StructureType>
         <Size>3 8</Size>
+        <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_O.</Description>
       </Structure>
       <Support>Other</Support>
     </PhysicalParameter>
