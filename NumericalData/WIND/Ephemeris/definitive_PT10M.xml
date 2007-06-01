@@ -3,7 +3,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <NumericalData>
-    <ResourceID>spase://GSFC/obs/WIND/pos/position-def</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/WIND/Ephemeris/definitive_PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Definitive WIND Spacecraft Positions</ResourceName>
       <ReleaseDate>2007-05-30T19:57:26Z</ReleaseDate>
@@ -18,10 +18,10 @@
         <PersonID>spase://nssdc/person/57837</PersonID>
         <Role>Scientist</Role>
       </Contact>
-      <PriorID>spase://GSFC/obs/WIND/pos/position-pre</PriorID>
+      <PriorID>spase://VHO/NumericalData/WIND/Ephemeris/predicted_PT10M</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://GSFC/repository/CDAWeb</RepositoryID>
+      <RepositoryID>spase://VMO/Repository/CDAWeb</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
@@ -32,7 +32,7 @@
       <Format>CDF</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
-    <InstrumentID>spase://GSFC/obs/WIND/pos</InstrumentID>
+    <InstrumentID>spase://VHO/Instrument/WIND/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

@@ -3,7 +3,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <NumericalData>
-    <ResourceID>spase://GSFC/obs/WIND/MFI/WIND_MFI_v3</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/WIND/MFI/v3_PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>WIND MFI Version 3 Data</ResourceName>
       <ReleaseDate>2007-05-31T20:38:59Z</ReleaseDate>
@@ -26,7 +26,7 @@
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://GSFC/repository/WIND/MFI</RepositoryID>
+      <RepositoryID>spase://VHO/Repository/WIND/MFI</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
@@ -40,7 +40,7 @@
     <ProviderResourceName>WIND MFI v3 Data</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
     <ProviderVersion>3</ProviderVersion>
-    <InstrumentID>spase://GSFC/obs/WIND/MFI</InstrumentID>
+    <InstrumentID>spase://VHO/Instrument/WIND/MFI</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
