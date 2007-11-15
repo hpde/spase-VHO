@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/ACE/SIS/Hourly_Intensities/V01</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/ACE/SIS/V01_PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Isotope Spectrometer (SIS) 1-Hour Level 2 Data</ResourceName>
-      <ReleaseDate>2007-11-09T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2007-11-15T00:38:25Z</ReleaseDate>
       <Description>ACE SIS Solar Isotopic Spectrometer (SIS) intensities and counts, for 8 elements at 1-hour time resolution. Calibrated science quality data.</Description>
       <Acknowledgement>Please acknowledge the Principal Investigator, E. C. Stone of Caltech, and the ACE/SIS instrument team</Acknowledgement>
       <Contact>
@@ -18,12 +18,12 @@
       </Contact>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://respository/spdf</RepositoryID>
+      <RepositoryID>spase://VMO/Repository/CDAWeb</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <URL>http://cdaweb.gsfc.nasa.gov</URL>
-        <Description>1-hour ACE/SIS data in CDF format from CDAWeb (Text and plot downloads also available)</Description>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/sis_h2</URL>
+        <Description>FTP repository of 1-hour ACE/SIS data in CDF format at CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
     </AccessInformation>
@@ -39,6 +39,8 @@
       </TimeSpan>
       <Cadence>PT1H</Cadence>
     </TemporalDescription>
+    <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <PhysicalParameter>
       <Name>Time</Name>
       <ParameterKey>Epoch</ParameterKey>
@@ -88,15 +90,15 @@
       </Support>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>flux_He</Name>
+      <Name>Flux He</Name>
       <ParameterKey>flux_He</ParameterKey>
       <Description>He intensity, at 8 energies 3.4-41.2 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>flux_He 3.4-4.7</Name>
+          <Name>Flux He 3.4-4.7</Name>
           <Index>1</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -104,7 +106,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_He 4.7-6.1</Name>
+          <Name>Flux He 4.7-6.1</Name>
           <Index>2</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -112,7 +114,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_He 6.1-7.3</Name>
+          <Name>Flux He 6.1-7.3</Name>
           <Index>3</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -120,7 +122,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_He 7.3-9.7</Name>
+          <Name>Flux He 7.3-9.7</Name>
           <Index>4</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -128,7 +130,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_He 9.7-13.6</Name>
+          <Name>Flux He 9.7-13.6</Name>
           <Index>5</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -136,7 +138,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_He 13.6-18.0</Name>
+          <Name>Flux He 13.6-18.0</Name>
           <Index>6</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -144,7 +146,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_He 18.0-29.4</Name>
+          <Name>Flux He 18.0-29.4</Name>
           <Index>7</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -152,7 +154,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_He 29.4-41.2</Name>
+          <Name>Flux He 29.4-41.2</Name>
           <Index>8</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -162,7 +164,7 @@
       </Structure>
       <Measured>
         <Particle>
-          <ParticleType>Ion</ParticleType>
+          <ParticleType>AlphaParticle</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Flux</ParticleQuantity>
           <EnergyRange>
@@ -170,42 +172,42 @@
             <High>41.2</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>flux_He 3.4-4.7</BandName>
+              <BandName>Flux He 3.4-4.7</BandName>
               <Low>3.4</Low>
               <High>4.7</High>
             </Bin>
             <Bin>
-              <BandName>flux_He 4.7-6.1</BandName>
+              <BandName>Flux He 4.7-6.1</BandName>
               <Low>4.7</Low>
               <High>6.1</High>
             </Bin>
             <Bin>
-              <BandName>flux_He 6.1-7.3</BandName>
+              <BandName>Flux He 6.1-7.3</BandName>
               <Low>6.1</Low>
               <High>7.3</High>
             </Bin>
             <Bin>
-              <BandName>flux_He 7.3-9.7</BandName>
+              <BandName>Flux He 7.3-9.7</BandName>
               <Low>7.3</Low>
               <High>9.7</High>
             </Bin>
             <Bin>
-              <BandName>flux_He 9.7-13.6</BandName>
+              <BandName>Flux He 9.7-13.6</BandName>
               <Low>9.7</Low>
               <High>13.6</High>
             </Bin>
             <Bin>
-              <BandName>flux_He 13.6-18.0</BandName>
+              <BandName>Flux He 13.6-18.0</BandName>
               <Low>13.6</Low>
               <High>18.0</High>
             </Bin>
             <Bin>
-              <BandName>flux_He 18.0-29.4</BandName>
+              <BandName>Flux He 18.0-29.4</BandName>
               <Low>18.0</Low>
               <High>29.4</High>
             </Bin>
             <Bin>
-              <BandName>flux_He 29.4-41.2</BandName>
+              <BandName>Flux He 29.4-41.2</BandName>
               <Low>29.4</Low>
               <High>41.2</High>
             </Bin>
@@ -214,15 +216,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>flux_C</Name>
+      <Name>Flux C</Name>
       <ParameterKey>flux_C</ParameterKey>
       <Description>C intensity, at 8 energies 6.1-76.3 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>flux_C 6.1-8.6</Name>
+          <Name>Flux C 6.1-8.6</Name>
           <Index>1</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -230,7 +232,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_C 8.6-11.2</Name>
+          <Name>Flux C 8.6-11.2</Name>
           <Index>2</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -238,7 +240,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_C 11.2-13.4</Name>
+          <Name>Flux C 11.2-13.4</Name>
           <Index>3</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -246,7 +248,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_C 13.4-17.9</Name>
+          <Name>Flux C 13.4-17.9</Name>
           <Index>4</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -254,7 +256,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_C 17.9-25.1</Name>
+          <Name>Flux C 17.9-25.1</Name>
           <Index>5</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -262,7 +264,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_C 25.1-33.2</Name>
+          <Name>Flux C 25.1-33.2</Name>
           <Index>6</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -270,7 +272,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_C 33.2-54.3</Name>
+          <Name>Flux C 33.2-54.3</Name>
           <Index>7</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -278,7 +280,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_C 54.3-76.3</Name>
+          <Name>Flux C 54.3-76.3</Name>
           <Index>8</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -291,47 +293,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Flux</ParticleQuantity>
+          <AtomicNumber>6</AtomicNumber>
           <EnergyRange>
             <Low>6.1</Low>
             <High>76.3</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>flux_C 6.1-8.6</BandName>
+              <BandName>Flux C 6.1-8.6</BandName>
               <Low>6.1</Low>
               <High>8.6</High>
             </Bin>
             <Bin>
-              <BandName>flux_C 8.6-11.2</BandName>
+              <BandName>Flux C 8.6-11.2</BandName>
               <Low>8.6</Low>
               <High>11.2</High>
             </Bin>
             <Bin>
-              <BandName>flux_C 11.2-13.4</BandName>
+              <BandName>Flux C 11.2-13.4</BandName>
               <Low>11.2</Low>
               <High>13.4</High>
             </Bin>
             <Bin>
-              <BandName>flux_C 13.4-17.9</BandName>
+              <BandName>Flux C 13.4-17.9</BandName>
               <Low>13.4</Low>
               <High>17.9</High>
             </Bin>
             <Bin>
-              <BandName>flux_C 17.9-25.1</BandName>
+              <BandName>Flux C 17.9-25.1</BandName>
               <Low>17.9</Low>
               <High>25.1</High>
             </Bin>
             <Bin>
-              <BandName>flux_C 25.1-33.2</BandName>
+              <BandName>Flux C 25.1-33.2</BandName>
               <Low>25.1</Low>
               <High>33.2</High>
             </Bin>
             <Bin>
-              <BandName>flux_C 33.2-54.3</BandName>
+              <BandName>Flux C 33.2-54.3</BandName>
               <Low>33.2</Low>
               <High>54.3</High>
             </Bin>
             <Bin>
-              <BandName>flux_C 54.3-76.3</BandName>
+              <BandName>Flux C 54.3-76.3</BandName>
               <Low>54.3</Low>
               <High>76.3</High>
             </Bin>
@@ -340,15 +343,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>flux_N</Name>
+      <Name>Flux N</Name>
       <ParameterKey>flux_N</ParameterKey>
       <Description>N intensity, at 8 energies 6.6-83.3 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>flux_N 6.6-9.3</Name>
+          <Name>Flux N 6.6-9.3</Name>
           <Index>1</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -356,7 +359,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_N 9.3-12.2</Name>
+          <Name>Flux N 9.3-12.2</Name>
           <Index>2</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -364,7 +367,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_N 12.2-14.6</Name>
+          <Name>Flux N 12.2-14.6</Name>
           <Index>3</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -372,7 +375,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_N 14.6-19.5</Name>
+          <Name>Flux N 14.6-19.5</Name>
           <Index>4</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -380,7 +383,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_N 19.5-27.3</Name>
+          <Name>Flux N 19.5-27.3</Name>
           <Index>5</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -388,7 +391,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_N 27.3-36.2</Name>
+          <Name>Flux N 27.3-36.2</Name>
           <Index>6</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -396,7 +399,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_N 36.2-59.2</Name>
+          <Name>Flux N 36.2-59.2</Name>
           <Index>7</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -404,7 +407,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_N 59.2-83.3</Name>
+          <Name>Flux N 59.2-83.3</Name>
           <Index>8</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -417,47 +420,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Flux</ParticleQuantity>
+          <AtomicNumber>7</AtomicNumber>
           <EnergyRange>
             <Low>6.6</Low>
             <High>83.3</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>flux_N 6.6-9.3</BandName>
+              <BandName>Flux N 6.6-9.3</BandName>
               <Low>6.6</Low>
               <High>9.3</High>
             </Bin>
             <Bin>
-              <BandName>flux_N 9.3-12.2</BandName>
+              <BandName>Flux N 9.3-12.2</BandName>
               <Low>9.3</Low>
               <High>12.2</High>
             </Bin>
             <Bin>
-              <BandName>flux_N 12.2-14.6</BandName>
+              <BandName>Flux N 12.2-14.6</BandName>
               <Low>12.2</Low>
               <High>14.6</High>
             </Bin>
             <Bin>
-              <BandName>flux_N 14.6-19.5</BandName>
+              <BandName>Flux N 14.6-19.5</BandName>
               <Low>14.6</Low>
               <High>19.5</High>
             </Bin>
             <Bin>
-              <BandName>flux_N 19.5-27.3</BandName>
+              <BandName>Flux N 19.5-27.3</BandName>
               <Low>19.5</Low>
               <High>27.3</High>
             </Bin>
             <Bin>
-              <BandName>flux_N 27.3-36.2</BandName>
+              <BandName>Flux N 27.3-36.2</BandName>
               <Low>27.3</Low>
               <High>36.2</High>
             </Bin>
             <Bin>
-              <BandName>flux_N 36.2-59.2</BandName>
+              <BandName>Flux N 36.2-59.2</BandName>
               <Low>36.2</Low>
               <High>59.2</High>
             </Bin>
             <Bin>
-              <BandName>flux_N 59.2-83.3</BandName>
+              <BandName>Flux N 59.2-83.3</BandName>
               <Low>59.2</Low>
               <High>83.3</High>
             </Bin>
@@ -466,15 +470,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>flux_O</Name>
+      <Name>Flux O</Name>
       <ParameterKey>flux_O</ParameterKey>
       <Description>O intensity, at 8 energies 7.1-89.8 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>flux_O 7.1-10.0</Name>
+          <Name>Flux O 7.1-10.0</Name>
           <Index>1</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -482,7 +486,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_O 10.0-13.1</Name>
+          <Name>Flux O 10.0-13.1</Name>
           <Index>2</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -490,7 +494,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_O 13.1-15.6</Name>
+          <Name>Flux O 13.1-15.6</Name>
           <Index>3</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -498,7 +502,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_O 15.6-21.0</Name>
+          <Name>Flux O 15.6-21.0</Name>
           <Index>4</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -506,7 +510,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_O 21.0-29.4</Name>
+          <Name>Flux O 21.0-29.4</Name>
           <Index>5</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -514,7 +518,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_O 29.4-38.9</Name>
+          <Name>Flux O 29.4-38.9</Name>
           <Index>6</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -522,7 +526,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_O 38.9-63.8</Name>
+          <Name>Flux O 38.9-63.8</Name>
           <Index>7</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -530,7 +534,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_O 63.8-89.8</Name>
+          <Name>Flux O 63.8-89.8</Name>
           <Index>8</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -543,47 +547,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Flux</ParticleQuantity>
+          <AtomicNumber>8</AtomicNumber>
           <EnergyRange>
             <Low>7.0</Low>
             <High>89.8</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>flux_O 7.0-10.0</BandName>
+              <BandName>Flux O 7.0-10.0</BandName>
               <Low>7.0</Low>
               <High>10.0</High>
             </Bin>
             <Bin>
-              <BandName>flux_O 10.0-13.1</BandName>
+              <BandName>Flux O 10.0-13.1</BandName>
               <Low>10.0</Low>
               <High>13.1</High>
             </Bin>
             <Bin>
-              <BandName>flux_O 13.1-15.6</BandName>
+              <BandName>Flux O 13.1-15.6</BandName>
               <Low>13.1</Low>
               <High>15.6</High>
             </Bin>
             <Bin>
-              <BandName>flux_O 15.6-21.0</BandName>
+              <BandName>Flux O 15.6-21.0</BandName>
               <Low>15.6</Low>
               <High>21.0</High>
             </Bin>
             <Bin>
-              <BandName>flux_O 21.0-29.4</BandName>
+              <BandName>Flux O 21.0-29.4</BandName>
               <Low>21.0</Low>
               <High>29.4</High>
             </Bin>
             <Bin>
-              <BandName>flux_O 29.4-38.9</BandName>
+              <BandName>Flux O 29.4-38.9</BandName>
               <Low>29.4</Low>
               <High>38.9</High>
             </Bin>
             <Bin>
-              <BandName>flux_O 38.9-63.8</BandName>
+              <BandName>Flux O 38.9-63.8</BandName>
               <Low>38.9</Low>
               <High>63.8</High>
             </Bin>
             <Bin>
-              <BandName>flux_O 63.8-89.8</BandName>
+              <BandName>Flux O 63.8-89.8</BandName>
               <Low>63.8</Low>
               <High>89.8</High>
             </Bin>
@@ -592,15 +597,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>flux_Ne</Name>
+      <Name>Flux Ne</Name>
       <ParameterKey>flux_Ne</ParameterKey>
       <Description>Ne intensity, at 8 energies 7.8-101.8 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>flux_Ne 7.8-11.1</Name>
+          <Name>Flux Ne 7.8-11.1</Name>
           <Index>1</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -608,7 +613,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Ne 11.1-14.6</Name>
+          <Name>Flux Ne 11.1-14.6</Name>
           <Index>2</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -616,7 +621,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Ne 14.6-17.6</Name>
+          <Name>Flux Ne 14.6-17.6</Name>
           <Index>3</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -624,7 +629,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Ne 17.6-23.6</Name>
+          <Name>Flux Ne 17.6-23.6</Name>
           <Index>4</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -632,7 +637,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Ne 23.6-33.2</Name>
+          <Name>Flux Ne 23.6-33.2</Name>
           <Index>5</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -640,7 +645,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Ne 33.2-44.0</Name>
+          <Name>Flux Ne 33.2-44.0</Name>
           <Index>6</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -648,7 +653,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Ne 44.0-72.2</Name>
+          <Name>Flux Ne 44.0-72.2</Name>
           <Index>7</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -656,7 +661,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Ne 72.2-101.8</Name>
+          <Name>Flux Ne 72.2-101.8</Name>
           <Index>8</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -669,47 +674,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Flux</ParticleQuantity>
+          <AtomicNumber>10</AtomicNumber>
           <EnergyRange>
             <Low>7.8</Low>
             <High>101.8</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>flux_Ne 7.8-11.2</BandName>
+              <BandName>Flux Ne 7.8-11.2</BandName>
               <Low>7.8</Low>
               <High>11.2</High>
             </Bin>
             <Bin>
-              <BandName>flux_Ne 11.2-14.6</BandName>
+              <BandName>Flux Ne 11.2-14.6</BandName>
               <Low>11.2</Low>
               <High>14.6</High>
             </Bin>
             <Bin>
-              <BandName>flux_Ne 14.6-17.6</BandName>
+              <BandName>Flux Ne 14.6-17.6</BandName>
               <Low>14.6</Low>
               <High>17.6</High>
             </Bin>
             <Bin>
-              <BandName>flux_Ne 17.6-23.6</BandName>
+              <BandName>Flux Ne 17.6-23.6</BandName>
               <Low>17.6</Low>
               <High>23.6</High>
             </Bin>
             <Bin>
-              <BandName>flux_Ne 23.6-33.2</BandName>
+              <BandName>Flux Ne 23.6-33.2</BandName>
               <Low>23.6</Low>
               <High>33.2</High>
             </Bin>
             <Bin>
-              <BandName>flux_Ne 33.2-44.0</BandName>
+              <BandName>Flux Ne 33.2-44.0</BandName>
               <Low>33.2</Low>
               <High>44.0</High>
             </Bin>
             <Bin>
-              <BandName>flux_Ne 44.0-72.2</BandName>
+              <BandName>Flux Ne 44.0-72.2</BandName>
               <Low>44.0</Low>
               <High>72.2</High>
             </Bin>
             <Bin>
-              <BandName>flux_Ne 72.2-101.8</BandName>
+              <BandName>Flux Ne 72.2-101.8</BandName>
               <Low>72.2</Low>
               <High>101.8</High>
             </Bin>
@@ -718,15 +724,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>flux_Mg</Name>
+      <Name>Flux Mg</Name>
       <ParameterKey>flux_Mg</ParameterKey>
       <Description>Mg intensity, at 8 energies 8.5-112.9 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>flux_Mg 8.5-12.2</Name>
+          <Name>Flux Mg 8.5-12.2</Name>
           <Index>1</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -734,7 +740,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Mg 12.2-16.0</Name>
+          <Name>Flux Mg 12.2-16.0</Name>
           <Index>2</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -742,7 +748,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Mg 16.0-19.3</Name>
+          <Name>Flux Mg 16.0-19.3</Name>
           <Index>3</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -750,7 +756,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Mg 19.3-26.0</Name>
+          <Name>Flux Mg 19.3-26.0</Name>
           <Index>4</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -758,7 +764,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Mg 26.0-36.6</Name>
+          <Name>Flux Mg 26.0-36.6</Name>
           <Index>5</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -766,7 +772,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Mg 36.6-48.6</Name>
+          <Name>Flux Mg 36.6-48.6</Name>
           <Index>6</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -774,7 +780,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Mg 48.6-80.0</Name>
+          <Name>Flux Mg 48.6-80.0</Name>
           <Index>7</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -782,7 +788,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Mg 80.0-112.9</Name>
+          <Name>Flux Mg 80.0-112.9</Name>
           <Index>8</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -795,47 +801,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Flux</ParticleQuantity>
+          <AtomicNumber>12</AtomicNumber>
           <EnergyRange>
             <Low>8.5</Low>
             <High>112.9</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>flux_Mg 8.5-12.2</BandName>
+              <BandName>Flux Mg 8.5-12.2</BandName>
               <Low>8.5</Low>
               <High>12.2</High>
             </Bin>
             <Bin>
-              <BandName>flux_Mg 12.2-16.0</BandName>
+              <BandName>Flux Mg 12.2-16.0</BandName>
               <Low>12.2</Low>
               <High>16.0</High>
             </Bin>
             <Bin>
-              <BandName>flux_Mg 16.0-19.3</BandName>
+              <BandName>Flux Mg 16.0-19.3</BandName>
               <Low>16.0</Low>
               <High>19.3</High>
             </Bin>
             <Bin>
-              <BandName>flux_Mg 19.3-26.0</BandName>
+              <BandName>Flux Mg 19.3-26.0</BandName>
               <Low>19.3</Low>
               <High>26.0</High>
             </Bin>
             <Bin>
-              <BandName>flux_Mg 26.0-36.6</BandName>
+              <BandName>Flux Mg 26.0-36.6</BandName>
               <Low>26.0</Low>
               <High>36.6</High>
             </Bin>
             <Bin>
-              <BandName>flux_Mg 36.6-48.6</BandName>
+              <BandName>Flux Mg 36.6-48.6</BandName>
               <Low>36.6</Low>
               <High>48.6</High>
             </Bin>
             <Bin>
-              <BandName>flux_Mg 48.6-80.0</BandName>
+              <BandName>Flux Mg 48.6-80.0</BandName>
               <Low>48.6</Low>
               <High>80.0</High>
             </Bin>
             <Bin>
-              <BandName>flux_Mg 80.0-112.9</BandName>
+              <BandName>Flux Mg 80.0-112.9</BandName>
               <Low>80.0</Low>
               <High>112.9</High>
             </Bin>
@@ -844,15 +851,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>flux_Si</Name>
+      <Name>Flux Si</Name>
       <ParameterKey>flux_Si</ParameterKey>
       <Description>Si intensity, at 8 energies 9.0-123.2 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>flux_Si 9.0-13.0</Name>
+          <Name>Flux Si 9.0-13.0</Name>
           <Index>1</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -860,7 +867,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Si 13.0-17.3</Name>
+          <Name>Flux Si 13.0-17.3</Name>
           <Index>2</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -868,7 +875,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Si 17.3-20.8</Name>
+          <Name>Flux Si 17.3-20.8</Name>
           <Index>3</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -876,7 +883,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Si 20.8-28.1</Name>
+          <Name>Flux Si 20.8-28.1</Name>
           <Index>4</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -884,7 +891,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Si 28.1-39.8</Name>
+          <Name>Flux Si 28.1-39.8</Name>
           <Index>5</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -892,7 +899,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Si 39.8-52.9</Name>
+          <Name>Flux Si 39.8-52.9</Name>
           <Index>6</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -900,7 +907,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Si 52.9-87.1</Name>
+          <Name>Flux Si 52.9-87.1</Name>
           <Index>7</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -908,7 +915,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Si 87.1-123.2</Name>
+          <Name>Flux Si 87.1-123.2</Name>
           <Index>8</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -921,47 +928,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Flux</ParticleQuantity>
+          <AtomicNumber>14</AtomicNumber>
           <EnergyRange>
             <Low>9.0</Low>
             <High>123.2</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>flux_Si 9.0-13.0</BandName>
+              <BandName>Flux Si 9.0-13.0</BandName>
               <Low>9.0</Low>
               <High>13.0</High>
             </Bin>
             <Bin>
-              <BandName>flux_Si 13.0-17.3</BandName>
+              <BandName>Flux Si 13.0-17.3</BandName>
               <Low>13.0</Low>
               <High>17.3</High>
             </Bin>
             <Bin>
-              <BandName>flux_Si 17.3-20.8</BandName>
+              <BandName>Flux Si 17.3-20.8</BandName>
               <Low>17.3</Low>
               <High>20.8</High>
             </Bin>
             <Bin>
-              <BandName>flux_Si 20.8-28.1</BandName>
+              <BandName>Flux Si 20.8-28.1</BandName>
               <Low>20.8</Low>
               <High>28.1</High>
             </Bin>
             <Bin>
-              <BandName>flux_Si 28.1-39.8</BandName>
+              <BandName>Flux Si 28.1-39.8</BandName>
               <Low>28.1</Low>
               <High>39.8</High>
             </Bin>
             <Bin>
-              <BandName>flux_Si 39.8-52.9</BandName>
+              <BandName>Flux Si 39.8-52.9</BandName>
               <Low>39.8</Low>
               <High>52.9</High>
             </Bin>
             <Bin>
-              <BandName>flux_Si 52.9-87.1</BandName>
+              <BandName>Flux Si 52.9-87.1</BandName>
               <Low>52.9</Low>
               <High>87.1</High>
             </Bin>
             <Bin>
-              <BandName>flux_Si 87.1-123.2</BandName>
+              <BandName>Flux Si 87.1-123.2</BandName>
               <Low>87.1</Low>
               <High>123.2</High>
             </Bin>
@@ -970,15 +978,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>flux_S</Name>
+      <Name>Flux S</Name>
       <ParameterKey>flux_S</ParameterKey>
       <Description>S intensity, at 8 energies 9.5-132.9 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>flux_S 9.5-13.8</Name>
+          <Name>Flux S 9.5-13.8</Name>
           <Index>1</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -986,7 +994,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_S 13.8-18.4</Name>
+          <Name>Flux S 13.8-18.4</Name>
           <Index>2</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -994,7 +1002,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_S 18.4-22.2</Name>
+          <Name>Flux S 18.4-22.2</Name>
           <Index>3</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -1002,7 +1010,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_S 22.2-30.1</Name>
+          <Name>Flux S 22.2-30.1</Name>
           <Index>4</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -1010,7 +1018,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_S 30.1-42.7</Name>
+          <Name>Flux S 30.1-42.7</Name>
           <Index>5</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -1018,7 +1026,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_S 42.7-56.8</Name>
+          <Name>Flux S 42.7-56.8</Name>
           <Index>6</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -1026,7 +1034,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_S 56.8-93.8</Name>
+          <Name>Flux S 56.8-93.8</Name>
           <Index>7</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -1034,7 +1042,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_S 93.8-132.9</Name>
+          <Name>Flux S 93.8-132.9</Name>
           <Index>8</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -1047,47 +1055,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Flux</ParticleQuantity>
+          <AtomicNumber>16</AtomicNumber>
           <EnergyRange>
             <Low>9.5</Low>
             <High>132.9</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>flux_S 9.5-13.8</BandName>
+              <BandName>Flux S 9.5-13.8</BandName>
               <Low>9.5</Low>
               <High>13.8</High>
             </Bin>
             <Bin>
-              <BandName>flux_S 13.8-18.4</BandName>
+              <BandName>Flux S 13.8-18.4</BandName>
               <Low>13.8</Low>
               <High>18.4</High>
             </Bin>
             <Bin>
-              <BandName>flux_S 18.4-22.2</BandName>
+              <BandName>Flux S 18.4-22.2</BandName>
               <Low>18.4</Low>
               <High>22.2</High>
             </Bin>
             <Bin>
-              <BandName>flux_S 22.2-30.1</BandName>
+              <BandName>Flux S 22.2-30.1</BandName>
               <Low>22.2</Low>
               <High>30.1</High>
             </Bin>
             <Bin>
-              <BandName>flux_S 30.1-42.7</BandName>
+              <BandName>Flux S 30.1-42.7</BandName>
               <Low>30.1</Low>
               <High>42.7</High>
             </Bin>
             <Bin>
-              <BandName>flux_S 42.7-56.8</BandName>
+              <BandName>Flux S 42.7-56.8</BandName>
               <Low>42.7</Low>
               <High>56.8</High>
             </Bin>
             <Bin>
-              <BandName>flux_S 56.8-93.8</BandName>
+              <BandName>Flux S 56.8-93.8</BandName>
               <Low>56.8</Low>
               <High>93.8</High>
             </Bin>
             <Bin>
-              <BandName>flux_S 93.8-132.9</BandName>
+              <BandName>Flux S 93.8-132.9</BandName>
               <Low>93.8</Low>
               <High>132.9</High>
             </Bin>
@@ -1096,15 +1105,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>flux_Fe</Name>
+      <Name>Flux Fe</Name>
       <ParameterKey>flux_Fe</ParameterKey>
       <Description>Fe intensity, at 8 energies 10.5-167.7 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>flux_Fe 10.5-15.8</Name>
+          <Name>Flux Fe 10.5-15.8</Name>
           <Index>1</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -1112,7 +1121,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Fe 15.8-21.5</Name>
+          <Name>Flux Fe 15.8-21.5</Name>
           <Index>2</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -1120,7 +1129,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Fe 21.5-26.3</Name>
+          <Name>Flux Fe 21.5-26.3</Name>
           <Index>3</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -1128,7 +1137,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Fe 26.3-36.3</Name>
+          <Name>Flux Fe 26.3-36.3</Name>
           <Index>4</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -1136,7 +1145,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Fe 36.3-52.2</Name>
+          <Name>Flux Fe 36.3-52.2</Name>
           <Index>5</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -1144,7 +1153,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Fe 52.2-70.2</Name>
+          <Name>Flux Fe 52.2-70.2</Name>
           <Index>6</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -1152,7 +1161,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Fe 70.2-117.5</Name>
+          <Name>Flux Fe 70.2-117.5</Name>
           <Index>7</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -1160,7 +1169,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>flux_Fe 117.5-167.7</Name>
+          <Name>Flux Fe 117.5-167.7</Name>
           <Index>8</Index>
           <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
           <ValidMin>0.0</ValidMin>
@@ -1173,47 +1182,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Flux</ParticleQuantity>
+          <AtomicNumber>26</AtomicNumber>
           <EnergyRange>
             <Low>10.5</Low>
             <High>167.7</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>flux_Fe 10.5-15.8</BandName>
+              <BandName>Flux Fe 10.5-15.8</BandName>
               <Low>10.5</Low>
               <High>15.8</High>
             </Bin>
             <Bin>
-              <BandName>flux_Fe 15.8-21.5</BandName>
+              <BandName>Flux Fe 15.8-21.5</BandName>
               <Low>15.8</Low>
               <High>21.5</High>
             </Bin>
             <Bin>
-              <BandName>flux_Fe 21.5-26.3</BandName>
+              <BandName>Flux Fe 21.5-26.3</BandName>
               <Low>21.5</Low>
               <High>26.3</High>
             </Bin>
             <Bin>
-              <BandName>flux_Fe 26.3-36.3</BandName>
+              <BandName>Flux Fe 26.3-36.3</BandName>
               <Low>26.3</Low>
               <High>36.3</High>
             </Bin>
             <Bin>
-              <BandName>flux_Fe 36.3-52.2</BandName>
+              <BandName>Flux Fe 36.3-52.2</BandName>
               <Low>36.3</Low>
               <High>52.2</High>
             </Bin>
             <Bin>
-              <BandName>flux_Fe 52.2-70.2</BandName>
+              <BandName>Flux Fe 52.2-70.2</BandName>
               <Low>52.2</Low>
               <High>70.2</High>
             </Bin>
             <Bin>
-              <BandName>flux_Fe 70.2-117.5</BandName>
+              <BandName>Flux Fe 70.2-117.5</BandName>
               <Low>70.2</Low>
               <High>117.5</High>
             </Bin>
             <Bin>
-              <BandName>flux_Fe 117.5-167.7</BandName>
+              <BandName>Flux Fe 117.5-167.7</BandName>
               <Low>117.5</Low>
               <High>167.7</High>
             </Bin>
@@ -1222,15 +1232,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>cnt_He</Name>
+      <Name>Counts He</Name>
       <ParameterKey>cnt_He</ParameterKey>
       <Description>He counts, at 8 energies 3.4-41.2 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>cnt_He 3.4-4.7</Name>
+          <Name>Counts He 3.4-4.7</Name>
           <Index>1</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1238,7 +1248,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_He 4.7-6.1</Name>
+          <Name>Counts He 4.7-6.1</Name>
           <Index>2</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1246,7 +1256,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_He 6.1-7.3</Name>
+          <Name>Counts He 6.1-7.3</Name>
           <Index>3</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1254,7 +1264,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_He 7.3-9.7</Name>
+          <Name>Counts He 7.3-9.7</Name>
           <Index>4</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1262,7 +1272,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_He 9.7-13.6</Name>
+          <Name>Counts He 9.7-13.6</Name>
           <Index>5</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1270,7 +1280,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_He 13.6-18.0</Name>
+          <Name>Counts He 13.6-18.0</Name>
           <Index>6</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1278,7 +1288,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_He 18.0-29.4</Name>
+          <Name>Counts He 18.0-29.4</Name>
           <Index>7</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1286,7 +1296,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_He 29.4-41.2</Name>
+          <Name>Counts He 29.4-41.2</Name>
           <Index>8</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1296,7 +1306,7 @@
       </Structure>
       <Measured>
         <Particle>
-          <ParticleType>Ion</ParticleType>
+          <ParticleType>AlphaParticle</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Counts</ParticleQuantity>
           <EnergyRange>
@@ -1304,42 +1314,42 @@
             <High>41.2</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>cnt_He 3.4-4.7</BandName>
+              <BandName>Counts He 3.4-4.7</BandName>
               <Low>3.4</Low>
               <High>4.7</High>
             </Bin>
             <Bin>
-              <BandName>cnt_He 4.7-6.1</BandName>
+              <BandName>Counts He 4.7-6.1</BandName>
               <Low>4.7</Low>
               <High>6.1</High>
             </Bin>
             <Bin>
-              <BandName>cnt_He 6.1-7.3</BandName>
+              <BandName>Counts He 6.1-7.3</BandName>
               <Low>6.1</Low>
               <High>7.3</High>
             </Bin>
             <Bin>
-              <BandName>cnt_He 7.3-9.7</BandName>
+              <BandName>Counts He 7.3-9.7</BandName>
               <Low>7.3</Low>
               <High>9.7</High>
             </Bin>
             <Bin>
-              <BandName>cnt_He 9.7-13.6</BandName>
+              <BandName>Counts He 9.7-13.6</BandName>
               <Low>9.7</Low>
               <High>13.6</High>
             </Bin>
             <Bin>
-              <BandName>cnt_He 13.6-18.0</BandName>
+              <BandName>Counts He 13.6-18.0</BandName>
               <Low>313.6</Low>
               <High>18.0</High>
             </Bin>
             <Bin>
-              <BandName>cnt_He 18.0-29.4</BandName>
+              <BandName>Counts He 18.0-29.4</BandName>
               <Low>18.0</Low>
               <High>29.4</High>
             </Bin>
             <Bin>
-              <BandName>cnt_He 29.4-41.2</BandName>
+              <BandName>Counts He 29.4-41.2</BandName>
               <Low>29.4</Low>
               <High>41.2</High>
             </Bin>
@@ -1348,15 +1358,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>cnt_C</Name>
+      <Name>Counts C</Name>
       <ParameterKey>cnt_C</ParameterKey>
       <Description>C counts, at 8 energies 6.1-76.3 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>cnt_C 6.1-8.6</Name>
+          <Name>Counts C 6.1-8.6</Name>
           <Index>1</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1364,7 +1374,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_C 8.6-11.2</Name>
+          <Name>Counts C 8.6-11.2</Name>
           <Index>2</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1372,7 +1382,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_C 11.2-13.4</Name>
+          <Name>Counts C 11.2-13.4</Name>
           <Index>3</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1380,7 +1390,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_C 13.4-17.9</Name>
+          <Name>Counts C 13.4-17.9</Name>
           <Index>4</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1388,7 +1398,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_C 17.9-25.1</Name>
+          <Name>Counts C 17.9-25.1</Name>
           <Index>5</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1396,7 +1406,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_C 25.1-33.2</Name>
+          <Name>Counts C 25.1-33.2</Name>
           <Index>6</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1404,7 +1414,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_C 33.2-54.3</Name>
+          <Name>Counts C 33.2-54.3</Name>
           <Index>7</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1412,7 +1422,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_C 54.3-76.3</Name>
+          <Name>Counts C 54.3-76.3</Name>
           <Index>8</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1425,47 +1435,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Counts</ParticleQuantity>
+          <AtomicNumber>6</AtomicNumber>
           <EnergyRange>
             <Low>6.1</Low>
             <High>76.3</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>cnt_C 6.1-8.6</BandName>
+              <BandName>Counts C 6.1-8.6</BandName>
               <Low>6.1</Low>
               <High>8.6</High>
             </Bin>
             <Bin>
-              <BandName>cnt_C 8.6-11.2</BandName>
+              <BandName>Counts C 8.6-11.2</BandName>
               <Low>8.6</Low>
               <High>11.2</High>
             </Bin>
             <Bin>
-              <BandName>cnt_C 11.2-13.4</BandName>
+              <BandName>Counts C 11.2-13.4</BandName>
               <Low>11.2</Low>
               <High>13.4</High>
             </Bin>
             <Bin>
-              <BandName>cnt_C 13.4-17.9</BandName>
+              <BandName>Counts C 13.4-17.9</BandName>
               <Low>13.4</Low>
               <High>17.9</High>
             </Bin>
             <Bin>
-              <BandName>cnt_C 17.9-25.1</BandName>
+              <BandName>Counts C 17.9-25.1</BandName>
               <Low>17.9</Low>
               <High>25.1</High>
             </Bin>
             <Bin>
-              <BandName>cnt_C 25.1-33.2</BandName>
+              <BandName>Counts C 25.1-33.2</BandName>
               <Low>25.1</Low>
               <High>33.2</High>
             </Bin>
             <Bin>
-              <BandName>cnt_C 33.2-54.3</BandName>
+              <BandName>Counts C 33.2-54.3</BandName>
               <Low>33.2</Low>
               <High>54.3</High>
             </Bin>
             <Bin>
-              <BandName>cnt_C 54.3-76.3</BandName>
+              <BandName>Counts C 54.3-76.3</BandName>
               <Low>54.3</Low>
               <High>76.3</High>
             </Bin>
@@ -1474,15 +1485,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>cnt_N</Name>
+      <Name>Counts N</Name>
       <ParameterKey>cnt_N</ParameterKey>
       <Description>N counts, at 8 energies 6.6-83.3 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>cnt_N 6.6-9.3</Name>
+          <Name>Counts N 6.6-9.3</Name>
           <Index>1</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1490,7 +1501,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_N 9.3-12.2</Name>
+          <Name>Counts N 9.3-12.2</Name>
           <Index>2</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1498,7 +1509,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_N 12.2-14.6</Name>
+          <Name>Counts N 12.2-14.6</Name>
           <Index>3</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1506,7 +1517,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_N 14.6-19.5</Name>
+          <Name>Counts N 14.6-19.5</Name>
           <Index>4</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1514,7 +1525,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_N 19.5-27.3</Name>
+          <Name>Counts N 19.5-27.3</Name>
           <Index>5</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1522,7 +1533,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_N 27.3-36.2</Name>
+          <Name>Counts N 27.3-36.2</Name>
           <Index>6</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1530,7 +1541,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_N 36.2-59.2</Name>
+          <Name>Counts N 36.2-59.2</Name>
           <Index>7</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1538,7 +1549,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_N 59.2-83.3</Name>
+          <Name>Counts N 59.2-83.3</Name>
           <Index>8</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1551,47 +1562,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Counts</ParticleQuantity>
+          <AtomicNumber>7</AtomicNumber>
           <EnergyRange>
             <Low>6.6</Low>
             <High>83.3</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>cnt_N 6.6-9.3</BandName>
+              <BandName>Counts N 6.6-9.3</BandName>
               <Low>6.6</Low>
               <High>9.3</High>
             </Bin>
             <Bin>
-              <BandName>cnt_N 9.3-12.2</BandName>
+              <BandName>Counts N 9.3-12.2</BandName>
               <Low>9.3</Low>
               <High>12.2</High>
             </Bin>
             <Bin>
-              <BandName>cnt_N 12.2-14.6</BandName>
+              <BandName>Counts N 12.2-14.6</BandName>
               <Low>12.2</Low>
               <High>14.6</High>
             </Bin>
             <Bin>
-              <BandName>cnt_N 14.6-19.5</BandName>
+              <BandName>Counts N 14.6-19.5</BandName>
               <Low>14.6</Low>
               <High>19.5</High>
             </Bin>
             <Bin>
-              <BandName>cnt_N 19.5-27.3</BandName>
+              <BandName>Counts N 19.5-27.3</BandName>
               <Low>19.5</Low>
               <High>27.3</High>
             </Bin>
             <Bin>
-              <BandName>cnt_N 27.3-36.2</BandName>
+              <BandName>Counts N 27.3-36.2</BandName>
               <Low>27.3</Low>
               <High>36.2</High>
             </Bin>
             <Bin>
-              <BandName>cnt_N 36.2-59.2</BandName>
+              <BandName>Counts N 36.2-59.2</BandName>
               <Low>36.2</Low>
               <High>59.2</High>
             </Bin>
             <Bin>
-              <BandName>cnt_N 59.2-83.3</BandName>
+              <BandName>Counts N 59.2-83.3</BandName>
               <Low>59.2</Low>
               <High>83.3</High>
             </Bin>
@@ -1600,15 +1612,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>cnt_O</Name>
+      <Name>Counts O</Name>
       <ParameterKey>cnt_O</ParameterKey>
       <Description>O counts, at 8 energies 7.1-89.8 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>cnt_O 7.1-10.0</Name>
+          <Name>Counts O 7.1-10.0</Name>
           <Index>1</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1616,7 +1628,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_O 10.0-13.1</Name>
+          <Name>Counts O 10.0-13.1</Name>
           <Index>2</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1624,7 +1636,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_O 13.1-15.6</Name>
+          <Name>Counts O 13.1-15.6</Name>
           <Index>3</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1632,7 +1644,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_O 15.6-21.0</Name>
+          <Name>Counts O 15.6-21.0</Name>
           <Index>4</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1640,7 +1652,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_O 21.0-29.4</Name>
+          <Name>Counts O 21.0-29.4</Name>
           <Index>5</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1648,7 +1660,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_O 29.4-38.9</Name>
+          <Name>Counts O 29.4-38.9</Name>
           <Index>6</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1656,7 +1668,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_O 38.9-63.8</Name>
+          <Name>Counts O 38.9-63.8</Name>
           <Index>7</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1664,7 +1676,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_O 63.8-89.8</Name>
+          <Name>Counts O 63.8-89.8</Name>
           <Index>8</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1677,47 +1689,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Counts</ParticleQuantity>
+          <AtomicNumber>8</AtomicNumber>
           <EnergyRange>
             <Low>7.0</Low>
             <High>89.8</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>cnt_O 7.0-10.0</BandName>
+              <BandName>Counts O 7.0-10.0</BandName>
               <Low>7.0</Low>
               <High>10.0</High>
             </Bin>
             <Bin>
-              <BandName>cnt_O 10.0-13.1</BandName>
+              <BandName>Counts O 10.0-13.1</BandName>
               <Low>10.0</Low>
               <High>13.1</High>
             </Bin>
             <Bin>
-              <BandName>cnt_O 13.1-15.6</BandName>
+              <BandName>Counts O 13.1-15.6</BandName>
               <Low>13.1</Low>
               <High>15.6</High>
             </Bin>
             <Bin>
-              <BandName>cnt_O 15.6-21.0</BandName>
+              <BandName>Counts O 15.6-21.0</BandName>
               <Low>15.6</Low>
               <High>21.0</High>
             </Bin>
             <Bin>
-              <BandName>cnt_O 21.0-29.4</BandName>
+              <BandName>Counts O 21.0-29.4</BandName>
               <Low>21.0</Low>
               <High>29.4</High>
             </Bin>
             <Bin>
-              <BandName>cnt_O 29.4-38.9</BandName>
+              <BandName>Counts O 29.4-38.9</BandName>
               <Low>29.4</Low>
               <High>38.9</High>
             </Bin>
             <Bin>
-              <BandName>cnt_O 38.9-63.8</BandName>
+              <BandName>Counts O 38.9-63.8</BandName>
               <Low>38.9</Low>
               <High>63.8</High>
             </Bin>
             <Bin>
-              <BandName>cnt_O 63.8-89.8</BandName>
+              <BandName>Counts O 63.8-89.8</BandName>
               <Low>63.8</Low>
               <High>89.8</High>
             </Bin>
@@ -1726,15 +1739,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>cnt_Ne</Name>
+      <Name>Counts Ne</Name>
       <ParameterKey>cnt_Ne</ParameterKey>
       <Description>Ne counts, at 8 energies 7.8-101.8 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>cnt_Ne 7.8-11.1</Name>
+          <Name>Counts Ne 7.8-11.1</Name>
           <Index>1</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1742,7 +1755,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Ne 11.1-14.6</Name>
+          <Name>Counts Ne 11.1-14.6</Name>
           <Index>2</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1750,7 +1763,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Ne 14.6-17.6</Name>
+          <Name>Counts Ne 14.6-17.6</Name>
           <Index>3</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1758,7 +1771,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Ne 17.6-23.6</Name>
+          <Name>Counts Ne 17.6-23.6</Name>
           <Index>4</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1766,7 +1779,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Ne 23.6-33.2</Name>
+          <Name>Counts Ne 23.6-33.2</Name>
           <Index>5</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1774,7 +1787,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Ne 33.2-44.0</Name>
+          <Name>Counts Ne 33.2-44.0</Name>
           <Index>6</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1782,7 +1795,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Ne 44.0-72.2</Name>
+          <Name>Counts Ne 44.0-72.2</Name>
           <Index>7</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1790,7 +1803,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Ne 72.2-101.8</Name>
+          <Name>Counts Ne 72.2-101.8</Name>
           <Index>8</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1803,47 +1816,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Counts</ParticleQuantity>
+          <AtomicNumber>10</AtomicNumber>
           <EnergyRange>
             <Low>7.8</Low>
             <High>101.8</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>cnt_Ne 7.8-11.2</BandName>
+              <BandName>Counts Ne 7.8-11.2</BandName>
               <Low>7.8</Low>
               <High>11.2</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Ne 11.2-14.6</BandName>
+              <BandName>Counts Ne 11.2-14.6</BandName>
               <Low>11.2</Low>
               <High>14.6</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Ne 14.6-17.6</BandName>
+              <BandName>Counts Ne 14.6-17.6</BandName>
               <Low>14.6</Low>
               <High>17.6</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Ne 17.6-23.6</BandName>
+              <BandName>Counts Ne 17.6-23.6</BandName>
               <Low>17.6</Low>
               <High>23.6</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Ne 23.6-33.2</BandName>
+              <BandName>Counts Ne 23.6-33.2</BandName>
               <Low>23.6</Low>
               <High>33.2</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Ne 33.2-44.0</BandName>
+              <BandName>Counts Ne 33.2-44.0</BandName>
               <Low>33.2</Low>
               <High>44.0</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Ne 44.0-72.2</BandName>
+              <BandName>Counts Ne 44.0-72.2</BandName>
               <Low>44.0</Low>
               <High>72.2</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Ne 72.2-101.8</BandName>
+              <BandName>Counts Ne 72.2-101.8</BandName>
               <Low>72.2</Low>
               <High>101.8</High>
             </Bin>
@@ -1852,15 +1866,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>cnt_Mg</Name>
+      <Name>Counts Mg</Name>
       <ParameterKey>cnt_Mg</ParameterKey>
       <Description>Mg counts, at 8 energies 8.5-112.9 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>cnt_Mg 8.5-12.2</Name>
+          <Name>Counts Mg 8.5-12.2</Name>
           <Index>1</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1868,7 +1882,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Mg 12.2-16.0</Name>
+          <Name>Counts Mg 12.2-16.0</Name>
           <Index>2</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1876,7 +1890,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Mg 16.0-19.3</Name>
+          <Name>Counts Mg 16.0-19.3</Name>
           <Index>3</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1884,7 +1898,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Mg 19.3-26.0</Name>
+          <Name>Counts Mg 19.3-26.0</Name>
           <Index>4</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1892,7 +1906,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Mg 26.0-36.6</Name>
+          <Name>Counts Mg 26.0-36.6</Name>
           <Index>5</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1900,7 +1914,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Mg 36.6-48.6</Name>
+          <Name>Counts Mg 36.6-48.6</Name>
           <Index>6</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1908,7 +1922,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Mg 48.6-80.0</Name>
+          <Name>Counts Mg 48.6-80.0</Name>
           <Index>7</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1916,7 +1930,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Mg 80.0-112.9</Name>
+          <Name>Counts Mg 80.0-112.9</Name>
           <Index>8</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1929,47 +1943,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Counts</ParticleQuantity>
+          <AtomicNumber>12</AtomicNumber>
           <EnergyRange>
             <Low>8.5</Low>
             <High>112.9</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>cnt_Mg 8.5-12.2</BandName>
+              <BandName>Counts Mg 8.5-12.2</BandName>
               <Low>8.5</Low>
               <High>12.2</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Mg 12.2-16.0</BandName>
+              <BandName>Counts Mg 12.2-16.0</BandName>
               <Low>12.2</Low>
               <High>16.0</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Mg 16.0-19.3</BandName>
+              <BandName>Counts Mg 16.0-19.3</BandName>
               <Low>16.0</Low>
               <High>19.3</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Mg 19.3-26.0</BandName>
+              <BandName>Counts Mg 19.3-26.0</BandName>
               <Low>19.3</Low>
               <High>26.0</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Mg 26.0-36.6</BandName>
+              <BandName>Counts Mg 26.0-36.6</BandName>
               <Low>26.0</Low>
               <High>36.6</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Mg 36.6-48.6</BandName>
+              <BandName>Counts Mg 36.6-48.6</BandName>
               <Low>36.6</Low>
               <High>48.6</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Mg 48.6-80.0</BandName>
+              <BandName>Counts Mg 48.6-80.0</BandName>
               <Low>48.6</Low>
               <High>80.0</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Mg 80.0-112.9</BandName>
+              <BandName>Counts Mg 80.0-112.9</BandName>
               <Low>80.0</Low>
               <High>112.9</High>
             </Bin>
@@ -1978,15 +1993,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>cnt_Si</Name>
+      <Name>Counts Si</Name>
       <ParameterKey>cnt_Si</ParameterKey>
       <Description>Si counts, at 8 energies 9.0-123.2 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>cnt_Si 9.0-13.0</Name>
+          <Name>Counts Si 9.0-13.0</Name>
           <Index>1</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -1994,7 +2009,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Si 13.0-17.3</Name>
+          <Name>Counts Si 13.0-17.3</Name>
           <Index>2</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2002,7 +2017,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Si 17.3-20.8</Name>
+          <Name>Counts Si 17.3-20.8</Name>
           <Index>3</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2010,7 +2025,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Si 20.8-28.1</Name>
+          <Name>Counts Si 20.8-28.1</Name>
           <Index>4</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2018,7 +2033,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Si 28.1-39.8</Name>
+          <Name>Counts Si 28.1-39.8</Name>
           <Index>5</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2026,7 +2041,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Si 39.8-52.9</Name>
+          <Name>Counts Si 39.8-52.9</Name>
           <Index>6</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2034,7 +2049,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Si 52.9-87.1</Name>
+          <Name>Counts Si 52.9-87.1</Name>
           <Index>7</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2042,7 +2057,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Si 87.1-123.2</Name>
+          <Name>Counts Si 87.1-123.2</Name>
           <Index>8</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2055,47 +2070,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Counts</ParticleQuantity>
+          <AtomicNumber>14</AtomicNumber>
           <EnergyRange>
             <Low>9.0</Low>
             <High>123.2</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>cnt_Si 9.0-13.0</BandName>
+              <BandName>Counts Si 9.0-13.0</BandName>
               <Low>9.0</Low>
               <High>13.0</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Si 13.0-17.3</BandName>
+              <BandName>Counts Si 13.0-17.3</BandName>
               <Low>13.0</Low>
               <High>17.3</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Si 17.3-20.8</BandName>
+              <BandName>Counts Si 17.3-20.8</BandName>
               <Low>17.3</Low>
               <High>20.8</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Si 20.8-28.1</BandName>
+              <BandName>Counts Si 20.8-28.1</BandName>
               <Low>20.8</Low>
               <High>28.1</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Si 28.1-39.8</BandName>
+              <BandName>Counts Si 28.1-39.8</BandName>
               <Low>28.1</Low>
               <High>39.8</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Si 39.8-52.9</BandName>
+              <BandName>Counts Si 39.8-52.9</BandName>
               <Low>39.8</Low>
               <High>52.9</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Si 52.9-87.1</BandName>
+              <BandName>Counts Si 52.9-87.1</BandName>
               <Low>52.9</Low>
               <High>87.1</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Si 87.1-123.2</BandName>
+              <BandName>Counts Si 87.1-123.2</BandName>
               <Low>87.1</Low>
               <High>123.2</High>
             </Bin>
@@ -2104,15 +2120,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>cnt_S</Name>
+      <Name>Counts S</Name>
       <ParameterKey>cnt_S</ParameterKey>
       <Description>S counts, at 8 energies 9.5-132.9 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>cnt_S 9.5-13.8</Name>
+          <Name>Counts S 9.5-13.8</Name>
           <Index>1</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2120,7 +2136,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_S 13.8-18.4</Name>
+          <Name>Counts S 13.8-18.4</Name>
           <Index>2</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2128,7 +2144,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_S 18.4-22.2</Name>
+          <Name>Counts S 18.4-22.2</Name>
           <Index>3</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2136,7 +2152,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_S 22.2-30.1</Name>
+          <Name>Counts S 22.2-30.1</Name>
           <Index>4</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2144,7 +2160,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_S 30.1-42.7</Name>
+          <Name>Counts S 30.1-42.7</Name>
           <Index>5</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2152,7 +2168,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_S 42.7-56.8</Name>
+          <Name>Counts S 42.7-56.8</Name>
           <Index>6</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2160,7 +2176,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_S 56.8-93.8</Name>
+          <Name>Counts S 56.8-93.8</Name>
           <Index>7</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2168,7 +2184,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_S 93.8-132.9</Name>
+          <Name>Counts S 93.8-132.9</Name>
           <Index>8</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2181,47 +2197,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Counts</ParticleQuantity>
+          <AtomicNumber>16</AtomicNumber>
           <EnergyRange>
             <Low>9.5</Low>
             <High>132.9</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>cnt_S 9.5-13.8</BandName>
+              <BandName>Counts S 9.5-13.8</BandName>
               <Low>9.5</Low>
               <High>13.8</High>
             </Bin>
             <Bin>
-              <BandName>cnt_S 13.8-18.4</BandName>
+              <BandName>Counts S 13.8-18.4</BandName>
               <Low>13.8</Low>
               <High>18.4</High>
             </Bin>
             <Bin>
-              <BandName>cnt_S 18.4-22.2</BandName>
+              <BandName>Counts S 18.4-22.2</BandName>
               <Low>18.4</Low>
               <High>22.2</High>
             </Bin>
             <Bin>
-              <BandName>cnt_S 22.2-30.1</BandName>
+              <BandName>Counts S 22.2-30.1</BandName>
               <Low>22.2</Low>
               <High>30.1</High>
             </Bin>
             <Bin>
-              <BandName>cnt_S 30.1-42.7</BandName>
+              <BandName>Counts S 30.1-42.7</BandName>
               <Low>30.1</Low>
               <High>42.7</High>
             </Bin>
             <Bin>
-              <BandName>cnt_S 42.7-56.8</BandName>
+              <BandName>Counts S 42.7-56.8</BandName>
               <Low>42.7</Low>
               <High>56.8</High>
             </Bin>
             <Bin>
-              <BandName>cnt_S 56.8-93.8</BandName>
+              <BandName>Counts S 56.8-93.8</BandName>
               <Low>56.8</Low>
               <High>93.8</High>
             </Bin>
             <Bin>
-              <BandName>cnt_S 93.8-132.9</BandName>
+              <BandName>Counts S 93.8-132.9</BandName>
               <Low>93.8</Low>
               <High>132.9</High>
             </Bin>
@@ -2230,15 +2247,15 @@
       </Measured>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>cnt_Fe</Name>
+      <Name>Counts Fe</Name>
       <ParameterKey>cnt_Fe</ParameterKey>
       <Description>Fe counts, at 8 energies 10.5-167.7 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Vector</StructureType>
+        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
-          <Name>cnt_Fe 10.5-15.8</Name>
+          <Name>Counts Fe 10.5-15.8</Name>
           <Index>1</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2246,7 +2263,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Fe 15.8-21.5</Name>
+          <Name>Counts Fe 15.8-21.5</Name>
           <Index>2</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2254,7 +2271,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Fe 21.5-26.3</Name>
+          <Name>Counts Fe 21.5-26.3</Name>
           <Index>3</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2262,7 +2279,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Fe 26.3-36.3</Name>
+          <Name>Counts Fe 26.3-36.3</Name>
           <Index>4</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2270,7 +2287,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Fe 36.3-52.2</Name>
+          <Name>Counts Fe 36.3-52.2</Name>
           <Index>5</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2278,7 +2295,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Fe 52.2-70.2</Name>
+          <Name>Counts Fe 52.2-70.2</Name>
           <Index>6</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2286,7 +2303,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Fe 70.2-117.5</Name>
+          <Name>Counts Fe 70.2-117.5</Name>
           <Index>7</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2294,7 +2311,7 @@
           <FillValue>-1.0E31</FillValue>
         </Element>
         <Element>
-          <Name>cnt_Fe 117.5-167.7</Name>
+          <Name>Counts Fe 117.5-167.7</Name>
           <Index>8</Index>
           <Units>Counts/hour</Units>
           <ValidMin>0.0</ValidMin>
@@ -2307,47 +2324,48 @@
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
           <ParticleQuantity>Counts</ParticleQuantity>
+          <AtomicNumber>26</AtomicNumber>
           <EnergyRange>
             <Low>10.5</Low>
             <High>167.7</High>
             <Units>MeV/nucleon</Units>
             <Bin>
-              <BandName>cnt_Fe 10.5-15.8</BandName>
+              <BandName>Counts Fe 10.5-15.8</BandName>
               <Low>10.5</Low>
               <High>15.8</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Fe 15.8-21.5</BandName>
+              <BandName>Counts Fe 15.8-21.5</BandName>
               <Low>15.8</Low>
               <High>21.5</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Fe 21.5-26.3</BandName>
+              <BandName>Counts Fe 21.5-26.3</BandName>
               <Low>21.5</Low>
               <High>26.3</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Fe 26.3-36.3</BandName>
+              <BandName>Counts Fe 26.3-36.3</BandName>
               <Low>26.3</Low>
               <High>36.3</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Fe 36.3-52.2</BandName>
+              <BandName>Counts Fe 36.3-52.2</BandName>
               <Low>36.3</Low>
               <High>52.2</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Fe 52.2-70.2</BandName>
+              <BandName>Counts Fe 52.2-70.2</BandName>
               <Low>52.2</Low>
               <High>70.2</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Fe 70.2-117.5</BandName>
+              <BandName>Counts Fe 70.2-117.5</BandName>
               <Low>70.2</Low>
               <High>117.5</High>
             </Bin>
             <Bin>
-              <BandName>cnt_Fe 117.5-167.7</BandName>
+              <BandName>Counts Fe 117.5-167.7</BandName>
               <Low>117.5</Low>
               <High>167.7</High>
             </Bin>
