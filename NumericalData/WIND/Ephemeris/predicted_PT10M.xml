@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!-- $Id$ -->
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/WIND/Ephemeris/predicted_PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Predicted WIND Spacecraft Positions</ResourceName>
-      <ReleaseDate>2007-04-19T20:23:55Z</ReleaseDate>
+      <ReleaseDate>2007-11-16T22:25:55Z</ReleaseDate>
       <Description>Predicted (calculated) WIND spacecraft positions in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->
@@ -50,7 +49,9 @@
         <StructureType>Scalar</StructureType>
       </Structure>
       <FillValue>-1.0e31</FillValue>
-      <Support>Temporal</Support>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>PB5 Time</Name>
@@ -73,7 +74,9 @@
         </Element>
       </Structure>
       <FillValue>-2147483648</FillValue>
-      <Support>Temporal</Support>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>GEI Position</Name>
@@ -107,7 +110,9 @@
       <ValidMin>-1.8e+06</ValidMin>
       <ValidMax>1.8e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>GEI Velocity</Name>
@@ -141,7 +146,9 @@
       <ValidMin>-12.0</ValidMin>
       <ValidMax>12.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>GSE Position</Name>
@@ -175,7 +182,9 @@
       <ValidMin>-1.8e+06</ValidMin>
       <ValidMax>1.8e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>GSE Velocity</Name>
@@ -209,7 +218,9 @@
       <ValidMin>-12.0</ValidMin>
       <ValidMax>12.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>GSM Position</Name>
@@ -243,7 +254,9 @@
       <ValidMin>-1.8e+06</ValidMin>
       <ValidMax>1.8e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>GSM Velocity</Name>
@@ -277,7 +290,9 @@
       <ValidMin>-12.0</ValidMin>
       <ValidMax>12.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Sun Vector</Name>
@@ -311,7 +326,9 @@
       <ValidMin>-1.6e+08</ValidMin>
       <ValidMax>1.6e+08</ValidMax>
       <FillValue>-1.0e+31</FillValue>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>HEC Position</Name>
@@ -345,7 +362,9 @@
       <ValidMin>-1.8e+06</ValidMin>
       <ValidMax>1.8e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>HEC Velocity</Name>
@@ -379,7 +398,9 @@
       <ValidMin>-12.0</ValidMin>
       <ValidMax>12.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Carrington Rotation Number</Name>
@@ -392,7 +413,9 @@
       <ValidMin>1857</ValidMin>
       <ValidMax>2239</ValidMax>
       <FillValue>-2147483648</FillValue>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Heliographic Longitude of Earth</Name>
@@ -415,7 +438,9 @@
       <ValidMin>0.0</ValidMin>
       <ValidMax>6.28319</ValidMax>
       <FillValue>-1.0e+31</FillValue>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Heliographic Latitude of Earth</Name>
@@ -438,7 +463,9 @@
       <ValidMin>-1.5708</ValidMin>
       <ValidMax>1.5708</ValidMax>
       <FillValue>-1.0e+31</FillValue>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Heliographic Longitude of Spacecraft</Name>
@@ -461,7 +488,9 @@
       <ValidMin>0.0</ValidMin>
       <ValidMax>6.28319</ValidMax>
       <FillValue>-1.0e+31</FillValue>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Heliographic Latitude of Spacecraft</Name>
@@ -484,7 +513,9 @@
       <ValidMin>-1.5708</ValidMin>
       <ValidMax>1.5708</ValidMax>
       <FillValue>-1.0e+31</FillValue>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
   </NumericalData>
 </Spase>

@@ -2,20 +2,20 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Instrument>
-    <ResourceID>spase://VHO/Instrument/WIND/Ephemeris</ResourceID>
+    <ResourceID>spase://VHO/Instrument/ACE/Ephemeris</ResourceID>
     <ResourceHeader>
-      <ResourceName>WIND Position</ResourceName>
-      <AlternateName>WIND Ephemeris</AlternateName>
-      <ReleaseDate>2007-11-16T23:13:03Z</ReleaseDate>
-      <Description>WIND spacecraft position in various coordinate systems</Description>
+      <ResourceName>ACE Positions</ResourceName>
+      <AlternateName>ACE Ephemeris</AlternateName>
+      <ReleaseDate>2007-11-16T23:16:17Z</ReleaseDate>
+      <Description>ACE spacecraft positions</Description>
       <Contact>
-        <!-- Robert Candey -->
-        <PersonID>spase://nssdc/person/30696</PersonID>
-        <Role>DataProducer</Role>
+        <!-- Jan Merka -->
+        <PersonID>spase://nssdc/person/65336</PersonID>
+        <Role>MetadataContact</Role>
       </Contact>
     </ResourceHeader>
     <InstrumentType>Ephemeris</InstrumentType>
     <InvestigationName>Spacecraft position</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID>
+    <ObservatoryID>spase://nssdc/observatory/1997-045A</ObservatoryID>
   </Instrument>
 </Spase>
