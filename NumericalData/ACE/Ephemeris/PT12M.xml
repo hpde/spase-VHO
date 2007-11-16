@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/ACE/Ephemeris/position_PT12M</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/ACE/Ephemeris/PT12M</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Positions</ResourceName>
       <ReleaseDate>2007-11-16T23:10:48Z</ReleaseDate>
