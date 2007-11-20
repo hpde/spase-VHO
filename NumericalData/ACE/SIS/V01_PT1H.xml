@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/SIS/V01_PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Isotope Spectrometer (SIS) 1-Hour Level 2 Data</ResourceName>
-      <ReleaseDate>2007-11-15T00:38:25Z</ReleaseDate>
+      <ReleaseDate>2007-11-20T00:17:10Z</ReleaseDate>
       <Description>ACE SIS Solar Isotopic Spectrometer (SIS) intensities and counts, for 8 elements at 1-hour time resolution. Calibrated science quality data.</Description>
       <Acknowledgement>Please acknowledge the Principal Investigator, E. C. Stone of Caltech, and the ACE/SIS instrument team</Acknowledgement>
       <Contact>
@@ -44,7 +44,7 @@
     <PhysicalParameter>
       <Name>Time</Name>
       <ParameterKey>Epoch</ParameterKey>
-      <Description>Number of milliseconds since CDF_EPOCH:  0000-01-01T00:00:00.000. Timestamp marks beginning of interval</Description>
+      <Description>Number of milliseconds since CDF_EPOCH: 2000-01-01T00:00:00.000. Timestamp marks beginning of interval</Description>
       <Cadence>PT1H</Cadence>
       <Units>ms</Units>
       <UnitsConversion>1.0e-3 &gt; s</UnitsConversion>
