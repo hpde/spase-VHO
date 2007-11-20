@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <NumericalData>
+    <ResourceID>spase://VHO/NumericalData/ACE/MFI/PT16S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ACE Magnetic Field 16-Second Level 2 Data</ResourceName>
+      <ReleaseDate>2007-11-20T00:37:11Z</ReleaseDate>
+      <Description> ACE Magnetic Field Instrument 16-second level 2 data.</Description>
+      <Acknowledgement>Please acknowledge the Principal Investigator, N. Ness of Bartol Research Institute </Acknowledgement>
+      <Contact>
+        <!-- N. Ness -->
+        <PersonID>spase://nssdc/person/18.xml</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>ACE Science Center</Name>
+        <URL>http://www.srl.caltech.edu/ACE/ASC/level2</URL>
+        <Description>Data information and access at ACE Science Center</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Rules of use</Name>
+        <URL>http://www.srl.caltech.edu/ACE/ASC/level2/policy_lvl2.html</URL>
+        <Description>ACE level 2 data rules of use</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://VMO/Repository/CDAWeb</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/mfi_h0/</URL>
+        <Description>FTP repository of 16-second ACE MFI data in CDF format at CDAWeb</Description>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <ProviderResourceName>ACE MFI Level 2 Data</ProviderResourceName>
+    <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
+    <InstrumentID>spase://VHO/NumericalData/ACE/MFI</InstrumentID>
+    <MeasurementType>MagneticField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1997-09-02T00:00:12Z</StartDate>
+        <RelativeEndDate>P2M</RelativeEndDate>
+      </TimeSpan>
+      <Cadence>PT16S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <Caveats>The quality of ACE level 2 data is such that it is suitable for serious scientific study.  However, to avoid confusion and misunderstanding, it is recommended that users consult with the appropriate ACE team members before publishing work derived from the data. The ACE team has worked hard to ensure that the level 2 data are free from errors, but the team cannot accept responsibility for erroneous data, or for misunderstandings about how the data may be used. This is especially true if the appropriate ACE team members are not consulted before publication. At the very least, preprints should be forwarded to the ACE team before publication.</Caveats>
+    <PhysicalParameter>
+      <Name>Time</Name>
+      <ParameterKey>Epoch</ParameterKey>
+      <Description>Time, beginning of interval </Description>
+      <Units>ms</Units>
+      <UnitsConversion>1e-3&gt;s</UnitsConversion>
+      <ValidMin>1996-01-01T00:00:00.000Z</ValidMin>
+      <ValidMax>2020-01-01T00:00:00.000Z</ValidMax>
+      <FillValue>-1.0E31</FillValue>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Time PB5</Name>
+      <ParameterKey>Time_PB5</ParameterKey>
+      <Description>Time of observation in year, day of year, and milliseconds. Timestamp marks beginning of interval</Description>
+      <Structure>
+        <StructureType>Array</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>Year</Name>
+          <Index>1</Index>
+          <Units>year</Units>
+          <ValidMin>1997</ValidMin>
+          <ValidMax>2020</ValidMax>
+          <FillValue>-2147483648</FillValue>
+        </Element>
+        <Element>
+          <Name>Day of year</Name>
+          <Index>2</Index>
+          <Units>day</Units>
+          <ValidMin>237</ValidMin>
+          <ValidMax>366</ValidMax>
+          <FillValue>-2147483648</FillValue>
+        </Element>
+        <Element>
+          <Name>Elapsed milliseconds of day</Name>
+          <Index>3</Index>
+          <Units>msec</Units>
+          <ValidMin>0</ValidMin>
+          <ValidMax>0</ValidMax>
+          <FillValue>-2147483648</FillValue>
+        </Element>
+      </Structure>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>B</Name>
+      <ParameterKey>Magnitude</ParameterKey>
+      <Description>Magnetic field magnitude</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1e-9&gt;T</UnitsConversion>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>500.0</ValidMax>
+      <FillValue>-1.0E31</FillValue>
+      <Measured>
+        <Field>
+          <FieldQualifier>Magnitude</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>B GSE</Name>
+      <ParameterKey>BGSEc</ParameterKey>
+      <Description>Magnetic field vector in GSE Cartesian coordinates (16 sec)</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>Bx GSE</Name>
+          <Index>1</Index>
+          <ValidMin>-65534.0</ValidMin>
+          <ValidMax>65534.0</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+        <Element>
+          <Name>By GSE</Name>
+          <Index>2</Index>
+          <ValidMin>-65534.0</ValidMin>
+          <ValidMax>65534.0</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+        <Element>
+          <Name>Bz GSE</Name>
+          <Index>3</Index>
+          <ValidMin>-65534.0</ValidMin>
+          <ValidMax>65534.0</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQualifier>Component.X</FieldQualifier>
+          <FieldQualifier>Component.Y</FieldQualifier>
+          <FieldQualifier>Component.Z</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>B GSM</Name>
+      <ParameterKey>BGSM</ParameterKey>
+      <Description>Magnetic field vector in GSM coordinates (16 sec)</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSM</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>Bx GSM</Name>
+          <Index>1</Index>
+          <Units/>
+          <ValidMin>-65534.0</ValidMin>
+          <ValidMax>65534.0</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+        <Element>
+          <Name>By GSM</Name>
+          <Index>2</Index>
+          <Units/>
+          <ValidMin>-65534.0</ValidMin>
+          <ValidMax>65534.0</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+        <Element>
+          <Name>Bz GSM</Name>
+          <Index>3</Index>
+          <Units/>
+          <ValidMin>-65534.0</ValidMin>
+          <ValidMax>65534.0</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQualifier>Component.X</FieldQualifier>
+          <FieldQualifier>Component.Y</FieldQualifier>
+          <FieldQualifier>Component.Z</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>B RMS</Name>
+      <ParameterKey>dBrms</ParameterKey>
+      <Description>RMS of magnetic field magnitude (16 sec period)</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1e-9&gt;T</UnitsConversion>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>10.0</ValidMax>
+      <FillValue>-1.0E31</FillValue>
+      <Measured>
+        <Field>
+          <FieldQualifier>StandardDeviation</FieldQualifier>
+          <FieldQualifier>Magnitude</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Data Quality Flag</Name>
+      <ParameterKey>Q_FLAG</ParameterKey>
+      <Description>Data Quality Flag: 0 = good; 1 = S/C Maneuver &amp; subsequent high-nutation period (~4 hr) 2 = Bad data/missing data</Description>
+      <ValidMin>0</ValidMin>
+      <ValidMax>2</ValidMax>
+      <FillValue>-2147483648</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>S/C position in GSE</Name>
+      <ParameterKey>SC_pos_GSE</ParameterKey>
+      <Description>ACE s/c position in GSE coordinates</Description>
+      <Units>km</Units>
+      <UnitsConversion>1e3&gt;m</UnitsConversion>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>X GSE</Name>
+          <Index>1</Index>
+          <Units/>
+          <ValidMin>-2000000.0</ValidMin>
+          <ValidMax>2000000.0</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+        <Element>
+          <Name>Y GSE</Name>
+          <Index>2</Index>
+          <Units/>
+          <ValidMin>-2000000.0</ValidMin>
+          <ValidMax>2000000.0</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+        <Element>
+          <Name>Z GSE</Name>
+          <Index>3</Index>
+          <Units/>
+          <ValidMin>-2000000.0</ValidMin>
+          <ValidMax>2000000.0</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+      </Structure>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>S/C position in GSM</Name>
+      <ParameterKey>SC_pos_GSM</ParameterKey>
+      <Description>ACE s/c position in GSM coordinates</Description>
+      <Caveats> </Caveats>
+      <Units>km</Units>
+      <UnitsConversion>1e3&gt;m</UnitsConversion>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>X GSM</Name>
+          <Index>1</Index>
+          <Units/>
+          <ValidMin>-2000000.0</ValidMin>
+          <ValidMax>2000000.0</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+        <Element>
+          <Name>Y GSM</Name>
+          <Index>2</Index>
+          <Units/>
+          <ValidMin>-2000000.0</ValidMin>
+          <ValidMax>2000000.0</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+        <Element>
+          <Name>Z GSM</Name>
+          <Index>3</Index>
+          <Units/>
+          <ValidMin>-2000000.0</ValidMin>
+          <ValidMax>2000000.0</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+      </Structure>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+  </NumericalData>
+</Spase>
