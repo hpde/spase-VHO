@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/ACE/SIS/V01_PT1H</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/ACE/SIS/PT1H</ResourceID>
     <ResourceHeader>
-      <ResourceName>ACE Solar Isotope Spectrometer (SIS) 1-Hour Level 2 Data</ResourceName>
-      <ReleaseDate>2007-11-20T00:17:10Z</ReleaseDate>
+      <ResourceName>ACE Solar Isotope Spectrometer (SIS) 1-Hour Level 2 Data in CDF Format</ResourceName>
+      <ReleaseDate>2007-11-26T17:21:40Z</ReleaseDate>
       <Description>ACE SIS Solar Isotopic Spectrometer (SIS) intensities and counts, for 8 elements at 1-hour time resolution. Calibrated science quality data.</Description>
       <Acknowledgement>Please acknowledge the Principal Investigator, E. C. Stone of Caltech, and the ACE/SIS instrument team</Acknowledgement>
       <Contact>
@@ -16,6 +16,11 @@
         <PersonID>spase://nssdc/person/3380</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
+      <InformationURL>
+        <Name>ACE Solar Isotope Spectrometer (SIS) Level 2 data  Home Page</Name>
+        <URL>http://www.srl.caltech.edu/ACE/ASC/level2/sis_l2desc.html</URL>
+        <Description>A web site hosting instrument information as well as web utilities for plotting and downloading data</Description>
+      </InformationURL>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://VMO/Repository/CDAWeb</RepositoryID>
@@ -44,7 +49,7 @@
     <PhysicalParameter>
       <Name>Time</Name>
       <ParameterKey>Epoch</ParameterKey>
-      <Description>Number of milliseconds since CDF_EPOCH: 2000-01-01T00:00:00.000. Timestamp marks beginning of interval</Description>
+      <Description>Number of milliseconds since CDF_EPOCH: 0000-01-01T00:00:00.000. Timestamp marks beginning of interval</Description>
       <Cadence>PT1H</Cadence>
       <Units>ms</Units>
       <UnitsConversion>1.0e-3 &gt; s</UnitsConversion>
