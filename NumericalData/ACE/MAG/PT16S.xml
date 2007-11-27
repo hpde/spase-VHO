@@ -2,26 +2,31 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/ACE/MAG/PT16S</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/ACE/MAG/CDF_PT16S</ResourceID>
     <ResourceHeader>
-      <ResourceName>ACE Magnetic Field 16-Second Level 2 Data</ResourceName>
-      <ReleaseDate>2007-11-20T17:39:03Z</ReleaseDate>
-      <Description>ACE Magnetometer 16-second level 2 data.</Description>
-      <Acknowledgement>Please acknowledge the Principal Investigator, N. Ness of Bartol Research Institute </Acknowledgement>
+      <ResourceName>ACE Magnetic Field 16-Second Level 2 Data in CDF Format</ResourceName>
+      <ReleaseDate>2007-11-27T18:51:52Z</ReleaseDate>
+      <Description>ACE Magnetometer level 2 data, 16-second averages.</Description>
+      <Acknowledgement>Please acknowledge the ACE/MAG instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
         <!-- N. Ness -->
         <PersonID>spase://nssdc/person/18.xml</PersonID>
-        <Role>PrincipalInvestigator</Role>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <!-- C. Smith -->
+        <PersonID>spase://nssdc/person/67891.xml</PersonID>
+        <Role>TechnicalContact</Role>
       </Contact>
       <InformationURL>
-        <Name>ACE Science Center</Name>
-        <URL>http://www.srl.caltech.edu/ACE/ASC/level2</URL>
-        <Description>Data information and access at ACE Science Center</Description>
+        <Name>ACE Magnetometer (MAG) Level 2 data Home Page</Name>
+        <URL>http://www.srl.caltech.edu/ACE/ASC/level2/mag_l2desc.html</URL>
+        <Description>ACE Science Center site hosting instrument information, data release notes,  as well as web utilities for plotting and downloading data</Description>
       </InformationURL>
       <InformationURL>
-        <Name>Rules of use</Name>
+        <Name>Rules of use, and caveats</Name>
         <URL>http://www.srl.caltech.edu/ACE/ASC/level2/policy_lvl2.html</URL>
-        <Description>ACE level 2 data rules of use</Description>
+        <Description>ACE level 2 data rules of use, and caveats</Description>
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
@@ -34,8 +39,9 @@
       </AccessURL>
       <Format>CDF</Format>
     </AccessInformation>
-    <ProviderResourceName>ACE MAG Level 2 Data</ProviderResourceName>
+    <ProviderResourceName>ACE MAG Level 2 Data, 16-second averages, in CDF Format</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
+    <ProviderVersion>5</ProviderVersion>
     <InstrumentID>spase://VHO/NumericalData/ACE/MAG</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
@@ -47,11 +53,11 @@
     </TemporalDescription>
     <ObservedRegion>Heliosphere.Inner</ObservedRegion>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-    <Caveats>The quality of ACE level 2 data is such that it is suitable for serious scientific study.  However, to avoid confusion and misunderstanding, it is recommended that users consult with the appropriate ACE team members before publishing work derived from the data. The ACE team has worked hard to ensure that the level 2 data are free from errors, but the team cannot accept responsibility for erroneous data, or for misunderstandings about how the data may be used. This is especially true if the appropriate ACE team members are not consulted before publication. At the very least, preprints should be forwarded to the ACE team before publication.</Caveats>
+    <Caveats>The quality of ACE level 2 data is such that it is suitable for serious scientific study. However, to avoid confusion and misunderstanding, it is recommended that users consult with the appropriate ACE team members before publishing work derived from the data. The ACE team has worked hard to ensure that the level 2 data are free from errors, but the team cannot accept responsibility for erroneous data, or for misunderstandings about how the data may be used. This is especially true if the appropriate ACE team members are not consulted before publication. At the very least, preprints should be forwarded to the ACE team before publication.</Caveats>
     <PhysicalParameter>
       <Name>Time</Name>
       <ParameterKey>Epoch</ParameterKey>
-      <Description>Time, beginning of interval </Description>
+      <Description>Number of milliseconds since CDF_EPOCH: 0000-01-01T00:00:00.000. Timestamp marks beginning of interval</Description>
       <Units>ms</Units>
       <UnitsConversion>1e-3&gt;s</UnitsConversion>
       <ValidMin>1996-01-01T00:00:00.000Z</ValidMin>
@@ -80,7 +86,7 @@
           <Name>Day of year</Name>
           <Index>2</Index>
           <Units>day</Units>
-          <ValidMin>237</ValidMin>
+          <ValidMin>1</ValidMin>
           <ValidMax>366</ValidMax>
           <FillValue>-2147483648</FillValue>
         </Element>
@@ -89,7 +95,7 @@
           <Index>3</Index>
           <Units>msec</Units>
           <ValidMin>0</ValidMin>
-          <ValidMax>0</ValidMax>
+          <ValidMax>86401000</ValidMax>
           <FillValue>-2147483648</FillValue>
         </Element>
       </Structure>
@@ -98,7 +104,7 @@
       </Support>
     </PhysicalParameter>
     <PhysicalParameter>
-      <Name>B</Name>
+      <Name>Bmagnitude</Name>
       <ParameterKey>Magnitude</ParameterKey>
       <Description>Magnetic field magnitude</Description>
       <Units>nT</Units>
@@ -108,6 +114,7 @@
       <FillValue>-1.0E31</FillValue>
       <Measured>
         <Field>
+          <FieldQualifier>Average</FieldQualifier>
           <FieldQualifier>Magnitude</FieldQualifier>
           <FieldQuantity>Magnetic</FieldQuantity>
         </Field>
@@ -240,6 +247,10 @@
       <Description>ACE s/c position in GSE coordinates</Description>
       <Units>km</Units>
       <UnitsConversion>1e3&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
       <Structure>
         <StructureType>Vector</StructureType>
         <Size>3</Size>
@@ -279,6 +290,10 @@
       <Caveats> </Caveats>
       <Units>km</Units>
       <UnitsConversion>1e3&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSM</CoordinateSystemName>
+      </CoordinateSystem>
       <Structure>
         <StructureType>Vector</StructureType>
         <Size>3</Size>
