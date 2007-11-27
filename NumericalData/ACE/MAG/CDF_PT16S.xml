@@ -5,17 +5,17 @@
     <ResourceID>spase://VHO/NumericalData/ACE/MAG/CDF_PT16S</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Magnetic Field 16-Second Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2007-11-27T19:13:50Z</ReleaseDate>
+      <ReleaseDate>2007-11-27T22:42:06Z</ReleaseDate>
       <Description>ACE Magnetometer level 2 data, 16-second averages.</Description>
       <Acknowledgement>Please acknowledge the ACE/MAG instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
         <!-- N. Ness -->
-        <PersonID>spase://nssdc/person/18.xml</PersonID>
+        <PersonID>spase://nssdc/person/18</PersonID>
         <Role>CoInvestigator</Role>
       </Contact>
       <Contact>
         <!-- C. Smith -->
-        <PersonID>spase://nssdc/person/67891.xml</PersonID>
+        <PersonID>spase://nssdc/person/67891</PersonID>
         <Role>TechnicalContact</Role>
       </Contact>
       <InformationURL>
@@ -42,7 +42,7 @@
     <ProviderResourceName>ACE MAG Level 2 Data, 16-second averages, in CDF Format</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
     <ProviderVersion>5</ProviderVersion>
-    <InstrumentID>spase://VHO/NumericalData/ACE/MAG</InstrumentID>
+    <InstrumentID>spase://VHO/Instrument/ACE/MAG</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
