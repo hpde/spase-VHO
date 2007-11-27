@@ -2,24 +2,31 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/ACE/SIS/PT1H</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/ACE/SIS/CDF_PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Isotope Spectrometer (SIS) 1-Hour Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2007-11-26T17:21:40Z</ReleaseDate>
-      <Description>ACE SIS Solar Isotopic Spectrometer (SIS) intensities and counts, for 8 elements at 1-hour time resolution. Calibrated science quality data.</Description>
-      <Acknowledgement>Please acknowledge the Principal Investigator, E. C. Stone of Caltech, and the ACE/SIS instrument team</Acknowledgement>
+      <ReleaseDate>2007-11-27T18:41:49Z</ReleaseDate>
+      <Description>ACE SIS Solar Isotope Spectrometer (SIS) intensities and counts, for 8 elements at 1-hour time resolution. Calibrated science quality data.</Description>
+      <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
+        <!--Christina Cohen-->
         <PersonID>spase://nssdc/person/67894</PersonID>
         <Role>TechnicalContact</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://nssdc/person/3380</PersonID>
-        <Role>PrincipalInvestigator</Role>
+        <!--Richard Mewaldt-->
+        <PersonID>spase://nssdc/person/16222</PersonID>
+        <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>
-        <Name>ACE Solar Isotope Spectrometer (SIS) Level 2 data  Home Page</Name>
+        <Name>ACE Solar Isotope Spectrometer (SIS) Level 2 data Home Page</Name>
         <URL>http://www.srl.caltech.edu/ACE/ASC/level2/sis_l2desc.html</URL>
-        <Description>A web site hosting instrument information as well as web utilities for plotting and downloading data</Description>
+        <Description>A web site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Rules of use, and caveats</Name>
+        <URL>http://www.srl.caltech.edu/ACE/ASC/level2/policy_lvl2.html</URL>
+        <Description>ACE level 2 data rules of use, and caveats</Description>
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
@@ -32,7 +39,7 @@
       </AccessURL>
       <Format>CDF</Format>
     </AccessInformation>
-    <ProviderResourceName>ACE SIS Level 2 Data</ProviderResourceName>
+    <ProviderResourceName>ACE SIS Level 2 Data, 1-hour averages, in CDF Format</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
     <ProviderVersion>3</ProviderVersion>
     <InstrumentID>spase://VHO/Instrument/ACE/SIS</InstrumentID>
@@ -46,6 +53,11 @@
     </TemporalDescription>
     <ObservedRegion>Heliosphere.Inner</ObservedRegion>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <Caveats>The quality of ACE level 2 data is such that it is suitable for serious scientific study.
+    However, to avoid confusion and misunderstanding, it is recommended that users consult with the appropriate ACE team members before publishing work derived from the data
+    The ACE team has worked hard to ensure that the level 2 data are free from errors, but the team cannot accept responsibility for erroneous data, or for misunderstandings about
+    how the data may be used. This is especially true if the appropriate ACE team members are not consulted before publication. At the very least, preprints should be forwarded to
+    the ACE team before publication.</Caveats>
     <PhysicalParameter>
       <Name>Time</Name>
       <ParameterKey>Epoch</ParameterKey>
