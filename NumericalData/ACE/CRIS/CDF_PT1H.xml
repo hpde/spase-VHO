@@ -5,12 +5,12 @@
     <ResourceID>spase://VHO/NumericalData/ACE/CRIS/CDF_PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Cosmic Ray Isotope Spectrometer (CRIS) 1-Hour Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2007-11-27T19:00:36Z</ReleaseDate>
+      <ReleaseDate>2007-11-27T19:23:00Z</ReleaseDate>
       <Description>ACE Cosmic Ray Isotope Spectrometer (CRIS) intensities and counts, for 24 elements at 1-hour time resolution. Calibrated science quality data.</Description>
       <Acknowledgement>Please acknowledgethe ACE/CRIS instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
-        <!--Rick Leske, no NSSDC PersonID at this time-->
-        <PersonID>spase://nssdc/person/Rick.Leske</PersonID>
+        <!--Richard Leske, no NSSDC PersonID at this time-->
+        <PersonID>spase://nssdc/person/Richard.Leske</PersonID>
         <Role>TechnicalContact</Role>
       </Contact>
       <Contact>
