@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/MAG/CDF_PT16S</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Magnetic Field 16-Second Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2007-11-27T18:51:52Z</ReleaseDate>
+      <ReleaseDate>2007-11-27T19:13:50Z</ReleaseDate>
       <Description>ACE Magnetometer level 2 data, 16-second averages.</Description>
       <Acknowledgement>Please acknowledge the ACE/MAG instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -135,6 +135,7 @@
         <Size>3</Size>
         <Element>
           <Name>Bx GSE</Name>
+          <Component>X</Component>
           <Index>1</Index>
           <ValidMin>-65534.0</ValidMin>
           <ValidMax>65534.0</ValidMax>
@@ -142,6 +143,7 @@
         </Element>
         <Element>
           <Name>By GSE</Name>
+          <Component>Y</Component>
           <Index>2</Index>
           <ValidMin>-65534.0</ValidMin>
           <ValidMax>65534.0</ValidMax>
@@ -149,6 +151,7 @@
         </Element>
         <Element>
           <Name>Bz GSE</Name>
+          <Component>Z</Component>
           <Index>3</Index>
           <ValidMin>-65534.0</ValidMin>
           <ValidMax>65534.0</ValidMax>
@@ -180,6 +183,7 @@
         <Size>3</Size>
         <Element>
           <Name>Bx GSM</Name>
+          <Component>X</Component>
           <Index>1</Index>
           <Units/>
           <ValidMin>-65534.0</ValidMin>
@@ -188,6 +192,7 @@
         </Element>
         <Element>
           <Name>By GSM</Name>
+          <Component>Y</Component>
           <Index>2</Index>
           <Units/>
           <ValidMin>-65534.0</ValidMin>
@@ -196,6 +201,7 @@
         </Element>
         <Element>
           <Name>Bz GSM</Name>
+          <Component>Z</Component>
           <Index>3</Index>
           <Units/>
           <ValidMin>-65534.0</ValidMin>
@@ -256,6 +262,7 @@
         <Size>3</Size>
         <Element>
           <Name>X GSE</Name>
+          <Component>X</Component>
           <Index>1</Index>
           <Units/>
           <ValidMin>-2000000.0</ValidMin>
@@ -264,6 +271,7 @@
         </Element>
         <Element>
           <Name>Y GSE</Name>
+          <Component>Y</Component>
           <Index>2</Index>
           <Units/>
           <ValidMin>-2000000.0</ValidMin>
@@ -272,6 +280,7 @@
         </Element>
         <Element>
           <Name>Z GSE</Name>
+          <Component>Z</Component>
           <Index>3</Index>
           <Units/>
           <ValidMin>-2000000.0</ValidMin>
@@ -299,6 +308,7 @@
         <Size>3</Size>
         <Element>
           <Name>X GSM</Name>
+          <Component>X</Component>
           <Index>1</Index>
           <Units/>
           <ValidMin>-2000000.0</ValidMin>
@@ -307,6 +317,7 @@
         </Element>
         <Element>
           <Name>Y GSM</Name>
+          <Component>Y</Component>
           <Index>2</Index>
           <Units/>
           <ValidMin>-2000000.0</ValidMin>
@@ -315,6 +326,7 @@
         </Element>
         <Element>
           <Name>Z GSM</Name>
+          <Component>Z</Component>
           <Index>3</Index>
           <Units/>
           <ValidMin>-2000000.0</ValidMin>
