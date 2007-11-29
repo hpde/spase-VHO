@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>STEREO Ahead IMPACT/MAG Magnetic Field Vectors and Ancillary Data</ResourceName>
       <AlternateName>STEREO-A IMPACT/MAG Level 1 Data</AlternateName>
-      <ReleaseDate>2007-11-29T23:12:42Z</ReleaseDate>
+      <ReleaseDate>2007-11-29T23:44:24Z</ReleaseDate>
       <Description>Level 1 calibrated magnetic field vectors from the IMPACT/MAG instrument on the STEREO Ahead spacecraft in the spacecraft and RTN coordinate systems. It also contains STEREO Ahead position (ephemeris) information in the Carrington system.</Description>
       <Acknowledgement>The STEREO IMPACT/MAG Team</Acknowledgement>
       <Contact>
@@ -50,7 +50,7 @@
       </TimeSpan>
       <Cadence>PT0.125S</Cadence>
     </TemporalDescription>
-    <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+    <ObservedRegion>Heliosphere.Remote1AU</ObservedRegion>
     <Caveats>Current version of the data include very fast (subsecond) glitches in the magnetometer's X sensor. Magnitude of these glitches are approximately 0.5 nT and occur at varying frequencies throughout the mission.</Caveats>
     <PhysicalParameter>
       <Name>Time</Name>
