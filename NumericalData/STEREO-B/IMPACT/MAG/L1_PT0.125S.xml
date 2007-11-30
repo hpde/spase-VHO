@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>STEREO Behind IMPACT/MAG Magnetic Field Vectors and Ancillary Data</ResourceName>
       <AlternateName>STEREO-B IMPACT/MAG Level 1 Data</AlternateName>
-      <ReleaseDate>2007-11-30T16:48:12Z</ReleaseDate>
+      <ReleaseDate>2007-11-30T22:57:05Z</ReleaseDate>
       <Description>Level 1 calibrated magnetic field vectors from the IMPACT/MAG instrument on the STEREO Behind spacecraft in the spacecraft and RTN coordinate systems. It also contains STEREO Behind position (ephemeris) information in the Carrington system.</Description>
       <Acknowledgement>The STEREO IMPACT/MAG Team</Acknowledgement>
       <Contact>
@@ -20,13 +20,13 @@
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
-        <Name>STEREO IMPACT homepage</Name>
+        <Name>STEREO IMPACT Mission Site</Name>
         <URL>http://sprg.ssl.berkeley.edu/impact</URL>
         <Description>The web site provides detailed descriptions of the STEREO IMPACT MAG instrument as well as associated data sets.</Description>
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://VHO/Repository/STEREO-B/IMPACT</RepositoryID>
+      <RepositoryID>spase://VHO/Repository/STEREO/IMPACT</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
