@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <NumericalData>
+    <ResourceID>spase://VHO/NumericalData/STEREO-B/IMPACT/MAG/L1_PT0.125S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>STEREO Behind IMPACT/MAG Magnetic Field Vectors and Ancillary Data</ResourceName>
+      <AlternateName>STEREO-B IMPACT/MAG Level 1 Data</AlternateName>
+      <ReleaseDate>2007-11-30T16:48:12Z</ReleaseDate>
+      <Description>Level 1 calibrated magnetic field vectors from the IMPACT/MAG instrument on the STEREO Behind spacecraft in the spacecraft and RTN coordinate systems. It also contains STEREO Behind position (ephemeris) information in the Carrington system.</Description>
+      <Acknowledgement>The STEREO IMPACT/MAG Team</Acknowledgement>
+      <Contact>
+        <!-- Peter Schroeder -->
+        <PersonID>spase://nssdc/person/Peter.Schroeder</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <!-- Janet Luhmann -->
+        <PersonID>spase://nssdc/person/18468</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>STEREO IMPACT homepage</Name>
+        <URL>http://sprg.ssl.berkeley.edu/impact</URL>
+        <Description>The web site provides detailed descriptions of the STEREO IMPACT MAG instrument as well as associated data sets.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://VHO/Repository/STEREO-B/IMPACT</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Download of STEREO-B IMPACT/MAG Level 1 data</Name>
+        <URL>http://stereo.ssl.berkeley.edu/l1data/behind/mag/</URL>
+        <Description>A web site hosting the STEREO-B IMPACT/MAG Level 1 data</Description>
+      </AccessURL>
+      <Format>CDF</Format>
+      <Encoding>None</Encoding>
+    </AccessInformation>
+    <ProviderResourceName>STEREO-B IMPACT/MAG Level 1 Data</ProviderResourceName>
+    <ProviderProcessingLevel>1</ProviderProcessingLevel>
+    <ProviderVersion>3</ProviderVersion>
+    <InstrumentID>spase://VHO/Instrument/STEREO-B/IMPACT/MAG</InstrumentID>
+    <MeasurementType>MagneticField</MeasurementType>
+    <MeasurementType>Ephemeris</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2006-11-03T00:00:00Z</StartDate>
+        <RelativeEndDate>P01M</RelativeEndDate>
+      </TimeSpan>
+      <Cadence>PT0.125S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Heliosphere.Remote1AU</ObservedRegion>
+    <Caveats>Current version of the data include very fast (subsecond) glitches in the magnetometer's X sensor. Magnitude of these glitches are approximately 0.5 nT and occur at varying frequencies throughout the mission.</Caveats>
+    <PhysicalParameter>
+      <Name>Time</Name>
+      <ParameterKey>Epoch</ParameterKey>
+      <Description>Number of milliseconds since 0 AD</Description>
+      <Caveats>Interval-centered time tag</Caveats>
+      <Units>ms</Units>
+      <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
+      <ValidMin>01-Jan-1990 00:00:00.000 </ValidMin>
+      <ValidMax>31-Dec-2020 00:00:00.000 </ValidMax>
+      <FillValue>31-Dec-9999 23:59:59.999 </FillValue>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Magnetic Field Vector in Spacecraft Coordinates</Name>
+      <ParameterKey>B_SC</ParameterKey>
+      <Description>Magnetic field vectors as measured by the IMPACT/MAG instrument in the spacecraft coordinate system.</Description>
+      <Units>nT </Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>SC</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>Bx</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+          <ValidMin>-Infinity</ValidMin>
+          <ValidMax>Infinity</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+        <Element>
+          <Name>By</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+          <ValidMin>-Infinity</ValidMin>
+          <ValidMax>Infinity</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+        <Element>
+          <Name>Bz</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+          <ValidMin>-Infinity</ValidMin>
+          <ValidMax>Infinity</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Magnetic Field Vector in RTN Coordinates</Name>
+      <ParameterKey>B_RTN</ParameterKey>
+      <Description>Magnetic field vectors as measured by the IMPACT/MAG instrument in the STEREO-B RTN coordinate system</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>R</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+          <ValidMin>-Infinity</ValidMin>
+          <ValidMax>Infinity</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+        <Element>
+          <Name>T</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+          <ValidMin>-Infinity</ValidMin>
+          <ValidMax>Infinity</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+        <Element>
+          <Name>N</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+          <ValidMin>-Infinity</ValidMin>
+          <ValidMax>Infinity</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>STEREO-B Latitude in the Carrington Heliographic system</Name>
+      <ParameterKey>Carr_Latitude</ParameterKey>
+      <Units>deg</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+        <Size>1</Size>
+        <Element>
+          <Name>STEREO-B Latitude in the Carrington Heliographic system</Name>
+          <Component>Theta</Component>
+          <Index>1</Index>
+          <ValidMin>-90.0 </ValidMin>
+          <ValidMax>90.0 </ValidMax>
+          <FillValue>-1.0E31 </FillValue>
+        </Element>
+      </Structure>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>STEREO-B Longitude in the Carrington Heliographic system</Name>
+      <ParameterKey>Carr_Longitude</ParameterKey>
+      <Units>deg</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+        <Size>1</Size>
+        <Element>
+          <Name>STEREO-B Longitude in the Carrington Heliographic system</Name>
+          <Component>Phi</Component>
+          <Index>1</Index>
+          <ValidMin>-180.0</ValidMin>
+          <ValidMax>180.0</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+      </Structure>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>STEREO-B distance from the Sun in AU</Name>
+      <ParameterKey>Sun_Dist_AU</ParameterKey>
+      <Description>Distance from the Sun to the spacecraft in AU (astronomical units)</Description>
+      <Units>AU</Units>
+      <UnitsConversion>1.496e11&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+        <Size>1</Size>
+        <Element>
+          <Name>STEREO-B distance from the Sun in AU</Name>
+          <Component>R</Component>
+          <Index>1</Index>
+          <ValidMin>0.0</ValidMin>
+          <ValidMax>10.0</ValidMax>
+          <FillValue>-1.0E31</FillValue>
+        </Element>
+      </Structure>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>STEREO-B distance from the Sun in Solar Radii</Name>
+      <ParameterKey>Sun_Dist_AU</ParameterKey>
+      <Description>Distance from the Sun to the spacecraft in Solar Radii</Description>
+      <Units>Rs</Units>
+      <UnitsConversion>6.960E8&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+        <Size>1</Size>
+        <Element>
+          <Name>STEREO-B distance from the Sun in Solar Radii</Name>
+          <Component>R</Component>
+          <Index>1</Index>
+          <ValidMin>0.0 </ValidMin>
+          <ValidMax>Infinity </ValidMax>
+          <FillValue>-1.0E31 </FillValue>
+        </Element>
+      </Structure>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+  </NumericalData>
+</Spase>
