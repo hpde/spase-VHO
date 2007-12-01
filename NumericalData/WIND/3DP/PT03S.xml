@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/WIND/3DP/PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>WIND 3DP PESA Moments Data</ResourceName>
-      <ReleaseDate>2007-12-01T00:34:06Z</ReleaseDate>
+      <ReleaseDate>2007-12-01T00:35:48Z</ReleaseDate>
       <Description>WIND 3DP proton and ion onboard calculated moments from the PESA instrument. Calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the WIND 3DP Team in any publication resulting from use of this data.</Acknowledgement>
       <Contact>
@@ -40,7 +40,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1994-11-15T12:53:43Z</StartDate>
-        <RelativeEndDate>P07D</RelativeEndDate>
+        <RelativeEndDate>P02D</RelativeEndDate>
       </TimeSpan>
       <Cadence>PT03S</Cadence>
     </TemporalDescription>
