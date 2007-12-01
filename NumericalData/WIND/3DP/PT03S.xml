@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/WIND/3DP/PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>WIND 3DP PESA Moments Data</ResourceName>
-      <ReleaseDate>2007-12-01T00:19:36Z</ReleaseDate>
+      <ReleaseDate>2007-12-01T00:30:39Z</ReleaseDate>
       <Description>WIND 3DP proton and ion onboard calculated moments from the PESA instrument. Calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the WIND 3DP Team in any publication resulting from use of this data.</Acknowledgement>
       <Contact>
@@ -128,13 +128,10 @@
     <PhysicalParameter>
       <Name>Residual Proton Velocity Variance</Name>
       <ParameterKey>P_TENS</ParameterKey>
-      <!-- If it is in instrument frame, why GSE coordinates below?
-         Variance should have units (km/s)^2 or is it STD? -->
       <Description>Residual Variance in Proton Velocity in instrument frame</Description>
-      <Units>km/s</Units>
+      <Units>(km/s)^2</Units>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
         <StructureType>Tensor</StructureType>
@@ -161,10 +158,9 @@
       <!-- If it is in instrument frame, why GSE coordinates below?
          Variance should have units (km/s)^2 or is it STD? -->
       <Description>Residual Variance in Alpha Velocity in instrument frame</Description>
-      <Units>km/s</Units>
+      <Units>(km/s)^2</Units>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
         <StructureType>Tensor</StructureType>
