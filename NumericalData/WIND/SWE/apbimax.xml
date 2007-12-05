@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <NumericalData>
+    <ResourceID>spase://VHO/NumericalData/WIND/SWE/apbimax</ResourceID>
+    <ResourceHeader>
+      <ResourceName>WIND/SWE Proton and Alpha Parameters</ResourceName>
+      <AlternateName>WIND/SWE Faraday Cup (Proton-Alpha Anisotropy Analysis)</AlternateName>
+      <ReleaseDate>2007-12-05T16:48:28Z</ReleaseDate>
+      <Description>Solar wind proton and alpha parameters, including anisotropic temperatures, derived by non-linear fitting of the measurements and with moment techniques.</Description>
+      <Contact>
+        <!-- Justin Kasper -->
+        <PersonID>spase://nssdc/person/64460</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://VMO/Repository/VHO-VMO</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Download of WIND/SWE proton and alpha parameters</Name>
+        <URL>http://vho.nasa.gov/mission/wind/swe_mit/</URL>
+        <Description>Repository of the WIND/SWE data</Description>
+      </AccessURL>
+      <Format>Text</Format>
+      <Encoding>ASCII</Encoding>
+    </AccessInformation>
+    <ProcessingLevel>Calibrated</ProcessingLevel>
+    <InstrumentID>spase://VHO/Instrument/WIND/SWE</InstrumentID>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1995-01-01T00:00:00Z</StartDate>
+        <RelativeEndDate>P4Y</RelativeEndDate>
+      </TimeSpan>
+      <Cadence>PT90S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <Caveats>The data do not exceed the limits of various paremeters listed in the following sections. There may be more valid data in the original dataset that requires additional work to interpret but was discarded due to the limits. In particular we have tried to exclude non-solar wind data from these files.
+    We provide the one sigma uncertainty for each parameter produced by the non-linear curve fitting analysis either directly from the fitting or by propagating uncertainties for bulk speeds, flow angles or any other derived parameter.
+    For the non-linear anisotropic proton analysis, a scalar thermal speed is produced by determining parallel and perpendicular tmperatures, taking the trace, Tscalar = (2Tperp + Tpara)/3 and converting the result back to a thermal speed. The uncertainties are also propagated through. Limits: Minimum mach number = 0.75000000; Maximum chisq/dof =100000.00; Minimum distance to bow shock = -100000.00 [Re]; Maximum uncertainty in any parameter from non-linear analysis = 70.0000[%].
+</Caveats>
+  </NumericalData>
+</Spase>
