@@ -6,12 +6,23 @@
     <ResourceHeader>
       <ResourceName>WIND/SWE Proton and Alpha Parameters</ResourceName>
       <AlternateName>WIND/SWE Faraday Cup (Proton-Alpha Anisotropy Analysis)</AlternateName>
-      <ReleaseDate>2007-12-05T16:48:28Z</ReleaseDate>
+      <ReleaseDate>2007-12-12T17:39:03Z</ReleaseDate>
       <Description>Solar wind proton and alpha parameters, including anisotropic temperatures, derived by non-linear fitting of the measurements and with moment techniques.</Description>
+      <Acknowledgement>User will acknowledge the Wind SWE plasma instrument team.</Acknowledgement>
       <Contact>
-        <!-- Justin Kasper -->
+        <!-- Justin C. Kasper -->
         <PersonID>spase://nssdc/person/64460</PersonID>
         <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <!-- Alan J. Lazarus -->
+        <PersonID>spase://nssdc/person/3585</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <!-- Keith W. Ogilvie -->
+        <PersonID>spase://nssdc/person/2202</PersonID>
+        <Role>PrincipalInvestigator</Role>
       </Contact>
     </ResourceHeader>
     <AccessInformation>
@@ -34,14 +45,932 @@
         <StartDate>1995-01-01T00:00:00Z</StartDate>
         <RelativeEndDate>P4Y</RelativeEndDate>
       </TimeSpan>
-      <Cadence>PT90S</Cadence>
+      <Cadence>PT92S</Cadence>
     </TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <ObservedRegion>Heliosphere.Inner</ObservedRegion>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
     <Caveats>The data do not exceed the limits of various paremeters listed in the following sections. There may be more valid data in the original dataset that requires additional work to interpret but was discarded due to the limits. In particular we have tried to exclude non-solar wind data from these files.
     We provide the one sigma uncertainty for each parameter produced by the non-linear curve fitting analysis either directly from the fitting or by propagating uncertainties for bulk speeds, flow angles or any other derived parameter.
     For the non-linear anisotropic proton analysis, a scalar thermal speed is produced by determining parallel and perpendicular tmperatures, taking the trace, Tscalar = (2Tperp + Tpara)/3 and converting the result back to a thermal speed. The uncertainties are also propagated through. Limits: Minimum mach number = 0.75000000; Maximum chisq/dof =100000.00; Minimum distance to bow shock = -100000.00 [Re]; Maximum uncertainty in any parameter from non-linear analysis = 70.0000[%].
-</Caveats>
+    </Caveats>
+    <Keyword>Solar Wind Plasma</Keyword>
+    <PhysicalParameter>
+      <Name>Year</Name>
+      <ParameterKey>Field 1</ParameterKey>
+      <Description>Year of the observation</Description>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Day</Name>
+      <ParameterKey>Field 2</ParameterKey>
+      <Description>Fractional day of year of start of spectrum (Noon on January 1 = 1.5)</Description>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Vp_nl</Name>
+      <ParameterKey>Field 3</ParameterKey>
+      <Description>Proton bulk speed V (km/s) from non-linear fit analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Magnitude</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sVp_nl</Name>
+      <ParameterKey>Field 4</ParameterKey>
+      <Description>One sigma uncertainty in V (kms/)</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Magnitude</ParticleQualifier>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>VpX_nl</Name>
+      <ParameterKey>Field 5</ParameterKey>
+      <Description>Proton velocity component Vx (GSE, km/s) from non-linear analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Component.X</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sVpX_nl</Name>
+      <ParameterKey>Field 6</ParameterKey>
+      <Description>One sigma uncertainty in Vx (km/s)</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Component.X</ParticleQualifier>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>VpY_nl</Name>
+      <ParameterKey>Field 7</ParameterKey>
+      <Description>Proton velocity component Vy (GSE, km/s) from non-linear analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Component.Y</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sVpY_nl</Name>
+      <ParameterKey>Field 8</ParameterKey>
+      <Description>One sigma uncertainty in Vy (km/s)</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Component.Y</ParticleQualifier>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>VpZ_nl</Name>
+      <ParameterKey>Field 9</ParameterKey>
+      <Description>Proton velocity component Vz (GSE, km/s) from non-linear analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Component.Z</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sVpZ_nl</Name>
+      <ParameterKey>Field 10</ParameterKey>
+      <Description>One sigma uncertainty in Vz (km/s)</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Component.Z</ParticleQualifier>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Tp_nl</Name>
+      <ParameterKey>Field 11</ParameterKey>
+      <Description>Proton scalar thermal speed (km/s) trace of anisotropic temperatures from non-linear analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Scalar</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>ThermalSpeed</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sTp_nl</Name>
+      <ParameterKey>Field 12</ParameterKey>
+      <Description>One sigma uncertainty in proton scalar thermal speed (km/s) trace of anisotropic temperatures from non-linear analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Scalar</ParticleQualifier>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>ThermalSpeed</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>TpPerp_nl</Name>
+      <ParameterKey>Field 13</ParameterKey>
+      <Description>Proton thermal speed perpendicular to magnetic field (km/s) from non-linear analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Scalar</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQualifier>Perpendicular</ParticleQualifier>
+          <ParticleQuantity>ThermalSpeed</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sTpPerp_nl</Name>
+      <ParameterKey>Field 14</ParameterKey>
+      <Description>One sigma uncertainty in proton perpendicular thermal speed (km/s) from non-linear analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Scalar</ParticleQualifier>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQualifier>Perpendicular</ParticleQualifier>
+          <ParticleQuantity>ThermalSpeed</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>TpPar_nl</Name>
+      <ParameterKey>Field 15</ParameterKey>
+      <Description>Proton thermal speed parallel to magnetic field (km/s) from non-linear analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Scalar</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQualifier>Parallel</ParticleQualifier>
+          <ParticleQuantity>ThermalSpeed</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sTpPar_nl</Name>
+      <ParameterKey>Field 16</ParameterKey>
+      <Description>One sigma uncertainty in proton parallel thermal speed (km/s) from non-linear analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Scalar</ParticleQualifier>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQualifier>Parallel</ParticleQualifier>
+          <ParticleQuantity>ThermalSpeed</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>VpEWang_nl</Name>
+      <ParameterKey>Field 17</ParameterKey>
+      <Description>Proton velocity East-West flow angle from non-linear analysis</Description>
+      <Units>deg</Units>
+      <UnitsConversion>1.745329e-2&gt;rad</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Component.Phi</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sVpEWang_nl</Name>
+      <ParameterKey>Field 18</ParameterKey>
+      <Description>One sigma uncertainty in proton velocity East-West flow angle from non-linear analysis</Description>
+      <Units>deg</Units>
+      <UnitsConversion>1.745329e-2&gt;rad</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Component.Phi</ParticleQualifier>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>VpNSang_nl</Name>
+      <ParameterKey>Field 19</ParameterKey>
+      <Description>Proton velocity North-South flow angle from non-liner analysis</Description>
+      <Units>deg</Units>
+      <UnitsConversion>1.745329e-2&gt;rad</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Component.Theta</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sVpNSang_nl</Name>
+      <ParameterKey>Field 20</ParameterKey>
+      <Description>One sigma uncertainty in proton velocity North-South flow angle from non-liner analysis</Description>
+      <Units>deg</Units>
+      <UnitsConversion>1.745329e-2&gt;rad</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Component.Theta</ParticleQualifier>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Np_nl</Name>
+      <ParameterKey>Field 21</ParameterKey>
+      <Description>Proton number desnity (#/cc) from non-linear analysis</Description>
+      <Units>cm^-3</Units>
+      <UnitsConversion>1.0e-6&gt;m^-3</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>NumberDensity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sNp_nl</Name>
+      <ParameterKey>Field 22</ParameterKey>
+      <Description>On sigma uncertainty in proton number desnity (#/cc) from non-linear analysis</Description>
+      <Units>cm^-3</Units>
+      <UnitsConversion>1.0e-6&gt;m^-3</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>NumberDensity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Va_nl</Name>
+      <ParameterKey>Field 23</ParameterKey>
+      <Description>Alpha bulk speed V (km/s) from non-linear fit analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>AlphaParticle</ParticleType>
+          <ParticleQualifier>Magnitude</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sVa_nl</Name>
+      <ParameterKey>Field 24</ParameterKey>
+      <Description>One sigma uncertainty in Va (kms/)</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>AlphaParticle</ParticleType>
+          <ParticleQualifier>Magnitude</ParticleQualifier>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>VaX_nl</Name>
+      <ParameterKey>Field 25</ParameterKey>
+      <Description>Alpha velocity component Vx (GSE, km/s) from non-linear analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>AlphaParticle</ParticleType>
+          <ParticleQualifier>Component.X</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sVaX_nl</Name>
+      <ParameterKey>Field 26</ParameterKey>
+      <Description>One sigma uncertainty in Vax (km/s)</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>AlphaParticle</ParticleType>
+          <ParticleQualifier>Component.X</ParticleQualifier>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>VaY_nl</Name>
+      <ParameterKey>Field 27</ParameterKey>
+      <Description>Alpha velocity component Vy (GSE, km/s) from non-linear analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>AlphaParticle</ParticleType>
+          <ParticleQualifier>Component.Y</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sVaY_nl</Name>
+      <ParameterKey>Field 28</ParameterKey>
+      <Description>One sigma uncertainty in Vay (km/s)</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>AlphaParticle</ParticleType>
+          <ParticleQualifier>Component.Y</ParticleQualifier>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>VaZ_nl</Name>
+      <ParameterKey>Field 29</ParameterKey>
+      <Description>Alpha velocity component Vz (GSE, km/s) from non-linear analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>AlphaParticle</ParticleType>
+          <ParticleQualifier>Component.Z</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sVaZ_nl</Name>
+      <ParameterKey>Field 30</ParameterKey>
+      <Description>One sigma uncertainty in Vaz (km/s)</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>AlphaParticle</ParticleType>
+          <ParticleQualifier>Component.Z</ParticleQualifier>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Ta_nl</Name>
+      <ParameterKey>Field 31</ParameterKey>
+      <Description>Alpha scalar thermal speed (km/s) trace of anisotropic temperatures from non-linear analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>AlphaParticle</ParticleType>
+          <ParticleQualifier>Scalar</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>ThermalSpeed</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sTa_nl</Name>
+      <ParameterKey>Field 32</ParameterKey>
+      <Description>One sigma uncertainty in alpha scalar thermal speed (km/s) trace of anisotropic temperatures from non-linear analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>AlphaParticle</ParticleType>
+          <ParticleQualifier>Scalar</ParticleQualifier>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>ThermalSpeed</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Na_nl</Name>
+      <ParameterKey>Field 33</ParameterKey>
+      <Description>Alpha number desnity (#/cc) from non-linear analysis</Description>
+      <Units>cm^-3</Units>
+      <UnitsConversion>1.0e-6&gt;m^-3</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>AlphaParticle</ParticleType>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>NumberDensity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>sNa_nl</Name>
+      <ParameterKey>Field 34</ParameterKey>
+      <Description>On sigma uncertainty in alpha number desnity (#/cc) from non-linear analysis</Description>
+      <Units>cm^-3</Units>
+      <UnitsConversion>1.0e-6&gt;m^-3</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>AlphaParticle</ParticleType>
+          <ParticleQualifier>Uncertainty</ParticleQualifier>
+          <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQuantity>NumberDensity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>CHISQ</Name>
+      <ParameterKey>Field 35</ParameterKey>
+      <Description>ChiSq / Degree-of-Freedom for the non-linear fit</Description>
+      <Units>unitless</Units>
+      <FillValue>99999.9</FillValue>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Vp_mom</Name>
+      <ParameterKey>Field 36</ParameterKey>
+      <Description>Proton bulk speed V (km/s) from moment analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Magnitude</ParticleQualifier>
+          <ParticleQualifier>Moment</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>VpX_mom</Name>
+      <ParameterKey>Field 37</ParameterKey>
+      <Description>Proton velocity component Vx (GSE, km/s) from moment analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Component.X</ParticleQualifier>
+          <ParticleQualifier>Moment</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>VpY_mom</Name>
+      <ParameterKey>Field 38</ParameterKey>
+      <Description>Proton velocity component Vy (GSE, km/s) from moment analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Component.Y</ParticleQualifier>
+          <ParticleQualifier>Moment</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>VpZ_mom</Name>
+      <ParameterKey>Field 39</ParameterKey>
+      <Description>Proton velocity component Vz (GSE, km/s) from moment analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Component.Z</ParticleQualifier>
+          <ParticleQualifier>Moment</ParticleQualifier>
+          <ParticleQuantity>Velocity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Tp_mom</Name>
+      <ParameterKey>Field 40</ParameterKey>
+      <Description>Proton thermal speed (km/s) from isotropic moment analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Scalar</ParticleQualifier>
+          <ParticleQualifier>Moment</ParticleQualifier>
+          <ParticleQuantity>ThermalSpeed</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>TpPerp_mom</Name>
+      <ParameterKey>Field 41</ParameterKey>
+      <Description>Proton thermal speed perpendicular to magnetic field (km/s) from biMaxwellian moment analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Scalar</ParticleQualifier>
+          <ParticleQualifier>Moment</ParticleQualifier>
+          <ParticleQualifier>Perpendicular</ParticleQualifier>
+          <ParticleQuantity>ThermalSpeed</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>TpPar_mom</Name>
+      <ParameterKey>Field 42</ParameterKey>
+      <Description>Proton thermal speed parallel to magnetic field (km/s) from bi-Maxwellian moment analysis</Description>
+      <Units>km/s</Units>
+      <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Scalar</ParticleQualifier>
+          <ParticleQualifier>Moment</ParticleQualifier>
+          <ParticleQualifier>Parallel</ParticleQualifier>
+          <ParticleQuantity>ThermalSpeed</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Np_mom</Name>
+      <ParameterKey>Field 43</ParameterKey>
+      <Description>Proton number desnity (#/cc) from moment analysis</Description>
+      <Units>cm^-3</Units>
+      <UnitsConversion>1.0e-6&gt;m^-3</UnitsConversion>
+      <FillValue>99999.9</FillValue>
+      <Measured>
+        <Particle>
+          <ParticleType>Proton</ParticleType>
+          <ParticleQualifier>Moment</ParticleQualifier>
+          <ParticleQuantity>NumberDensity</ParticleQuantity>
+        </Particle>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Bx</Name>
+      <ParameterKey>Field 44</ParameterKey>
+      <Description>Magnetic field GSE X component averaged over plasma measurements</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Measured>
+        <Field>
+          <FieldQualifier>Component.X</FieldQualifier>
+          <FieldQualifier>Average</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>By</Name>
+      <ParameterKey>Field 45</ParameterKey>
+      <Description>Magnetic field GSE Y component averaged over plasma measurements</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Measured>
+        <Field>
+          <FieldQualifier>Component.Y</FieldQualifier>
+          <FieldQualifier>Average</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Bz</Name>
+      <ParameterKey>Field 46</ParameterKey>
+      <Description>Magnetic field GSE Z component averaged over plasma measurements</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Measured>
+        <Field>
+          <FieldQualifier>Component.Z</FieldQualifier>
+          <FieldQualifier>Average</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>MagAngDev</Name>
+      <ParameterKey>Field 47</ParameterKey>
+      <Description>Angular deviation of magnetic field over plasma measurements (deg)</Description>
+      <Units>deg</Units>
+      <UnitsConversion>1.745329e-2&gt;rad</UnitsConversion>
+      <Measured>
+        <Field>
+          <FieldQualifier>Deviation</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>MagDev</Name>
+      <ParameterKey>Field 48</ParameterKey>
+      <Description>Deviation in magnitude of filed over plasma measurement (nT)</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <Measured>
+        <Field>
+          <FieldQualifier>Deviation</FieldQualifier>
+          <FieldQualifier>Magnitude</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>PosGSEX</Name>
+      <ParameterKey>Field 49</ParameterKey>
+      <Description>X (GSE) position of Wind at start of spectrum (Re)</Description>
+      <Units>Re</Units>
+      <UnitsConversion>6.378e6&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>PosGSEY</Name>
+      <ParameterKey>Field 50</ParameterKey>
+      <Description>Y (GSE) position of Wind at start of spectrum (Re)</Description>
+      <Units>Re</Units>
+      <UnitsConversion>6.378e6&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>PosGSEZ</Name>
+      <ParameterKey>Field 51</ParameterKey>
+      <Description>Z (GSE) position of Wind at start of spectrum (Re)</Description>
+      <Units>Re</Units>
+      <UnitsConversion>6.378e6&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>PosGSMY</Name>
+      <ParameterKey>Field 52</ParameterKey>
+      <Description>Y (GSM) position of Wind at start of spectrum (Re)</Description>
+      <Units>Re</Units>
+      <UnitsConversion>6.378e6&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSM</CoordinateSystemName>
+      </CoordinateSystem>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>PosGSMZ</Name>
+      <ParameterKey>Field 53</ParameterKey>
+      <Description>Z (GSM) position of Wind at start of spectrum (Re)</Description>
+      <Units>Re</Units>
+      <UnitsConversion>6.378e6&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSM</CoordinateSystemName>
+      </CoordinateSystem>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
   </NumericalData>
 </Spase>
