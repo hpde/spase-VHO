@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/CRIS/CDF_PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Cosmic Ray Isotope Spectrometer (CRIS) 1-Hour Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2007-11-27T19:23:00Z</ReleaseDate>
+      <ReleaseDate>2008-05-19T19:11:55Z</ReleaseDate>
       <Description>ACE Cosmic Ray Isotope Spectrometer (CRIS) intensities and counts, for 24 elements at 1-hour time resolution. Calibrated science quality data.</Description>
       <Acknowledgement>Please acknowledgethe ACE/CRIS instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -54,7 +54,6 @@
       <Description>B intensity, at 7 energies 49.1-172.3 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_B 49.1-63.9</Name>
@@ -168,7 +167,6 @@
       <Description>C intensity, at 7 energies 56.3-198.7 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_C 56.3-73.4</Name>
@@ -282,7 +280,6 @@
       <Description>N intensity, at 7 energies 60.4-213.8 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_N 60.4-78.7</Name>
@@ -396,7 +393,6 @@
       <Description>O intensity, at 7 energies 66.3-235.8 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_O 66.3-86.4</Name>
@@ -510,7 +506,6 @@
       <Description>F intensity, at 7 energies 68.7-245.3 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_F 68.7-89.6</Name>
@@ -624,7 +619,6 @@
       <Description>Ne intensity, at 7 energies 73.7-264.3 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Ne 73.7-96.2</Name>
@@ -738,7 +732,6 @@
       <Description>Na intensity, at 7 energies 77.3-278.3 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Na 77.3-100.9</Name>
@@ -852,7 +845,6 @@
       <Description>Mg intensity, at 7 energies 82.4-298.0 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Mg 82.4-107.6</Name>
@@ -966,7 +958,6 @@
       <Description>Al intensity, at 7 energies 85.3-309.6 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Al 85.3-111.5</Name>
@@ -1080,7 +1071,6 @@
       <Description>Si intensity, at 7 energies 90.5-329.8 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Si 90.5-118.3</Name>
@@ -1194,7 +1184,6 @@
       <Description>P intensity, at 7 energies 92.6-338.5 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_P 92.6-121.1</Name>
@@ -1308,7 +1297,6 @@
       <Description>S intensity, at 7 energies 97.1-356.4 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_S 97.1-127.0</Name>
@@ -1422,7 +1410,6 @@
       <Description>Cl intensity, at 7 energies 98.6-362.7 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Cl 98.6-129.0</Name>
@@ -1536,7 +1523,6 @@
       <Description>Ar intensity, at 7 energies 102.9-380.4 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Ar 102.9-134.8</Name>
@@ -1650,7 +1636,6 @@
       <Description>K intensity, at 7 energies 104.9-388.8 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_K 104.9-137.5</Name>
@@ -1764,7 +1749,6 @@
       <Description>Ca intensity, at 7 energies 108.2-402.4 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Ca 108.2-141.8</Name>
@@ -1878,7 +1862,6 @@
       <Description>Sc intensity, at 7 energies 109.4-407.9 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Sc 109.4-143.5</Name>
@@ -1992,7 +1975,6 @@
       <Description>Ti intensity, at 7 energies 112.2-419.7 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Ti 112.2-147.3</Name>
@@ -2106,7 +2088,6 @@
       <Description>V intensity, at 7 energies 114.5-429.7 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_V 114.5-150.4</Name>
@@ -2220,7 +2201,6 @@
       <Description>Cr intensity, at 7 energies 117.7-443.1 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Cr 117.7-154.6</Name>
@@ -2334,7 +2314,6 @@
       <Description>Mn intensity, at 7 energies 120.1-453.6 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Mn 120.1-157.9</Name>
@@ -2448,7 +2427,6 @@
       <Description>Fe intensity, at 7 energies 122.9-465.9 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Fe 122.9-161.7</Name>
@@ -2562,7 +2540,6 @@
       <Description>Co intensity, at 7 energies 125.5-477.2 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Co 125.5-165.2</Name>
@@ -2676,7 +2653,6 @@
       <Description>Ni intensity, at 7 energies 129.9-496.1 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>7</Size>
         <Element>
           <Name>flux_Ni 129.9-171.0</Name>

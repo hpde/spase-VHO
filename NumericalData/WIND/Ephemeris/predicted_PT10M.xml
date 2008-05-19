@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/WIND/Ephemeris/predicted_PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Predicted WIND Spacecraft Positions</ResourceName>
-      <ReleaseDate>2007-11-16T22:25:55Z</ReleaseDate>
+      <ReleaseDate>2008-05-19T19:11:56Z</ReleaseDate>
       <Description>Predicted (calculated) WIND spacecraft positions in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->
@@ -46,7 +46,6 @@
       <Units>ms</Units>
       <UnitsConversion>1e-3&gt;s</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <FillValue>-1.0e31</FillValue>
       <Support>
@@ -58,7 +57,6 @@
       <ParameterKey>Time_PB5</ParameterKey>
       <Description>PB5 Time value of point</Description>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Year</Name>
@@ -89,7 +87,6 @@
         <CoordinateSystemName>GEI</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
@@ -125,7 +122,6 @@
         <CoordinateSystemName>GEI</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Vx</Name>
@@ -161,7 +157,6 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
@@ -197,7 +192,6 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Vx</Name>
@@ -233,7 +227,6 @@
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
@@ -269,7 +262,6 @@
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Vx</Name>
@@ -305,7 +297,6 @@
         <CoordinateSystemName>GEI</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
@@ -341,7 +332,6 @@
         <CoordinateSystemName>SE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
@@ -377,7 +367,6 @@
         <CoordinateSystemName>SE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Vx</Name>
@@ -408,7 +397,6 @@
       <Description>Carrington rotation number: A method of numbering rotations of the sun based on a mean rotation period of sunspots of 27.2753 days, and starting with rotation number 1 on November 9, 1853.</Description>
       <Units>unitless</Units>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <ValidMin>1857</ValidMin>
       <ValidMax>2239</ValidMax>
@@ -427,7 +415,6 @@
         <CoordinateSystemName>HG</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Scalar</StructureType>
         <Description>Heliographic longitude of Earth</Description>
         <Element>
           <Name>Longitude</Name>
@@ -452,7 +439,6 @@
         <CoordinateSystemName>HG</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Scalar</StructureType>
         <Description>Heliographic latitude of Earth</Description>
         <Element>
           <Name>Latitude</Name>
@@ -477,7 +463,6 @@
         <CoordinateSystemName>HG</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Scalar</StructureType>
         <Description>Heliographic longitude of the spacecraft</Description>
         <Element>
           <Name>Longitude</Name>
@@ -502,7 +487,6 @@
         <CoordinateSystemName>HG</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Scalar</StructureType>
         <Description>Heliographic latitude of the spacecraft</Description>
         <Element>
           <Name>Latitude</Name>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/Helios2/Combined/PT40.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>Helios 2 Merged Plasma and Magnetic Field</ResourceName>
-      <ReleaseDate>2007-12-05T16:56:38Z</ReleaseDate>
+      <ReleaseDate>2008-05-19T19:11:56Z</ReleaseDate>
       <Description>Merged solar wind plasma and magnetic field measurements from the Helios 2 spacecraft. Variable time resolution (2-10 minutes) Calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the Helios plasma instrument PI Dr. Helmut Rosenbauer and the magnetometer PI Prof. Fritz M. Neubauer.</Acknowledgement>
       <Contact>
@@ -69,7 +69,6 @@
       <ParameterKey>Field 1</ParameterKey>
       <Description>Year of the observation</Description>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
@@ -80,7 +79,6 @@
       <ParameterKey>Field 2</ParameterKey>
       <Description>Day of year of the observation</Description>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
@@ -91,7 +89,6 @@
       <ParameterKey>Field 3</ParameterKey>
       <Description>Decimal Hour of the observation</Description>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
@@ -102,7 +99,6 @@
       <ParameterKey>Field 4</ParameterKey>
       <Description>Integer Hour of the observation</Description>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
@@ -113,7 +109,6 @@
       <ParameterKey>Field 5</ParameterKey>
       <Description>Minute of the observation</Description>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
@@ -124,7 +119,6 @@
       <ParameterKey>Field 6</ParameterKey>
       <Description>Second of the observation</Description>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
@@ -137,7 +131,6 @@
       <Units>AU</Units>
       <UnitsConversion>1.495979e-11&gt;m</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
@@ -150,7 +143,6 @@
       <Units>degree</Units>
       <UnitsConversion>1.745329e-2rad</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
@@ -163,7 +155,6 @@
       <Units>degree</Units>
       <UnitsConversion>1.745329e-2&gt;rad</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
@@ -176,7 +167,6 @@
       <Units>degree</Units>
       <UnitsConversion>1.745329e-2rad</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
@@ -193,7 +183,6 @@
         <CoordinateSystemName>HGI</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
@@ -312,7 +301,6 @@
       <ParameterKey>Field 18</ParameterKey>
       <Description>Carrington rotation number of the s/c</Description>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>

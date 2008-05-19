@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/WIND/MFI/v4_PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>WIND MFI Version 4 Data</ResourceName>
-      <ReleaseDate>2007-05-31T20:40:37Z</ReleaseDate>
+      <ReleaseDate>2008-05-19T19:18:44Z</ReleaseDate>
       <Description>WIND MFI composite data. The files contain multiple time resolution data: 3-second, 1-minute, and 1-hour. Calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the WIND MFI instrument team in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
@@ -64,10 +64,11 @@
       <Units>ms</Units>
       <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
         <Description>Epoch starts on 1994-11-12T00:00:00.000Z</Description>
       </Structure>
-      <Support>Temporal</Support>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Time Line (1 min)</Name>
@@ -75,7 +76,6 @@
       <Description>Time of observation in year, day of year, and milliseconds (1 min)           </Description>
       <Cadence>PT01M</Cadence>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Year</Name>
@@ -90,7 +90,9 @@
           <Index>3</Index>
         </Element>
       </Structure>
-      <Support>Temporal</Support>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Number of points in average (1 min)</Name>
@@ -98,9 +100,10 @@
       <Description>Number of data points in one-minute average</Description>
       <Cadence>PT01M</Cadence>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Magnetic field magnitude (1 min)</Name>
@@ -111,7 +114,6 @@
       <Units>nT</Units>
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Measured>
         <Field>
@@ -129,7 +131,6 @@
       <Units>nT</Units>
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Measured>
         <Field>
@@ -151,7 +152,6 @@
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
@@ -189,7 +189,6 @@
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
@@ -227,7 +226,6 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
@@ -265,7 +263,6 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
@@ -303,14 +300,15 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Scalar</StructureType>
         <Element>
           <Name>Radial distance</Name>
           <Component>R</Component>
           <Index>1</Index>
         </Element>
       </Structure>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Position in GSM coordinates (1 min)</Name>
@@ -324,7 +322,6 @@
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
@@ -342,7 +339,9 @@
           <Index>3</Index>
         </Element>
       </Structure>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Position in GSE coordinates (1 min)</Name>
@@ -356,7 +355,6 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
@@ -374,7 +372,9 @@
           <Index>3</Index>
         </Element>
       </Structure>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Unit spin vector in GSM coordinates (1 min)</Name>
@@ -387,7 +387,6 @@
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
@@ -405,7 +404,9 @@
           <Index>3</Index>
         </Element>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Unit spin vector in GSE coordinates (1 min)</Name>
@@ -418,7 +419,6 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
@@ -436,7 +436,9 @@
           <Index>3</Index>
         </Element>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Delta B (Outer - Inner) (1 min)</Name>
@@ -451,7 +453,6 @@
         <CoordinateSystemName>SC</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>DBx</Name>
@@ -484,9 +485,10 @@
       <Cadence>PT01M</Cadence>
       <Units>degree</Units>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Average range inner magnetometer (1 min)</Name>
@@ -495,9 +497,10 @@
       <Cadence>PT01M</Cadence>
       <Units>unitless</Units>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Average range outer magnetometer (1 min)</Name>
@@ -506,9 +509,10 @@
       <Cadence>PT01M</Cadence>
       <Units>unitless</Units>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>S/C operational mode (1 min)</Name>
@@ -525,9 +529,10 @@
       <Cadence>PT01M</Cadence>
       <Units>unitless</Units>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>WIND/MFI operational mode (1 min)</Name>
@@ -556,9 +561,10 @@ mode - no useful data
       <Cadence>PT01M</Cadence>
       <Units>unitless</Units>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <!-- ______________ -->
     <!-- Three Second Data -->
@@ -570,10 +576,11 @@ mode - no useful data
       <Units>ms</Units>
       <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
         <Description>Epoch starts on 1994-11-12T00:00:00.000Z</Description>
       </Structure>
-      <Support>Temporal</Support>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Time Line (3 sec)</Name>
@@ -581,7 +588,6 @@ mode - no useful data
       <Description>Time of observation in year, day of year, and milliseconds (3 sec)           </Description>
       <Cadence>PT03S</Cadence>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Year</Name>
@@ -596,7 +602,9 @@ mode - no useful data
           <Index>3</Index>
         </Element>
       </Structure>
-      <Support>Temporal</Support>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Number of points in average (3 sec)</Name>
@@ -605,9 +613,10 @@ mode - no useful data
       <Cadence>PT03S</Cadence>
       <Units>unitless</Units>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Magnetic field magnitude (3 sec)</Name>
@@ -618,7 +627,6 @@ mode - no useful data
       <Units>nT</Units>
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Measured>
         <Field>
@@ -636,7 +644,6 @@ mode - no useful data
       <Units>nT</Units>
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Measured>
         <Field>
@@ -658,7 +665,6 @@ mode - no useful data
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
@@ -696,7 +702,6 @@ mode - no useful data
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
@@ -734,7 +739,6 @@ mode - no useful data
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
@@ -772,7 +776,6 @@ mode - no useful data
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
@@ -808,10 +811,11 @@ mode - no useful data
       <Units>ms</Units>
       <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
         <Description>Epoch starts on 1994-11-12T00:00:00.000Z</Description>
       </Structure>
-      <Support>Temporal</Support>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Time Line (1 hour)</Name>
@@ -819,7 +823,6 @@ mode - no useful data
       <Description>Time of observation in year, day of year, and milliseconds (1 hour)           </Description>
       <Cadence>PT01H</Cadence>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Year</Name>
@@ -834,7 +837,9 @@ mode - no useful data
           <Index>3</Index>
         </Element>
       </Structure>
-      <Support>Temporal</Support>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Number of points in average (1 hour)</Name>
@@ -843,9 +848,10 @@ mode - no useful data
       <Cadence>PT01H</Cadence>
       <Units>unitless</Units>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Magnetic field magnitude (1 hour)</Name>
@@ -856,7 +862,6 @@ mode - no useful data
       <Units>nT</Units>
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Measured>
         <Field>
@@ -874,7 +879,6 @@ mode - no useful data
       <Units>nT</Units>
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Measured>
         <Field>
@@ -896,7 +900,6 @@ mode - no useful data
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
@@ -934,7 +937,6 @@ mode - no useful data
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
@@ -972,7 +974,6 @@ mode - no useful data
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
@@ -1010,7 +1011,6 @@ mode - no useful data
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
@@ -1048,14 +1048,15 @@ mode - no useful data
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Scalar</StructureType>
         <Element>
           <Name>Radial distance</Name>
           <Component>R</Component>
           <Index>1</Index>
         </Element>
       </Structure>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Position in GSM coordinates (1 hour)</Name>
@@ -1069,7 +1070,6 @@ mode - no useful data
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
@@ -1087,7 +1087,9 @@ mode - no useful data
           <Index>3</Index>
         </Element>
       </Structure>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Position in GSE coordinates (1 hour)</Name>
@@ -1101,7 +1103,6 @@ mode - no useful data
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
@@ -1119,7 +1120,9 @@ mode - no useful data
           <Index>3</Index>
         </Element>
       </Structure>
-      <Support>Positional</Support>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Unit spin vector in GSM coordinates (1 hour)</Name>
@@ -1132,7 +1135,6 @@ mode - no useful data
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
@@ -1150,7 +1152,9 @@ mode - no useful data
           <Index>3</Index>
         </Element>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Unit spin vector in GSE coordinates (1 hour)</Name>
@@ -1163,7 +1167,6 @@ mode - no useful data
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
@@ -1181,7 +1184,9 @@ mode - no useful data
           <Index>3</Index>
         </Element>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Sensor zeros (inner)</Name>
@@ -1191,11 +1196,12 @@ mode - no useful data
      B(nT) = SENS * (B(counts) - ZERO) / AMPL    
       </Description>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3 8</Size>
         <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_I.</Description>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Sensor sensitivities (inner)</Name>
@@ -1205,11 +1211,12 @@ mode - no useful data
      B(nT) = SENS * (B(counts) - ZERO) / AMPL    
 </Description>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3 8</Size>
         <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_I.</Description>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Amplitude correction (inner)</Name>
@@ -1219,31 +1226,34 @@ mode - no useful data
      B(nT) = SENS * (B(counts) - ZERO) / AMPL    
 </Description>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3 8</Size>
         <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_I.</Description>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Orthogonalization matrix (inner)</Name>
       <ParameterKey>ORTH_I</ParameterKey>
       <Description>Orthogonalization matrix (inner magnetometer)</Description>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3 3</Size>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Payload rotation matrix (inner)</Name>
       <ParameterKey>PAYLD_I</ParameterKey>
       <Description>Payload rotation matrix (inner magnetometer)</Description>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3 3</Size>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Sensor zero flag (inner)</Name>
@@ -1253,9 +1263,10 @@ mode - no useful data
  2 - Daily calibration value used (version 3 file)
  3 - Daily calibration value used with updated Z correction (version 4 file)</Description>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Sensor zeros (outer)</Name>
@@ -1265,11 +1276,12 @@ mode - no useful data
      B(nT) = SENS * (B(counts) - ZERO) / AMPL    
 </Description>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3 8</Size>
         <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_O.</Description>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Sensor sensitivities (outer)</Name>
@@ -1279,11 +1291,12 @@ mode - no useful data
      B(nT) = SENS * (B(counts) - ZERO) / AMPL    
 </Description>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3 8</Size>
         <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_O.</Description>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Amplitude correction (outer)</Name>
@@ -1293,31 +1306,34 @@ mode - no useful data
      B(nT) = SENS * (B(counts) - ZERO) / AMPL    
 </Description>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3 8</Size>
         <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_O.</Description>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Orthogonalization matrix (outer)</Name>
       <ParameterKey>ORTH_O</ParameterKey>
       <Description>Orthogonalization matrix (outer magnetometer)</Description>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3 3</Size>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Payload rotation matrix (outer)</Name>
       <ParameterKey>PAYLD_O</ParameterKey>
       <Description>Payload rotation matrix (outer magnetometer)</Description>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3 3</Size>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>Sensor zero flag (outer)</Name>
@@ -1327,9 +1343,10 @@ mode - no useful data
  2 - Daily calibration value used (version 3 file)
  3 - Daily calibration value used with updated Z correction (version 4 file)</Description>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
-      <Support>Other</Support>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
     </PhysicalParameter>
   </NumericalData>
 </Spase>

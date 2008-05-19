@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/SWEPAM/CDF_PT64S</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Wind Electron Proton Alpha Monitor (SWEPAM) 64-Second Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2007-11-27T22:42:26Z</ReleaseDate>
+      <ReleaseDate>2008-05-19T19:11:56Z</ReleaseDate>
       <Description>Solar Wind Ion parameters from ACE/SWEPAM. Level 2 data, 64-second averages.</Description>
       <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -67,7 +67,6 @@
       <ParameterKey>Time_PB5</ParameterKey>
       <Description>Time of observation in year, day of year, and milliseconds. Timestamp marks beginning of interval</Description>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Year</Name>
@@ -178,7 +177,6 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>VX (GSE)</Name>
@@ -228,7 +226,6 @@
         <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>VR (RTN)</Name>
@@ -278,7 +275,6 @@
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>VX (GSM)</Name>
@@ -328,7 +324,6 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X GSE</Name>
@@ -374,7 +369,6 @@
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X GSM</Name>

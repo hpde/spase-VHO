@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/WIND/3DP/PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>WIND 3DP PESA Moments Data</ResourceName>
-      <ReleaseDate>2007-12-01T00:35:48Z</ReleaseDate>
+      <ReleaseDate>2008-05-19T19:11:56Z</ReleaseDate>
       <Description>WIND 3DP proton and ion onboard calculated moments from the PESA instrument. Calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the WIND 3DP Team in any publication resulting from use of this data.</Acknowledgement>
       <Contact>
@@ -88,7 +88,6 @@
       <Units>1/cm^3</Units>
       <UnitsConversion>1e6-&gt;m^3</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Measured>
         <Particle>
@@ -110,7 +109,6 @@
       <Units>1/cm^3</Units>
       <UnitsConversion>1e6-&gt;m^3</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Measured>
         <Particle>
@@ -134,7 +132,6 @@
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Tensor</StructureType>
         <Size>6</Size>
       </Structure>
       <Measured>
@@ -161,7 +158,6 @@
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Tensor</StructureType>
         <Size>6</Size>
       </Structure>
       <Measured>
@@ -190,7 +186,6 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>P_Vx</Name>
@@ -232,7 +227,6 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>A_Vx</Name>
@@ -270,7 +264,6 @@
       <Units>eV</Units>
       <UnitsConversion>1.160445e4&gt;K</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Measured>
         <Particle>
@@ -292,7 +285,6 @@
       <Units>eV</Units>
       <UnitsConversion>1.160445e4&gt;K</UnitsConversion>
       <Structure>
-        <StructureType>Scalar</StructureType>
       </Structure>
       <Measured>
         <Particle>
@@ -314,7 +306,6 @@
       <Units>eV</Units>
       <UnitsConversion>1.160445e4&gt;K</UnitsConversion>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>2</Size>
         <Description>Lower and upper energy bounds</Description>
       </Structure>

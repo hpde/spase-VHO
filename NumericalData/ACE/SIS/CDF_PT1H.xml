@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/SIS/CDF_PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Isotope Spectrometer (SIS) 1-Hour Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2007-11-27T18:41:49Z</ReleaseDate>
+      <ReleaseDate>2008-05-19T19:11:56Z</ReleaseDate>
       <Description>ACE SIS Solar Isotope Spectrometer (SIS) intensities and counts, for 8 elements at 1-hour time resolution. Calibrated science quality data.</Description>
       <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -78,7 +78,6 @@
       <Description>Time of observation in year, day of year, and milliseconds. Timestamp marks beginning of interval</Description>
       <Cadence>PT1H</Cadence>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Year</Name>
@@ -112,7 +111,6 @@
       <Description>He intensity, at 8 energies 3.4-41.2 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Flux He 3.4-4.7</Name>
@@ -238,7 +236,6 @@
       <Description>C intensity, at 8 energies 6.1-76.3 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Flux C 6.1-8.6</Name>
@@ -365,7 +362,6 @@
       <Description>N intensity, at 8 energies 6.6-83.3 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Flux N 6.6-9.3</Name>
@@ -492,7 +488,6 @@
       <Description>O intensity, at 8 energies 7.1-89.8 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Flux O 7.1-10.0</Name>
@@ -619,7 +614,6 @@
       <Description>Ne intensity, at 8 energies 7.8-101.8 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Flux Ne 7.8-11.1</Name>
@@ -746,7 +740,6 @@
       <Description>Mg intensity, at 8 energies 8.5-112.9 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Flux Mg 8.5-12.2</Name>
@@ -873,7 +866,6 @@
       <Description>Si intensity, at 8 energies 9.0-123.2 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Flux Si 9.0-13.0</Name>
@@ -1000,7 +992,6 @@
       <Description>S intensity, at 8 energies 9.5-132.9 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Flux S 9.5-13.8</Name>
@@ -1127,7 +1118,6 @@
       <Description>Fe intensity, at 8 energies 10.5-167.7 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Flux Fe 10.5-15.8</Name>
@@ -1254,7 +1244,6 @@
       <Description>He counts, at 8 energies 3.4-41.2 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Counts He 3.4-4.7</Name>
@@ -1380,7 +1369,6 @@
       <Description>C counts, at 8 energies 6.1-76.3 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Counts C 6.1-8.6</Name>
@@ -1507,7 +1495,6 @@
       <Description>N counts, at 8 energies 6.6-83.3 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Counts N 6.6-9.3</Name>
@@ -1634,7 +1621,6 @@
       <Description>O counts, at 8 energies 7.1-89.8 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Counts O 7.1-10.0</Name>
@@ -1761,7 +1747,6 @@
       <Description>Ne counts, at 8 energies 7.8-101.8 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Counts Ne 7.8-11.1</Name>
@@ -1888,7 +1873,6 @@
       <Description>Mg counts, at 8 energies 8.5-112.9 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Counts Mg 8.5-12.2</Name>
@@ -2015,7 +1999,6 @@
       <Description>Si counts, at 8 energies 9.0-123.2 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Counts Si 9.0-13.0</Name>
@@ -2142,7 +2125,6 @@
       <Description>S counts, at 8 energies 9.5-132.9 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Counts S 9.5-13.8</Name>
@@ -2269,7 +2251,6 @@
       <Description>Fe counts, at 8 energies 10.5-167.7 MeV/nuc</Description>
       <Units>Counts/hour</Units>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>8</Size>
         <Element>
           <Name>Counts Fe 10.5-15.8</Name>

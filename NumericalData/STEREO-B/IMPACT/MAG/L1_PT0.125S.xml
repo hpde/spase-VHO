@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>STEREO Behind IMPACT/MAG Magnetic Field Vectors and Ancillary Data</ResourceName>
       <AlternateName>STEREO-B IMPACT/MAG Level 1 Data</AlternateName>
-      <ReleaseDate>2007-11-30T22:57:05Z</ReleaseDate>
+      <ReleaseDate>2008-05-19T19:12:07Z</ReleaseDate>
       <Description>Level 1 calibrated magnetic field vectors from the IMPACT/MAG instrument on the STEREO Behind spacecraft in the spacecraft and RTN coordinate systems. It also contains STEREO Behind position (ephemeris) information in the Carrington system.</Description>
       <Acknowledgement>The STEREO IMPACT/MAG Team</Acknowledgement>
       <Contact>
@@ -77,7 +77,6 @@
         <CoordinateSystemName>SC</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
@@ -122,7 +121,6 @@
         <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>R</Name>
@@ -164,7 +162,6 @@
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Scalar</StructureType>
         <Size>1</Size>
         <Element>
           <Name>STEREO-B Latitude in the Carrington Heliographic system</Name>
@@ -187,7 +184,6 @@
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Scalar</StructureType>
         <Size>1</Size>
         <Element>
           <Name>STEREO-B Longitude in the Carrington Heliographic system</Name>
@@ -212,7 +208,6 @@
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Scalar</StructureType>
         <Size>1</Size>
         <Element>
           <Name>STEREO-B distance from the Sun in AU</Name>
@@ -237,7 +232,6 @@
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Scalar</StructureType>
         <Size>1</Size>
         <Element>
           <Name>STEREO-B distance from the Sun in Solar Radii</Name>

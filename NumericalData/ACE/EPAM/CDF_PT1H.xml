@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/EPAM/CDF_PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Electron Proton Alpha Monitor (EPAM) 1-Hour Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2008-03-10T19:52:28Z</ReleaseDate>
+      <ReleaseDate>2008-05-19T19:11:55Z</ReleaseDate>
       <Description>ACE EPAM Electron Proton Alpha Monitor (EPAM) intensities at 1-hour time resolution. Calibrated science quality data.</Description>
       <Acknowledgement>Please acknowledge the ACE/EPAM instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -78,7 +78,6 @@
       <Description>Time of observation in year, day of year, and milliseconds. Timestamp marks beginning of interval</Description>
       <Cadence>PT1H</Cadence>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Year</Name>

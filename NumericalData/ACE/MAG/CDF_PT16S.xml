@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/MAG/CDF_PT16S</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Magnetic Field 16-Second Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2007-11-27T22:42:06Z</ReleaseDate>
+      <ReleaseDate>2008-05-19T19:11:56Z</ReleaseDate>
       <Description>ACE Magnetometer level 2 data, 16-second averages.</Description>
       <Acknowledgement>Please acknowledge the ACE/MAG instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -72,7 +72,6 @@
       <ParameterKey>Time_PB5</ParameterKey>
       <Description>Time of observation in year, day of year, and milliseconds. Timestamp marks beginning of interval</Description>
       <Structure>
-        <StructureType>Array</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Year</Name>
@@ -131,7 +130,6 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Bx GSE</Name>
@@ -179,7 +177,6 @@
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>Bx GSM</Name>
@@ -258,7 +255,6 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X GSE</Name>
@@ -304,7 +300,6 @@
         <CoordinateSystemName>GSM</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
-        <StructureType>Vector</StructureType>
         <Size>3</Size>
         <Element>
           <Name>X GSM</Name>
