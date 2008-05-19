@@ -10,7 +10,7 @@
       <Acknowledgement>User will acknowledge the WIND 3DP Team in any publication resulting from use of this data.</Acknowledgement>
       <Contact>
         <!-- Peter Schroeder -->
-        <PersonID>spase://nssdc/person/Peter.Schroeder</PersonID>
+        <PersonID>spase://swg/Person/Peter.Schroeder</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <InformationURL>

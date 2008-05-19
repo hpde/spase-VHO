@@ -10,12 +10,12 @@
       <Description>STEREO-B spacecraft position in various coordinate systems</Description>
       <Contact>
         <!-- Janet Luhmann -->
-        <PersonID>spase://nssdc/person/18468</PersonID>
+        <PersonID>spase://swg/Person/Janet.G.Luhmann</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
         <!-- Andrew Davis -->
-        <PersonID>spase://nssdc/person/61237</PersonID>
+        <PersonID>spase://swg/Person/Andrew.J.Davis</PersonID>
         <Role>DataProducer</Role>
       </Contact>
     </ResourceHeader>

@@ -9,7 +9,7 @@
       <Description>The STEREO IMPACT mission web site provides information about instruments as well as associated data sets. It provides summary plots and data retrieval.</Description>
       <Contact>
         <!-- Janet Luhmann -->
-        <PersonID>spase://nssdc/person/18468</PersonID>
+        <PersonID>spase://swg/Person/Janet.G.Luhmann</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

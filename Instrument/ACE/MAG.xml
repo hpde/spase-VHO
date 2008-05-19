@@ -14,12 +14,12 @@
       </Description>
       <Contact>
         <!-- N. Ness -->
-        <PersonID>spase://nssdc/person/18</PersonID>
+        <PersonID>spase://swg/Person/Norman.F.Ness</PersonID>
         <Role>CoInvestigator</Role>
       </Contact>
       <Contact>
         <!-- C. Smith -->
-        <PersonID>spase://nssdc/person/67891</PersonID>
+        <PersonID>spase://swg/Person/Charles.W.Smith</PersonID>
         <Role>TechnicalContact</Role>
       </Contact>
       <InformationURL>

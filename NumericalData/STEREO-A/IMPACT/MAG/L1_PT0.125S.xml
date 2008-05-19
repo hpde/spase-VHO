@@ -11,12 +11,12 @@
       <Acknowledgement>The STEREO IMPACT/MAG Team</Acknowledgement>
       <Contact>
         <!-- Peter Schroeder -->
-        <PersonID>spase://nssdc/person/Peter.Schroeder</PersonID>
+        <PersonID>spase://swg/Person/Peter.Schroeder</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <Contact>
         <!-- Janet Luhmann -->
-        <PersonID>spase://nssdc/person/18468</PersonID>
+        <PersonID>spase://swg/Person/Janet.G.Luhmann</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

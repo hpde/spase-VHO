@@ -11,17 +11,17 @@
       <Acknowledgement>User will acknowledge the Wind SWE plasma instrument team.</Acknowledgement>
       <Contact>
         <!-- Justin C. Kasper -->
-        <PersonID>spase://nssdc/person/64460</PersonID>
+        <PersonID>spase://swg/Person/Justin.C.Kasper</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <Contact>
         <!-- Alan J. Lazarus -->
-        <PersonID>spase://nssdc/person/3585</PersonID>
+        <PersonID>spase://swg/Person/Alan.J.Lazarus</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <Contact>
         <!-- Keith W. Ogilvie -->
-        <PersonID>spase://nssdc/person/2202</PersonID>
+        <PersonID>spase://swg/Person/Keith.W.Ogilvie</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
     </ResourceHeader>

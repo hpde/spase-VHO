@@ -16,12 +16,12 @@
       </Description>
       <Contact>
         <!-- Dennis Haggerty -->
-        <PersonID>spase://nssdc/person/67982</PersonID>
+        <PersonID>spase://swg/Person/Dennis.Haggerty</PersonID>
         <Role>TechnicalContact</Role>
       </Contact>
       <Contact>
         <!-- Robert Gold -->
-        <PersonID>spase://nssdc/person/7970</PersonID>
+        <PersonID>spase://swg/Person/Robert.E.Gold</PersonID>
         <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>

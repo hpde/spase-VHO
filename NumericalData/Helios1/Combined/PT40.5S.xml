@@ -10,22 +10,22 @@
       <Acknowledgement>User will acknowledge the Helios plasma instrument PI Dr. Helmut Rosenbauer and the magnetometer PI Prof. Fritz M. Neubauer.</Acknowledgement>
       <Contact>
         <!--Dr. Helmut Rosenbauer -->
-        <PersonID>spase://nssdc/person/1220</PersonID>
+        <PersonID>spase://swg/Person/Helmut.R.Rosenbauer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
         <!--Prof. Fritz M. Neubauer -->
-        <PersonID>spase://nssdc/person/5315</PersonID>
+        <PersonID>spase://swg/Person/Fritz.M.Neubauer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
         <!--Dr. Rainer Schwenn -->
-        <PersonID>spase://nssdc/person/22573</PersonID>
+        <PersonID>spase://swg/Person/Rainer.Schwenn</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <Contact>
         <!--Dr. D. Aaron Roberts -->
-        <PersonID>spase://nssdc/person/31364</PersonID>
+        <PersonID>spase://swg/Person/D.Aaron.Roberts</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <InformationURL>

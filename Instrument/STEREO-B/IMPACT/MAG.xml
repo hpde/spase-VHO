@@ -11,22 +11,22 @@
       <Acknowledgement>The STEREO IMPACT/MAG Team</Acknowledgement>
       <Contact>
         <!-- Janet Luhmann -->
-        <PersonID>spase://nssdc/person/18468</PersonID>
+        <PersonID>spase://swg/Person/Janet.G.Luhmann</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
         <!-- Chris Russell -->
-        <PersonID>spase://nssdc/person/1999</PersonID>
+        <PersonID>spase://swg/Person/Christopher.T.Russell</PersonID>
         <Role>CoInvestigator</Role>
       </Contact>
       <Contact>
         <!-- Mario Acuna -->
-        <PersonID>spase://nssdc/person/7226</PersonID>
+        <PersonID>spase://swg/Person/Mario.H.Acuna</PersonID>
         <Role>CoInvestigator</Role>
       </Contact>
       <Contact>
         <!-- Adam Szabo -->
-        <PersonID>spase://nssdc/person/57837</PersonID>
+        <PersonID>spase://swg/Person/Adam.Szabo</PersonID>
         <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>

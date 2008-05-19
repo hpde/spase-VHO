@@ -10,7 +10,7 @@
       <Description>Data Repository for WIND MFI version 3 and 4 daily CDF files</Description>
       <Contact>
         <!-- Adam Szabo -->
-        <PersonID>spase://nssdc/person/57837</PersonID>
+        <PersonID>spase://swg/Person/Adam.Szabo</PersonID>
         <Role>DataProducer</Role>
         <Role>Scientist</Role>
       </Contact>

@@ -11,17 +11,16 @@
       </Description>
       <Contact>
         <!-- Alan Cummings -->
-        <PersonID>spase://nssdc/person/34691</PersonID>
+        <PersonID>spase://swg/Person/Alan.C.Cummings</PersonID>
         <Role>CoInvestigator</Role>
       </Contact>
       <Contact>
         <!-- Richard Mewaldt -->
-        <PersonID>spase://nssdc/person/16222</PersonID>
+        <PersonID>spase://swg/Person/Richard.A.Mewaldt</PersonID>
         <Role>CoInvestigator</Role>
       </Contact>
       <Contact>
-        <!--Richard Leske, no NSSDC PersonID at this time-->
-        <PersonID>spase://nssdc/person/Richard.Leske</PersonID>
+        <PersonID>spase://swg/Person/Richard.Leske</PersonID>
         <Role>TechnicalContact</Role>
       </Contact>
       <InformationURL>

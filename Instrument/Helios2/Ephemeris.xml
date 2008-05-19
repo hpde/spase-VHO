@@ -10,7 +10,7 @@
       <Description>Helios 2 spacecraft position in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->
-        <PersonID>spase://nssdc/person/30696</PersonID>
+        <PersonID>spase://swg/Person/Robert.M.Candey</PersonID>
         <Role>DataProducer</Role>
       </Contact>
     </ResourceHeader>

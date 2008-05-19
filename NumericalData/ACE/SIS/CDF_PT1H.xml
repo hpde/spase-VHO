@@ -10,12 +10,12 @@
       <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
         <!--Christina Cohen-->
-        <PersonID>spase://nssdc/person/67894</PersonID>
+        <PersonID>spase://swg/Person/C.M.S.Cohen</PersonID>
         <Role>TechnicalContact</Role>
       </Contact>
       <Contact>
         <!--Richard Mewaldt-->
-        <PersonID>spase://nssdc/person/16222</PersonID>
+        <PersonID>spase://swg/Person/Richard.A.Mewaldt</PersonID>
         <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>

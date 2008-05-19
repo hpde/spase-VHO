@@ -23,12 +23,12 @@ For more detailed information see p. 226 of Raumfahrtforschung, v. 19, n. 5, 197
       <Acknowledgement>User will acknowledge the Helios 1 Plasma Experiment PI F. H. R. Rosenbauer in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
         <!-- Dr. Rainer Schwenn -->
-        <PersonID>spase://nssdc/person/22573</PersonID>
+        <PersonID>spase://swg/Person/Rainer.Schwenn</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <Contact>
         <!-- Dr. Helmut R. Rosenbauer -->
-        <PersonID>spase://nssdc/person/1220</PersonID>
+        <PersonID>spase://swg/Person/Helmut.R.Rosenbauer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
     </ResourceHeader>

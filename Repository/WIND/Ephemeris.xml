@@ -10,7 +10,7 @@
       <Description>Data Repository for WIND Spacecraft Positions</Description>
       <Contact>
         <!-- Adam Szabo -->
-        <PersonID>spase://nssdc/person/57837</PersonID>
+        <PersonID>spase://swg/Person/Adam.Szabo</PersonID>
         <Role>DataProducer</Role>
         <Role>Scientist</Role>
       </Contact>

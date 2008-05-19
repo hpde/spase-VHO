@@ -10,7 +10,7 @@
       <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
         <!-- R. Skoug -->
-        <PersonID>spase://nssdc/person/67893</PersonID>
+        <PersonID>spase://swg/Person/Ruth.Skoug</PersonID>
         <Role>TechnicalContact</Role>
       </Contact>
       <InformationURL>

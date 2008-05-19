@@ -9,12 +9,12 @@
       <Description>Predicted (calculated) WIND spacecraft positions in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->
-        <PersonID>spase://nssdc/person/30696</PersonID>
+        <PersonID>spase://swg/Person/Robert.M.Candey</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <Contact>
         <!-- Adam Szabo -->
-        <PersonID>spase://nssdc/person/57837</PersonID>
+        <PersonID>spase://swg/Person/Adam.Szabo</PersonID>
         <Role>Scientist</Role>
       </Contact>
     </ResourceHeader>
