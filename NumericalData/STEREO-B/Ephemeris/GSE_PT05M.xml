@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/STEREO-A/Ephemeris/HCI_PT05M</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/STEREO-B/Ephemeris/GSE_PT05M</ResourceID>
     <ResourceHeader>
-      <ResourceName>STEREO-A Ephemeris</ResourceName>
-      <AlternateName>STEREO-A Positions</AlternateName>
+      <ResourceName>STEREO-B Ephemeris</ResourceName>
+      <AlternateName>STEREO-B Positions</AlternateName>
       <ReleaseDate>2008-05-19T18:24:06Z</ReleaseDate>
       <Description>STEREO atttitude and orbit data are distributed as SPICE kernels. Since most SEP investigators would rather not deal with SPICE kernels, Caltech provides text files containing position data for the two STEREO spacecraft, in the following coordinate systems:
 GEI, GSE, GSM, HCI, HEE, HEEQ.</Description>
@@ -40,7 +40,7 @@ GEI, GSE, GSM, HCI, HEE, HEEQ.</Description>
       <Encoding>None</Encoding>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <InstrumentID>spase://VHO/Instrument/STEREO-A/Ephemeris</InstrumentID>
+    <InstrumentID>spase://VHO/Instrument/STEREO-B/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
@@ -100,7 +100,7 @@ The daily updating of these data goes 61 days into the future, and 20 days into 
       <UnitsConversion>1e3&gt;m</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>HCI</CoordinateSystemName>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
@@ -114,7 +114,7 @@ The daily updating of these data goes 61 days into the future, and 20 days into 
       <UnitsConversion>1e3&gt;m</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>HCI</CoordinateSystemName>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
@@ -128,7 +128,7 @@ The daily updating of these data goes 61 days into the future, and 20 days into 
       <UnitsConversion>1e3&gt;m</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>HCI</CoordinateSystemName>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
