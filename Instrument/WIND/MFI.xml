@@ -7,7 +7,7 @@
     <ResourceHeader>
       <ResourceName>WIND Magnetic Field Investigation</ResourceName>
       <AlternateName>WIND MFI</AlternateName>
-      <ReleaseDate>2007-05-30T19:35:00Z</ReleaseDate>
+      <ReleaseDate>2008-05-20T18:05:06Z</ReleaseDate>
       <Description>
 The magnetic field experiment on WIND provides data for studies of a broad range of scales of structures and fluctuation characteristics of the interplanetary magnetic field throughout the mission, and, where appropriate, relate them to the statics and dynamics of the magnetosphere. The basic instrument of the Magnetic Field Investigation (MFI) on the WIND Spacecraft  is a boom-mounted dual triaxial fluxgate magnetometer and associated electronics. The dual configuration provides redudancy and also permits accurate removal of the dipolar portion of the spacecraft magnetic field. The instrument provides:
 
@@ -42,6 +42,6 @@ Lepping, R. P., et al., The WIND Magnetic Field Investigation, Space Science Rev
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field Investigation</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1994-071A</ObservatoryID>
+    <ObservatoryID>spase://swg/Observatory/WIND</ObservatoryID>
   </Instrument>
 </Spase>

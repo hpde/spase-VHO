@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>STEREO-A Position</ResourceName>
       <AlternateName>STEREO-A Ephemeris</AlternateName>
-      <ReleaseDate>2008-05-19T18:00:06Z</ReleaseDate>
+      <ReleaseDate>2008-05-20T18:05:06Z</ReleaseDate>
       <Description>STEREO-A spacecraft position in various coordinate systems</Description>
       <Contact>
         <!-- Janet Luhmann -->
@@ -21,6 +21,6 @@
     </ResourceHeader>
     <InstrumentType>Ephemeris</InstrumentType>
     <InvestigationName>Spacecraft position</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/2006-047A</ObservatoryID>
+    <ObservatoryID>spase://swg/Observatory/STEREO-A</ObservatoryID>
   </Instrument>
 </Spase>

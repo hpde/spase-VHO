@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>WIND Position</ResourceName>
       <AlternateName>WIND Ephemeris</AlternateName>
-      <ReleaseDate>2007-11-16T23:13:03Z</ReleaseDate>
+      <ReleaseDate>2008-05-20T18:05:06Z</ReleaseDate>
       <Description>WIND spacecraft position in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->
@@ -16,6 +16,6 @@
     </ResourceHeader>
     <InstrumentType>Ephemeris</InstrumentType>
     <InvestigationName>Spacecraft position</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1994-071A</ObservatoryID>
+    <ObservatoryID>spase://swg/Observatory/WIND</ObservatoryID>
   </Instrument>
 </Spase>

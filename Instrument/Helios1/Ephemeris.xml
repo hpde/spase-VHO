@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Helios 1 Position</ResourceName>
       <AlternateName>Helios 1 Ephemeris</AlternateName>
-      <ReleaseDate>2007-12-04T20:34:08Z</ReleaseDate>
+      <ReleaseDate>2008-05-20T18:05:06Z</ReleaseDate>
       <Description>Helios 1 spacecraft position in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->
@@ -16,6 +16,6 @@
     </ResourceHeader>
     <InstrumentType>Ephemeris</InstrumentType>
     <InvestigationName>Spacecraft position</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1974-097A</ObservatoryID>
+    <ObservatoryID>spase://swg/Observatory/Helios1</ObservatoryID>
   </Instrument>
 </Spase>
