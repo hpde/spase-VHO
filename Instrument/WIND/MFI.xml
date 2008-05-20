@@ -42,6 +42,6 @@ Lepping, R. P., et al., The WIND Magnetic Field Investigation, Space Science Rev
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field Investigation</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1994-071A</ObservatoryID>
   </Instrument>
 </Spase>

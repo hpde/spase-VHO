@@ -16,6 +16,6 @@
     </ResourceHeader>
     <InstrumentType>Ephemeris</InstrumentType>
     <InvestigationName>Spacecraft position</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1976-003A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1976-003A</ObservatoryID>
   </Instrument>
 </Spase>

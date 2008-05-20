@@ -30,6 +30,6 @@ For detailed information, see p. 232 of Raumfahrtforschung, v. 19, n. 5, 1975.
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>E2 Fluxgate Magnetometer</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1974-097A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1974-097A</ObservatoryID>
   </Instrument>
 </Spase>

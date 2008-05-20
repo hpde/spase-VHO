@@ -41,6 +41,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>In-Situ Measurements of Particles and CME Transients (IMPACT) Magnetometer on STEREO A</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2006-047A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2006-047A</ObservatoryID>
   </Instrument>
 </Spase>

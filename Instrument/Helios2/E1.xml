@@ -34,6 +34,6 @@ For more detailed information see p. 226 of Raumfahrtforschung, v. 19, n. 5, 197
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>E1 Plasma Experiment</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1976-003A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1976-003A</ObservatoryID>
   </Instrument>
 </Spase>
