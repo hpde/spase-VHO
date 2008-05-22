@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>CME/ICME list by Cho et al., 2003</ResourceName>
       <AlternateName>Cho2003</AlternateName>
-      <ReleaseDate>2008-05-19T20:32:56Z</ReleaseDate>
+      <ReleaseDate>2008-05-22T15:22:00Z</ReleaseDate>
       <Description>CME/ICME list created by Cho et al., 2003. Method:
 
 CMEs are selected which have temporal and spatial proximity to the type II events in Table 1 of Fry et al (2003). C2 appearance time, PA, and speed from SOHO/LASCO CME catalog are used (http://cdaw.gsfc.nasa.gov/CME_list/). They say: "The procedure for examining the arrival time predictions of ICMEs and IP shocks for the near-simultaneous events are summarized as follows: 
@@ -44,9 +44,8 @@ CMEs are selected which have temporal and spatial proximity to the type II event
     <InstrumentID>WIND data MISSING</InstrumentID>
     <InstrumentID>SOHO data MISSING</InstrumentID>
     <PhenomenonType>CoronalMassEjection</PhenomenonType>
-    <!--  <PhenomenonType>InterplanetaryShock</PhenomenonType>
+    <PhenomenonType>InterplanetaryShock</PhenomenonType>
     <PhenomenonType>MagneticCloud</PhenomenonType>
-   -->
     <TimeSpan>
       <StartDate>1997-02-01T00:00:00Z</StartDate>
       <EndDate>2000-10-09T23:50:00Z</EndDate>
