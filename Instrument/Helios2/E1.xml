@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Helios 2 E1 Plasma Experiment</ResourceName>
       <AlternateName>Helios 2 E1</AlternateName>
-      <ReleaseDate>2008-05-20T18:05:06Z</ReleaseDate>
+      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
       <Description>
 The E1 plasma experiment aboard the Helios solar probes consists of four independent instruments designed to investigate the solar wind plasma.
 By measuring the velocity distribution functions of the different kinds of particles, all important hydrodynamic parameters of the solar wind plasma can be derived.
@@ -23,17 +23,17 @@ For more detailed information see p. 226 of Raumfahrtforschung, v. 19, n. 5, 197
       <Acknowledgement>User will acknowledge the Helios 2 Plasma Experiment PI F. H. R. Rosenbauer in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
         <!-- Dr. Rainer Schwenn -->
-        <PersonID>spase://swg/Person/Rainer.Schwenn</PersonID>
+        <PersonID>spase://SMWG/Person/Rainer.Schwenn</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <Contact>
         <!-- Dr. Helmut R. Rosenbauer -->
-        <PersonID>spase://swg/Person/Helmut.R.Rosenbauer</PersonID>
+        <PersonID>spase://SMWG/Person/Helmut.R.Rosenbauer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>E1 Plasma Experiment</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/Helios2</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Helios2</ObservatoryID>
   </Instrument>
 </Spase>

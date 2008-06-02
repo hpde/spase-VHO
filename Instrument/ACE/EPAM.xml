@@ -7,7 +7,7 @@
       <ResourceName>ACE Electron Proton Alpha Monitor</ResourceName>
       <AlternateName>ACE EPAM</AlternateName>
       <AlternateName>1997-045A-08</AlternateName>
-      <ReleaseDate>2008-05-20T18:05:06Z</ReleaseDate>
+      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
       <Description> EPAM is composed of five telescope apertures of three different types.
       Two Low Energy Foil Spectrometers (LEFS) measure the flux and direction of electrons above 30 keV (geometry factor = 0.397 cm^2 sr),
       two Low Energy Magnetic Spectrometers (LEMS) measure the flux and direction of ions greater than 50 keV (geometry factor = 0.48 cm^2 sr),
@@ -16,12 +16,12 @@
       </Description>
       <Contact>
         <!-- Dennis Haggerty -->
-        <PersonID>spase://swg/Person/Dennis.Haggerty</PersonID>
+        <PersonID>spase://SMWG/Person/Dennis.Haggerty</PersonID>
         <Role>TechnicalContact</Role>
       </Contact>
       <Contact>
         <!-- Robert Gold -->
-        <PersonID>spase://swg/Person/Robert.E.Gold</PersonID>
+        <PersonID>spase://SMWG/Person/Robert.E.Gold</PersonID>
         <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -34,10 +34,10 @@
         <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-045A-08</URL>
         <Description>Information about the EPAM experiment on the ACE mission.</Description>
       </InformationURL>
-      <PriorID>spase://swg/instrument/1997-045A-08</PriorID>
+      <PriorID>spase://SMWG/instrument/1997-045A-08</PriorID>
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Electron Proton and Alpha Monitor (EPAM) on ACE</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/ACE</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/ACE</ObservatoryID>
   </Instrument>
 </Spase>

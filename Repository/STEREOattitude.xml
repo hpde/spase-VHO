@@ -5,14 +5,14 @@
     <ResourceID>spase://VHO/Repository/STEREOattitude</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO Attitude and Orbit Data Repository</ResourceName>
-      <ReleaseDate>2008-05-14T16:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
       <Description>
          STEREO attitude and orbit data are generated from SPICE kernels and offered
          here in the following coordinate systems: GEI, GSE, GSM, HCI, HEE, HEEQ, RTN
       </Description>
       <Contact>
         <!-- Janet Luhmann -->
-        <PersonID>spase://swg/Person/Janet.G.Luhmann</PersonID>
+        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

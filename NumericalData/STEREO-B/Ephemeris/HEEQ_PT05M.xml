@@ -6,17 +6,17 @@
     <ResourceHeader>
       <ResourceName>STEREO-B Ephemeris</ResourceName>
       <AlternateName>STEREO-B Positions</AlternateName>
-      <ReleaseDate>2008-05-19T18:24:06Z</ReleaseDate>
+      <ReleaseDate>2008-06-02T18:49:29Z</ReleaseDate>
       <Description>STEREO atttitude and orbit data are distributed as SPICE kernels. Since most SEP investigators would rather not deal with SPICE kernels, Caltech provides text files containing position data for the two STEREO spacecraft, in the following coordinate systems:
 GEI, GSE, GSM, HCI, HEE, HEEQ.</Description>
       <Contact>
         <!-- Janet Luhmann -->
-        <PersonID>spase://swg/Person/Janet.G.Luhmann</PersonID>
+        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
         <!-- Andrew Davis -->
-        <PersonID>spase://swg/Person/Andrew.J.Davis</PersonID>
+        <PersonID>spase://SMWG/Person/Andrew.J.Davis</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <InformationURL>

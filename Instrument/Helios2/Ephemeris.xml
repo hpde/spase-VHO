@@ -6,16 +6,16 @@
     <ResourceHeader>
       <ResourceName>Helios 2 Position</ResourceName>
       <AlternateName>Helios 2 Ephemeris</AlternateName>
-      <ReleaseDate>2008-05-20T18:05:06Z</ReleaseDate>
+      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
       <Description>Helios 2 spacecraft position in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->
-        <PersonID>spase://swg/Person/Robert.M.Candey</PersonID>
+        <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
         <Role>DataProducer</Role>
       </Contact>
     </ResourceHeader>
     <InstrumentType>Ephemeris</InstrumentType>
     <InvestigationName>Spacecraft position</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/Helios2</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Helios2</ObservatoryID>
   </Instrument>
 </Spase>

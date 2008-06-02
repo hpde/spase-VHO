@@ -5,11 +5,11 @@
     <ResourceID>spase://VHO/Repository/STEREO/IMPACT</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO IMPACT</ResourceName>
-      <ReleaseDate>2007-11-30T23:00:39Z</ReleaseDate>
+      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
       <Description>The STEREO IMPACT mission web site provides information about instruments as well as associated data sets. It provides summary plots and data retrieval.</Description>
       <Contact>
         <!-- Janet Luhmann -->
-        <PersonID>spase://swg/Person/Janet.G.Luhmann</PersonID>
+        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

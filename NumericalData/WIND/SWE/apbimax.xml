@@ -6,22 +6,22 @@
     <ResourceHeader>
       <ResourceName>WIND/SWE Proton and Alpha Parameters</ResourceName>
       <AlternateName>WIND/SWE Faraday Cup (Proton-Alpha Anisotropy Analysis)</AlternateName>
-      <ReleaseDate>2008-05-19T19:11:56Z</ReleaseDate>
+      <ReleaseDate>2008-06-02T18:49:29Z</ReleaseDate>
       <Description>Solar wind proton and alpha parameters, including anisotropic temperatures, derived by non-linear fitting of the measurements and with moment techniques.</Description>
       <Acknowledgement>User will acknowledge the Wind SWE plasma instrument team.</Acknowledgement>
       <Contact>
         <!-- Justin C. Kasper -->
-        <PersonID>spase://swg/Person/Justin.C.Kasper</PersonID>
+        <PersonID>spase://SMWG/Person/Justin.C.Kasper</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <Contact>
         <!-- Alan J. Lazarus -->
-        <PersonID>spase://swg/Person/Alan.J.Lazarus</PersonID>
+        <PersonID>spase://SMWG/Person/Alan.J.Lazarus</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <Contact>
         <!-- Keith W. Ogilvie -->
-        <PersonID>spase://swg/Person/Keith.W.Ogilvie</PersonID>
+        <PersonID>spase://SMWG/Person/Keith.W.Ogilvie</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
     </ResourceHeader>

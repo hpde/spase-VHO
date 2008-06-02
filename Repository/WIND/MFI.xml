@@ -6,11 +6,11 @@
     <ResourceID>spase://VHO/Repository/WIND/MFI</ResourceID>
     <ResourceHeader>
       <ResourceName>WIND Magnetic Field Investigation (MFI) Data Repository</ResourceName>
-      <ReleaseDate>2007-05-30T22:48:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
       <Description>Data Repository for WIND MFI version 3 and 4 daily CDF files</Description>
       <Contact>
         <!-- Adam Szabo -->
-        <PersonID>spase://swg/Person/Adam.Szabo</PersonID>
+        <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
         <Role>DataProducer</Role>
         <Role>Scientist</Role>
       </Contact>

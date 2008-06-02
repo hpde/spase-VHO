@@ -5,11 +5,11 @@
     <ResourceID>spase://VHO/NumericalData/ACE/Ephemeris/PT12M</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Positions</ResourceName>
-      <ReleaseDate>2008-05-19T19:11:56Z</ReleaseDate>
+      <ReleaseDate>2008-06-02T18:49:29Z</ReleaseDate>
       <Description>ACE satellite positions.</Description>
       <Contact>
         <!-- Jan Merka -->
-        <PersonID>spase://swg/Person/Jan.Merka</PersonID>
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
     </ResourceHeader>

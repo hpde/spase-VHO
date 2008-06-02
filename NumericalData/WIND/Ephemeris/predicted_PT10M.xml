@@ -5,16 +5,16 @@
     <ResourceID>spase://VHO/NumericalData/WIND/Ephemeris/predicted_PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Predicted WIND Spacecraft Positions</ResourceName>
-      <ReleaseDate>2008-05-19T19:11:56Z</ReleaseDate>
+      <ReleaseDate>2008-06-02T18:49:29Z</ReleaseDate>
       <Description>Predicted (calculated) WIND spacecraft positions in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->
-        <PersonID>spase://swg/Person/Robert.M.Candey</PersonID>
+        <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <Contact>
         <!-- Adam Szabo -->
-        <PersonID>spase://swg/Person/Adam.Szabo</PersonID>
+        <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
         <Role>Scientist</Role>
       </Contact>
     </ResourceHeader>

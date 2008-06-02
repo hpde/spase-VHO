@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Helios 2 E2 Magnetometer</ResourceName>
       <AlternateName>Helios 2 MGB</AlternateName>
-      <ReleaseDate>2008-05-20T18:05:06Z</ReleaseDate>
+      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
       <Description>
 The instrument (E2) consisted of a triaxial fluxgate magnetometer mounted on a 2.75-m boom to make magnetic field measurements up to 4 Hz.
 Data from each axis were first sent through a low-pass filter with the 3 dB attenuation point at 4 Hz.
@@ -19,17 +19,17 @@ For detailed information, see p. 232 of Raumfahrtforschung, v. 19, n. 5, 1975.
       <Acknowledgement>User will acknowledge the Helios 2 MGB PI F. B. Neubauer in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
         <!-- Dr. Rainer Schwenn -->
-        <PersonID>spase://swg/Person/Rainer.Schwenn</PersonID>
+        <PersonID>spase://SMWG/Person/Rainer.Schwenn</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <Contact>
         <!-- Prof. Fritz B. Neubauer -->
-        <PersonID>spase://swg/Person/Fritz.M.Neubauer</PersonID>
+        <PersonID>spase://SMWG/Person/Fritz.M.Neubauer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>E2 Fluxgate Magnetometer</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/Helios2</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Helios2</ObservatoryID>
   </Instrument>
 </Spase>

@@ -6,21 +6,21 @@
     <ResourceHeader>
       <ResourceName>STEREO-B Position</ResourceName>
       <AlternateName>STEREO-B Ephemeris</AlternateName>
-      <ReleaseDate>2008-05-20T18:05:06Z</ReleaseDate>
+      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
       <Description>STEREO-B spacecraft position in various coordinate systems</Description>
       <Contact>
         <!-- Janet Luhmann -->
-        <PersonID>spase://swg/Person/Janet.G.Luhmann</PersonID>
+        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
         <!-- Andrew Davis -->
-        <PersonID>spase://swg/Person/Andrew.J.Davis</PersonID>
+        <PersonID>spase://SMWG/Person/Andrew.J.Davis</PersonID>
         <Role>DataProducer</Role>
       </Contact>
     </ResourceHeader>
     <InstrumentType>Ephemeris</InstrumentType>
     <InvestigationName>Spacecraft position</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/STEREO-B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/STEREO-B</ObservatoryID>
   </Instrument>
 </Spase>
