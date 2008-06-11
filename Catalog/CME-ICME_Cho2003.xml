@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>CME/ICME list by Cho et al., 2003</ResourceName>
       <AlternateName>Cho2003</AlternateName>
-      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
+      <ReleaseDate>2008-06-11T15:17:43Z</ReleaseDate>
       <Description>CME/ICME list created by Cho et al., 2003. Method:
 
 CMEs are selected which have temporal and spatial proximity to the type II events in Table 1 of Fry et al (2003). C2 appearance time, PA, and speed from SOHO/LASCO CME catalog are used (http://cdaw.gsfc.nasa.gov/CME_list/). They say: "The procedure for examining the arrival time predictions of ICMEs and IP shocks for the near-simultaneous events are summarized as follows: 
@@ -17,7 +17,7 @@ CMEs are selected which have temporal and spatial proximity to the type II event
 (4) We then search for ICMEs associated with the 38 IP shocks. For the identification of ICMEs, we look for MC and EJ from in situ magnetic field-plasma measurements and particle detection of ACE (available at http://www.srl.caltech.edu/ACE/ASC/level2/index.html). According to Burlaga [1995] and Berdichevsky et al. [2002], a MC is defined as a large flux-rope structure of an almost cylindrical shape with low plasma beta (&lt;0.6), enhanced magnetic field strength (&gt;10 nT), and a large and smooth rotation of the magnetic field direction. In the case of EJs, which are not flux ropes and have disordered magnetic fields, smooth rotation may not be present. We also refer to previously identified sources of ICMEs [Gopalswamy et al., 2001; Cane and Richardson, 2003] and the Magnetic Cloud Table (available at http://lepmfi.gsfc.nasa.gov/mfi/mag_cloud_pub1p.html)."</Description>
       <Acknowledgement>Cho, K.-S.; Moon, Y.-J.; Dryer, M.; Fry, C. D.; Park, Y.-D.; Kim, K.-S., A statistical comparison of interplanetary shock and CME propagation models, Journal of Geophysical Research, Volume 108, Issue A12, pp. SSH 8-1, CiteID 1445, DOI 10.1029/2003JA010029</Acknowledgement>
       <Contact>
-	<PersonID>spase://SMWG/Person/Kyung-Seok.Cho</PersonID>
+        <PersonID>spase://SMWG/Person/Kyung-Seok.Cho</PersonID>
         <Role>Scientist</Role>
       </Contact>
       <InformationURL>
@@ -40,22 +40,22 @@ CMEs are selected which have temporal and spatial proximity to the type II event
       <Encoding>ASCII</Encoding>
     </AccessInformation>
     <InstrumentID>spase://VHO/Instrument/ACE/MAG</InstrumentID>
-    <InstrumentID>ACE particle data MISSING</InstrumentID>
-    <InstrumentID>WIND data MISSING</InstrumentID>
-    <InstrumentID>SOHO data MISSING</InstrumentID>
+    <InstrumentID>spase://VHO/Instrument/ACE/SWEPAM</InstrumentID>
+    <InstrumentID>spase://VHO/Instrument/WIND/3DP</InstrumentID>
+    <InstrumentID>spase://VHO/Instrument/WIND/MFI</InstrumentID>
+    <InstrumentID>spase://VHO/Instrument/SOHO/LASCO</InstrumentID>
     <PhenomenonType>CoronalMassEjection</PhenomenonType>
     <PhenomenonType>InterplanetaryShock</PhenomenonType>
     <PhenomenonType>MagneticCloud</PhenomenonType>
     <TimeSpan>
       <StartDate>1997-02-01T00:00:00Z</StartDate>
-      <EndDate>2000-10-09T23:50:00Z</EndDate>
+      <StopDate>2000-10-09T23:50:00Z</StopDate>
     </TimeSpan>
     <Caveats>Restrictions: The goal of Cho et al. [2003] article is to compare CME propagation models. so the selected CMEs are such as to have temporal and spatial proximity to the type II events in Table 1 of Fry et al (2003).</Caveats>
-    <InputResourceID>MISSING (maybe not necessary)</InputResourceID>
     <PhysicalParameter>
       <Name>Event number</Name>
       <ParameterKey>Column 1</ParameterKey>
-      <Description>MISSING</Description>
+      <Description>Event number is taken from the metric type II/flare events of Fry et al. 2003</Description>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -63,7 +63,7 @@ CMEs are selected which have temporal and spatial proximity to the type II event
     <PhysicalParameter>
       <Name>CME time</Name>
       <ParameterKey>Column 2</ParameterKey>
-      <Description>MISSING (yymmdd/hhmm)</Description>
+      <Description>UT time of first CME appearance in the LASCO C2 image (yymmdd/hhmm)</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
@@ -71,15 +71,17 @@ CMEs are selected which have temporal and spatial proximity to the type II event
     <PhysicalParameter>
       <Name>PA</Name>
       <ParameterKey>Column 3</ParameterKey>
-      <Description>MISSING</Description>
+      <Description>Position angle of the CME in the plane of the sky. PA is measured counterclockwise in degrees from solar north. "Halo" denotes events which extend fully around the occulting disk</Description>
+      <Units>deg</Units>
+      <FillValue>Halo</FillValue>
       <Support>
-        <SupportQuantity>Other</SupportQuantity>
+        <SupportQuantity>Positional</SupportQuantity>
       </Support>
     </PhysicalParameter>
     <PhysicalParameter>
       <Name>VCME</Name>
       <ParameterKey>Column 4</ParameterKey>
-      <Description>MISSING</Description>
+      <Description>CME velocity as determined by a linear fit from the LASCO C2 and C3 images</Description>
       <Units>km/s</Units>
       <UnitsConversion>1e3&gt;m/s</UnitsConversion>
       <Support>
@@ -89,7 +91,7 @@ CMEs are selected which have temporal and spatial proximity to the type II event
     <PhysicalParameter>
       <Name>VtypeII</Name>
       <ParameterKey>Column 5</ParameterKey>
-      <Description>MISSING</Description>
+      <Description>Mean speed of the type II radio burst</Description>
       <Units>km/s</Units>
       <UnitsConversion>1e3&gt;m/s</UnitsConversion>
       <Support>
@@ -99,8 +101,9 @@ CMEs are selected which have temporal and spatial proximity to the type II event
     <PhysicalParameter>
       <Name>DT</Name>
       <ParameterKey>Column 6</ParameterKey>
-      <Description>MISSING</Description>
-      <Units>MISSING</Units>
+      <Description>Difference in time between the first C2 appearance of the CME and the starting time of the Type II radio burst, respectively.</Description>
+      <Units>min</Units>
+      <UnitsConversion>60&gt;s</UnitsConversion>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
@@ -108,7 +111,7 @@ CMEs are selected which have temporal and spatial proximity to the type II event
     <PhysicalParameter>
       <Name>Shock arrival time</Name>
       <ParameterKey>Column 7</ParameterKey>
-      <Description>MISSING (mmdd/hhmm)</Description>
+      <Description>Arrival time of shock at L1 (mmdd/hhmm)</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
@@ -116,7 +119,8 @@ CMEs are selected which have temporal and spatial proximity to the type II event
     <PhysicalParameter>
       <Name>ICME arrival time</Name>
       <ParameterKey>Column 8</ParameterKey>
-      <Description>MISSING (mmdd/hhmm)</Description>
+      <Description>Observed ICME arrival date and time at L1. (mmdd/hhmm)</Description>
+      <FillValue>-999</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
@@ -124,7 +128,7 @@ CMEs are selected which have temporal and spatial proximity to the type II event
     <PhysicalParameter>
       <Name>MC/Ejecta</Name>
       <ParameterKey>Column 9</ParameterKey>
-      <Description>MISSING</Description>
+      <Description>Type of ICME. M denotes magnetic cloud and E denotes ejecta.</Description>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
