@@ -35,7 +35,7 @@
     <ProviderResourceName>WIND 3DP PM Data</ProviderResourceName>
     <ProviderProcessingLevel>1</ProviderProcessingLevel>
     <ProviderVersion>3</ProviderVersion>
-    <InstrumentID>spase://VHO/Instrument/WIND/3DP</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/WIND/3DP</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

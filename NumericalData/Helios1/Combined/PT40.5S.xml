@@ -48,8 +48,8 @@
     </AccessInformation>
     <ProviderResourceName>Helios 1 Merged Plasma and Magnetic Field</ProviderResourceName>
     <ProviderVersion>1</ProviderVersion>
-    <InstrumentID>spase://VHO/Instrument/Helios1/E2</InstrumentID>
-    <InstrumentID>spase://VHO/Instrument/Helios1/E1</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Helios1/E2</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Helios1/E1</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
     <MeasurementType>MagneticField</MeasurementType>
     <MeasurementType>ThermalPlasma</MeasurementType>

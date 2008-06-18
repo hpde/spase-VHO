@@ -39,7 +39,7 @@
     <ProviderResourceName>WIND MFI v3 Data</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
     <ProviderVersion>3</ProviderVersion>
-    <InstrumentID>spase://VHO/Instrument/WIND/MFI</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/WIND/MFI</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

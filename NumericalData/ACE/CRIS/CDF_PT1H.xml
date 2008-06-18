@@ -36,7 +36,7 @@
     <ProviderResourceName>ACE CRIS Level 2 Data, 1-hour averages. in CDF Format</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
     <ProviderVersion>3</ProviderVersion>
-    <InstrumentID>spase://VHO/Instrument/ACE/CRIS</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/ACE/CRIS</InstrumentID>
     <MeasurementType>ChargedParticleFlux</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

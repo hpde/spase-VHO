@@ -40,7 +40,7 @@
     <ProviderResourceName>STEREO-B IMPACT/MAG Level 1 Data</ProviderResourceName>
     <ProviderProcessingLevel>1</ProviderProcessingLevel>
     <ProviderVersion>3</ProviderVersion>
-    <InstrumentID>spase://VHO/Instrument/STEREO-B/IMPACT/MAG</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/STEREO-B/IMPACT/MAG</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <MeasurementType>Ephemeris</MeasurementType>
     <TemporalDescription>

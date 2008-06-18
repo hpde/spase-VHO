@@ -42,7 +42,7 @@
     <ProviderResourceName>ACE EPAM Level 2 Data, 1-hour averages, in CDF Format</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
     <ProviderVersion>5</ProviderVersion>
-    <InstrumentID>spase://VHO/Instrument/ACE/EPAM</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/ACE/EPAM</InstrumentID>
     <MeasurementType>ChargedParticleFlux</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

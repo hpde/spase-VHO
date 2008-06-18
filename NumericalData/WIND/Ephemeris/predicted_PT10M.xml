@@ -30,7 +30,7 @@
       <Format>CDF</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
-    <InstrumentID>spase://VHO/Instrument/WIND/Ephemeris</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/WIND/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

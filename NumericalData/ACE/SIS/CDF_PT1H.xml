@@ -42,7 +42,7 @@
     <ProviderResourceName>ACE SIS Level 2 Data, 1-hour averages, in CDF Format</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
     <ProviderVersion>3</ProviderVersion>
-    <InstrumentID>spase://VHO/Instrument/ACE/SIS</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/ACE/SIS</InstrumentID>
     <MeasurementType>ChargedParticleFlux</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

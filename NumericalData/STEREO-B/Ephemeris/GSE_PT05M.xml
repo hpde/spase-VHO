@@ -40,7 +40,7 @@ GEI, GSE, GSM, HCI, HEE, HEEQ.</Description>
       <Encoding>None</Encoding>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <InstrumentID>spase://VHO/Instrument/STEREO-B/Ephemeris</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/STEREO-B/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

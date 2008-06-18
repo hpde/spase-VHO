@@ -39,10 +39,10 @@ CMEs are selected which have temporal and spatial proximity to the type II event
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>
     </AccessInformation>
-    <InstrumentID>spase://VHO/Instrument/ACE/MAG</InstrumentID>
-    <InstrumentID>spase://VHO/Instrument/ACE/SWEPAM</InstrumentID>
-    <InstrumentID>spase://VHO/Instrument/WIND/3DP</InstrumentID>
-    <InstrumentID>spase://VHO/Instrument/WIND/MFI</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/ACE/MAG</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/ACE/SWEPAM</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/WIND/3DP</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/WIND/MFI</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/SOHO/LASCO</InstrumentID>
     <PhenomenonType>CoronalMassEjection</PhenomenonType>
     <PhenomenonType>InterplanetaryShock</PhenomenonType>

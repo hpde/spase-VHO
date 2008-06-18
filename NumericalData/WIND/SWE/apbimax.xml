@@ -38,7 +38,7 @@
       <Encoding>ASCII</Encoding>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <InstrumentID>spase://VHO/Instrument/WIND/SWE</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/WIND/SWE</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

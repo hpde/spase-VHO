@@ -25,7 +25,7 @@
       <Format>CDF</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
-    <InstrumentID>spase://VHO/Instrument/ACE/Ephemeris</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/ACE/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

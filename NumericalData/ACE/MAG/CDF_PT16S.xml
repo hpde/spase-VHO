@@ -42,7 +42,7 @@
     <ProviderResourceName>ACE MAG Level 2 Data, 16-second averages, in CDF Format</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
     <ProviderVersion>5</ProviderVersion>
-    <InstrumentID>spase://VHO/Instrument/ACE/MAG</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/ACE/MAG</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

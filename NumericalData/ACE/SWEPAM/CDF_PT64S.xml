@@ -37,7 +37,7 @@
     <ProviderResourceName>ACE SWEPAM Level 2 Data, 16-second averages, in CDF Format</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
     <ProviderVersion>9</ProviderVersion>
-    <InstrumentID>spase://VHO/Instrument/ACE/SWEPAM</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/ACE/SWEPAM</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
