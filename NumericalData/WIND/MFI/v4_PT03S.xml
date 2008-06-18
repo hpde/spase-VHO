@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/WIND/MFI/v4_PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>WIND MFI Version 4 Data</ResourceName>
-      <ReleaseDate>2008-06-02T18:49:29Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T19:24:54Z</ReleaseDate>
       <Description>WIND MFI composite data. The files contain multiple time resolution data: 3-second, 1-minute, and 1-hour. Calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the WIND MFI instrument team in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>

@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>STEREO Ahead IMPACT/MAG Magnetic Field Vectors and Ancillary Data</ResourceName>
       <AlternateName>STEREO-A IMPACT/MAG Level 1 Data</AlternateName>
-      <ReleaseDate>2008-06-02T18:49:29Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T19:24:55Z</ReleaseDate>
       <Description>Level 1 calibrated magnetic field vectors from the IMPACT/MAG instrument on the STEREO Ahead spacecraft in the spacecraft and RTN coordinate systems. It also contains STEREO Ahead position (ephemeris) information in the Carrington system.</Description>
       <Acknowledgement>The STEREO IMPACT/MAG Team</Acknowledgement>
       <Contact>
