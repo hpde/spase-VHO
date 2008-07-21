@@ -6,7 +6,7 @@
      <ResourceHeader>
        <ResourceName>Hourly-Averaged Ulysses/HISCALE Count Rates</ResourceName>
        <AlternateName>HISCALE-RAT-1H</AlternateName>
-       <ReleaseDate>2008-07-17T00:00:00.000</ReleaseDate>
+       <ReleaseDate>2008-07-17T12:00:00.000</ReleaseDate>
        <Description>Hourly-averaged count rates from the LEMS30, LEFS60, LEMS120, LEFS150 and CA60 detectors of the Ulysses/HISCALE instrument.</Description>
        <Acknowledgement>Thomas P. Armstrong, Fundamental Technologies LLC</Acknowledgement>
        <Contact>
