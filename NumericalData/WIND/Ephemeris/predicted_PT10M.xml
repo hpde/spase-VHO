@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/WIND/Ephemeris/predicted_PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Predicted WIND Spacecraft Positions</ResourceName>
-      <ReleaseDate>2008-06-18T19:24:54Z</ReleaseDate>
+      <ReleaseDate>2008-07-31T20:43:42Z</ReleaseDate>
       <Description>Predicted (calculated) WIND spacecraft positions in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->
@@ -35,7 +35,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1997-04-06T00:00:00Z</StartDate>
-        <RelativeEndDate>P0D</RelativeEndDate>
+        <RelativeStopDate>P0D</RelativeStopDate>
       </TimeSpan>
       <Cadence>PT10M</Cadence>
     </TemporalDescription>

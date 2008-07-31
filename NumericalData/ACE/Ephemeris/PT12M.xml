@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/Ephemeris/PT12M</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Positions</ResourceName>
-      <ReleaseDate>2008-06-18T19:24:54Z</ReleaseDate>
+      <ReleaseDate>2008-07-31T20:43:41Z</ReleaseDate>
       <Description>ACE satellite positions.</Description>
       <Contact>
         <!-- Jan Merka -->
@@ -30,7 +30,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1997-08-26T00:00:00Z</StartDate>
-        <RelativeEndDate>P7D</RelativeEndDate>
+        <RelativeStopDate>P7D</RelativeStopDate>
       </TimeSpan>
       <Cadence>PT12M</Cadence>
     </TemporalDescription>

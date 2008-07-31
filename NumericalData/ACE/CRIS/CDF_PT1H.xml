@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/CRIS/CDF_PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Cosmic Ray Isotope Spectrometer (CRIS) 1-Hour Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2008-06-18T19:24:54Z</ReleaseDate>
+      <ReleaseDate>2008-07-31T20:49:02Z</ReleaseDate>
       <Description>ACE Cosmic Ray Isotope Spectrometer (CRIS) intensities and counts, for 24 elements at 1-hour time resolution. Calibrated science quality data.</Description>
       <Acknowledgement>Please acknowledgethe ACE/CRIS instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -41,7 +41,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1997-08-29T00:00:00Z</StartDate>
-        <RelativeEndDate>P2M</RelativeEndDate>
+        <RelativeStopDate>P2M</RelativeStopDate>
       </TimeSpan>
       <Cadence>PT1H</Cadence>
     </TemporalDescription>
@@ -115,7 +115,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>5</AtomicNumber>
           <EnergyRange>
             <Low>49.1</Low>
@@ -228,7 +228,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>6</AtomicNumber>
           <EnergyRange>
             <Low>56.3</Low>
@@ -341,7 +341,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>7</AtomicNumber>
           <EnergyRange>
             <Low>60.4</Low>
@@ -454,7 +454,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>8</AtomicNumber>
           <EnergyRange>
             <Low>66.3</Low>
@@ -567,7 +567,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>9</AtomicNumber>
           <EnergyRange>
             <Low>68.7</Low>
@@ -680,7 +680,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>10</AtomicNumber>
           <EnergyRange>
             <Low>73.7</Low>
@@ -793,7 +793,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>11</AtomicNumber>
           <EnergyRange>
             <Low>77.3</Low>
@@ -906,7 +906,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>12</AtomicNumber>
           <EnergyRange>
             <Low>82.4</Low>
@@ -1019,7 +1019,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>13</AtomicNumber>
           <EnergyRange>
             <Low>85.3</Low>
@@ -1132,7 +1132,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>14</AtomicNumber>
           <EnergyRange>
             <Low>90.5</Low>
@@ -1245,7 +1245,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>15</AtomicNumber>
           <EnergyRange>
             <Low>92.6</Low>
@@ -1358,7 +1358,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>16</AtomicNumber>
           <EnergyRange>
             <Low>97.1</Low>
@@ -1471,7 +1471,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>17</AtomicNumber>
           <EnergyRange>
             <Low>98.6</Low>
@@ -1584,7 +1584,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>18</AtomicNumber>
           <EnergyRange>
             <Low>102.9</Low>
@@ -1697,7 +1697,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>19</AtomicNumber>
           <EnergyRange>
             <Low>104.9</Low>
@@ -1810,7 +1810,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>20</AtomicNumber>
           <EnergyRange>
             <Low>108.2</Low>
@@ -1923,7 +1923,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>21</AtomicNumber>
           <EnergyRange>
             <Low>109.4</Low>
@@ -2036,7 +2036,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>22</AtomicNumber>
           <EnergyRange>
             <Low>112.2</Low>
@@ -2149,7 +2149,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>23</AtomicNumber>
           <EnergyRange>
             <Low>114.5</Low>
@@ -2262,7 +2262,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>24</AtomicNumber>
           <EnergyRange>
             <Low>117.7</Low>
@@ -2375,7 +2375,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>25</AtomicNumber>
           <EnergyRange>
             <Low>120.1</Low>
@@ -2488,7 +2488,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>26</AtomicNumber>
           <EnergyRange>
             <Low>122.9</Low>
@@ -2601,7 +2601,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>27</AtomicNumber>
           <EnergyRange>
             <Low>125.5</Low>
@@ -2714,7 +2714,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>28</AtomicNumber>
           <EnergyRange>
             <Low>129.9</Low>

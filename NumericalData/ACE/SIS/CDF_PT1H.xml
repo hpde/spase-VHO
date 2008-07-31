@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/SIS/CDF_PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Isotope Spectrometer (SIS) 1-Hour Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2008-06-18T19:24:55Z</ReleaseDate>
+      <ReleaseDate>2008-07-31T20:50:22Z</ReleaseDate>
       <Description>ACE SIS Solar Isotope Spectrometer (SIS) intensities and counts, for 8 elements at 1-hour time resolution. Calibrated science quality data.</Description>
       <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -47,7 +47,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1997-08-29T00:00:00Z</StartDate>
-        <RelativeEndDate>P2M</RelativeEndDate>
+        <RelativeStopDate>P2M</RelativeStopDate>
       </TimeSpan>
       <Cadence>PT1H</Cadence>
     </TemporalDescription>
@@ -181,7 +181,7 @@
         <Particle>
           <ParticleType>AlphaParticle</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <EnergyRange>
             <Low>3.4</Low>
             <High>41.2</High>
@@ -306,7 +306,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>6</AtomicNumber>
           <EnergyRange>
             <Low>6.1</Low>
@@ -432,7 +432,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>7</AtomicNumber>
           <EnergyRange>
             <Low>6.6</Low>
@@ -558,7 +558,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>8</AtomicNumber>
           <EnergyRange>
             <Low>7.0</Low>
@@ -684,7 +684,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>10</AtomicNumber>
           <EnergyRange>
             <Low>7.8</Low>
@@ -810,7 +810,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>12</AtomicNumber>
           <EnergyRange>
             <Low>8.5</Low>
@@ -936,7 +936,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>14</AtomicNumber>
           <EnergyRange>
             <Low>9.0</Low>
@@ -1062,7 +1062,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>16</AtomicNumber>
           <EnergyRange>
             <Low>9.5</Low>
@@ -1188,7 +1188,7 @@
         <Particle>
           <ParticleType>Ion</ParticleType>
           <ParticleQualifier>Differential</ParticleQualifier>
-          <ParticleQuantity>Flux</ParticleQuantity>
+          <ParticleQuantity>NumberFlux</ParticleQuantity>
           <AtomicNumber>26</AtomicNumber>
           <EnergyRange>
             <Low>10.5</Low>

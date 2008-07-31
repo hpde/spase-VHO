@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/WIND/Ephemeris/definitive_PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Definitive WIND Spacecraft Positions</ResourceName>
-      <ReleaseDate>2008-06-18T19:24:54Z</ReleaseDate>
+      <ReleaseDate>2008-07-31T20:43:42Z</ReleaseDate>
       <Description>Definitive (measured) WIND spacecraft positions in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->
@@ -36,7 +36,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1994-11-01T10:47:18Z</StartDate>
-        <EndDate>1997-07-01T23:50:00Z</EndDate>
+        <StopDate>1997-07-01T23:50:00Z</StopDate>
       </TimeSpan>
       <Cadence>PT10M</Cadence>
     </TemporalDescription>

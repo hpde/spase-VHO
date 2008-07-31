@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/Helios1/Combined/PT40.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>Helios 1 Merged Plasma and Magnetic Field</ResourceName>
-      <ReleaseDate>2008-06-18T19:24:55Z</ReleaseDate>
+      <ReleaseDate>2008-07-31T20:43:42Z</ReleaseDate>
       <Description>Merged solar wind plasma and magnetic field measurements from the Helios 1 spacecraft. Variable time resolution (2-10 minutes) Calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the Helios plasma instrument PI Dr. Helmut Rosenbauer and the magnetometer PI Prof. Fritz M. Neubauer.</Acknowledgement>
       <Contact>
@@ -56,7 +56,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1974-12-12T01:21:38Z</StartDate>
-        <EndDate>1985-09-04T09:52:10Z</EndDate>
+        <StopDate>1985-09-04T09:52:10Z</StopDate>
       </TimeSpan>
       <Cadence>PT40.5S</Cadence>
     </TemporalDescription>
