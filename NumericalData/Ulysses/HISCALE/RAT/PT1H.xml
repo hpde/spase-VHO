@@ -6,7 +6,7 @@
      <ResourceHeader>
        <ResourceName>Hourly-Averaged Ulysses/HISCALE Count Rates</ResourceName>
        <AlternateName>HISCALE-RAT-1H</AlternateName>
-       <ReleaseDate>2008-07-17T12:00:00.000</ReleaseDate>
+       <ReleaseDate>2008-07-31T21:24:50Z</ReleaseDate>
        <Description>Hourly-averaged count rates from the LEMS30, LEFS60, LEMS120, LEFS150 and CA60 detectors of the Ulysses/HISCALE instrument.</Description>
        <Acknowledgement>Thomas P. Armstrong, Fundamental Technologies LLC</Acknowledgement>
        <Contact>
@@ -23,7 +23,7 @@
            (CSV) files, and how those files can be accessed.
          </Description>
        </InformationURL>
-       <AssociationID>spase://VHO/NumericalData/Ulysses/HISCALE/RAT/PT1D</AssociationID>
+       <AssociationID>spase://VHO/NumericalData/Ulysses/HISCALE/RAT/P1D</AssociationID>
        <AssociationID>spase://VHO/NumericalData/Ulysses/HISCALE/RAT/PT5M</AssociationID>
      </ResourceHeader>
      <AccessInformation>
