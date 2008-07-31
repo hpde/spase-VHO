@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/Genesis/Ephemeris/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Genesis Spacecraft Positions</ResourceName>
-      <ReleaseDate>2008-07-28T10:09:00Z</ReleaseDate>
+      <ReleaseDate>2008-07-31T20:54:33Z</ReleaseDate>
       <Description>Genesis spacecraft trajectory data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.T.Steinberg</PersonID>
@@ -29,7 +29,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>2001-08-12T00:00:00Z</StartDate>
-        <EndDate>2004-09-08T23:00:03Z</EndDate>
+        <StopDate>2004-09-08T23:00:03Z</StopDate>
       </TimeSpan>
       <Cadence>PT1H</Cadence>
     </TemporalDescription>

@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/Genesis/Ephemeris/PT1D</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/Genesis/Ephemeris/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>Genesis Spacecraft Positions</ResourceName>
-      <ReleaseDate>2008-07-28T10:09:00Z</ReleaseDate>
+      <ReleaseDate>2008-07-31T20:54:57Z</ReleaseDate>
       <Description>Genesis spacecraft trajectory data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.T.Steinberg</PersonID>
@@ -29,9 +29,9 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>2001-08-12T00:00:00Z</StartDate>
-        <EndDate>2004-09-08T23:00:03Z</EndDate>
+        <StopDate>2004-09-08T23:00:03Z</StopDate>
       </TimeSpan>
-      <Cadence>PT1D</Cadence>
+      <Cadence>P1D</Cadence>
     </TemporalDescription>
     <PhysicalParameter>
       <Name>Year</Name>

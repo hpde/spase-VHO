@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/Ulysses/Ephemeris/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses Spacecraft Positions</ResourceName>
-      <ReleaseDate>2008-07-23T19:24:54Z</ReleaseDate>
+      <ReleaseDate>2008-07-31T20:54:33Z</ReleaseDate>
       <Description>Ulysses spacecraft positions data product generated from data at SSCWeb (sscweb.gsfc.nasa.gov)</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
@@ -29,7 +29,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1990-01-01T00:00:00Z</StartDate>
-        <EndDate>2008-12-31T23:59:59Z</EndDate>
+        <StopDate>2008-12-31T23:59:59Z</StopDate>
       </TimeSpan>
       <Cadence>PT1H</Cadence>
     </TemporalDescription>

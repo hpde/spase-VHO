@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/Genesis/GIM/3DMOM/PT2.5M</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/Genesis/GIM/3DMOM/PT2M30S</ResourceID>
     <ResourceHeader>
       <ResourceName>Genesis 3D Ion Moments</ResourceName>
-      <ReleaseDate>2008-07-28T10:09:00Z</ReleaseDate>
+      <ReleaseDate>2008-07-31T21:05:32Z</ReleaseDate>
       <Description>Genesis level 2 3-dimensional ion moments and bidirectional electron streaming parameter values</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.T.Steinberg</PersonID>
@@ -29,9 +29,9 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>2001-08-24T16:16:12Z</StartDate>
-        <EndDate>2004-08-05T22:56:01Z</EndDate>
+        <StopDate>2004-08-05T22:56:01Z</StopDate>
       </TimeSpan>
-      <Cadence>PT2.5M</Cadence>
+      <Cadence>PT2M30S</Cadence>
     </TemporalDescription>
     <PhysicalParameter>
       <Name>Year</Name>
@@ -123,16 +123,16 @@
         </Particle>
       </Measured>
     </PhysicalParameter>
-   <PhysicalParameter>
+    <PhysicalParameter>
       <Name>Proton Velocity GSE X</Name>
       <ParameterKey>Field 10</ParameterKey>
       <Description>GSE X Component of the Proton Velocity</Description>
       <Units>km/s</Units>
-      <FillValue>-9999.00</FillValue>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
+      <FillValue>-9999.00</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -146,11 +146,11 @@
       <ParameterKey>Field 11</ParameterKey>
       <Description>GSE Y Component of the Proton Velocity</Description>
       <Units>km/s</Units>
-      <FillValue>-9999.00</FillValue>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
+      <FillValue>-9999.00</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -164,12 +164,11 @@
       <ParameterKey>Field 12</ParameterKey>
       <Description>GSE Z Component of the Proton Velocity</Description>
       <Units>km/s</Units>
-      <FillValue>-9999.00</FillValue>
-      <FillValue>-9999.00</FillValue>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
+      <FillValue>-9999.00</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -183,11 +182,11 @@
       <ParameterKey>Field 13</ParameterKey>
       <Description>RTN Radial Component of the Proton Velocity</Description>
       <Units>km/s</Units>
-      <FillValue>-9999.00</FillValue>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
+      <FillValue>-9999.00</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -201,11 +200,11 @@
       <ParameterKey>Field 14</ParameterKey>
       <Description>RTN Tangential Component of the Proton Velocity</Description>
       <Units>km/s</Units>
-      <FillValue>-9999.00</FillValue>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
+      <FillValue>-9999.00</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -219,11 +218,11 @@
       <ParameterKey>Field 15</ParameterKey>
       <Description>RTN Normal Component of the Proton Velocity</Description>
       <Units>km/s</Units>
-      <FillValue>-9999.00</FillValue>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
+      <FillValue>-9999.00</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -284,7 +283,7 @@
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>    
+    </PhysicalParameter>
     <PhysicalParameter>
       <Name>Heliographic longitude</Name>
       <ParameterKey>Field 20</ParameterKey>
@@ -297,7 +296,7 @@
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter> 
+    </PhysicalParameter>
     <PhysicalParameter>
       <Name>Heliographic latitude</Name>
       <ParameterKey>Field 21</ParameterKey>
@@ -310,7 +309,7 @@
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter> 
+    </PhysicalParameter>
     <PhysicalParameter>
       <Name>Bidirectional Electron Streaming Flag</Name>
       <ParameterKey>Field 22</ParameterKey>
@@ -319,6 +318,6 @@
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter> 
+    </PhysicalParameter>
   </NumericalData>
 </Spase>
