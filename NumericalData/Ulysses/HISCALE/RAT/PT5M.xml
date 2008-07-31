@@ -6,8 +6,7 @@
      <ResourceHeader>
        <ResourceName>5-min-Averaged Ulysses/HISCALE Count Rates</ResourceName>
        <AlternateName>HISCALE-RAT-5m</AlternateName>
-       <ReleaseDate>2008-07-16T15:02:04Z</ReleaseDate>
-       <ExpirationDate>2008-10-01T00:00:00.000</ExpirationDate>
+       <ReleaseDate>2008-07-17T12:00:00.000</ReleaseDate>
        <Description>5-min-averaged count rates from the LEMS30, LEFS60, LEMS120, LEFS150 and CA60 detectors of the Ulysses/HISCALE instrument.</Description>
        <Acknowledgement>Thomas P. Armstrong, Fundamental Technologies LLC</Acknowledgement>
        <Contact>
@@ -66,8 +65,8 @@
          <Element>
            <Name>Year</Name>
            <Index>1</Index>
-           <ValidMin>"+cyear+"</ValidMin>
-           <ValidMax>"+cyear+"</ValidMax>
+           <ValidMin>1990</ValidMin>
+           <ValidMax>2007</ValidMax>
            <FillValue>-9999</FillValue>
          </Element>
          <Element>
@@ -115,7 +114,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -142,7 +141,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -169,7 +168,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -196,7 +195,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -223,7 +222,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -250,7 +249,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -277,7 +276,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -304,7 +303,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -331,7 +330,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -368,7 +367,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -400,7 +399,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -437,7 +436,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -474,7 +473,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -511,7 +510,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -548,7 +547,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -585,7 +584,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -622,7 +621,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -659,7 +658,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -696,7 +695,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -733,7 +732,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -770,7 +769,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -807,7 +806,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -844,7 +843,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -881,7 +880,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -918,7 +917,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -955,7 +954,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -992,7 +991,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1029,7 +1028,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1066,7 +1065,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1103,7 +1102,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1140,7 +1139,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1177,7 +1176,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1214,7 +1213,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1251,7 +1250,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1288,7 +1287,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1325,7 +1324,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1362,7 +1361,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1399,7 +1398,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1436,7 +1435,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1473,7 +1472,7 @@
          Treat these data as contaminated.
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1508,7 +1507,7 @@
        <Description>5-min and spin-averaged LEFS60 electron count rates between 42 and 65 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1531,7 +1530,7 @@
        <Description>5-min and spin-averaged LEFS60 electron count rates between 65 and 112 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1554,7 +1553,7 @@
        <Description>5-min and spin-averaged LEFS60 electron count rates between 112 and 178 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1577,7 +1576,7 @@
        <Description>5-min and spin-averaged LEFS60 electron count rates between 178 and 290 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1600,7 +1599,7 @@
        <Description>5-min and spin-averaged LEFS60 ion count rates between 546 and 761 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1623,7 +1622,7 @@
        <Description>5-min and spin-averaged LEFS60 ion count rates between 761 and 1223 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1646,7 +1645,7 @@
        <Description>5-min and spin-averaged LEFS60 ion count rates between 1223 and 4974 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1669,7 +1668,7 @@
        <Description>5-min LEFS60 E1' sector 1 electron count rates between 42 and 65 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1702,7 +1701,7 @@
        <Description>5-min LEFS60 E1' sector 2 electron count rates between 42 and 65 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1735,7 +1734,7 @@
        <Description>5-min LEFS60 E1' sector 3 electron count rates between 42 and 65 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1768,7 +1767,7 @@
        <Description>5-min LEFS60 E1' sector 4 electron count rates between 42 and 65 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1801,7 +1800,7 @@
        <Description>5-min LEFS60 E1' sector 5 electron count rates between 42 and 65 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1834,7 +1833,7 @@
        <Description>5-min LEFS60 E1' sector 6 electron count rates between 42 and 65 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1867,7 +1866,7 @@
        <Description>5-min LEFS60 E1' sector 7 electron count rates between 42 and 65 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1900,7 +1899,7 @@
        <Description>5-min LEFS60 E1' sector 8 electron count rates between 42 and 65 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1933,7 +1932,7 @@
        <Description>5-min LEFS60 E2' sector 1 electron count rates between 64 and 112 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1966,7 +1965,7 @@
        <Description>5-min LEFS60 E2' sector 2 electron count rates between 64 and 112 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -1999,7 +1998,7 @@
        <Description>5-min LEFS60 E2' sector 3 electron count rates between 64 and 112 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2032,7 +2031,7 @@
        <Description>5-min LEFS60 E2' sector 4 electron count rates between 64 and 112 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2065,7 +2064,7 @@
        <Description>5-min LEFS60 E2' sector 5 electron count rates between 64 and 112 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2098,7 +2097,7 @@
        <Description>5-min LEFS60 E2' sector 6 electron count rates between 64 and 112 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2131,7 +2130,7 @@
        <Description>5-min LEFS60 E2' sector 7 electron count rates between 64 and 112 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2164,7 +2163,7 @@
        <Description>5-min LEFS60 E2' sector 8 electron count rates between 64 and 112 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2197,7 +2196,7 @@
        <Description>5-min LEFS60 E3' sector 1 electron count rates between 112 and 178 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2230,7 +2229,7 @@
        <Description>5-min LEFS60 E3' sector 2 electron count rates between 112 and 178 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2263,7 +2262,7 @@
        <Description>5-min LEFS60 E3' sector 3 electron count rates between 112 and 178 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2296,7 +2295,7 @@
        <Description>5-min LEFS60 E3' sector 4 electron count rates between 112 and 178 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2329,7 +2328,7 @@
        <Description>5-min LEFS60 E3' sector 5 electron count rates between 112 and 178 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2362,7 +2361,7 @@
        <Description>5-min LEFS60 E3' sector 6 electron count rates between 112 and 178 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2395,7 +2394,7 @@
        <Description>5-min LEFS60 E3' sector 7 electron count rates between 112 and 178 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2428,7 +2427,7 @@
        <Description>5-min LEFS60 E3' sector 8 electron count rates between 112 and 178 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2461,7 +2460,7 @@
        <Description>5-min LEFS60 E4' sector 1 electron count rates between 178 and 290 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2494,7 +2493,7 @@
        <Description>5-min LEFS60 E4' sector 2 electron count rates between 178 and 290 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2527,7 +2526,7 @@
        <Description>5-min LEFS60 E4' sector 3 electron count rates between 178 and 290 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2560,7 +2559,7 @@
        <Description>5-min LEFS60 E4' sector 4 electron count rates between 178 and 290 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2593,7 +2592,7 @@
        <Description>5-min LEFS60 E4' sector 5 electron count rates between 178 and 290 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2626,7 +2625,7 @@
        <Description>5-min LEFS60 E4' sector 6 electron count rates between 178 and 290 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2659,7 +2658,7 @@
        <Description>5-min LEFS60 E4' sector 7 electron count rates between 178 and 290 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2692,7 +2691,7 @@
        <Description>5-min LEFS60 E4' sector 8 electron count rates between 178 and 290 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2725,7 +2724,7 @@
        <Description>5-min LEFS60 FP5' sector 1 ion count rates between 546 and 761 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2758,7 +2757,7 @@
        <Description>5-min LEFS60 FP5' sector 2 ion count rates between 546 and 761 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2791,7 +2790,7 @@
        <Description>5-min LEFS60 FP5' sector 3 ion count rates between 546 and 761 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2824,7 +2823,7 @@
        <Description>5-min LEFS60 FP5' sector 4 ion count rates between 546 and 761 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2857,7 +2856,7 @@
        <Description>5-min LEFS60 FP5' sector 5 ion count rates between 546 and 761 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2890,7 +2889,7 @@
        <Description>5-min LEFS60 FP5' sector 6 ion count rates between 546 and 761 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2923,7 +2922,7 @@
        <Description>5-min LEFS60 FP5' sector 7 ion count rates between 546 and 761 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2956,7 +2955,7 @@
        <Description>5-min LEFS60 FP5' sector 8 ion count rates between 546 and 761 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -2989,7 +2988,7 @@
        <Description>5-min LEFS60 FP6' sector 1 ion count rates between 761 and 1223 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3022,7 +3021,7 @@
        <Description>5-min LEFS60 FP6' sector 2 ion count rates between 761 and 1223 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3055,7 +3054,7 @@
        <Description>5-min LEFS60 FP6' sector 3 ion count rates between 761 and 1223 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3088,7 +3087,7 @@
        <Description>5-min LEFS60 FP6' sector 4 ion count rates between 761 and 1223 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3121,7 +3120,7 @@
        <Description>5-min LEFS60 FP6' sector 5 ion count rates between 761 and 1223 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3154,7 +3153,7 @@
        <Description>5-min LEFS60 FP6' sector 6 ion count rates between 761 and 1223 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3187,7 +3186,7 @@
        <Description>5-min LEFS60 FP6' sector 7 ion count rates between 761 and 1223 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3220,7 +3219,7 @@
        <Description>5-min LEFS60 FP6' sector 8 ion count rates between 761 and 1223 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3253,7 +3252,7 @@
        <Description>5-min LEFS60 FP7' sector 1 ion count rates between 1223 and 4974 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3286,7 +3285,7 @@
        <Description>5-min LEFS60 FP7' sector 2 ion count rates between 1223 and 4974 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3319,7 +3318,7 @@
        <Description>5-min LEFS60 FP7' sector 3 ion count rates between 1223 and 4974 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3352,7 +3351,7 @@
        <Description>5-min LEFS60 FP7' sector 4 ion count rates between 1223 and 4974 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3385,7 +3384,7 @@
        <Description>5-min LEFS60 FP7' sector 5 ion count rates between 1223 and 4974 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3418,7 +3417,7 @@
        <Description>5-min LEFS60 FP7' sector 6 ion count rates between 1223 and 4974 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3451,7 +3450,7 @@
        <Description>5-min LEFS60 FP7' sector 7 ion count rates between 1223 and 4974 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3484,7 +3483,7 @@
        <Description>5-min LEFS60 FP7' sector 8 ion count rates between 1223 and 4974 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3519,7 +3518,7 @@
        <Description>5-min and spin-averaged LEMS120 ion count rates between 61 and 77 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3542,7 +3541,7 @@
        <Description>5-min and spin-averaged LEMS120 ion count rates between 77 and 127 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3565,7 +3564,7 @@
        <Description>5-min and spin-averaged LEMS120 ion count rates between 127 and 207 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3588,7 +3587,7 @@
        <Description>5-min and spin-averaged LEMS120 ion count rates between 207 and 336 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3611,7 +3610,7 @@
        <Description>5-min and spin-averaged LEMS120 ion count rates between 336 and 601 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3634,7 +3633,7 @@
        <Description>5-min and spin-averaged LEMS120 ion count rates between 601 and 1123 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3657,7 +3656,7 @@
        <Description>5-min and spin-averaged LEMS120 ion count rates between 1123 and 1874 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3680,7 +3679,7 @@
        <Description>5-min and spin-averaged LEMS120 ion count rates between 1874 and 4752 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3703,7 +3702,7 @@
        <Description>5-min LEFS120 P1' Sector 1 ion count rates between 61 and 77 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3736,7 +3735,7 @@
        <Description>5-min LEFS120 P1' Sector 2 ion count rates between 61 and 77 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3769,7 +3768,7 @@
        <Description>5-min LEFS120 P1' Sector 3 ion count rates between 61 and 77 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3802,7 +3801,7 @@
        <Description>5-min LEFS120 P1' Sector 4 ion count rates between 61 and 77 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3835,7 +3834,7 @@
        <Description>5-min LEFS120 P1' Sector 5 ion count rates between 61 and 77 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3868,7 +3867,7 @@
        <Description>5-min LEFS120 P1' Sector 6 ion count rates between 61 and 77 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3901,7 +3900,7 @@
        <Description>5-min LEFS120 P1' Sector 7 ion count rates between 61 and 77 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3934,7 +3933,7 @@
        <Description>5-min LEFS120 P1' Sector 8 ion count rates between 61 and 77 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -3967,7 +3966,7 @@
        <Description>5-min LEFS120 P2' Sector 1 ion count rates between 77 and 127 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4000,7 +3999,7 @@
        <Description>5-min LEFS120 P2' Sector 2 ion count rates between 77 and 127 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4033,7 +4032,7 @@
        <Description>5-min LEFS120 P2' Sector 3 ion count rates between 77 and 127 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4066,7 +4065,7 @@
        <Description>5-min LEFS120 P2' Sector 4 ion count rates between 77 and 127 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4099,7 +4098,7 @@
        <Description>5-min LEFS120 P2' Sector 5 ion count rates between 77 and 127 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4132,7 +4131,7 @@
        <Description>5-min LEFS120 P2' Sector 6 ion count rates between 77 and 127 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4165,7 +4164,7 @@
        <Description>5-min LEFS120 P2' Sector 7 ion count rates between 77 and 127 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4198,7 +4197,7 @@
        <Description>5-min LEFS120 P2' Sector 8 ion count rates between 77 and 127 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4231,7 +4230,7 @@
        <Description>5-min LEFS120 P3' Sector 1 ion count rates between 127 and 207 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4264,7 +4263,7 @@
        <Description>5-min LEFS120 P3' Sector 2 ion count rates between 127 and 207 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4297,7 +4296,7 @@
        <Description>5-min LEFS120 P3' Sector 3 ion count rates between 127 and 207 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4330,7 +4329,7 @@
        <Description>5-min LEFS120 P3' Sector 4 ion count rates between 127 and 207 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4363,7 +4362,7 @@
        <Description>5-min LEFS120 P3' Sector 5 ion count rates between 127 and 207 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4396,7 +4395,7 @@
        <Description>5-min LEFS120 P3' Sector 6 ion count rates between 127 and 207 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4429,7 +4428,7 @@
        <Description>5-min LEFS120 P3' Sector 7 ion count rates between 127 and 207 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4462,7 +4461,7 @@
        <Description>5-min LEFS120 P3' Sector 8 ion count rates between 127 and 207 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4495,7 +4494,7 @@
        <Description>5-min LEFS120 P4' Sector 1 ion count rates between 207 and 336 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4528,7 +4527,7 @@
        <Description>5-min LEFS120 P4' Sector 2 ion count rates between 207 and 336 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4561,7 +4560,7 @@
        <Description>5-min LEFS120 P4' Sector 3 ion count rates between 207 and 336 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4594,7 +4593,7 @@
        <Description>5-min LEFS120 P4' Sector 4 ion count rates between 207 and 336 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4627,7 +4626,7 @@
        <Description>5-min LEFS120 P4' Sector 5 ion count rates between 207 and 336 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4660,7 +4659,7 @@
        <Description>5-min LEFS120 P4' Sector 6 ion count rates between 207 and 336 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4693,7 +4692,7 @@
        <Description>5-min LEFS120 P4' Sector 7 ion count rates between 207 and 336 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4726,7 +4725,7 @@
        <Description>5-min LEFS120 P4' Sector 8 ion count rates between 77 and 336 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4759,7 +4758,7 @@
        <Description>5-min LEFS120 P5' Sector 1 ion count rates between 336 and 601 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4792,7 +4791,7 @@
        <Description>5-min LEFS120 P5' Sector 2 ion count rates between 336 and 601 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4825,7 +4824,7 @@
        <Description>5-min LEFS120 P5' Sector 3 ion count rates between 336 and 601 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4858,7 +4857,7 @@
        <Description>5-min LEFS120 P5' Sector 4 ion count rates between 336 and 601 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4891,7 +4890,7 @@
        <Description>5-min LEFS120 P5' Sector 5 ion count rates between 336 and 601 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4924,7 +4923,7 @@
        <Description>5-min LEFS120 P5' Sector 6 ion count rates between 336 and 601 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4957,7 +4956,7 @@
        <Description>5-min LEFS120 P5' Sector 7 ion count rates between 336 and 601 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -4990,7 +4989,7 @@
        <Description>5-min LEFS120 P5' Sector 8 ion count rates between 336 and 601 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5023,7 +5022,7 @@
        <Description>5-min LEFS120 P6' Sector 1 ion count rates between 601 and 1123 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5056,7 +5055,7 @@
        <Description>5-min LEFS120 P6' Sector 2 ion count rates between 601 and 1123 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5089,7 +5088,7 @@
        <Description>5-min LEFS120 P6' Sector 3 ion count rates between 601 and 1123 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5122,7 +5121,7 @@
        <Description>5-min LEFS120 P6' Sector 4 ion count rates between 601 and 1123 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5155,7 +5154,7 @@
        <Description>5-min LEFS120 P6' Sector 5 ion count rates between 601 and 1123 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5188,7 +5187,7 @@
        <Description>5-min LEFS120 P6' Sector 6 ion count rates between 601 and 1123 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5221,7 +5220,7 @@
        <Description>5-min LEFS120 P6' Sector 7 ion count rates between 601 and 1123 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5254,7 +5253,7 @@
        <Description>5-min LEFS120 P6' Sector 8 ion count rates between 77 and 1123 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5287,7 +5286,7 @@
        <Description>5-min LEFS120 P7' Sector 1 ion count rates between 1123 and 1874 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5320,7 +5319,7 @@
        <Description>5-min LEFS120 P7' Sector 2 ion count rates between 1123 and 1874 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5353,7 +5352,7 @@
        <Description>5-min LEFS120 P7' Sector 3 ion count rates between 1123 and 1874 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5386,7 +5385,7 @@
        <Description>5-min LEFS120 P7' Sector 4 ion count rates between 1123 and 1874 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5419,7 +5418,7 @@
        <Description>5-min LEFS120 P7' Sector 5 ion count rates between 1123 and 1874 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5452,7 +5451,7 @@
        <Description>5-min LEFS120 P7' Sector 6 ion count rates between 1123 and 1874 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5485,7 +5484,7 @@
        <Description>5-min LEFS120 P7' Sector 7 ion count rates between 1123 and 1874 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5518,7 +5517,7 @@
        <Description>5-min LEFS120 P7' Sector 8 ion count rates between 1123 and 1874 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5551,7 +5550,7 @@
        <Description>5-min LEFS120 P8' Sector 1 ion count rates between 1874 and 4752 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5584,7 +5583,7 @@
        <Description>5-min LEFS120 P8' Sector 2 ion count rates between 1874 and 4752 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5617,7 +5616,7 @@
        <Description>5-min LEFS120 P8' Sector 3 ion count rates between 1874 and 4752 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5650,7 +5649,7 @@
        <Description>5-min LEFS120 P8' Sector 4 ion count rates between 1874 and 4752 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5683,7 +5682,7 @@
        <Description>5-min LEFS120 P8' Sector 5 ion count rates between 1874 and 4752 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5716,7 +5715,7 @@
        <Description>5-min LEFS120 P8' Sector 6 ion count rates between 1874 and 4752 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5749,7 +5748,7 @@
        <Description>5-min LEFS120 P8' Sector 7 ion count rates between 1874 and 4752 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5782,7 +5781,7 @@
        <Description>5-min LEFS120 P8' Sector 8 ion count rates between 1874 and 4752 keV</Description>
        <Caveats>Geometric Factor = 0.428 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5817,7 +5816,7 @@
        <Description>5-min and spin-averaged LEFS150 electron count rates between 40 and 65 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5840,7 +5839,7 @@
        <Description>5-min and spin-averaged LEFS150 electron count rates between 60 and 107 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5863,7 +5862,7 @@
        <Description>5-min and spin-averaged LEFS150 electron count rates between 107 and 170 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5886,7 +5885,7 @@
        <Description>5-min and spin-averaged LEFS150 electron count rates between 170 and 280 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5909,7 +5908,7 @@
        <Description>5-min and spin-averaged LEFS150 ion count rates between 540 and 765 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5932,7 +5931,7 @@
        <Description>5-min and spin-averaged LEFS150 ion count rates between 765 and 1223 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5955,7 +5954,7 @@
        <Description>5-min and spin-averaged LEFS150 ion count rates between 1223 and 4942 keV</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -5978,7 +5977,7 @@
        <Description>5-min LEFS150 E1 sector 1 electron count rates between 40 and 65 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6011,7 +6010,7 @@
        <Description>5-min LEFS150 E1 sector 2 electron count rates between 40 and 65 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6044,7 +6043,7 @@
        <Description>5-min LEFS150 E1 sector 3 electron count rates between 40 and 65 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6077,7 +6076,7 @@
        <Description>5-min LEFS150 E1 sector 4 electron count rates between 40 and 65 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6110,7 +6109,7 @@
        <Description>5-min LEFS150 E2 sector 1 electron count rates between 60 and 107 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6143,7 +6142,7 @@
        <Description>5-min LEFS150 E2 sector 2 electron count rates between 60 and 107 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6176,7 +6175,7 @@
        <Description>5-min LEFS150 E2 sector 3 electron count rates between 60 and 107 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6209,7 +6208,7 @@
        <Description>5-min LEFS150 E2 sector 4 electron count rates between 60 and 107 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6242,7 +6241,7 @@
        <Description>5-min LEFS150 E3 sector 1 electron count rates between 107 and 170 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6275,7 +6274,7 @@
        <Description>5-min LEFS150 E3 sector 2 electron count rates between 107 and 170 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6308,7 +6307,7 @@
        <Description>5-min LEFS150 E3 sector 3 electron count rates between 107 and 170 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6341,7 +6340,7 @@
        <Description>5-min LEFS150 E3 sector 4 electron count rates between 107 and 170 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6374,7 +6373,7 @@
        <Description>5-min LEFS150 E4 sector 1 electron count rates between 170 and 280 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6407,7 +6406,7 @@
        <Description>5-min LEFS150 E4 sector 2 electron count rates between 170 and 280 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6440,7 +6439,7 @@
        <Description>5-min LEFS150 E4 sector 3 electron count rates between 170 and 280 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6473,7 +6472,7 @@
        <Description>5-min LEFS150 E4 sector 4 electron count rates between 170 and 280 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6506,7 +6505,7 @@
        <Description>5-min LEFS150 FP5 sector 1 ion count rates between 540 and 765 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6539,7 +6538,7 @@
        <Description>5-min LEFS150 FP5 sector 2 ion count rates between 540 and 765 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6572,7 +6571,7 @@
        <Description>5-min LEFS150 FP5 sector 3 ion count rates between 540 and 765 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6605,7 +6604,7 @@
        <Description>5-min LEFS150 FP5 sector 4 ion count rates between 540 and 765 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6638,7 +6637,7 @@
        <Description>5-min LEFS150 FP6 sector 1 ion count rates between 765 and 1223 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6671,7 +6670,7 @@
        <Description>5-min LEFS150 FP6 sector 2 ion count rates between 765 and 1223 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6704,7 +6703,7 @@
        <Description>5-min LEFS150 FP6 sector 3 ion count rates between 765 and 1223 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6737,7 +6736,7 @@
        <Description>5-min LEFS150 FP6 sector 4 ion count rates between 765 and 1223 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6770,7 +6769,7 @@
        <Description>5-min LEFS150 FP7 sector 1 ion count rates between 1223 and 4942 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6803,7 +6802,7 @@
        <Description>5-min LEFS150 FP7 sector 2 ion count rates between 1223 and 4942 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6836,7 +6835,7 @@
        <Description>5-min LEFS150 FP7 sector 3 ion count rates between 1223 and 4942 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6869,7 +6868,7 @@
        <Description>5-min LEFS150 FP7 sector 4 ion count rates between 1223 and 4942 keV.</Description>
        <Caveats>Geometric Factor = 0.397 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6904,7 +6903,7 @@
        <Description>5-min spin-averaged CA60 W1 proton count rates between 480 and 966 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6928,7 +6927,7 @@
        <Description>5-min spin-averaged CA60 W2 proton count rates between 968 abd 1204 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6952,7 +6951,7 @@
        <Description>5-min spin-averaged CA60 W3 alpha count rates between 389 and 1278 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -6976,7 +6975,7 @@
        <Description>5-min spin-averaged CA60 W4 alpha count rates between 1277 and 6984 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7000,7 +6999,7 @@
        <Description>5-min spin-averaged CA60 W5 5.le.Z.le.12 count rates between 465 and 1709 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7023,7 +7022,7 @@
        <Description>5-min spin-averaged CA60 W6 Z.ge.5 count rates between 1709 and 19107 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7046,7 +7045,7 @@
        <Description>5-min spin-averaged CA60 W7 Z.ge.12 count rates between 239 and 840 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7069,7 +7068,7 @@
        <Description>5-min spin-averaged CA60 W8 Z.ge.12 count rates between 840 and 92663 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7093,7 +7092,7 @@
        <Description>5-min spin-averaged CA60 Z2 Z.ge.1 count rates between 167 and 1316 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.279 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7116,7 +7115,7 @@
        <Description>5-min spin-averaged CA60 Z2A Z.ge.7 count rates between 427 and 1873 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.279 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7139,7 +7138,7 @@
        <Description>5-min spin-averaged CA60 Z3 Z.ge.5 count rates between 183 and 7922 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.279 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7162,7 +7161,7 @@
        <Description>5-min spin-averaged CA60 Z4 Z.ge.10 count rates between 243 and 20700 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.279 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7185,7 +7184,7 @@
        <Description>5-min spin-averaged CA60 DE1 electron count rates between 38 and 53 keV</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7208,7 +7207,7 @@
        <Description>5-min spin-averaged CA60 DE2 electron count rates between 53 and 103 keV</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7231,7 +7230,7 @@
        <Description>5-min spin-averaged CA60 DE3 electron count rates between 103 and 175 keV</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7254,7 +7253,7 @@
        <Description>5-min spin-averaged CA60 DE4 electron count rates between 175 and 315 keV</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7279,7 +7278,7 @@
           Geometric Factor = 0.14 cm^2-sr
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7304,7 +7303,7 @@
           Geometric Factor = 0.103 cm^2-sr
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7329,7 +7328,7 @@
           Geometric Factor = 0.279 cm^2-sr
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7352,7 +7351,7 @@
        <Description>5-min CA60 W1 Sector 1 proton count rates between 480 and 966 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7385,7 +7384,7 @@
        <Description>5-min CA60 W1 Sector 2 proton count rates between 480 and 966 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7418,7 +7417,7 @@
        <Description>5-min CA60 W1 Sector 3 proton count rates between 480 and 966 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7451,7 +7450,7 @@
        <Description>5-min CA60 W1 Sector 4 proton count rates between 480 and 966 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7484,7 +7483,7 @@
        <Description>5-min CA60 W1 Sector 5 proton count rates between 480 and 966 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7517,7 +7516,7 @@
        <Description>5-min CA60 W1 Sector 6 proton count rates between 480 and 966 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7550,7 +7549,7 @@
        <Description>5-min CA60 W1 Sector 7 proton count rates between 480 and 966 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7583,7 +7582,7 @@
        <Description>5-min CA60 W1 Sector 8 proton count rates between 480 and 966 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7616,7 +7615,7 @@
        <Description>5-min CA60 W2 Sector 1 proton count rates between 968 and 1204 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7649,7 +7648,7 @@
        <Description>5-min CA60 W2 Sector 2 proton count rates between 968 and 1204 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7682,7 +7681,7 @@
        <Description>5-min CA60 W2 Sector 3 proton count rates between 968 and 1204 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7715,7 +7714,7 @@
        <Description>5-min CA60 W2 Sector 4 proton count rates between 968 and 1204 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7748,7 +7747,7 @@
        <Description>5-min CA60 W2 Sector 5 proton count rates between 968 and 1204 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7781,7 +7780,7 @@
        <Description>5-min CA60 W2 Sector 6 proton count rates between 968 and 1204 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7814,7 +7813,7 @@
        <Description>5-min CA60 W2 Sector 7 proton count rates between 968 and 1204 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7847,7 +7846,7 @@
        <Description>5-min CA60 W2 Sector 8 proton count rates between 968 and 1204 keV</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7880,7 +7879,7 @@
        <Description>5-min CA60 W3 Sector 1 alpha count rates between 389 and 1278 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7913,7 +7912,7 @@
        <Description>5-min CA60 W3 Sector 2 alpha count rates between 389 and 1278 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7946,7 +7945,7 @@
        <Description>5-min CA60 W3 Sector 3 alpha count rates between 389 and 1278 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -7979,7 +7978,7 @@
        <Description>5-min CA60 W3 Sector 4 alpha count rates between 389 and 1278 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8012,7 +8011,7 @@
        <Description>5-min CA60 W3 Sector 5 alpha count rates between 389 and 1278 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8045,7 +8044,7 @@
        <Description>5-min CA60 W3 Sector 6 alpha count rates between 389 and 1278 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8078,7 +8077,7 @@
        <Description>5-min CA60 W3 Sector 7 alpha count rates between 389 and 1278 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8111,7 +8110,7 @@
        <Description>5-min CA60 W3 Sector 8 alpha count rates between 389 and 1278 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8144,7 +8143,7 @@
        <Description>5-min CA60 W4 Sector 1 alpha count rates between 1277 and 6984 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8177,7 +8176,7 @@
        <Description>5-min CA60 W4 Sector 2 alpha count rates between 1277 and 6984 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8210,7 +8209,7 @@
        <Description>5-min CA60 W4 Sector 3 alpha count rates between 1277 and 6984 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8243,7 +8242,7 @@
        <Description>5-min CA60 W4 Sector 4 alpha count rates between 1277 and 6984 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8276,7 +8275,7 @@
        <Description>5-min CA60 W4 Sector 5 alpha count rates between 1277 and 6984 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8309,7 +8308,7 @@
        <Description>5-min CA60 W4 Sector 6 alpha count rates between 1277 and 6984 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8342,7 +8341,7 @@
        <Description>5-min CA60 W4 Sector 7 alpha count rates between 1277 and 6984 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8375,7 +8374,7 @@
        <Description>5-min CA60 W4 Sector 8 alpha count rates between 1277 and 6984 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8408,7 +8407,7 @@
        <Description>5-min CA60 W5 Sector 1 5.le.Z.le.12 count rates between 465 and 1709 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8441,7 +8440,7 @@
        <Description>5-min CA60 W5 Sector 2 5.le.Z.le.12 count rates between 465 and 1709 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8474,7 +8473,7 @@
        <Description>5-min CA60 W5 Sector 3 5.le.Z.le.12 count rates between 465 and 1709 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8507,7 +8506,7 @@
        <Description>5-min CA60 W5 Sector 4 5.le.Z.le.12 count rates between 465 and 1709 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8540,7 +8539,7 @@
        <Description>5-min CA60 W5 Sector 5 5.le.Z.le.12 count rates between 465 and 1709 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8573,7 +8572,7 @@
        <Description>5-min CA60 W5 Sector 6 5.le.Z.le.12 count rates between 465 and 1709 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8606,7 +8605,7 @@
        <Description>5-min CA60 W5 Sector 7 5.le.Z.le.12 count rates between 465 and 1709 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8639,7 +8638,7 @@
        <Description>5-min CA60 W5 Sector 8 5.le.Z.le.12 count rates between 465 and 1709 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8672,7 +8671,7 @@
        <Description>5-min CA60 W6 Sector 1 Z.ge.5 count rates between 1709 and 19107 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8705,7 +8704,7 @@
        <Description>5-min CA60 W6 Sector 2 Z.ge.5 count rates between 1709 and 19107 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8738,7 +8737,7 @@
        <Description>5-min CA60 W6 Sector 3 Z.ge.5 count rates between 1709 and 19107 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8771,7 +8770,7 @@
        <Description>5-min CA60 W6 Sector 4 Z.ge.5 count rates between 1709 and 19107 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8804,7 +8803,7 @@
        <Description>5-min CA60 W6 Sector 5 Z.ge.5 count rates between 1709 and 19107 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8837,7 +8836,7 @@
        <Description>5-min CA60 W6 Sector 6 Z.ge.5 count rates between 1709 and 19107 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8870,7 +8869,7 @@
        <Description>5-min CA60 W6 Sector 7 Z.ge.5 count rates between 1709 and 19107 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8903,7 +8902,7 @@
        <Description>5-min CA60 W6 Sector 8 Z.ge.5 count rates between 1709 and 19107 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8936,7 +8935,7 @@
        <Description>5-min CA60 W7 Sector 1 Z.ge.12 count rates between 239 and 840 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -8969,7 +8968,7 @@
        <Description>5-min CA60 W7 Sector 2 Z.ge.12 count rates between 239 and 840 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9002,7 +9001,7 @@
        <Description>5-min CA60 W7 Sector 3 Z.ge.12 count rates between 239 and 840 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9035,7 +9034,7 @@
        <Description>5-min CA60 W7 Sector 4 Z.ge.12 count rates between 239 and 840 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9068,7 +9067,7 @@
        <Description>5-min CA60 W7 Sector 5 Z.ge.12 count rates between 239 and 840 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9101,7 +9100,7 @@
        <Description>5-min CA60 W7 Sector 6 Z.ge.12 count rates between 239 and 840 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9134,7 +9133,7 @@
        <Description>5-min CA60 W7 Sector 7 Z.ge.12 count rates between 239 and 840 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9167,7 +9166,7 @@
        <Description>5-min CA60 W7 Sector 8 Z.ge.12 count rates between 239 and 840 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9200,7 +9199,7 @@
        <Description>5-min CA60 W8 Sector 1 Z.ge.12 count rates between 840 and 92663 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9233,7 +9232,7 @@
        <Description>5-min CA60 W8 Sector 2 Z.ge.12 count rates between 840 and 92663 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9266,7 +9265,7 @@
        <Description>5-min CA60 W8 Sector 3 Z.ge.12 count rates between 840 and 92663 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9299,7 +9298,7 @@
        <Description>5-min CA60 W8 Sector 4 Z.ge.12 count rates between 840 and 92663 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9332,7 +9331,7 @@
        <Description>5-min CA60 W8 Sector 5 Z.ge.12 count rates between 840 and 92663 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9365,7 +9364,7 @@
        <Description>5-min CA60 W8 Sector 6 Z.ge.12 count rates between 840 and 92663 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9398,7 +9397,7 @@
        <Description>5-min CA60 W8 Sector 7 Z.ge.12 count rates between 840 and 92663 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9431,7 +9430,7 @@
        <Description>5-min CA60 W8 Sector 8 Z.ge.12 count rates between 840 and 92663 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9464,7 +9463,7 @@
        <Description>5-min CA60 Z2 Sector 1 Z.ge.1 count rates between 167 and 1316 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9497,7 +9496,7 @@
        <Description>5-min CA60 Z2 Sector 2 Z.ge.1 count rates between 167 and 1316 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9530,7 +9529,7 @@
        <Description>5-min CA60 Z2 Sector 3 Z.ge.1 count rates between 167 and 1316 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9563,7 +9562,7 @@
        <Description>5-min CA60 Z2 Sector 4 Z.ge.1 count rates between 167 and 1316 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9596,7 +9595,7 @@
        <Description>5-min CA60 Z2 Sector 5 Z.ge.1 count rates between 167 and 1316 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9629,7 +9628,7 @@
        <Description>5-min CA60 Z2 Sector 6 Z.ge.1 count rates between 167 and 1316 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9662,7 +9661,7 @@
        <Description>5-min CA60 Z2 Sector 7 Z.ge.1 count rates between 167 and 1316 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9695,7 +9694,7 @@
        <Description>5-min CA60 Z2 Sector 8 Z.ge.1 count rates between 167 and 1316 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9728,7 +9727,7 @@
        <Description>5-min CA60 Z2A Sector 1 Z.ge.7 count rates between 427 and 1873 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9761,7 +9760,7 @@
        <Description>5-min CA60 Z2A Sector 2 Z.ge.7 count rates between 427 and 1873 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9794,7 +9793,7 @@
        <Description>5-min CA60 Z2A Sector 3 Z.ge.7 count rates between 427 and 1873 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9827,7 +9826,7 @@
        <Description>5-min CA60 Z2A Sector 4 Z.ge.7 count rates between 427 and 1873 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9860,7 +9859,7 @@
        <Description>5-min CA60 Z2A Sector 5 Z.ge.7 count rates between 427 and 1873 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9893,7 +9892,7 @@
        <Description>5-min CA60 Z2A Sector 6 Z.ge.7 count rates between 427 and 1873 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9926,7 +9925,7 @@
        <Description>5-min CA60 Z2A Sector 7 Z.ge.7 count rates between 427 and 1873 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9959,7 +9958,7 @@
        <Description>5-min CA60 Z2A Sector 8 Z.ge.7 count rates between 427 and 1873 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -9992,7 +9991,7 @@
        <Description>5-min CA60 Z3 Sector 1 Z.ge.5 count rates between 183 and 7922 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10025,7 +10024,7 @@
        <Description>5-min CA60 Z3 Sector 2 Z.ge.5 count rates between 183 and 7922 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10058,7 +10057,7 @@
        <Description>5-min CA60 Z3 Sector 3 Z.ge.5 count rates between 183 and 7922 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10091,7 +10090,7 @@
        <Description>5-min CA60 Z3 Sector 4 Z.ge.5 count rates between 183 and 7922 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10124,7 +10123,7 @@
        <Description>5-min CA60 Z3 Sector 5 Z.ge.5 count rates between 183 and 7922 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10157,7 +10156,7 @@
        <Description>5-min CA60 Z3 Sector 6 Z.ge.5 count rates between 183 and 7922 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10190,7 +10189,7 @@
        <Description>5-min CA60 Z3 Sector 7 Z.ge.5 count rates between 183 and 7922 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10223,7 +10222,7 @@
        <Description>5-min CA60 Z3 Sector 8 Z.ge.5 count rates between 183 and 7922 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10256,7 +10255,7 @@
        <Description>5-min CA60 Z4 Sector 1 Z.ge.10 count rates between 243 and 20700 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10289,7 +10288,7 @@
        <Description>5-min CA60 Z4 Sector 2 Z.ge.10 count rates between 243 and 20700 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10322,7 +10321,7 @@
        <Description>5-min CA60 Z4 Sector 3 Z.ge.10 count rates between 243 and 20700 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10355,7 +10354,7 @@
        <Description>5-min CA60 Z4 Sector 4 Z.ge.10 count rates between 243 and 20700 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10388,7 +10387,7 @@
        <Description>5-min CA60 Z4 Sector 5 Z.ge.10 count rates between 243 and 20700 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10421,7 +10420,7 @@
        <Description>5-min CA60 Z4 Sector 6 Z.ge.10 count rates between 243 and 20700 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10454,7 +10453,7 @@
        <Description>5-min CA60 Z4 Sector 7 Z.ge.10 count rates between 243 and 20700 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10487,7 +10486,7 @@
        <Description>5-min CA60 Z4 Sector 8 Z.ge.10 count rates between 243 and 20700 keV/nuc</Description>
        <Caveats>Geometric Factor = 0.103 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10520,7 +10519,7 @@
        <Description>5-min CA60 DE1 sector 1 electron count rates between 38 and 53 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10553,7 +10552,7 @@
        <Description>5-min CA60 DE1 sector 2 electron count rates between 38 and 53 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10586,7 +10585,7 @@
        <Description>5-min CA60 DE1 sector 3 electrons count rates between 38 and 53 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10619,7 +10618,7 @@
        <Description>5-min CA60 DE1 sector 4 electron count rates between 38 and 53 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10652,7 +10651,7 @@
        <Description>5-min CA60 DE2 sector 1 electron count rates between 53 and 103 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10685,7 +10684,7 @@
        <Description>5-min CA60 DE2 sector 2 electron count rates between 53 and 103 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10718,7 +10717,7 @@
        <Description>5-min CA60 DE2 sector 3 electrons count rates between 53 and 103 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10751,7 +10750,7 @@
        <Description>5-min CA60 DE2 sector 4 electron count rates between 53 and 103 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10784,7 +10783,7 @@
        <Description>5-min CA60 DE3 sector 1 electron count rates between 103 and 175 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10817,7 +10816,7 @@
        <Description>5-min CA60 DE3 sector 2 electron count rates between 103 and 175 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10850,7 +10849,7 @@
        <Description>5-min CA60 DE3 sector 3 electrons count rates between 103 and 175 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10883,7 +10882,7 @@
        <Description>5-min CA60 DE3 sector 4 electron count rates between 103 and 175 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10916,7 +10915,7 @@
        <Description>5-min CA60 DE4 sector 1 electron count rates between 175 and 315 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10949,7 +10948,7 @@
        <Description>5-min CA60 DE4 sector 2 electron count rates between 175 and 315 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -10982,7 +10981,7 @@
        <Description>5-min CA60 DE4 sector 3 electrons count rates between 175 and 315 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -11015,7 +11014,7 @@
        <Description>5-min CA60 DE4 sector 4 electron count rates between 175 and 315 keV.</Description>
        <Caveats>Geometric Factor = 0.14 cm^2-sr</Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -11052,7 +11051,7 @@
          Geometric Factor = 0.428 cm^2-sr
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -11077,7 +11076,7 @@
          Geometric Factor = 0.397 cm^2-sr
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -11102,7 +11101,7 @@
          Geometric Factor = 0.428 cm^2-sr
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
@@ -11127,7 +11126,7 @@
          Geometric Factor = 0.397 cm^2-sr
        </Caveats>
        <Cadence>PT5M</Cadence>
-       <Units>cps</Units>
+       <Units>counts/s</Units>
        <ValidMin>0.0</ValidMin>
        <ValidMax>1.00E+06</ValidMax>
        <FillValue>null</FillValue>
