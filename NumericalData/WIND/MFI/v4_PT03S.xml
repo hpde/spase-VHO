@@ -1,20 +1,18 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/WIND/MFI/v4_PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>WIND MFI Version 4 Data</ResourceName>
-      <ReleaseDate>2008-07-31T20:43:42Z</ReleaseDate>
+      <ReleaseDate>2008-08-26T21:38:53Z</ReleaseDate>
       <Description>WIND MFI composite data. The files contain multiple time resolution data: 3-second, 1-minute, and 1-hour. Calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the WIND MFI instrument team in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
-        <!-- Ron Lepping -->
         <PersonID>spase://SMWG/Person/Ronald.P.Lepping</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
-        <!-- Adam Szabo -->
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
         <Role>DataProducer</Role>
       </Contact>
@@ -26,7 +24,7 @@
       <PriorID>spase://VHO/NumericalData/WIND/MFI/v3_PT03S</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://VHO/Repository/WIND/MFI</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/WIND_MFI</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>

@@ -1,15 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/WIND/3DP/PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>WIND 3DP PESA Moments Data</ResourceName>
-      <ReleaseDate>2008-07-31T20:43:42Z</ReleaseDate>
+      <ReleaseDate>2008-08-26T21:36:40Z</ReleaseDate>
       <Description>WIND 3DP proton and ion onboard calculated moments from the PESA instrument. Calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the WIND 3DP Team in any publication resulting from use of this data.</Acknowledgement>
       <Contact>
-        <!-- Peter Schroeder -->
         <PersonID>spase://SMWG/Person/Peter.Schroeder</PersonID>
         <Role>DataProducer</Role>
       </Contact>
@@ -21,7 +20,7 @@
       <AssociationID/>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://VHO/Repository/WIND/3DP</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/UCB/WIND/3DP</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
