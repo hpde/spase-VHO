@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>WIND/SWE Proton and Alpha Parameters</ResourceName>
       <AlternateName>WIND/SWE Faraday Cup (Proton-Alpha Anisotropy Analysis)</AlternateName>
-      <ReleaseDate>2008-07-31T20:43:42Z</ReleaseDate>
+      <ReleaseDate>2008-08-26T22:20:12Z</ReleaseDate>
       <Description>Solar wind proton and alpha parameters, including anisotropic temperatures, derived by non-linear fitting of the measurements and with moment techniques.</Description>
       <Acknowledgement>User will acknowledge the Wind SWE plasma instrument team.</Acknowledgement>
       <Contact>
@@ -26,7 +26,7 @@
       </Contact>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://VMO/Repository/VHO-VMO</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>

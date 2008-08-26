@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/WIND/Ephemeris/definitive_PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Definitive WIND Spacecraft Positions</ResourceName>
-      <ReleaseDate>2008-07-31T20:43:42Z</ReleaseDate>
+      <ReleaseDate>2008-08-26T22:21:43Z</ReleaseDate>
       <Description>Definitive (measured) WIND spacecraft positions in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->
@@ -20,7 +20,7 @@
       <PriorID>spase://VHO/NumericalData/WIND/Ephemeris/predicted_PT10M</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://VMO/Repository/CDAWeb</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>

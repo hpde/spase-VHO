@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/Ephemeris/PT12M</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Positions</ResourceName>
-      <ReleaseDate>2008-07-31T20:43:41Z</ReleaseDate>
+      <ReleaseDate>2008-08-26T22:21:43Z</ReleaseDate>
       <Description>ACE satellite positions.</Description>
       <Contact>
         <!-- Jan Merka -->
@@ -14,7 +14,7 @@
       </Contact>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://VMO/Repository/CDAWeb</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>

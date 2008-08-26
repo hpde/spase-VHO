@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/MAG/CDF_PT16S</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Magnetic Field 16-Second Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2008-07-31T20:43:41Z</ReleaseDate>
+      <ReleaseDate>2008-08-26T22:21:43Z</ReleaseDate>
       <Description>ACE Magnetometer level 2 data, 16-second averages.</Description>
       <Acknowledgement>Please acknowledge the ACE/MAG instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -30,7 +30,7 @@
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://VMO/Repository/CDAWeb</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
