@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/EPAM/CDF_PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Electron Proton Alpha Monitor (EPAM) 1-Hour Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2008-08-26T22:21:43Z</ReleaseDate>
+      <ReleaseDate>2008-09-11T17:00:43Z</ReleaseDate>
       <Description>ACE EPAM Electron Proton Alpha Monitor (EPAM) intensities at 1-hour time resolution. Calibrated science quality data.</Description>
       <Acknowledgement>Please acknowledge the ACE/EPAM instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -43,7 +43,7 @@
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
     <ProviderVersion>5</ProviderVersion>
     <InstrumentID>spase://SMWG/Instrument/ACE/EPAM</InstrumentID>
-    <MeasurementType>ChargedParticleFlux</MeasurementType>
+    <MeasurementType>EnergeticParticles</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1997-08-29T00:00:00Z</StartDate>
