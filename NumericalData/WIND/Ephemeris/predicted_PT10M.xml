@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/WIND/Ephemeris/predicted_PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Predicted WIND Spacecraft Positions</ResourceName>
-      <ReleaseDate>2008-08-26T22:21:43Z</ReleaseDate>
+      <ReleaseDate>2008-09-26T13:21:43Z</ReleaseDate>
       <Description>Predicted (calculated) WIND spacecraft positions in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->
@@ -19,13 +19,13 @@
       </Contact>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/WIND</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>CDAWeb FTP Access</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/pre_or/</URL>
-        <Description>NASA/GSFC CDAWeb ftp access to the data.</Description>
+        <Name>WIND Spacecraft homepage</Name>
+        <URL>http://wind.nasa.gov/ephemeris/pre</URL>
+        <Description>Homepage for the WIND mission.  Contains links to data and instrument descriptions.</Description>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
