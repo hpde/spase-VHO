@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <NumericalData>
+    <ResourceID>spase://VHO/NumericalData/Ulysses/FGM/PT01S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Ulysses High Resolution Magnetic Field Data</ResourceName>
+      <ReleaseDate>2008-10-01T22:21:43Z</ReleaseDate>
+      <Description>This data set contains high resolution samples at about one-second 
+intervals of the interplanetary magnetic field measured by the Ulysses 
+Magnetic Field experiment. Field vector components are given in units of 
+nanoteslas and in RTN coordinates, where R is the sun-s/c axis, T is the 
+cross product of the solar rotation axis and R, and T is the cross product 
+of R and T. The field magnitudes in nT are averages of scalar magnitudes 
+at higher time resolution. Times are computed at the mid-point of each 
+minute  interval and expressed in Spacecraft Event Time - UT (SCET-UT). 
+Data gaps have not been flagged in any way - if there were no available 
+data in a particular hour then there is no data record for that hour. No 
+data from the Feb. 1992 encounter with Jupiter are included. Each file 
+includes one day of data. Further details on the magnetic field 
+measurements can be found in the following reference: Balogh, A., et al.,
+Astron. Astrophys. Suppl. Ser., 92(2), 221, 1992. 
+</Description>
+      <Acknowledgement>Please acknowledge the National Space Science Data Center and the Principal Investigator, A. Balogh of Imperial College, London, UK.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Andre.Balogh</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Joyce.E.Wolf</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Ulysses Magnetometer Home Page</Name>
+        <URL>http://helio.esa.int/ulysses/archive/vhm_fgm.html</URL>
+        <Description>Site hosting instrument information, data and plots for Ulysses magnetometer</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/Ulysses/VHM-FGM</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <URL>ftp://www.rssd.esa.int/pub/ulysses/VHM-FGM/</URL>
+        <Description>FTP repository of 1-second magnetic field data in ascii format</Description>
+      </AccessURL>
+      <Format>Text</Format>
+      <Encoding>ASCII</Encoding>
+    </AccessInformation>
+    <ProviderResourceName>Vector Helium Magnetometer/Flux Gate Magnetometer</ProviderResourceName>
+    <InstrumentID>spase://SMWG/Instrument/Ulysses/FGM</InstrumentID>
+    <MeasurementType>MagneticField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1990-10-25T16:50:46Z</StartDate>
+        <StopDate>2006-12-31T23:59:59Z</StopDate>
+      </TimeSpan>
+      <Cadence>PT01S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <PhysicalParameter>
+      <Name>Year</Name>
+      <ParameterKey>Field 1</ParameterKey>
+      <Description>Two digit year</Description>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Day of Year</Name>
+      <ParameterKey>Field 2</ParameterKey>
+      <Description>Day of Year - DOY 1 = January 1</Description>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Hour of the Day</Name>
+      <ParameterKey>Field 3</ParameterKey>
+      <Description>Hour of the day</Description>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Minute of the Hour</Name>
+      <ParameterKey>Field 4</ParameterKey>
+      <Description>Minute of the Hour</Description>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Second of the Minute</Name>
+      <ParameterKey>Field 5</ParameterKey>
+      <Description>Second of the Minute</Description>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Radial Component of vector magnetic field</Name>
+      <ParameterKey>Field 6</ParameterKey>
+      <Description>Radial Component (RTN system) of vector magnetic field in nT</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
+      </CoordinateSystem>
+      <Measured>
+        <Field>
+          <FieldQualifier>Component.X</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Transvere Component of vector magnetic field</Name>
+      <ParameterKey>Field 7</ParameterKey>
+      <Description>Transverse Component (RTN system) of vector magnetic field in nT</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
+      </CoordinateSystem>
+      <Measured>
+        <Field>
+          <FieldQualifier>Component.Y</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Normal Component of vector magnetic field</Name>
+      <ParameterKey>Field 8</ParameterKey>
+      <Description>Normal Component (RTN system) of vector magnetic field in nT</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
+      </CoordinateSystem>
+      <Measured>
+        <Field>
+          <FieldQualifier>Component.Z</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Field Magnitude</Name>
+      <ParameterKey>Field 9</ParameterKey>
+      <Description>Scalar magnitude of the magnetic field in nT</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1e-9&gt;T</UnitsConversion>
+      <Measured>
+        <Field>
+          <FieldQualifier>Magnitude</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+  </NumericalData>
+</Spase>
