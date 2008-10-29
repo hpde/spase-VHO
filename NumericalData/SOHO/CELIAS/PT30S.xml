@@ -124,6 +124,7 @@
       <Units>degrees</Units>
       <Measured>
         <Particle>
+          <ParticleType>Proton</ParticleType>
           <ParticleQualifier>Component.Theta</ParticleQualifier>
           <ParticleQuantity>Velocity</ParticleQuantity>
         </Particle>
