@@ -90,11 +90,13 @@
       <Name>Proton Density</Name>
       <ParameterKey>Field 6</ParameterKey>
       <Description>Proton number density</Description>
+      <Caveats>Parameters are derived from a combination of fitting and moment techniques</Caveats>
       <Units>cm^-3</Units>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
           <ParticleQualifier>Fit</ParticleQualifier>
+          <ParticleQualifier>Moment</ParticleQualifier>
           <ParticleQuantity>NumberDensity</ParticleQuantity>
         </Particle>
       </Measured>
@@ -103,12 +105,14 @@
       <Name>Proton Thermal Speed</Name>
       <ParameterKey>Field 7</ParameterKey>
       <Description>Most probable proton thermal speed</Description>
+      <Caveats>Parameters are derived from a combination of fitting and moment techniques</Caveats>
       <Units>km/s</Units>
       <Measured>
          <Particle>
            <ParticleType>Proton</ParticleType>
            <ParticleQualifier>Scalar</ParticleQualifier>
            <ParticleQualifier>Moment</ParticleQualifier>
+           <ParticleQualifier>Fit</ParticleQualifier>
            <ParticleQuantity>ThermalSpeed</ParticleQuantity>
          </Particle>
       </Measured>
@@ -118,9 +122,9 @@
       <ParameterKey>Field 8</ParameterKey>
       <Description>Proton arrival direction in degrees from north/south with positive meaning from the south</Description>
       <Units>degrees</Units>
-      <UnitsConversion>1e-9&gt;T</UnitsConversion>
       <Measured>
         <Particle>
+          <ParticleType>Proton</ParticleType>
           <ParticleQualifier>Component.Theta</ParticleQualifier>
           <ParticleQuantity>Velocity</ParticleQuantity>
         </Particle>
@@ -172,8 +176,8 @@
       <Name>Heliocentric Range</Name>
       <ParameterKey>Field 12</ParameterKey>
       <Description>Heliocentric Range of SOHO in 10^6 km</Description>
-      <Units>10^6 km</Units>
-      <UnitsConversion>1e7&gt;m</UnitsConversion>      
+      <Units>millions of km (10^6 km)</Units>
+      <UnitsConversion>1e9&gt;m</UnitsConversion>      
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
