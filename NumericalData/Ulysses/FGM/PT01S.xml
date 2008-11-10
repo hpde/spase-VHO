@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/Ulysses/FGM/PT01S</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses High Resolution Magnetic Field Data</ResourceName>
-      <ReleaseDate>2008-10-01T22:21:43Z</ReleaseDate>
+      <ReleaseDate>2008-11-10T22:21:43Z</ReleaseDate>
       <Description>This data set contains high resolution samples at about one-second 
 intervals of the interplanetary magnetic field measured by the Ulysses 
 Magnetic Field experiment. Field vector components are given in units of 
@@ -37,7 +37,7 @@ Astron. Astrophys. Suppl. Ser., 92(2), 221, 1992.
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/Ulysses/VHM-FGM</RepositoryID>
+      <RepositoryID>spase://VHO/Repository/Ulysses/VHM-FGM</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
