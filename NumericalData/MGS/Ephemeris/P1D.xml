@@ -19,7 +19,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>VHO-VMO Repository</Name>
-        <URL>http://vmo.nasa.gov/mission/mgs_proxy/positions/</URL>
+        <URL>http://vho.nasa.gov/mission/mgs_proxy/positions/</URL>
         <Description>VHO Repository housing MGS ephemeris data</Description>
       </AccessURL>
       <Format>Text</Format>
