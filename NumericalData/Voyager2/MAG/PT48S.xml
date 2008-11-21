@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/Voyager2/MAG/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 Magnetic Field Data (48 s averages)</ResourceName>
-      <ReleaseDate>2008-11-21T22:02:39Z</ReleaseDate>
+      <ReleaseDate>2008-11-21T22:56:22Z</ReleaseDate>
       <Description>The average magnetic field strength produced by the spacecraft at the location of the outboard magnetometer of the dual magnetometers system on Voyager 2 varies between 0.1 – 0.2 nT, comparable to the most probable magnetic field strength in the inner heliosheath and significantly larger than the most probable magnetic field strength in the distant supersonic solar wind. The spacecraft magnetic field is a complex, time-dependent signal that must be removed from the measured magnetic field signal in order to derive the ambient magnetic fields of the solar wind and heliosheath.  Corrections must also be made for spurious magnetic signals and noise associated with the telemetry system, ground tracking systems, and other factors. A non-periodic modulation of the spacecraft’s magnetic field, with amplitudes comparable to the average ambient magnetic field strength and periods in the range from 1 to 12 hours, has been present approximately half the time in the Voyager 2 data since ~1990, beginning in ~1985. Finally, a spacecraft systems command during late 2006 had the unintended consequence of exposing the sensors to temperatures well beyond their design limits for more than one week. This command also rotated one set of dual triaxial sensors through a large angle and produced additional noise, drifts and spurious signals as a result of damage to the sensor assembly. Extracting the signal describing the solar wind and heliosheath from the many sources of uncertainty is a complex and partly subjective process that requires understanding of the instrument and judgment based on experience in dealing with the ever-changing extraneous signals. We estimate that the 1-sigma uncertainty in the 48 sec averages in the components of the magnetic field is typically ~+/- 0.03 nT. The uncertainties in F1, BR, BT, and BN can differ from one another and they may vary with time, but there is no practical way to determine these uncertainties more precisely at present.
 
 References 
@@ -17,16 +17,23 @@ Burlaga, L.F., N.F. Ness, Y.-M. Wang, and N.R. Sheeley Jr., Heliospheric magneti
 
 Ness, N., K.W. Behannon, R. Lepping, and K.H. Schatten, J. Geophys. Res., , 76, 3564, 1971.
 </Description>
-      <Acknowledgement>Please acknowledge the National Space Science Data Center and the Principal Investigator, L. Burlaga of NASA GSFC.</Acknowledgement>
+      <Acknowledgement>Please acknowledge the Principal Investigator, N. Ness of University of Delaware and Co-Investigator L. Burlaga of NASA GSFC.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
-        <Role>PrincipalInvestigator</Role>
+        <Role>CoInvestigator</Role>
       </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
-      <!-- InformationUFL??? -->
+      <InformationURL>
+        <Name>The Voyager web site</Name>
+        <URL>http://voyager.jpl.nasa.gov</URL>
+      </InformationURL>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>
@@ -43,14 +50,12 @@ Ness, N., K.W. Behannon, R. Lepping, and K.H. Schatten, J. Geophys. Res., , 76, 
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <!-- Double check and adjust -->
-        <StartDate>1977-08-20T00:00:00Z</StartDate>
+        <StartDate>1977-08-24T00:00:00Z</StartDate>
         <RelativeStopDate>P06M</RelativeStopDate>
       </TimeSpan>
       <Cadence>PT48S</Cadence>
     </TemporalDescription>
     <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-    <Caveats>*** ADJUST ***</Caveats>
     <Parameter>
       <Name>Spacecraft ID</Name>
       <ParameterKey>SC</ParameterKey>
@@ -94,12 +99,12 @@ Ness, N., K.W. Behannon, R. Lepping, and K.H. Schatten, J. Geophys. Res., , 76, 
     <Parameter>
       <Name>Br</Name>
       <ParameterKey>BR</ParameterKey>
-      <Description>Radial component of vector magnetic field in HG coordinates.</Description>
+      <Description>Radial component of vector magnetic field in RTN coordinates.</Description>
       <Units>nT</Units>
       <UnitsConversion>1e-9&gt;T</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>HG</CoordinateSystemName>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <Field>
         <Qualifier>Component.X</Qualifier>
@@ -110,12 +115,12 @@ Ness, N., K.W. Behannon, R. Lepping, and K.H. Schatten, J. Geophys. Res., , 76, 
     <Parameter>
       <Name>Bt</Name>
       <ParameterKey>BT</ParameterKey>
-      <Description>Transverse component of vector magnetic field in HG coordinates</Description>
+      <Description>Transverse component of vector magnetic field in RTN coordinates</Description>
       <Units>nT</Units>
       <UnitsConversion>1e-9&gt;T</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>HG</CoordinateSystemName>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <Field>
         <Qualifier>Component.Y</Qualifier>
@@ -126,12 +131,12 @@ Ness, N., K.W. Behannon, R. Lepping, and K.H. Schatten, J. Geophys. Res., , 76, 
     <Parameter>
       <Name>Bn</Name>
       <ParameterKey>BN</ParameterKey>
-      <Description>Normal component of vector magnetic field in HG coordinates</Description>
+      <Description>Normal component of vector magnetic field in RTN coordinates</Description>
       <Units>nT</Units>
       <UnitsConversion>1e-9&gt;T</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>HG</CoordinateSystemName>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <Field>
         <Qualifier>Component.Z</Qualifier>
@@ -154,12 +159,12 @@ Ness, N., K.W. Behannon, R. Lepping, and K.H. Schatten, J. Geophys. Res., , 76, 
     <Parameter>
       <Name>dBr</Name>
       <ParameterKey>dBR</ParameterKey>
-      <Description>1-sigma uncertainty in the radial component of vector magnetic field in HG coordinates.</Description>
+      <Description>1-sigma uncertainty in the radial component of vector magnetic field in RTN coordinates.</Description>
       <Units>nT</Units>
       <UnitsConversion>1e-9&gt;T</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>HG</CoordinateSystemName>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <Field>
         <Qualifier>Component.X</Qualifier>
@@ -170,12 +175,12 @@ Ness, N., K.W. Behannon, R. Lepping, and K.H. Schatten, J. Geophys. Res., , 76, 
     <Parameter>
       <Name>dBt</Name>
       <ParameterKey>dBT</ParameterKey>
-      <Description>1-sigma uncertainty in the transverse component of vector magnetic field in HG coordinates</Description>
+      <Description>1-sigma uncertainty in the transverse component of vector magnetic field in RTN coordinates</Description>
       <Units>nT</Units>
       <UnitsConversion>1e-9&gt;T</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>HG</CoordinateSystemName>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <Field>
         <Qualifier>Component.Y</Qualifier>
@@ -186,12 +191,12 @@ Ness, N., K.W. Behannon, R. Lepping, and K.H. Schatten, J. Geophys. Res., , 76, 
     <Parameter>
       <Name>dBn</Name>
       <ParameterKey>dBN</ParameterKey>
-      <Description>1-sigma uncertainty in the normal component of vector magnetic field in HG coordinates</Description>
+      <Description>1-sigma uncertainty in the normal component of vector magnetic field in RTN coordinates</Description>
       <Units>nT</Units>
       <UnitsConversion>1e-9&gt;T</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>HG</CoordinateSystemName>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <Field>
         <Qualifier>Component.Z</Qualifier>
