@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/SWEPAM/CDF_PT64S</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Wind Electron Proton Alpha Monitor (SWEPAM) 64-Second Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2008-08-26T22:21:43Z</ReleaseDate>
+      <ReleaseDate>2008-11-26T20:22:47Z</ReleaseDate>
       <Description>Solar Wind Ion parameters from ACE/SWEPAM. Level 2 data, 64-second averages.</Description>
       <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -42,7 +42,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1998-02-04T00:00:12Z</StartDate>
-        <RelativeStopDate>P2M</RelativeStopDate>
+        <RelativeStopDate>-P2M</RelativeStopDate>
       </TimeSpan>
       <Cadence>PT64S</Cadence>
     </TemporalDescription>

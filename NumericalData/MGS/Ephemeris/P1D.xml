@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/MGS/Ephemeris/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>MGS Positions</ResourceName>
-      <ReleaseDate>2008-11-06T22:21:43Z</ReleaseDate>
+      <ReleaseDate>2008-11-26T20:22:47Z</ReleaseDate>
       <Description>MGS satellite positions.</Description>
       <Contact>
         <!-- Jan Merka -->
@@ -30,7 +30,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1999-01-01T00:00:00Z</StartDate>
-        <RelativeStopDate>P1D</RelativeStopDate>
+        <RelativeStopDate>-P1D</RelativeStopDate>
       </TimeSpan>
       <Cadence>P1D</Cadence>
     </TemporalDescription>

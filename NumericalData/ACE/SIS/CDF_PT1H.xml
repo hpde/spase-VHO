@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/ACE/SIS/CDF_PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Isotope Spectrometer (SIS) 1-Hour Level 2 Data in CDF Format</ResourceName>
-      <ReleaseDate>2008-09-11T17:00:43Z</ReleaseDate>
+      <ReleaseDate>2008-11-26T20:22:47Z</ReleaseDate>
       <Description>ACE SIS Solar Isotope Spectrometer (SIS) intensities and counts, for 8 elements at 1-hour time resolution. Calibrated science quality data.</Description>
       <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -47,7 +47,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1997-08-29T00:00:00Z</StartDate>
-        <RelativeStopDate>P2M</RelativeStopDate>
+        <RelativeStopDate>-P2M</RelativeStopDate>
       </TimeSpan>
       <Cadence>PT1H</Cadence>
     </TemporalDescription>

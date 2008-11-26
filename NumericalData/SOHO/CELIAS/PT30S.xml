@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/SOHO/CELIAS/PT30S</ResourceID>
     <ResourceHeader>
       <ResourceName>SOHO CELIAS Proton Monitor 30 Second Solar Wind data</ResourceName>
-      <ReleaseDate>2008-10-01T22:21:43Z</ReleaseDate>
+      <ReleaseDate>2008-11-26T20:22:47Z</ReleaseDate>
       <Description>The Proton Monitor is a solar wind Energy per Charge (E/Q) analyzer of a new design, consisting of a three-box deflection system followed by a wedge-shaped MicroChannel Plate (MCP) assembly. The data are derived from sets of 6 rates (one for each voltage step of the PM deflection system) obtained every 30 seconds. The voltage steps are spaced logarithmically (about 60% step size) from about 0.3 to 3 kV. At a given voltage step the energy per charge dynamic range is slightly more than a factor of 2. The overall geometry factor of the PM is about 1.0 x 10**-4 cm**2.
 </Description>
       <Acknowledgement>Please acknowledge the University of Maryland Space Physics Group</Acknowledgement>
@@ -35,7 +35,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1996-01-20T20:17:30Z</StartDate>
-        <RelativeStopDate>PT5M</RelativeStopDate>
+        <RelativeStopDate>-PT5M</RelativeStopDate>
       </TimeSpan>
       <Cadence>PT30S</Cadence>
     </TemporalDescription>

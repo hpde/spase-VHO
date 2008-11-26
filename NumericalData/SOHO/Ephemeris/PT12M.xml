@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/SOHO/Ephemeris/PT12M</ResourceID>
     <ResourceHeader>
       <ResourceName>SOHO Positions</ResourceName>
-      <ReleaseDate>2008-11-13T22:21:43Z</ReleaseDate>
+      <ReleaseDate>2008-11-26T20:22:47Z</ReleaseDate>
       <Description>SOHO satellite positions.</Description>
       <Contact>
         <!-- Jan Merka -->
@@ -30,7 +30,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1996-01-01T00:00:00Z</StartDate>
-        <RelativeStopDate>P1M</RelativeStopDate>
+        <RelativeStopDate>-P1M</RelativeStopDate>
       </TimeSpan>
       <Cadence>PT12M</Cadence>
     </TemporalDescription>
