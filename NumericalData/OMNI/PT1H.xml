@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/OMNI/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Hourly OMNI Data Set</ResourceName>
-      <ReleaseDate>2008-10-22T00:00:00</ReleaseDate>
+      <ReleaseDate>2008-12-02T19:14:03Z</ReleaseDate>
       <Description>Hourly resolution, multi-source, near-Earth solar wind magnetic field, plasma and energetic proton flux data, plus AE (auroral electrojet), Kp (planetary geomagnetic activity) index, Dst (storm or equatorial ring current index and Rz (sunspot number).  Also available at 1-day and 27-day resolution.</Description>
       <Acknowledgement>We acknowledge the experiment teams that acquired, processed and provided the OMNI-included data, and J.H. King and N.E. Papitashvili of NASA/GSFC for creating the OMNI data set.</Acknowledgement>
       <Contact>
@@ -25,7 +25,7 @@
       <PriorID/>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>space://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
