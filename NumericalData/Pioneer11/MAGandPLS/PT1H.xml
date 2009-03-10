@@ -54,7 +54,7 @@
             </DataExtent>
             <Acknowledgement>Please acknowledge the magnetic field and plasma Principal Investigators, Drs. E. Smith and P. Gazis, and NSSDC or GSFC-SPDF</Acknowledgement>
         </AccessInformation>
-        <InstrumentID>spase://SMWG/Instrument/Pioneer11/MAG</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Pioneer11/MAG1</InstrumentID>
         <InstrumentID>spase://SMWG/Instrument/Pioneer11/PLS</InstrumentID>
         <MeasurementType>MagneticField</MeasurementType>
         <MeasurementType>ThermalPlasma</MeasurementType>

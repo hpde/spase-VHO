@@ -58,8 +58,8 @@
             </DataExtent>
             <Acknowledgement>Please acknowledge N.F. Ness (P.I.) and L. Burlaga for magnetic field data and J. Richardson (P.I.) for plasma data, and NSSDC or GSFC-SPDF</Acknowledgement>
         </AccessInformation>
-        <InstrumentID>spase://SMWG/Instrument/Voyager1/MAG</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/Voyager1/PLS</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Voyager2/MAG</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Voyager2/PLS</InstrumentID>
         <MeasurementType>MagneticField</MeasurementType>
         <MeasurementType>ThermalPlasma</MeasurementType>
         <TemporalDescription>
