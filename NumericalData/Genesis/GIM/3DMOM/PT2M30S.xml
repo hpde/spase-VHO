@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/Genesis/GIM/3DMOM/PT2M30S</ResourceID>
     <ResourceHeader>
       <ResourceName>Genesis 3D Ion Moments</ResourceName>
-      <ReleaseDate>2008-07-31T21:05:32Z</ReleaseDate>
+      <ReleaseDate>2009-04-09T22:45:21Z</ReleaseDate>
       <Description>Genesis level 2 3-dimensional ion moments and bidirectional electron streaming parameter values</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.T.Steinberg</PersonID>
@@ -100,7 +100,7 @@
       <ParameterKey>Field 8</ParameterKey>
       <Description>Proton Temperature</Description>
       <Units>Kelvin</Units>
-      <FillValue>-9999.00</FillValue>
+      <FillValue>-1.00E+04</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -114,7 +114,7 @@
       <ParameterKey>Field 9</ParameterKey>
       <Description>Proton Speed</Description>
       <Units>km/s</Units>
-      <FillValue>-9999.00</FillValue>
+      <FillValue>-9999.0</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -132,7 +132,7 @@
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
-      <FillValue>-9999.00</FillValue>
+      <FillValue>-9999.0</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -150,7 +150,7 @@
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
-      <FillValue>-9999.00</FillValue>
+      <FillValue>-9999.0</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -168,7 +168,7 @@
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
-      <FillValue>-9999.00</FillValue>
+      <FillValue>-9999.0</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -186,7 +186,7 @@
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
-      <FillValue>-9999.00</FillValue>
+      <FillValue>-9999.0</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -204,7 +204,7 @@
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
-      <FillValue>-9999.00</FillValue>
+      <FillValue>-9999.0</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -222,7 +222,7 @@
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
-      <FillValue>-9999.00</FillValue>
+      <FillValue>-9999.0</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -235,7 +235,7 @@
       <Name>Alpha to Proton Ratio</Name>
       <ParameterKey>Field 16</ParameterKey>
       <Description>Alpha to Proton Ratio</Description>
-      <FillValue>-9999.00</FillValue>
+      <FillValue>-9999.0000</FillValue>
       <Measured>
         <Particle>
           <ParticleType>Proton</ParticleType>
@@ -314,7 +314,7 @@
       <Name>Bidirectional Electron Streaming Flag</Name>
       <ParameterKey>Field 22</ParameterKey>
       <Description>Flag indicating if bidirectional electron streaming was detected (0 = no, 1 = yes)</Description>
-      <FillValue>-9999.00</FillValue>
+      <FillValue>-9999</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
