@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/Genesis/GIM/B-Proxy/PT160S</ResourceID>
     <ResourceHeader>
       <ResourceName>Genesis interplanetary field orientation proxy</ResourceName>
-      <ReleaseDate>2008-10-06T21:05:32Z</ReleaseDate>
+      <ReleaseDate>2009-04-09T22:53:05Z</ReleaseDate>
       <Description>The vector direction of peak suprathermal electron flux as measured with the Genesis Electron Monitor (GEM) instrument.  This direction serves as a proxy for the interplanetary field orientation.  The suprathermal electron flux is either parallel or anti-parallel to the interplanetary magnetic field.  The true field polarity (+ or -) cannot be determined from GEM. Angles are given in Geocentric Solar Ecliptic (GSE) coordinates.
 </Description>
       <Contact>
@@ -88,7 +88,7 @@
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
-      <FillValue>-9999.00</FillValue>
+      <FillValue>-9999.0000</FillValue>
       <Measured>
         <Field>
           <FieldQualifier>Component.Theta</FieldQualifier>
@@ -105,7 +105,7 @@
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
-      <FillValue>-9999.00</FillValue>
+      <FillValue>-9999.0000</FillValue>
       <Measured>
         <Field>
           <FieldQualifier>Component.Phi</FieldQualifier>
@@ -122,7 +122,7 @@
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
-      <FillValue>-9999.00</FillValue>
+      <FillValue>-9999.0000</FillValue>
       <Measured>
         <Field>
           <FieldQualifier>Component.Theta</FieldQualifier>
@@ -139,7 +139,7 @@
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
-      <FillValue>-9999.00</FillValue>
+      <FillValue>-9999.0000</FillValue>
       <Measured>
         <Field>
           <FieldQualifier>Component.Phi</FieldQualifier>
