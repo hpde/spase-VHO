@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/Voyager1/Ephemeris/P1D</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/Voyager2/Ephemeris/P1D</ResourceID>
     <ResourceHeader>
-      <ResourceName>Voyager 1 Spacecraft Positions</ResourceName>
+      <ResourceName>Voyager 2 Spacecraft Positions</ResourceName>
       <ReleaseDate>2009-04-22T22:20:12Z</ReleaseDate>
-      <Description>Voyager 1 spacecraft positions data product generated from data at SSCWeb (sscweb.gsfc.nasa.gov)</Description>
+      <Description>Voyager 2 spacecraft positions data product generated from data at SSCWeb (sscweb.gsfc.nasa.gov)</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
         <Role>MetadataContact</Role>
@@ -20,13 +20,13 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>VHO Repository</Name>
-        <URL>http://vho.nasa.gov/mission/voyager1/ephemeris</URL>
-        <Description>VHO holdings of Voyager 1 ephemeris</Description>
+        <URL>http://vho.nasa.gov/mission/voyager/2/ephemeris</URL>
+        <Description>VHO holdings of Voyager 2 ephemeris</Description>
       </AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>
     </AccessInformation>
-    <InstrumentID>spase://SMWG/Instrument/Voyager1/Ephemeris</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Voyager2/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
