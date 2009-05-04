@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_2.xsd">
-<Version>1.3.2</Version>
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+<Version>2.0.0</Version>
 <NumericalData>
    <ResourceID>spase://VHO/NumericalData/Pioneer_Venus/MAGandPLS/PT1H</ResourceID>
    <ResourceHeader>
@@ -68,16 +68,142 @@
    </TemporalDescription>
    <ObservedRegion>Heliosphere.Inner</ObservedRegion>
    <Parameter>
-      <Name>Magnetic Field Magnitude</Name>
-      <ParameterKey>Column16</ParameterKey>
-      <Description>Hourly average of fine time scale magnetic field magnitudes</Description>
+      <Name>Year</Name>
+      <ParameterKey>Column1</ParameterKey>
+      <Description>Four digit Year</Description>
+      <Cadence>PT1H</Cadence>
+      <FillValue>999.9999</FillValue>
+      <Support>
+         <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+   </Parameter>
+   <Parameter>
+      <Name>Day</Name>
+      <ParameterKey>Column2</ParameterKey>
+      <Description>Decimal Day of Year</Description>
+      <Cadence>PT1H</Cadence>
+      <FillValue>999.9999</FillValue>
+      <Support>
+         <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+   </Parameter>
+   <Parameter>
+      <Name>Hour</Name>
+      <ParameterKey>Column3</ParameterKey>
+      <Description>Hour</Description>
+      <Cadence>PT1H</Cadence>
+      <FillValue>999.9999</FillValue>
+      <Support>
+         <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+   </Parameter>
+   <Parameter>
+      <Name>PVO Location relative to Venus</Name>
+      <Description>Pioneer Venus location relative to the center of Venus, in Venus Solar Orbital coordinates (x from Venus to sun, z northward from Venus orbit plane)</Description>
+      <Caveats>The data set contains Venus-centered PVO location in Venus Solar Orbital coordinates.  (X from Venus to sun, Z positive northward from Venus orbit plane).  This coordinate system is presently not available in the data model.  "SSE" (spacecraft solar ecliptic) is used as an approximation.  Most if not all heliospheric studies for which hourly data are used, assuming the data were taken as the location of the center of Venus should be fine.</Caveats> 
+      <Cadence>PT1H</Cadence>
+      <Units>Rv</Units>
+      <CoordinateSystem>
+         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+         <CoordinateSystemName>SSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+         <Size>3</Size>
+         <Description>X,Y,Z components</Description>
+         <Element>
+            <Name>X component</Name>
+            <Component>I</Component>
+            <Index>1</Index>
+            <ParameterKey>Column04</ParameterKey>
+         </Element>
+         <Element>
+            <Name>Y component</Name>
+            <Component>J</Component>
+            <Index>2</Index>
+            <ParameterKey>Column05</ParameterKey>
+         </Element>
+         <Element>
+            <Name>Z component</Name>
+            <Component>K</Component>
+            <Index>3</Index>
+            <ParameterKey>Column06</ParameterKey>
+         </Element>
+      </Structure>
+      <FillValue>9999.9</FillValue>
+      <Support>
+         <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+   </Parameter>
+   <Parameter>
+      <Name>Venus radial distance</Name>
+      <ParameterKey>Column07</ParameterKey>
+      <Description>Heliocentric radial distance of Planet Venus in AU</Description>
+      <Cadence>PT1H</Cadence>
+      <Units>AU</Units>
+      <Support>
+         <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+   </Parameter>
+   <Parameter>
+      <Name>Venus latitude</Name>
+      <ParameterKey>Column08</ParameterKey>
+      <Description>Heliographic Inertial elevation angle of Planet Venus in deg</Description>
+      <Cadence>PT1H</Cadence>
+      <Units>deg</Units>
+      <CoordinateSystem>
+         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+         <CoordinateSystemName>HGI</CoordinateSystemName>
+      </CoordinateSystem>
+      <Support>
+         <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+   </Parameter>
+   <Parameter>
+      <Name>Venus longitude</Name>
+      <ParameterKey>Column09</ParameterKey>
+      <Description>Heliographic Inertial azimuthal angle of Planet Venus in deg</Description>
+      <Cadence>PT1H</Cadence>
+      <Units>deg</Units>
+      <CoordinateSystem>
+         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+         <CoordinateSystemName>HGI</CoordinateSystemName>
+      </CoordinateSystem>
+      <Support>
+         <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+   </Parameter>
+   <Parameter>
+      <Name>Magnetic Field Vector</Name>
+      <Description>Hourly averages of XYZ components of fine time scale magnetic field vectors. Coordinate System is Venus Solar Orbital (VSO)</Description>
       <Cadence>PT1H</Cadence>
       <Units>nT</Units>
-      <FillValue>999.99</FillValue>
-         <Field>
-            <Qualifier>Magnitude</Qualifier>
-            <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
+      <Structure>
+         <Size>3</Size>
+         <Description>X, Y, Z components in Venus Solar Orital (VSO) coordinates</Description>
+         <Element>
+            <Name>X component</Name>
+            <Component>I</Component>
+            <Index>1</Index>
+            <ParameterKey>Column10</ParameterKey>
+         </Element>
+         <Element>
+            <Name>Y component</Name>
+            <Component>J</Component>
+            <Index>2</Index>
+            <ParameterKey>Column11</ParameterKey>
+         </Element>
+         <Element>
+            <Name>Z component</Name>
+            <Component>K</Component>
+            <Index>3</Index>
+            <ParameterKey>Column12</ParameterKey>
+         </Element>
+      </Structure>
+      <FillValue>999.9999</FillValue>
+      <Field>
+         <Qualifier>Vector</Qualifier>
+         <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
    </Parameter>
    <Parameter>
       <Name>Magnetic Field Vector</Name>
@@ -93,19 +219,19 @@
          <Description>R,T,N components</Description>
          <Element>
             <Name>R component</Name>
-            <Component>i</Component>
+            <Component>I</Component>
             <Index>1</Index>
             <ParameterKey>Column13</ParameterKey>
          </Element>
          <Element>
             <Name>T component</Name>
-            <Component>j</Component>
+            <Component>J</Component>
             <Index>2</Index>
             <ParameterKey>Column14</ParameterKey>
          </Element>
          <Element>
             <Name>N component</Name>
-            <Component>k</Component>
+            <Component>K</Component>
             <Index>3</Index>
             <ParameterKey>Column15</ParameterKey>
          </Element>
@@ -115,6 +241,18 @@
             <Qualifier>Vector</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
          </Field>
+   </Parameter>
+   <Parameter>
+      <Name>Magnetic Field Magnitude</Name>
+      <ParameterKey>Column16</ParameterKey>
+      <Description>Hourly average of fine time scale magnetic field magnitudes</Description>
+      <Cadence>PT1H</Cadence>
+      <Units>nT</Units>
+      <FillValue>999.99</FillValue>
+      <Field>
+         <Qualifier>Magnitude</Qualifier>
+         <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
    </Parameter>
    <Parameter>
       <Name>Flow speed</Name>
@@ -142,7 +280,7 @@
       <FillValue>9999.9</FillValue>
          <Particle>
             <ParticleType>Proton</ParticleType>
-            <Qualifier>DirectionAngle.elevation</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <ParticleQuantity>FlowVelocity</ParticleQuantity>
          </Particle>
    </Parameter>
@@ -159,7 +297,7 @@
       <FillValue>9999.9</FillValue>
          <Particle>
             <ParticleType>Proton</ParticleType>
-            <Qualifier>DirectionAngle.azimuth</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <ParticleQuantity>FlowVelocity</ParticleQuantity>
          </Particle>
    </Parameter>
@@ -188,81 +326,6 @@
             <Qualifier>Average</Qualifier>
             <ParticleQuantity>Temperature</ParticleQuantity>
          </Particle>
-   </Parameter>
-   <Parameter>
-      <Name>Venus radial distance</Name>
-      <ParameterKey>Column07</ParameterKey>
-      <Description>Heliocentric radial distance of Planet Venus in AU</Description>
-      <Cadence>PT1H</Cadence>
-      <Units>AU</Units>
-      <Support>
-      	<SupportQuantity>Positional</SupportQuantity>
-      </Support>
-   </Parameter>
-   <Parameter>
-      <Name>Venus latitude</Name>
-      <ParameterKey>Column08</ParameterKey>
-      <Description>Heliographic Inertial elevation angle of Planet Venus in deg</Description>
-      <Cadence>PT1H</Cadence>
-      <Units>deg</Units>
-      <CoordinateSystem>
-         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
-         <CoordinateSystemName>HGI</CoordinateSystemName>
-      </CoordinateSystem>
-      <Support>
-      	<SupportQuantity>Positional</SupportQuantity>
-      </Support>
-   </Parameter>
-   <Parameter>
-      <Name>Venus longitude</Name>
-      <ParameterKey>Column09</ParameterKey>
-      <Description>Heliographic Inertial azimuthal angle of Planet Venus in deg</Description>
-      <Cadence>PT1H</Cadence>
-      <Units>deg</Units>
-      <CoordinateSystem>
-         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
-         <CoordinateSystemName>HGI</CoordinateSystemName>
-      </CoordinateSystem>
-      <Support>
-      	<SupportQuantity>Positional</SupportQuantity>
-      </Support>
-   </Parameter>
-   <Parameter>
-      <Name>PVO Location relative to Venus</Name>
-      <Description>Pioneer Venus location relative to the center of Venus, in Venus Solar Orbital coordinates (x from Venus to sun, z northward from Venus orbit plane)</Description>
-       <Caveats>The data set contains Venus-centered PVO location in Venus Solar Orbital coordinates.  (X from Venus to sun, Z positive northward from Venus orbit plane).  This coordinate system is presently not available in the data model.  "SSE" (spacecraft solar ecliptic) is used as an approximation.  Most if not all heliospheric studies for which hourly data are used, assuming the data were taken as the location of the center of Venus should be fine.</Caveats> 
-      <Cadence>PT1H</Cadence>
-      <Units>Rv</Units>
-      <CoordinateSystem>
-         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-         <CoordinateSystemName>SSE</CoordinateSystemName>
-      </CoordinateSystem>
-      <Structure>
-         <Size>3</Size>
-         <Description>X,Y,Z components</Description>
-         <Element>
-            <Name>X component</Name>
-            <Component>i</Component>
-            <Index>1</Index>
-            <ParameterKey>Column04</ParameterKey>
-         </Element>
-         <Element>
-            <Name>Y component</Name>
-            <Component>j</Component>
-            <Index>2</Index>
-            <ParameterKey>Column05</ParameterKey>
-         </Element>
-         <Element>
-            <Name>Z component</Name>
-            <Component>k</Component>
-            <Index>3</Index>
-            <ParameterKey>Column06</ParameterKey>
-         </Element>
-      </Structure>
-      <FillValue>9999.9</FillValue>
-      <Support>
-      	<SupportQuantity>Positional</SupportQuantity>
-      </Support>
-   </Parameter>
+   </Parameter>   
 </NumericalData>
 </Spase>
