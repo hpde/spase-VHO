@@ -26,7 +26,7 @@ GEI, GSE, GSM, HCI, HEE, HEEQ.</Description>
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://VHO/Repository/STEREOattitude</RepositoryID>
+      <RepositoryID>spase://VHO/Repository/STEREO/AttitudeOrbit</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
