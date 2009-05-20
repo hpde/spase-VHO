@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
-  <Version>1.3.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/SOHO/Ephemeris/PT12M</ResourceID>
     <ResourceHeader>
       <ResourceName>SOHO Positions</ResourceName>
-      <ReleaseDate>2008-11-26T20:22:47Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
       <Description>SOHO satellite positions.</Description>
       <Contact>
         <!-- Jan Merka -->
@@ -34,15 +34,15 @@
       </TimeSpan>
       <Cadence>PT12M</Cadence>
     </TemporalDescription>
-    <PhysicalParameter>
+    <Parameter>
       <Name>Year</Name>
       <ParameterKey>Field 1</ParameterKey>
       <Description>Year</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Doy</Name>
       <ParameterKey>Field 2</ParameterKey>
       <Description>Day of Year</Description>
@@ -50,16 +50,16 @@
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Time</Name>
       <ParameterKey>Field 3</ParameterKey>
       <Description>colon seperated hour and minutes (hh:mm)</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>GSE X Component</Name>
       <ParameterKey>Field 4</ParameterKey>
       <Description>X Component of the GSE position vector</Description>
@@ -71,8 +71,8 @@
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>GSE Y Component</Name>
       <ParameterKey>Field 5</ParameterKey>
       <Description>Y Component of the GSE position vector</Description>
@@ -84,8 +84,8 @@
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>GSE Z Component</Name>
       <ParameterKey>Field 6</ParameterKey>
       <Description>Z Component of the GSE position vector</Description>
@@ -97,6 +97,6 @@
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
+    </Parameter>
   </NumericalData>
 </Spase>

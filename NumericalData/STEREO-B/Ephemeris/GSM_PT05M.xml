@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
-  <Version>1.3.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/STEREO-B/Ephemeris/GSM_PT05M</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B Ephemeris</ResourceName>
       <AlternateName>STEREO-B Positions</AlternateName>
-      <ReleaseDate>2008-07-31T20:43:41Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
       <Description>STEREO atttitude and orbit data are distributed as SPICE kernels. Since most SEP investigators would rather not deal with SPICE kernels, Caltech provides text files containing position data for the two STEREO spacecraft, in the following coordinate systems:
 GEI, GSE, GSM, HCI, HEE, HEEQ.</Description>
       <Contact>
@@ -60,39 +60,39 @@ TOL is currently set to 5000 km. However, the position is only sampled every 5 m
 
 The daily updating of these data goes 61 days into the future, and 20 days into the past.  This is usually sufficient to ensure that all the data in the files eventually get promoted form "predicted" to "definitive". Occasionally, the data are manually checked to make sure that this is all working as expected.
 </Caveats>
-    <PhysicalParameter>
+    <Parameter>
       <Name>Year</Name>
       <ParameterKey>Column 1</ParameterKey>
       <Description>The year of the data point</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>DOY</Name>
       <ParameterKey>Column 2</ParameterKey>
       <Description>The day of year of the data point</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Second</Name>
       <ParameterKey>Column 3</ParameterKey>
       <Description>The second of the day of the data point</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Flag</Name>
       <ParameterKey>Column 4</ParameterKey>
       <Description>0 if the data are predictive and 1 if the data are definitive</Description>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>X</Name>
       <ParameterKey>Column 5</ParameterKey>
       <Description>The X component of the spacecraft position vector</Description>
@@ -105,8 +105,8 @@ The daily updating of these data goes 61 days into the future, and 20 days into 
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Y</Name>
       <ParameterKey>Column 6</ParameterKey>
       <Description>The Y component of the spacecraft position vector</Description>
@@ -119,8 +119,8 @@ The daily updating of these data goes 61 days into the future, and 20 days into 
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Z</Name>
       <ParameterKey>Column 7</ParameterKey>
       <Description>The Z component of the spacecraft position vector</Description>
@@ -133,6 +133,6 @@ The daily updating of these data goes 61 days into the future, and 20 days into 
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
+    </Parameter>
   </NumericalData>
 </Spase>

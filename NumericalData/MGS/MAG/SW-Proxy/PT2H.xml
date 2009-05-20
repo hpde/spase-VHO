@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
-  <Version>1.3.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/MGS/MAG/SW-Proxy/PT2H</ResourceID>
     <ResourceHeader>
       <ResourceName>Mars Global Surveyor Solar Wind Proxy</ResourceName>
-      <ReleaseDate>2008-10-06T21:05:32Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
       <Description>Derivation of the solar wind dynamic pressure at Mars using Mars Global Surveyor data.  There is no upstream solar wind monitor at Mars (as of the release of this data set).  This data set is a proxy for the solar wind dynamic pressure derived from Mars Global Surveyor (MGS) Magnetometer (MAG) measurements.  The rationale behind the proxy is that pressure is conserved in the solar wind interaction with Mars.  At altitudes from ~400-800 km, the dominant pressure term is magnetic field pressure.  We measure the magnetic field with MAG, calculate the pressure (B2/2µo) in that altitude range and assume that it balances the incident solar wind pressure.  This proxy is reliable for determining relative solar wind pressure at Mars.  Absolute values may deviate from the proxy.  The pressure does drop with solar zenith angle (SZA).  This affect is accounted for by fitting a function of SZA to the dayside, northern hemisphere data from an MGS pass.  The number of points included in the fit is provided in the file.  The standard deviation from the fit is also provided.  Because we do a fit to one orbit's worth of dayside, northern hemisphere data, we obtain one value for PSW every orbit, which has a period of ~2 hr. </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Dana.H.Crider</PersonID>
@@ -39,50 +39,48 @@
       <Cadence>PT2H</Cadence>
     </TemporalDescription>
     <InputResourceID>spase://SMWG/Instrument/MGS/MAG</InputResourceID>
-    <PhysicalParameter>
+    <Parameter>
       <Name>Year</Name>
       <ParameterKey>Field 1</ParameterKey>
       <Description>Year</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Fractional DOY</Name>
       <ParameterKey>Field 2</ParameterKey>
       <Description>Fractional Day of Year</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Solar Wind Pressure</Name>
       <ParameterKey>Field 3</ParameterKey>
       <Description>Solar Wind Pressure Estimate (nPa)</Description>
       <Units>nPa</Units>
-      <Measured>
-        <Particle>
-          <ParticleType>Proton</ParticleType>
-          <ParticleQualifier>Magnitude</ParticleQualifier>
-          <ParticleQuantity>Pressure</ParticleQuantity>
-        </Particle>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Particle>
+        <ParticleType>Proton</ParticleType>
+        <Qualifier>Magnitude</Qualifier>
+        <ParticleQuantity>Pressure</ParticleQuantity>
+      </Particle>
+    </Parameter>
+    <Parameter>
       <Name>Number of Points in Fit</Name>
       <ParameterKey>Field 4</ParameterKey>
       <Description>Number of points used in fit</Description>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Standard Deviation</Name>
       <ParameterKey>Field 5</ParameterKey>
       <Description>Standard deviation of points in fit</Description>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
+    </Parameter>
   </NumericalData>
 </Spase>

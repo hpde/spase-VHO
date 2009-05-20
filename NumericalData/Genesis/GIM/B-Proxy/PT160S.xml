@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
-  <Version>1.3.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Genesis/GIM/B-Proxy/PT160S</ResourceID>
     <ResourceHeader>
       <ResourceName>Genesis interplanetary field orientation proxy</ResourceName>
-      <ReleaseDate>2009-04-09T22:53:05Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
       <Description>The vector direction of peak suprathermal electron flux as measured with the Genesis Electron Monitor (GEM) instrument.  This direction serves as a proxy for the interplanetary field orientation.  The suprathermal electron flux is either parallel or anti-parallel to the interplanetary magnetic field.  The true field polarity (+ or -) cannot be determined from GEM. Angles are given in Geocentric Solar Ecliptic (GSE) coordinates.
 </Description>
       <Contact>
@@ -39,47 +39,47 @@
       </TimeSpan>
       <Cadence>PT160S</Cadence>
     </TemporalDescription>
-    <PhysicalParameter>
+    <Parameter>
       <Name>Year</Name>
       <ParameterKey>Field 1</ParameterKey>
       <Description>Year</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>DOY</Name>
       <ParameterKey>Field 2</ParameterKey>
       <Description>Day of Year</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Hour</Name>
       <ParameterKey>Field 3</ParameterKey>
       <Description>Hour</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Min</Name>
       <ParameterKey>Field 4</ParameterKey>
       <Description>Minute</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Second</Name>
       <ParameterKey>Field 5</ParameterKey>
       <Description>Fractional Second</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Elevation Angle</Name>
       <ParameterKey>Field 6</ParameterKey>
       <Description>Magnetic Field Elevation Angle (Degrees)</Description>
@@ -89,14 +89,12 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <FillValue>-9999.0000</FillValue>
-      <Measured>
-        <Field>
-          <FieldQualifier>Component.Theta</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Azimuth Angle</Name>
       <ParameterKey>Field 7</ParameterKey>
       <Description>Magnetic Field Azimuth Angle (Degrees)</Description>
@@ -106,14 +104,12 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <FillValue>-9999.0000</FillValue>
-      <Measured>
-        <Field>
-          <FieldQualifier>Component.Phi</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Elevation Angle RTN</Name>
       <ParameterKey>Field 8</ParameterKey>
       <Description>Magnetic Field Elevation Angle (Degrees)</Description>
@@ -123,14 +119,12 @@
         <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <FillValue>-9999.0000</FillValue>
-      <Measured>
-        <Field>
-          <FieldQualifier>Component.Theta</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Azimuth Angle RTN</Name>
       <ParameterKey>Field 9</ParameterKey>
       <Description>Magnetic Field Azimuth Angle (Degrees)</Description>
@@ -140,20 +134,18 @@
         <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <FillValue>-9999.0000</FillValue>
-      <Measured>
-        <Field>
-          <FieldQualifier>Component.Phi</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Chi Square</Name>
       <ParameterKey>Field 10</ParameterKey>
       <Description>Chi Square</Description>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
+    </Parameter>
   </NumericalData>
 </Spase>

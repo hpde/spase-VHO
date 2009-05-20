@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
-  <Version>1.3.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/WIND/MFI/PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>WIND MFI Data</ResourceName>
-      <ReleaseDate>2008-09-26T13:38:53Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T19:08:30Z</ReleaseDate>
       <Description>WIND MFI composite data. The files contain multiple time resolution data: 3-second, 1-minute, and 1-hour. Data come in either version 3 or version 4 with version 4 preferred when available.  Both are calibrated science quality data, however, the version 4 data has a small, final correction applied to the Bz component which is not found in the version 3 data.  Details of this correction can be found in the caveats section of this document.  The version 4 correction is a manual correction for long term drifts which can not be applied upon first release of the data.  Thus, version 3 files are released to within a few days of the present to allow quick access to the data.  Subsequently, the manual corrections are applied and version 3 files are replaced with a corresponding version 4 file.</Description>
       <Acknowledgement>User will acknowledge the WIND MFI instrument team in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
@@ -55,7 +55,7 @@
     <Caveats>Version 3 and 4 data are both science quality data.  However, version 4 files contain a final Bz correction not found in the version 3 files.  The correction is on the order of 0.1 nT and is applied manually after release of the initial version 3 data.  The generation of the version 4 files requires many months of data prior to and after the corrected time periods.  Thus it will always significantly lag the release of the version 3 files.  When version 4 files become available the corresponding version 3 file is removed and the version 4 file becomes the only file available for that time period</Caveats>
     <Keyword>Magnetic field</Keyword>
     <!-- One Minute Data Averages -->
-    <PhysicalParameter>
+    <Parameter>
       <Name>Time Line (1 min)</Name>
       <ParameterKey>Epoch</ParameterKey>
       <Description>Number of milliseconds since the epoch 1994-11-12T00:00:00.000</Description>
@@ -68,8 +68,8 @@
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Time Line (1 min)</Name>
       <ParameterKey>Time_PB5</ParameterKey>
       <Description>Time of observation in year, day of year, and milliseconds (1 min)           </Description>
@@ -92,8 +92,8 @@
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Number of points in average (1 min)</Name>
       <ParameterKey>NUM_PTS</ParameterKey>
       <Description>Number of data points in one-minute average</Description>
@@ -103,8 +103,8 @@
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Magnetic field magnitude (1 min)</Name>
       <ParameterKey>BF1</ParameterKey>
       <Description>Average of the magnetic field magnitudes (F1)</Description>
@@ -114,15 +114,13 @@
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <Structure>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Average</FieldQualifier>
-          <FieldQualifier>Magnitude</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Average</Qualifier>
+        <Qualifier>Magnitude</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Magnetic field magnitude's RMS (1 min)</Name>
       <ParameterKey>BRMSF1</ParameterKey>
       <Description>RMS (standard deviation) of the average of the magnitudes (F1 RMS)</Description>
@@ -131,15 +129,13 @@
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <Structure>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Deviation</FieldQualifier>
-          <FieldQualifier>Magnitude</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Deviation</Qualifier>
+        <Qualifier>Magnitude</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Magnetic field vector in GSM coordinates (1 min)</Name>
       <ParameterKey>BGSM</ParameterKey>
       <Description>Average (1 min) magnetic field vector in GSM coordinates</Description>
@@ -154,29 +150,27 @@
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>By</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Bz</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQualifier>Average</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Vector</Qualifier>
+        <Qualifier>Average</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>RMS vector in GSM coordinates (1 min)</Name>
       <ParameterKey>BRMSGSM</ParameterKey>
       <Description>RMS mangetic field vector in GSM coordinates</Description>
@@ -191,29 +185,27 @@
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>RMS By</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>RMS Bz</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Deviation</FieldQualifier>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Deviation</Qualifier>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Magnetic field vector in GSE coordinates (1 min)</Name>
       <ParameterKey>BGSE</ParameterKey>
       <Description>Average (1 min) magnetic field vector in GSE coordinates</Description>
@@ -228,29 +220,27 @@
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>By</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Bz</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Average</FieldQualifier>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Average</Qualifier>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>RMS vector in GSE coordinates (1 min)</Name>
       <ParameterKey>BRMSGSE</ParameterKey>
       <Description>RMS mangetic field vector in GSE coordinates</Description>
@@ -265,29 +255,27 @@
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>RMS By</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>RMS Bz</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Deviation</FieldQualifier>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Deviation</Qualifier>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Radial distance (1 min)</Name>
       <ParameterKey>DIST</ParameterKey>
       <Description>Distance from the center of the Earth (Define Re=6378 km)</Description>
@@ -298,18 +286,12 @@
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
-      <Structure>
-        <Element>
-          <Name>Radial distance</Name>
-          <Component>R</Component>
-          <Index>1</Index>
-        </Element>
-      </Structure>
       <Support>
+        <Qualifier>Magnitude</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Position in GSM coordinates (1 min)</Name>
       <ParameterKey>PGSM</ParameterKey>
       <Description>Position vector in GSM coordinates (Define Re=6378 km)</Description>
@@ -324,25 +306,25 @@
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Position in GSE coordinates (1 min)</Name>
       <ParameterKey>PGSE</ParameterKey>
       <Description>Position vector in GSE coordinates (Define Re=6378 km)</Description>
@@ -357,25 +339,25 @@
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Unit spin vector in GSM coordinates (1 min)</Name>
       <ParameterKey>SGSM</ParameterKey>
       <Description>Unit spin vector in GSM coordinates</Description>
@@ -389,25 +371,25 @@
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Unit spin vector in GSE coordinates (1 min)</Name>
       <ParameterKey>SGSE</ParameterKey>
       <Description>Unit spin vector in GSE coordinates</Description>
@@ -421,25 +403,25 @@
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Delta B (Outer - Inner) (1 min)</Name>
       <ParameterKey>DB_SC</ParameterKey>
       <Description>Difference between outboard and inboard measured magnetic fields, Bouter - Binner (nT) in spacecraft coordinates.</Description>
@@ -455,29 +437,27 @@
         <Size>3</Size>
         <Element>
           <Name>DBx</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>DBy</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>DBz</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQualifier>Deviation</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Vector</Qualifier>
+        <Qualifier>Deviation</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Dipole tilt angle (degrees) (1 min)</Name>
       <ParameterKey>TILTANG</ParameterKey>
       <Description>Dipole tilt angle (degrees)</Description>
@@ -488,8 +468,8 @@
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Average range inner magnetometer (1 min)</Name>
       <ParameterKey>RANGE_I</ParameterKey>
       <Description>Average range status of the inner magnetometer (1 min)</Description>
@@ -500,8 +480,8 @@
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Average range outer magnetometer (1 min)</Name>
       <ParameterKey>RANGE_O</ParameterKey>
       <Description>Average range status of the outer magnetometer (1 min)</Description>
@@ -512,8 +492,8 @@
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>S/C operational mode (1 min)</Name>
       <ParameterKey>SPC_MODE</ParameterKey>
       <Description>Spacecraft operational mode (1 min)
@@ -532,8 +512,8 @@
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>WIND/MFI operational mode (1 min)</Name>
       <ParameterKey>MAG_MODE</ParameterKey>
       <Description>WIND/MFI instrument operational mode (1 min)
@@ -564,10 +544,10 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
+    </Parameter>
     <!-- ______________ -->
     <!-- Three Second Data -->
-    <PhysicalParameter>
+    <Parameter>
       <Name>Time Line (3 sec)</Name>
       <ParameterKey>Epoch3</ParameterKey>
       <Description>Number of milliseconds since the epoch 1994-11-12T00:00:00.000</Description>
@@ -580,8 +560,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Time Line (3 sec)</Name>
       <ParameterKey>Time3_PB5</ParameterKey>
       <Description>Time of observation in year, day of year, and milliseconds (3 sec)           </Description>
@@ -604,8 +584,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Number of points in average (3 sec)</Name>
       <ParameterKey>NUM3_PTS</ParameterKey>
       <Description>Number of data points in 3-second average</Description>
@@ -616,8 +596,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Magnetic field magnitude (3 sec)</Name>
       <ParameterKey>B3F1</ParameterKey>
       <Description>Average of the magnetic field magnitudes (F1)</Description>
@@ -627,15 +607,13 @@ mode - no useful data
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <Structure>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Average</FieldQualifier>
-          <FieldQualifier>Magnitude</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Average</Qualifier>
+        <Qualifier>Magnitude</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Magnetic field magnitude's RMS (3 sec)</Name>
       <ParameterKey>B3RMSF1</ParameterKey>
       <Description>RMS (standard deviation) of the average of the magnitudes (F1 RMS)</Description>
@@ -644,15 +622,13 @@ mode - no useful data
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <Structure>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Deviation</FieldQualifier>
-          <FieldQualifier>Magnitude</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Deviation</Qualifier>
+        <Qualifier>Magnitude</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Magnetic field vector in GSM coordinates (3 sec)</Name>
       <ParameterKey>B3GSM</ParameterKey>
       <Description>Magnetic field vector in GSM coordinates</Description>
@@ -667,29 +643,27 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>By</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Bz</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Average</FieldQualifier>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Average</Qualifier>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>RMS vector in GSM coordinates (3 sec)</Name>
       <ParameterKey>B3RMSGSM</ParameterKey>
       <Description>RMS mangetic field vector in GSM coordinates</Description>
@@ -704,29 +678,27 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>RMS By</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>RMS Bz</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Deviation</FieldQualifier>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Deviation</Qualifier>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Magnetic field vector in GSE coordinates (3 sec)</Name>
       <ParameterKey>B3GSE</ParameterKey>
       <Description>Magnetic field vector in GSE coordinates</Description>
@@ -741,29 +713,27 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>By</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Bz</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Average</FieldQualifier>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Average</Qualifier>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>RMS vector in GSE coordinates (3 sec)</Name>
       <ParameterKey>B3RMSGSE</ParameterKey>
       <Description>RMS mangetic field vector in GSE coordinates</Description>
@@ -778,31 +748,29 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>RMS By</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>RMS Bz</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Deviation</FieldQualifier>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
+      <Field>
+        <Qualifier>Deviation</Qualifier>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
     <!-- ___________ -->
     <!-- One Hour Data -->
-    <PhysicalParameter>
+    <Parameter>
       <Name>Time Line (1 hour)</Name>
       <ParameterKey>Epoch1</ParameterKey>
       <Description>Number of milliseconds since the epoch 1994-11-12T00:00:00.000</Description>
@@ -815,8 +783,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Time Line (1 hour)</Name>
       <ParameterKey>Time1_PB5</ParameterKey>
       <Description>Time of observation in year, day of year, and milliseconds (1 hour)           </Description>
@@ -839,8 +807,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Number of points in average (1 hour)</Name>
       <ParameterKey>NUM1_PTS</ParameterKey>
       <Description>Number of data points in 1-hour average</Description>
@@ -851,8 +819,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Magnetic field magnitude (1 hour)</Name>
       <ParameterKey>B1F1</ParameterKey>
       <Description>Average of the magnetic field magnitudes (F1)</Description>
@@ -862,15 +830,13 @@ mode - no useful data
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <Structure>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Average</FieldQualifier>
-          <FieldQualifier>Magnitude</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Average</Qualifier>
+        <Qualifier>Magnitude</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Magnetic field magnitude's RMS (1 hour)</Name>
       <ParameterKey>B1RMSF1</ParameterKey>
       <Description>RMS (standard deviation) of the average of the magnitudes (F1 RMS)</Description>
@@ -879,15 +845,13 @@ mode - no useful data
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <Structure>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Deviation</FieldQualifier>
-          <FieldQualifier>Magnitude</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Deviation</Qualifier>
+        <Qualifier>Magnitude</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Magnetic field vector in GSM coordinates (1 hour)</Name>
       <ParameterKey>B1GSM</ParameterKey>
       <Description>Magnetic field vector in GSM coordinates</Description>
@@ -902,29 +866,27 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>By</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Bz</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Average</FieldQualifier>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Average</Qualifier>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>RMS vector in GSM coordinates (1 hour)</Name>
       <ParameterKey>B1RMSGSM</ParameterKey>
       <Description>RMS mangetic field vector in GSM coordinates</Description>
@@ -939,29 +901,27 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>RMS By</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>RMS Bz</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Deviation</FieldQualifier>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Deviation</Qualifier>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Magnetic field vector in GSE coordinates (1 hour)</Name>
       <ParameterKey>B1GSE</ParameterKey>
       <Description>Magnetic field vector in GSE coordinates</Description>
@@ -976,29 +936,27 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>By</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Bz</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Average</FieldQualifier>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Average</Qualifier>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>RMS vector in GSE coordinates (1 hour)</Name>
       <ParameterKey>B1RMSGSE</ParameterKey>
       <Description>RMS mangetic field vector in GSE coordinates</Description>
@@ -1013,29 +971,27 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>RMS By</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>RMS Bz</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Deviation</FieldQualifier>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Deviation</Qualifier>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Radial distance (1 hour)</Name>
       <ParameterKey>DIST1</ParameterKey>
       <Description>Distance from the center of the Earth (Define Re=6378 km)</Description>
@@ -1046,18 +1002,12 @@ mode - no useful data
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
-      <Structure>
-        <Element>
-          <Name>Radial distance</Name>
-          <Component>R</Component>
-          <Index>1</Index>
-        </Element>
-      </Structure>
       <Support>
+        <Qualifier>Magnitude</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Position in GSM coordinates (1 hour)</Name>
       <ParameterKey>P1GSM</ParameterKey>
       <Description>Position vector in GSM coordinates (Define Re=6378 km)</Description>
@@ -1072,25 +1022,25 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Position in GSE coordinates (1 hour)</Name>
       <ParameterKey>P1GSE</ParameterKey>
       <Description>Position vector in GSE coordinates (Define Re=6378 km)</Description>
@@ -1105,25 +1055,25 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Unit spin vector in GSM coordinates (1 hour)</Name>
       <ParameterKey>S1GSM</ParameterKey>
       <Description>Unit spin vector in GSM coordinates</Description>
@@ -1137,25 +1087,25 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Unit spin vector in GSE coordinates (1 hour)</Name>
       <ParameterKey>S1GSE</ParameterKey>
       <Description>Unit spin vector in GSE coordinates</Description>
@@ -1169,25 +1119,25 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
         </Element>
       </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Sensor zeros (inner)</Name>
       <ParameterKey>ZERO_I</ParameterKey>
       <Description>Inboard sensor zero computed once a day. The count-to-nT conversion formula:
@@ -1201,8 +1151,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Sensor sensitivities (inner)</Name>
       <ParameterKey>SENS_I</ParameterKey>
       <Description>Inboard sensor sensitivity computed once a day. The count-to-nT conversion formula:
@@ -1216,8 +1166,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Amplitude correction (inner)</Name>
       <ParameterKey>AMPL_I</ParameterKey>
       <Description>Inboard sensor conversion amplitude computed once a day. The count-to-nT conversion formula:
@@ -1231,8 +1181,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Orthogonalization matrix (inner)</Name>
       <ParameterKey>ORTH_I</ParameterKey>
       <Description>Orthogonalization matrix (inner magnetometer)</Description>
@@ -1242,8 +1192,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Payload rotation matrix (inner)</Name>
       <ParameterKey>PAYLD_I</ParameterKey>
       <Description>Payload rotation matrix (inner magnetometer)</Description>
@@ -1253,8 +1203,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Sensor zero flag (inner)</Name>
       <ParameterKey>FLAG_I</ParameterKey>
       <Description>Sensor zero flag (inner magnetometer):
@@ -1266,8 +1216,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Sensor zeros (outer)</Name>
       <ParameterKey>ZERO_O</ParameterKey>
       <Description>Outboard sensor zero computed once a day. The count-to-nT conversion formula:
@@ -1281,8 +1231,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Sensor sensitivities (outer)</Name>
       <ParameterKey>SENS_O</ParameterKey>
       <Description>Outboard sensor sensitivity computed once a day. The count-to-nT conversion formula:
@@ -1296,8 +1246,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Amplitude correction (outer)</Name>
       <ParameterKey>AMPL_O</ParameterKey>
       <Description>Outboard sensor conversion amplitude computed once a day. The count-to-nT conversion formula:
@@ -1311,8 +1261,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Orthogonalization matrix (outer)</Name>
       <ParameterKey>ORTH_O</ParameterKey>
       <Description>Orthogonalization matrix (outer magnetometer)</Description>
@@ -1322,8 +1272,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Payload rotation matrix (outer)</Name>
       <ParameterKey>PAYLD_O</ParameterKey>
       <Description>Payload rotation matrix (outer magnetometer)</Description>
@@ -1333,8 +1283,8 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Sensor zero flag (outer)</Name>
       <ParameterKey>FLAG_O</ParameterKey>
       <Description>Sensor zero flag (outer magnetometer):
@@ -1346,6 +1296,6 @@ mode - no useful data
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
-    </PhysicalParameter>
+    </Parameter>
   </NumericalData>
 </Spase>

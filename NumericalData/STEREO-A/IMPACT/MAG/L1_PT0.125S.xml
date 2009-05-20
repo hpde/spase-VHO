@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
-  <Version>1.3.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/STEREO-A/IMPACT/MAG/L1_PT0.125S</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO Ahead IMPACT/MAG Magnetic Field Vectors and Ancillary Data</ResourceName>
       <AlternateName>STEREO-A IMPACT/MAG Level 1 Data</AlternateName>
-      <ReleaseDate>2008-11-26T20:22:48Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
       <Description>Level 1 calibrated magnetic field vectors from the IMPACT/MAG instrument on the STEREO Ahead spacecraft in the spacecraft and RTN coordinate systems. It also contains STEREO Ahead position (ephemeris) information in the Carrington system.</Description>
       <Acknowledgement>The STEREO IMPACT/MAG Team</Acknowledgement>
       <Contact>
@@ -52,25 +52,25 @@
     </TemporalDescription>
     <ObservedRegion>Heliosphere.Remote1AU</ObservedRegion>
     <Caveats>Current version of the data include very fast (subsecond) glitches in the magnetometer's X sensor. Magnitude of these glitches are approximately 0.5 nT and occur at varying frequencies throughout the mission.</Caveats>
-    <PhysicalParameter>
+    <Parameter>
       <Name>Time</Name>
       <ParameterKey>Epoch</ParameterKey>
       <Description>Number of milliseconds since 0 AD</Description>
       <Caveats>Interval-centered time tag</Caveats>
       <Units>ms</Units>
       <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
-      <ValidMin>01-Jan-1990 00:00:00.000 </ValidMin>
-      <ValidMax>31-Dec-2020 00:00:00.000 </ValidMax>
-      <FillValue>31-Dec-9999 23:59:59.999 </FillValue>
+      <ValidMin>01-Jan-1990 00:00:00.000</ValidMin>
+      <ValidMax>31-Dec-2020 00:00:00.000</ValidMax>
+      <FillValue>31-Dec-9999 23:59:59.999</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>Magnetic Field Vector in Spacecraft Coordinates</Name>
       <ParameterKey>B_SC</ParameterKey>
       <Description>Magnetic field vectors as measured by the IMPACT/MAG instrument in the spacecraft coordinate system.</Description>
-      <Units>nT </Units>
+      <Units>nT</Units>
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -80,7 +80,7 @@
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
           <ValidMin>-Infinity</ValidMin>
           <ValidMax>Infinity</ValidMax>
@@ -88,7 +88,7 @@
         </Element>
         <Element>
           <Name>By</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
           <ValidMin>-Infinity</ValidMin>
           <ValidMax>Infinity</ValidMax>
@@ -96,21 +96,19 @@
         </Element>
         <Element>
           <Name>Bz</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
           <ValidMin>-Infinity</ValidMin>
           <ValidMax>Infinity</ValidMax>
           <FillValue>-1.0E31</FillValue>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>Magnetic Field Vector in RTN Coordinates</Name>
       <ParameterKey>B_RTN</ParameterKey>
       <Description>Magnetic field vectors as measured by the IMPACT/MAG instrument in the STEREO-A RTN coordinate system</Description>
@@ -124,7 +122,7 @@
         <Size>3</Size>
         <Element>
           <Name>R</Name>
-          <Component>X</Component>
+          <Component>I</Component>
           <Index>1</Index>
           <ValidMin>-Infinity</ValidMin>
           <ValidMax>Infinity</ValidMax>
@@ -132,7 +130,7 @@
         </Element>
         <Element>
           <Name>T</Name>
-          <Component>Y</Component>
+          <Component>J</Component>
           <Index>2</Index>
           <ValidMin>-Infinity</ValidMin>
           <ValidMax>Infinity</ValidMax>
@@ -140,65 +138,49 @@
         </Element>
         <Element>
           <Name>N</Name>
-          <Component>Z</Component>
+          <Component>K</Component>
           <Index>3</Index>
           <ValidMin>-Infinity</ValidMin>
           <ValidMax>Infinity</ValidMax>
           <FillValue>-1.0E31</FillValue>
         </Element>
       </Structure>
-      <Measured>
-        <Field>
-          <FieldQualifier>Vector</FieldQualifier>
-          <FieldQuantity>Magnetic</FieldQuantity>
-        </Field>
-      </Measured>
-    </PhysicalParameter>
-    <PhysicalParameter>
+      <Field>
+        <Qualifier>Vector</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
       <Name>STEREO-A Latitude in the Carrington Heliographic system</Name>
       <ParameterKey>Carr_Latitude</ParameterKey>
       <Units>deg</Units>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
       </CoordinateSystem>
-      <Structure>
-        <Size>1</Size>
-        <Element>
-          <Name>STEREO-A Latitude in the Carrington Heliographic system</Name>
-          <Component>Theta</Component>
-          <Index>1</Index>
-          <ValidMin>-90.0 </ValidMin>
-          <ValidMax>90.0 </ValidMax>
-          <FillValue>-1.0E31 </FillValue>
-        </Element>
-      </Structure>
+      <ValidMin>-90.0</ValidMin>
+      <ValidMax>90.0</ValidMax>
+      <FillValue>-1.0E31</FillValue>
       <Support>
+        <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>STEREO-A Longitude in the Carrington Heliographic system</Name>
       <ParameterKey>Carr_Longitude</ParameterKey>
       <Units>deg</Units>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
       </CoordinateSystem>
-      <Structure>
-        <Size>1</Size>
-        <Element>
-          <Name>STEREO-A Longitude in the Carrington Heliographic system</Name>
-          <Component>Phi</Component>
-          <Index>1</Index>
-          <ValidMin>-180.0</ValidMin>
-          <ValidMax>180.0</ValidMax>
-          <FillValue>-1.0E31</FillValue>
-        </Element>
-      </Structure>
+      <ValidMin>-180.0</ValidMin>
+      <ValidMax>180.0</ValidMax>
+      <FillValue>-1.0E31</FillValue>
       <Support>
+        <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>STEREO-A distance from the Sun in AU</Name>
       <ParameterKey>Sun_Dist_AU</ParameterKey>
       <Description>Distance from the Sun to the spacecraft in AU (astronomical units)</Description>
@@ -207,22 +189,15 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
       </CoordinateSystem>
-      <Structure>
-        <Size>1</Size>
-        <Element>
-          <Name>STEREO-A distance from the Sun in AU</Name>
-          <Component>R</Component>
-          <Index>1</Index>
-          <ValidMin>0.0</ValidMin>
-          <ValidMax>10.0</ValidMax>
-          <FillValue>-1.0E31</FillValue>
-        </Element>
-      </Structure>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>10.0</ValidMax>
+      <FillValue>-1.0E31</FillValue>
       <Support>
+        <Qualifier>Magnitude</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
-    <PhysicalParameter>
+    </Parameter>
+    <Parameter>
       <Name>STEREO-A distance from the Sun in Solar Radii</Name>
       <ParameterKey>Sun_Dist_AU</ParameterKey>
       <Description>Distance from the Sun to the spacecraft in Solar Radii</Description>
@@ -231,20 +206,13 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
       </CoordinateSystem>
-      <Structure>
-        <Size>1</Size>
-        <Element>
-          <Name>STEREO-A distance from the Sun in Solar Radii</Name>
-          <Component>R</Component>
-          <Index>1</Index>
-          <ValidMin>0.0 </ValidMin>
-          <ValidMax>Infinity </ValidMax>
-          <FillValue>-1.0E31 </FillValue>
-        </Element>
-      </Structure>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>Infinity</ValidMax>
+      <FillValue>-1.0E31</FillValue>
       <Support>
+        <Qualifier>Magnitude</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
       </Support>
-    </PhysicalParameter>
+    </Parameter>
   </NumericalData>
 </Spase>
