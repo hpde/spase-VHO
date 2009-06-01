@@ -45,7 +45,6 @@
       </TimeSpan>
       <Cadence>PT1H</Cadence>
     </TemporalDescription>
-    <ObservedRegion>Heliosphere.Inner</ObservedRegion>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <Parameter>
       <Name>Flux_B</Name>

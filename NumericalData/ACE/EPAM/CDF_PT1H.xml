@@ -51,7 +51,6 @@
       </TimeSpan>
       <Cadence>PT1H</Cadence>
     </TemporalDescription>
-    <ObservedRegion>Heliosphere.Inner</ObservedRegion>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <Caveats>The quality of ACE level 2 data is such that it is suitable for serious scientific study.
     However, to avoid confusion and misunderstanding, it is recommended that users consult with the appropriate ACE team members before publishing work derived from the data
