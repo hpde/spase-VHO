@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>WIND/SWE Proton and Alpha Parameters</ResourceName>
       <AlternateName>WIND/SWE Faraday Cup (Proton-Alpha Anisotropy Analysis)</AlternateName>
-      <ReleaseDate>2009-05-20T19:08:30Z</ReleaseDate>
+      <ReleaseDate>2009-07-20T15:35:10Z</ReleaseDate>
       <Description>Solar wind proton and alpha parameters, including anisotropic temperatures, derived by non-linear fitting of the measurements and with moment techniques.</Description>
       <Acknowledgement>User will acknowledge the Wind SWE plasma instrument team.</Acknowledgement>
       <Contact>
@@ -51,11 +51,17 @@
     <ObservedRegion>Heliosphere.Inner</ObservedRegion>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
-    <Caveats>The data do not exceed the limits of various paremeters listed in the following sections. There may be more valid data in the original dataset that requires additional work to interpret but was discarded due to the limits. In particular we have tried to exclude non-solar wind data from these files.
+    <Caveats>The data do not exceed the limits of various paremeters listed in the following sections.
+    There may be more valid data in the original dataset that requires additional work to interpret but
+    was discarded due to the limits. In particular we have tried to exclude non-solar wind data from these files.
     
-    We provide the one sigma uncertainty for each parameter produced by the non-linear curve fitting analysis either directly from the fitting or by propagating uncertainties for bulk speeds, flow angles or any other derived parameter.
+    We provide the one sigma uncertainty for each parameter produced by the non-linear curve fitting analysis
+    either directly from the fitting or by propagating uncertainties for bulk speeds, flow angles or any other derived parameter.
     
-    For the non-linear anisotropic proton analysis, a scalar thermal speed is produced by determining parallel and perpendicular tmperatures, taking the trace, Tscalar = (2Tperp + Tpara)/3 and converting the result back to a thermal speed. The uncertainties are also propagated through. Limits: Minimum mach number = 0.75000000; Maximum chisq/dof =100000.00; Minimum distance to bow shock = -100000.00 [Re]; Maximum uncertainty in any parameter from non-linear analysis = 70.0000[%].
+    For the non-linear anisotropic proton analysis, a scalar thermal speed is produced by determining parallel and perpendicular
+    temperatures, taking the trace, Tscalar = (2Tperp + Tpara)/3 and converting the result back to a thermal speed.
+    The uncertainties are also propagated through. Limits: Minimum mach number = 0.75000000; Maximum chisq/dof =100000.00;
+    Minimum distance to bow shock = -100000.00 [Re]; Maximum uncertainty in any parameter from non-linear analysis = 70.0000[%].
     </Caveats>
     <Keyword>Solar Wind Plasma</Keyword>
     <Parameter>
@@ -148,6 +154,7 @@
       <Name>VpY_nl</Name>
       <ParameterKey>Field 7</ParameterKey>
       <Description>Proton velocity component Vy (GSE, km/s) from non-linear analysis</Description>
+      <Caveats>The abberation effects due to the spacecraft's motion have been removed.</Caveats>
       <Units>km/s</Units>
       <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
       <CoordinateSystem>
@@ -480,6 +487,7 @@
       <Name>VaY_nl</Name>
       <ParameterKey>Field 27</ParameterKey>
       <Description>Alpha velocity component Vy (GSE, km/s) from non-linear analysis</Description>
+      <Caveats>The abberation effects due to the spacecraft's motion have been removed.</Caveats>
       <Units>km/s</Units>
       <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
       <CoordinateSystem>
@@ -652,6 +660,7 @@
       <Name>VpY_mom</Name>
       <ParameterKey>Field 38</ParameterKey>
       <Description>Proton velocity component Vy (GSE, km/s) from moment analysis</Description>
+      <Caveats>The abberation effects due to the spacecraft's motion have been removed.</Caveats>
       <Units>km/s</Units>
       <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
       <CoordinateSystem>
