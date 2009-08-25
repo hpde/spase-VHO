@@ -19,6 +19,18 @@
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>WIND 3DP PM data</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/3dp_pm</URL>
+        <Description>Location of WIND 3DP PESA moments data files</Description>
+      </AccessURL>
+      <Format>CDF</Format>
+      <Encoding>None</Encoding>
+    </AccessInformation>
+    <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCB/WIND/3DP</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
