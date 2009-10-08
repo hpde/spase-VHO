@@ -7,7 +7,7 @@
       <ResourceName>Voyager 1 Magnetic Field Data (48 s averages)</ResourceName>
       <ReleaseDate>2009-10-07T09:45:00Z</ReleaseDate>
       <Description>The average magnetic field strength produced by the spacecraft at the location of the 
-        outboard magnetometer of the dual magnetometers system on V1 varies is ≈ 0.1 – 0.2 nT, comparable 
+        outboard magnetometer, of the dual magnetometers system on V1, varies between 0.1 and 0.2 nT, comparable 
         to the most probable magnetic field strength in the inner heliosheath and significantly larger 
         than the most probable magnetic field strength in the distant supersonic solar wind. The spacecraft 
         magnetic field is a complex, time-dependent signal that must be removed from the measured magnetic 
@@ -16,8 +16,8 @@
         system, ground tracking systems, and other factors. Extracting the signal describing the solar wind 
         and heliosheath from the many sources of uncertainty is a complex and partly subjective process that 
         requires understanding of the instrument and judgment based on experience in dealing with the 
-        ever-changing extraneous signals. We estimate that the 1-σ  uncertainty in the 48 sec averages 
-        in the components of the magnetic field is typically ≈ ± 0.02 nT. The uncertainties in F1, BR, BT, 
+        ever-changing extraneous signals. We estimate that the 1-sigma uncertainty in the 48 sec averages 
+        in the components of the magnetic field is typically +/- 0.02 nT. The uncertainties in F1, BR, BT, 
         and BN can differ from one another and they may vary with time, but there is no practical way to 
         determine these uncertainties more precisely at present.
 
