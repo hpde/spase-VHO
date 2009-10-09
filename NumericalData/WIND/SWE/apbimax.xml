@@ -31,7 +31,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Download of WIND/SWE proton and alpha parameters</Name>
-        <URL>http://vho.nasa.gov/mission/wind/swe_mit/</URL>
+        <URL>http://wind.nasa.gov/swe_apbimax/</URL>
         <Description>Repository of the WIND/SWE data</Description>
       </AccessURL>
       <Format>Text</Format>
