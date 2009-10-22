@@ -56,6 +56,9 @@
     </TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+    <Caveats>Users of these data are advised that higher quality, but lower time
+      resolution, proton moment data are available in the Wind/3DP PLSP data
+      product.</Caveats>
     <Parameter>
       <Name>Epoch</Name>
       <ParameterKey>Epoch</ParameterKey>
