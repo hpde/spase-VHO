@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xmlns="http://www.spase-group.org/data/schema" 
+       xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
+  <Version>2.0.2</Version>
+  <NumericalData>
+    <ResourceID>spase://VHO/NumericalData/WIND/Ephemeris/relative/ACE_PT10M</ResourceID>
+    <ResourceHeader>
+      <ResourceName>WIND Spacecraft Positions Relative to ACE</ResourceName>
+      <ReleaseDate>2009-12-02T00:00:00Z</ReleaseDate>
+      <Description>WIND spacecraft positions relative to ACE (ACE - Wind) in GSE coordinates</Description>
+      <Contact>
+        <!-- Adam Szabo -->
+        <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
+        <Role>Scientist</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>VHO holdings of ACE-Wind relative ephemeris</Name>
+        <URL>http://vho.nasa.gov/mission/relative_ephemeris</URL>
+        <Description>VHO holdings of ACE-Wind relative ephemeris</Description>
+      </AccessURL>
+      <Format>Text.ASCII</Format>
+      <Encoding>None</Encoding>
+    </AccessInformation>
+    <InstrumentID>spase://SMWG/Instrument/WIND/Ephemeris</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/ACE/Ephemeris</InstrumentID>
+    <MeasurementType>Ephemeris</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1997-08-26T00:00:00Z</StartDate>
+        <RelativeStopDate>PT1M</RelativeStopDate>
+      </TimeSpan>
+      <Cadence>PT10M</Cadence>
+    </TemporalDescription>
+    <Parameter>
+      <Name>Year</Name>
+      <Description>year</Description>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Month</Name>
+      <Description>month</Description>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Day</Name>
+      <Description>day</Description>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Hour</Name>
+      <Description>hour</Description>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Minute</Name>
+      <Description>minute</Description>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Magnitude</Name>
+      <Description>Magnitude of the seperation vector between ACE and Wind</Description>
+      <Units>Re</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>GSE X</Name>
+      <Description>GSE X component of the seperation vector between ACE and Wind</Description>
+      <Units>Re</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>GSE Y</Name>
+      <Description>GSE Y component of the seperation vector between ACE and Wind</Description>
+      <Units>Re</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>GSE Z</Name>
+      <Description>GSE Z component of the seperation vector between ACE and Wind</Description>
+      <Units>Re</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </Parameter>
+  </NumericalData>
+</Spase>
