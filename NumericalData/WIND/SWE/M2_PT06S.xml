@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>WIND/SWE Averaged Electron Pitch Angle Distribution (6-12s rate)</ResourceName>
       <AlternateName>WI_M2_SWE_v01</AlternateName>
-      <ReleaseDate>2010-03-03T21:33:26Z</ReleaseDate>
+      <ReleaseDate>2010-03-12T22:23:30Z</ReleaseDate>
       <Description>Averaged WIND SWE electron pitch angle data (6-12 seconds rate) from an earlier mode (VEIS-era) of the electron instrument.
 
 The electron pitch-angle distribution averages included in this data set are derived from integrating the electron pitch-angle distributions measured by the Wind/SWE electron instrument (see Ogilvie et al., "SWE, a comprehensive plasma instrument for the Wind spacecraft", Space Sci. Rev., 71, 55, 1995).  Averages of phase-space density (f) over key regions of the unit sphere (the set of all possible electron velocity directions) are computed from 3s measurements which are spaced either 6s or 12s in time.  These quantities are reliable and citable with caution, meaning that the PI advises that the user should discuss their interpretations with a member of the SWE science team before publishing.
@@ -113,9 +113,9 @@ The above analysis is carried out for each of 16 energy channels ranging from ab
       <FillValue>-1.0E31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
-        <Qualifier>Differential</Qualifier>
+        <Qualifier>Vector</Qualifier>
         <Qualifier>Average</Qualifier>
-        <ParticleQuantity>NumberFlux</ParticleQuantity>
+        <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
       </Particle>
     </Parameter>
     <Parameter>
@@ -138,9 +138,9 @@ The above analysis is carried out for each of 16 energy channels ranging from ab
       <FillValue>-1.0E31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
-        <Qualifier>Differential</Qualifier>
+        <Qualifier>Vector</Qualifier>
         <Qualifier>Average</Qualifier>
-        <ParticleQuantity>NumberFlux</ParticleQuantity>
+        <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
       </Particle>
     </Parameter>
     <Parameter>
@@ -163,9 +163,9 @@ The above analysis is carried out for each of 16 energy channels ranging from ab
       <FillValue>-1.0E31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
-        <Qualifier>Differential</Qualifier>
+        <Qualifier>Vector</Qualifier>
         <Qualifier>Average</Qualifier>
-        <ParticleQuantity>NumberFlux</ParticleQuantity>
+        <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
       </Particle>
     </Parameter>
     <Parameter>
@@ -188,9 +188,9 @@ The above analysis is carried out for each of 16 energy channels ranging from ab
       <FillValue>-1.0E31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
-        <Qualifier>Differential</Qualifier>
+        <Qualifier>Vector</Qualifier>
         <Qualifier>Average</Qualifier>
-        <ParticleQuantity>NumberFlux</ParticleQuantity>
+        <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
       </Particle>
     </Parameter>
   </NumericalData>
