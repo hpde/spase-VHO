@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-       xmlns="http://www.spase-group.org/data/schema" 
-       xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
   <Version>2.0.2</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/WIND/Ephemeris/relative/ACE_PT10M</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/WIND/Ephemeris/ACE_PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>WIND Spacecraft Positions Relative to ACE</ResourceName>
-      <ReleaseDate>2009-12-02T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2010-03-19T17:43:30Z</ReleaseDate>
       <Description>WIND spacecraft positions relative to ACE (ACE - Wind) in GSE coordinates</Description>
       <Contact>
         <!-- Adam Szabo -->
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
         <Role>Scientist</Role>
       </Contact>
+      <PriorID>spase://VHO/NumericalData/WIND/Ephemeris/relative/ACE_PT10M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>
