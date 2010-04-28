@@ -31,7 +31,9 @@
       <Encoding>ASCII</Encoding>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/SOHO/CELIAS</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/SOHO/Ephemeris</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
+    <MeasurementType>Ephemeris</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1996-01-20T20:17:30Z</StartDate>
