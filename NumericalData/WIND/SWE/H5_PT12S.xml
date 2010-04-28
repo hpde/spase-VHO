@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>WIND/SWE Electron Quadrature Moments Parameters (12-15s rate) (New Mode)</ResourceName>
       <AlternateName>WI_H5_SWE_v01</AlternateName>
-      <ReleaseDate>2010-03-12T23:24:06Z</ReleaseDate>
+      <ReleaseDate>2010-03-30T22:11:08Z</ReleaseDate>
       <Description>WIND SWE electron moments from a later mode (post-VEIS-era) of the electron instrument.
          
 The electron moments included in this data set are derived from quadrature integration of the solar wind electron distributions (with some fitting) measured by the Wind/SWE electron instrument (see Ogilvie et al., "SWE, a comprehensive plasma instrument for the Wind spacecraft", Space Sci. Rev., 71, 55, 1995).  Moment parameters are computed from 9s measurements which are usually separated by one or more 3s spin-periods. These quantities are reliable and citable with caution, meaning that the PI advises that the user should discuss their interpretations with a member of the SWE science team before publishing.
@@ -18,9 +18,9 @@ The following comments are intended to aid in the use and interpretation of the 
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
-        <Name>Wind/SWE Electron Data</Name>
-        <URL>http://wind.nasa.gov/data_sources.php#SWE_e_Data</URL>
-        <Description>Overview of Wind/SWE electron data on the WIND home page.</Description>
+        <Name>Wind/SWE Description</Name>
+        <URL>http://wind.nasa.gov/swe/index.html</URL>
+        <Description>Wind/SWE (Solar Wind Experiment) electron instruments, history and data products</Description>
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
