@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Voyager 2 Spacecraft Positions</ResourceName>
       <ReleaseDate>2009-05-20T19:08:30Z</ReleaseDate>
-      <Description>Voyager 2 spacecraft positions data product generated from data at SSCWeb (sscweb.gsfc.nasa.gov)</Description>
+      <Description>Voyager 2 spacecraft positions generated from data at HelioWeb (cohoweb.gsfc.nasa.gov/helios/heli.html)</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
         <Role>MetadataContact</Role>
@@ -28,7 +28,7 @@
     <MeasurementType>Ephemeris</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>1977-01-01T00:00:00Z</StartDate>
+        <StartDate>1977-08-25T00:00:00Z</StartDate>
         <StopDate>2015-12-31T23:59:59Z</StopDate>
       </TimeSpan>
       <Cadence>P1D</Cadence>
