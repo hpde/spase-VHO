@@ -1,11 +1,13 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Voyager2/MAGandPLS/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager-2 hourly merged magnetic field and plasma data</ResourceName>
-      <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
+      <ReleaseDate>2010-07-09T19:08:29Z</ReleaseDate>
       <Description>This is an hourly resolution, merged magnetic field and plasma data set created at NSSDC for COHOWeb.  Magnetic field vectors and plasma flow direction angles are given in RTN coordinates.  Spacecraft position data are given in Heliographic inertial (HGI coordinates).</Description>
       <Acknowledgement>Please acknowledge N.F. Ness (P.I.) and L. Burlaga for magnetic field data and J. Richardson (P.I.) for plasma data, and NSSDC or GSFC-SPDF</Acknowledgement>
       <Contact>
@@ -69,6 +71,7 @@
       <Cadence>PT1H</Cadence>
     </TemporalDescription>
     <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+    <ObservedRegion>Heliosphere.Heliosheath</ObservedRegion>
     <Parameter>
       <Name>Year</Name>
       <ParameterKey>Column1</ParameterKey>
@@ -175,19 +178,19 @@
         <Description>R,T,N components</Description>
         <Element>
           <Name>R component</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
           <ParameterKey>Column09</ParameterKey>
         </Element>
         <Element>
           <Name>T component</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
           <ParameterKey>Column10</ParameterKey>
         </Element>
         <Element>
           <Name>N component</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
           <ParameterKey>Column11</ParameterKey>
         </Element>
