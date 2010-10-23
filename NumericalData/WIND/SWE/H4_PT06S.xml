@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>WIND/SWE Electron Pitch-Angle Distributions (6-12s rate) (VEIS-era Mode)</ResourceName>
       <AlternateName>WI_H4_SWE_v01</AlternateName>
-      <ReleaseDate>2010-03-30T22:11:08Z</ReleaseDate>
+      <ReleaseDate>2010-10-23T14:05:58Z</ReleaseDate>
       <Description>WIND SWE electron pitch angle product providing electron fluxes at 30 directional bins relative to the instantaneous magnetic field direction at 16 different energy levels from the old mode (VEIS-era) of the electron instrument.
          
          The electron pitch-angle distributions included in this data set are derived from sorting, by pitch (wrt B) and energy, the solar wind electron distributions measured by the Wind/SWE electron instrument (see Ogilvie et al., "SWE, a comprehensive plasma instrument for the Wind spacecraft", Space Sci. Rev., 71, 55, 1955).  Pitch-angle distrubutions, organized by energy, are computed from 3s measurements which are spaced either 6s or 12s in time.  These quantities are reliable and citable with caution, meaning that the PI advises that the user should discuss their interpretations with a member of the SWE science team before publishing.
@@ -29,9 +29,13 @@ The following comments are intended to aid in the use and interpretation of the 
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>Access to WIND/SWE Electron VEIS-era Pitch-Angle Distributions</Name>
+        <Name>FTP access to WIND/SWE Electron VEIS-era Pitch-Angle Distributions</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/swe_h4/</URL>
         <Description>Repository of the WIND/SWE H4 (v01) electron data.</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb Service Data Access</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov</URL>
       </AccessURL>
       <Format>CDF</Format>
       <Acknowledgement>Please acknowledge the CDAWeb team and NASA/GSFC's NSSDC.</Acknowledgement>
