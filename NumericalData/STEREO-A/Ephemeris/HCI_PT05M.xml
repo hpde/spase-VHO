@@ -30,6 +30,10 @@ GEI, GSE, GSM, HCI, HEE, HEEQ.</Description>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
+        <Name>STEREO-A Position FTP Site</Name>
+        <URL>ftp://mussel.srl.caltech.edu/pub/stereo/Position/ahead</URL>
+      </AccessURL>
+      <AccessURL>
         <Name>STEREO Attitude and Orbit Data</Name>
         <URL>http://www.srl.caltech.edu/STEREO/attorb.html</URL>
         <Description>
