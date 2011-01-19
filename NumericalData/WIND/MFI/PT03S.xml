@@ -30,7 +30,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Download of WIND MFI data</Name>
-        <URL>http://wind.nasa.gov/mfi</URL>
+        <URL>http://wind.nasa.gov/data/mfi</URL>
         <Description>The WIND mission web site which also serves as the data distribution site for MFI data</Description>
       </AccessURL>
       <Format>CDF</Format>
