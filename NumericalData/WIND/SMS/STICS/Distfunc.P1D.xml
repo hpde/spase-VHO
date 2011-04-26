@@ -57,7 +57,7 @@ Only proton distribution functions are currently released at the production leve
     <ProviderResourceName>WIND/STICS ACE SWICS Level 2 Data, 1-hour averages, in CDF Format</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
     <ProviderVersion>5</ProviderVersion>
-    <InstrumentID>spase://VHO/Instrument/WIND/SMS/STICS</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/WIND/SMS/STICS</InstrumentID>
     <MeasurementType>IonComposition</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
