@@ -47,8 +47,8 @@
     </TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <Parameter>
-      <Name>Flux_B</Name>
-      <ParameterKey>Flux_B</ParameterKey>
+      <Name>flux_B</Name>
+      <ParameterKey>flux_B</ParameterKey>
       <Description>B intensity, at 7 energies 49.1-172.3 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -158,8 +158,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_C</Name>
-      <ParameterKey>Flux_C</ParameterKey>
+      <Name>flux_C</Name>
+      <ParameterKey>flux_C</ParameterKey>
       <Description>C intensity, at 7 energies 56.3-198.7 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -269,8 +269,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_N</Name>
-      <ParameterKey>Flux_N</ParameterKey>
+      <Name>flux_N</Name>
+      <ParameterKey>flux_N</ParameterKey>
       <Description>N intensity, at 7 energies 60.4-213.8 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -380,8 +380,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_O</Name>
-      <ParameterKey>Flux_O</ParameterKey>
+      <Name>flux_O</Name>
+      <ParameterKey>flux_O</ParameterKey>
       <Description>O intensity, at 7 energies 66.3-235.8 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -491,8 +491,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_F</Name>
-      <ParameterKey>Flux_F</ParameterKey>
+      <Name>flux_F</Name>
+      <ParameterKey>flux_F</ParameterKey>
       <Description>F intensity, at 7 energies 68.7-245.3 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -602,8 +602,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Ne</Name>
-      <ParameterKey>Flux_Ne</ParameterKey>
+      <Name>flux_Ne</Name>
+      <ParameterKey>flux_Ne</ParameterKey>
       <Description>Ne intensity, at 7 energies 73.7-264.3 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -713,8 +713,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Na</Name>
-      <ParameterKey>Flux_Na</ParameterKey>
+      <Name>flux_Na</Name>
+      <ParameterKey>flux_Na</ParameterKey>
       <Description>Na intensity, at 7 energies 77.3-278.3 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -824,8 +824,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Mg</Name>
-      <ParameterKey>Flux_Mg</ParameterKey>
+      <Name>flux_Mg</Name>
+      <ParameterKey>flux_Mg</ParameterKey>
       <Description>Mg intensity, at 7 energies 82.4-298.0 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -935,8 +935,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Al</Name>
-      <ParameterKey>Flux_Al</ParameterKey>
+      <Name>flux_Al</Name>
+      <ParameterKey>flux_Al</ParameterKey>
       <Description>Al intensity, at 7 energies 85.3-309.6 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -1046,8 +1046,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Si</Name>
-      <ParameterKey>Flux_Si</ParameterKey>
+      <Name>flux_Si</Name>
+      <ParameterKey>flux_Si</ParameterKey>
       <Description>Si intensity, at 7 energies 90.5-329.8 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -1157,8 +1157,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_P</Name>
-      <ParameterKey>Flux_P</ParameterKey>
+      <Name>flux_P</Name>
+      <ParameterKey>flux_P</ParameterKey>
       <Description>P intensity, at 7 energies 92.6-338.5 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -1268,8 +1268,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_S</Name>
-      <ParameterKey>Flux_S</ParameterKey>
+      <Name>flux_S</Name>
+      <ParameterKey>flux_S</ParameterKey>
       <Description>S intensity, at 7 energies 97.1-356.4 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -1379,8 +1379,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Cl</Name>
-      <ParameterKey>Flux_Cl</ParameterKey>
+      <Name>flux_Cl</Name>
+      <ParameterKey>flux_Cl</ParameterKey>
       <Description>Cl intensity, at 7 energies 98.6-362.7 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -1490,8 +1490,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Ar</Name>
-      <ParameterKey>Flux_Ar</ParameterKey>
+      <Name>flux_Ar</Name>
+      <ParameterKey>flux_Ar</ParameterKey>
       <Description>Ar intensity, at 7 energies 102.9-380.4 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -1601,8 +1601,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_K</Name>
-      <ParameterKey>Flux_K</ParameterKey>
+      <Name>flux_K</Name>
+      <ParameterKey>flux_K</ParameterKey>
       <Description>K intensity, at 7 energies 104.9-388.8 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -1712,8 +1712,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Ca</Name>
-      <ParameterKey>Flux_Ca</ParameterKey>
+      <Name>flux_Ca</Name>
+      <ParameterKey>flux_Ca</ParameterKey>
       <Description>Ca intensity, at 7 energies 108.2-402.4 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -1823,8 +1823,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Sc</Name>
-      <ParameterKey>Flux_Sc</ParameterKey>
+      <Name>flux_Sc</Name>
+      <ParameterKey>flux_Sc</ParameterKey>
       <Description>Sc intensity, at 7 energies 109.4-407.9 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -1934,8 +1934,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Ti</Name>
-      <ParameterKey>Flux_Ti</ParameterKey>
+      <Name>flux_Ti</Name>
+      <ParameterKey>flux_Ti</ParameterKey>
       <Description>Ti intensity, at 7 energies 112.2-419.7 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -2045,8 +2045,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_V</Name>
-      <ParameterKey>Flux_V</ParameterKey>
+      <Name>flux_V</Name>
+      <ParameterKey>flux_V</ParameterKey>
       <Description>V intensity, at 7 energies 114.5-429.7 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -2156,8 +2156,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Cr</Name>
-      <ParameterKey>Flux_Cr</ParameterKey>
+      <Name>flux_Cr</Name>
+      <ParameterKey>flux_Cr</ParameterKey>
       <Description>Cr intensity, at 7 energies 117.7-443.1 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -2267,8 +2267,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Mn</Name>
-      <ParameterKey>Flux_Mn</ParameterKey>
+      <Name>flux_Mn</Name>
+      <ParameterKey>flux_Mn</ParameterKey>
       <Description>Mn intensity, at 7 energies 120.1-453.6 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -2378,8 +2378,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Fe</Name>
-      <ParameterKey>Flux_Fe</ParameterKey>
+      <Name>flux_Fe</Name>
+      <ParameterKey>flux_Fe</ParameterKey>
       <Description>Fe intensity, at 7 energies 122.9-465.9 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -2489,8 +2489,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Co</Name>
-      <ParameterKey>Flux_Co</ParameterKey>
+      <Name>flux_Co</Name>
+      <ParameterKey>flux_Co</ParameterKey>
       <Description>Co intensity, at 7 energies 125.5-477.2 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
@@ -2600,8 +2600,8 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Flux_Ni</Name>
-      <ParameterKey>Flux_Ni</ParameterKey>
+      <Name>flux_Ni</Name>
+      <ParameterKey>flux_Ni</ParameterKey>
       <Description>Ni intensity, at 7 energies 129.9-496.1 MeV/nuc</Description>
       <Units>1/(cm2 Sr sec MeV/nucleon)</Units>
       <Structure>
