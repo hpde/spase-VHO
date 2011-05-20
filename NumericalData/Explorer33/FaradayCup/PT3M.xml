@@ -16,7 +16,7 @@ spacecraft position data in the records.  The data are in annual ASCII files.
       <Acknowledgement>To the MIT plasma team and to the Space Physics
 Data Facility at Goddard</Acknowledgement>
       <Contact>
-         <PersonID>Alan.J.Lazarus</PersonID>
+         <PersonID>spase://SMWG/Person/Alan.J.Lazarus</PersonID>
          <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>
@@ -36,8 +36,7 @@ J.Geophys.Res. paper by the MIT team.</Description>
       <AccessRights>Open</AccessRights>
       <AccessURL>
          <Name>nssdcftp</Name>
-         <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/explorer/explorer33/plasma_probe
-/3-min_interplanetary_plasma_param/</URL>
+         <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/explorer/explorer33/plasma_probe/3-min_interplanetary_plasma_param/</URL>
       </AccessURL>
       <Format>Text</Format>
       <DataExtent>
