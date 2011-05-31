@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/ACE/SIS/CDF_PT1H</ResourceID>
     <ResourceHeader>
@@ -34,10 +35,46 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
+        <Name>FTP area at CDAWeb</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/sis_h2</URL>
         <Description>FTP repository of 1-hour ACE/SIS data in CDF format at CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys/</URL>
+        <Description>For plots, numeric lists, and user specified
+          files</Description>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>ASC</Name>
+        <URL>http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_SIS.html</URL>
+        <Description>Plots and lists of user-selected parameters</Description>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>FTP area at ASC</Name>
+        <URL>ftp://mussel.srl.caltech.edu/pub/ace/level2/sis/</URL>
+        <Description>FTP repository of Level 2 ACE/SIS data in HDF format at
+          ASC</Description>
+      </AccessURL>
+      <Format>HDF</Format>
     </AccessInformation>
     <ProviderResourceName>ACE SIS Level 2 Data, 1-hour averages, in CDF Format</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
