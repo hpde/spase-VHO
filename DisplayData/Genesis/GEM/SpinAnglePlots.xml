@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <DisplayData>
+    <ResourceID>spase://VHO/DisplayData/Genesis/GEM/SpinAnglePlots</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Genesis Electron Spin Angle Distribution Plots</ResourceName>
+      <ReleaseDate>2011-07-07T00:00:00</ReleaseDate>
+      <Description>1-day plots of color-coded electron fluxes vs.
+sensor look direction (normal to generally sunward spacecraft 
+spin vector) and time, for each of several electron energy
+bins.  The plots are very useful for discerning intervals of 
+unidirectional and bidirectional electron streaming at 
+Genesis.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.T.Steinberg</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <InformationURL>
+         <Name>Data Description at LANL</Name>
+         <URL>http://genesis.lanl.gov/plots/test/gem_phi/description.html</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/LANL</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Genesis plot site at LANL</Name>
+        <URL>http://genesis.lanl.gov/plots/test/gem_phi/1day/</URL>
+      </AccessURL>
+      <Format>GIF</Format>
+    </AccessInformation>
+    <InstrumentID>spase://SMWG/Instrument/Genesis/GIM-GEM</InstrumentID>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2001-08-23T00:00:00Z</StartDate>
+        <StopDate>2004-08-04T00:00:00Z</StopDate>
+      </TimeSpan>
+    </TemporalDescription>
+  </DisplayData>
+</Spase>
