@@ -2,12 +2,12 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
   <Version>2.0.0</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/WIND/MFI/PT03S</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/Wind/MFI/PT03S</ResourceID>
     <ResourceHeader>
-      <ResourceName>WIND MFI Data</ResourceName>
-      <ReleaseDate>2009-05-20T19:08:30Z</ReleaseDate>
-      <Description>WIND MFI composite data. The files contain multiple time resolution data: 3-second, 1-minute, and 1-hour. Data come in either version 3 or version 4 with version 4 preferred when available.  Both are calibrated science quality data, however, the version 4 data has a small, final correction applied to the Bz component which is not found in the version 3 data.  Details of this correction can be found in the caveats section of this document.  The version 4 correction is a manual correction for long term drifts which can not be applied upon first release of the data.  Thus, version 3 files are released to within a few days of the present to allow quick access to the data.  Subsequently, the manual corrections are applied and version 3 files are replaced with a corresponding version 4 file.</Description>
-      <Acknowledgement>User will acknowledge the WIND MFI instrument team in any publication resulting from the use of these data.</Acknowledgement>
+      <ResourceName>Wind MFI Data</ResourceName>
+      <ReleaseDate>2011-08-18T19:08:30Z</ReleaseDate>
+      <Description>Wind MFI composite data. The files contain multiple time resolution data: 3-second, 1-minute, and 1-hour. Data come in either version 3 or version 4 with version 4 preferred when available.  Both are calibrated science quality data, however, the version 4 data has a small, final correction applied to the Bz component which is not found in the version 3 data.  Details of this correction can be found in the caveats section of this document.  The version 4 correction is a manual correction for long term drifts which can not be applied upon first release of the data.  Thus, version 3 files are released to within a few days of the present to allow quick access to the data.  Subsequently, the manual corrections are applied and version 3 files are replaced with a corresponding version 4 file.</Description>
+      <Acknowledgement>User will acknowledge the Wind MFI instrument team in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Ronald.P.Lepping</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -17,28 +17,28 @@
         <Role>DataProducer</Role>
       </Contact>
       <InformationURL>
-        <Name>WIND Spacecraft Homepage</Name>
+        <Name>Wind Spacecraft Homepage</Name>
         <URL>http://wind.nasa.gov</URL>
         <Description>A web site hosting instrument information as well as web utilities for plotting and downloading data</Description>
       </InformationURL>
-      <PriorID>spase://VHO/NumericalData/WIND/MFI/v3_PT03S</PriorID>
-      <PriorID>spase://VHO/NumericalData/WIND/MFI/v4_PT03S</PriorID>
+      <PriorID>spase://VHO/NumericalData/Wind/MFI/v3_PT03S</PriorID>
+      <PriorID>spase://VHO/NumericalData/Wind/MFI/v4_PT03S</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/WIND</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Wind</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>Download of WIND MFI data</Name>
+        <Name>Download of Wind MFI data</Name>
         <URL>http://wind.nasa.gov/data/mfi</URL>
-        <Description>The WIND mission web site which also serves as the data distribution site for MFI data</Description>
+        <Description>The Wind mission web site which also serves as the data distribution site for MFI data</Description>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
-    <ProviderResourceName>WIND MFI Data</ProviderResourceName>
+    <ProviderResourceName>Wind MFI Data</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/WIND/MFI</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Wind/MFI</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
@@ -514,9 +514,9 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>WIND/MFI operational mode (1 min)</Name>
+      <Name>Wind/MFI operational mode (1 min)</Name>
       <ParameterKey>MAG_MODE</ParameterKey>
-      <Description>WIND/MFI instrument operational mode (1 min)
+      <Description>Wind/MFI instrument operational mode (1 min)
 
  0 - Primary to Secondary mag data collection rate ratio (1:1), 
 Outboard mag primary with FFT &amp; Snapshot data

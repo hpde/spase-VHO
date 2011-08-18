@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/WIND/SWE/H1_PT100S</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/Wind/SWE/H1_PT100S</ResourceID>
     <ResourceHeader>
-      <ResourceName>WIND/SWE 100-sec Solar Wind Proton Anisotropy Analysis</ResourceName>
-      <ReleaseDate>2010-11-02T20:06:23Z</ReleaseDate>
-      <Description>SWE is a comprehensive plasma instrument for the WIND spacecraft, see K.W.Ogilvie, et al., Space Sci. Rev., 71, 55-77, 1995. This product provides solar wind proton parameters, including anisotropic temperatures, derived by non-linear fitting of the measurements and with moment techniques. Data reported within this product do not exceed the limits of various parameters listed in the following section. There may be more valid data in the original dataset that requires additional work to interpret but was discarded due to the limits. In particular we have tried to exclude non-solar wind data from these files. We provide the one sigma uncertainty for each parameter produced by the non-linear curve fitting analysis either directly from the fitting or by propagating uncertainties for bulk speeds, flow angles or any other derived parameter. For the non-linear anisotropic proton analysis, a scalar thermal speed is produced by determining parallel and perpendicular temperatures, taking the trace, Tscalar = (2Tperp + Tpara)/3 and converting the result back to a thermal speed. The uncertainties are also propagated through.</Description>
+      <ResourceName>Wind/SWE 100-sec Solar Wind Proton Anisotropy Analysis</ResourceName>
+      <ReleaseDate>2011-08-18T20:06:23Z</ReleaseDate>
+      <Description>SWE is a comprehensive plasma instrument for the Wind spacecraft, see K.W.Ogilvie, et al., Space Sci. Rev., 71, 55-77, 1995. This product provides solar wind proton parameters, including anisotropic temperatures, derived by non-linear fitting of the measurements and with moment techniques. Data reported within this product do not exceed the limits of various parameters listed in the following section. There may be more valid data in the original dataset that requires additional work to interpret but was discarded due to the limits. In particular we have tried to exclude non-solar wind data from these files. We provide the one sigma uncertainty for each parameter produced by the non-linear curve fitting analysis either directly from the fitting or by propagating uncertainties for bulk speeds, flow angles or any other derived parameter. For the non-linear anisotropic proton analysis, a scalar thermal speed is produced by determining parallel and perpendicular temperatures, taking the trace, Tscalar = (2Tperp + Tpara)/3 and converting the result back to a thermal speed. The uncertainties are also propagated through.</Description>
       <Acknowledgement>Please acknowledge the Wind/SWE electron instrument team and NASA/GSFC.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Keith.W.Ogilvie</PersonID>
@@ -23,9 +23,9 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to WIND/SWE Proton Anisotropy Parameters</Name>
+        <Name>FTP access to Wind/SWE Proton Anisotropy Parameters</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/swe_h1/</URL>
-        <Description>Repository of the WIND/SWE H1 proton data.</Description>
+        <Description>Repository of the Wind/SWE H1 proton data.</Description>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb Service Data Access</Name>
@@ -36,7 +36,7 @@
     </AccessInformation>
     <ProviderResourceName>WI_H1_SWE</ProviderResourceName>
     <ProviderVersion>v01</ProviderVersion>
-    <InstrumentID>spase://SMWG/Instrument/WIND/SWE</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Wind/SWE</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

@@ -5,10 +5,10 @@ xsi:schemaLocation="http://www.spase-group.org/data/schema
 http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
 <Version>2.2.0</Version>
 <NumericalData>
-   <ResourceID>spase://VHO/NumericalData/WIND/MFI/PT15S</ResourceID>
+   <ResourceID>spase://VHO/NumericalData/Wind/MFI/PT15S</ResourceID>
    <ResourceHeader>
       <ResourceName>Wind 15-sec magnetic field data, solar wind only</ResourceName>
-      <ReleaseDate>2011-04-07T00:00:00</ReleaseDate>
+      <ReleaseDate>2011-08-18T00:00:00</ReleaseDate>
       <Description>Data consist of 15-sec averages of magnetic field 
 magnitude and GSE Cartesian components, from the MFI magnetometer on 
 Wind.  Data are for only the solar wind phases of the Wind orbit.</Description>
@@ -45,7 +45,7 @@ Wind.  Data are for only the solar wind phases of the Wind orbit.</Description>
 and J. King and N. Papitashvili, NASA/GSFC/SPDF, data set producers.</Acknowledgement>
    </AccessInformation>
    <ProcessingLevel>Calibrated</ProcessingLevel>
-   <InstrumentID>spase://SMWG/Instrument/WIND/MFI</InstrumentID>
+   <InstrumentID>spase://SMWG/Instrument/Wind/MFI</InstrumentID>
    <MeasurementType>MagneticField</MeasurementType>
    <TemporalDescription>
       <TimeSpan>

@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
   <Version>2.0.0</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/WIND/Ephemeris/predicted_PT10M</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/Wind/Ephemeris/predicted_PT10M</ResourceID>
     <ResourceHeader>
-      <ResourceName>Predicted WIND Spacecraft Positions</ResourceName>
-      <ReleaseDate>2009-05-20T19:08:30Z</ReleaseDate>
-      <Description>Predicted (calculated) WIND spacecraft positions in various coordinate systems</Description>
+      <ResourceName>Predicted Wind Spacecraft Positions</ResourceName>
+      <ReleaseDate>2011-08-18T19:08:30Z</ReleaseDate>
+      <Description>Predicted (calculated) Wind spacecraft positions in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -19,18 +19,18 @@
       </Contact>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/WIND</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Wind</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>WIND Spacecraft homepage</Name>
+        <Name>Wind Spacecraft homepage</Name>
         <URL>http://wind.nasa.gov/ephemeris/pre</URL>
-        <Description>Homepage for the WIND mission.  Contains links to data and instrument descriptions.</Description>
+        <Description>Homepage for the Wind mission.  Contains links to data and instrument descriptions.</Description>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
-    <InstrumentID>spase://SMWG/Instrument/WIND/Ephemeris</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Wind/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

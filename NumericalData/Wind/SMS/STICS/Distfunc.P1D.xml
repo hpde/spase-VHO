@@ -2,19 +2,19 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
   <Version>2.1.0</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/WIND/SMS/STICS/Distfunc.P1D</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/Wind/SMS/STICS/Distfunc.P1D</ResourceID>
     <ResourceHeader>
-      <ResourceName>WIND Suprathermal Ion Composition Spectrometer (STICS) Distribution Functions</ResourceName>
-      <AlternateName>WIND/STICS</AlternateName>
-      <ReleaseDate>2010-04-20T19:56:36Z</ReleaseDate>
-      <Description>WIND Suprathermal Ion Composition Spectrometer (STICS) phase-space distribution functions at 1-day time resolution for specified ions. Calibrated science quality data presented in the native spacecraft frame.
+      <ResourceName>Wind Suprathermal Ion Composition Spectrometer (STICS) Distribution Functions</ResourceName>
+      <AlternateName>Wind/STICS</AlternateName>
+      <ReleaseDate>2011-08-18T19:56:36Z</ReleaseDate>
+      <Description>Wind Suprathermal Ion Composition Spectrometer (STICS) phase-space distribution functions at 1-day time resolution for specified ions. Calibrated science quality data presented in the native spacecraft frame.
       
       The data files contain 3D phase space density distribution, A(v) (currently in arbitrary units) functions, for H+. There are 512 values for A(v) for each time step, corresponding to each directional sector (16 total directions) and each Deflection Voltage Step (DVS) corresponding to a set E/q
 value (32 total voltage steps per sector).
 
 Only proton distribution functions are currently released at the production level.
 </Description>
-      <Acknowledgement>Please acknowledge the WIND/STICS instrument team.</Acknowledgement>
+      <Acknowledgement>Please acknowledge the Wind/STICS instrument team.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Jim.Raines</PersonID>
         <Role>DataProducer</Role>
@@ -32,14 +32,14 @@ Only proton distribution functions are currently released at the production leve
         <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>
-        <Name>WIND STICS Level 2 Data Release Notes</Name>
+        <Name>Wind STICS Level 2 Data Release Notes</Name>
         <URL>http://vho.nasa.gov/mission/wind/sms/3d/wind_stics_lv2_release_notes_01Apr2010.pdf</URL>
         <Description>PDF document, revision B, 1 April 2010</Description>
       </InformationURL>
       <InformationURL>
         <Name>Solar and Heliospheric Research Group, University of Michigan</Name>
         <URL>http://solar-heliospheric.engin.umich.edu</URL>
-        <Description>WIND/STICS Instrument Team homepage</Description>
+        <Description>Wind/STICS Instrument Team homepage</Description>
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
@@ -48,16 +48,16 @@ Only proton distribution functions are currently released at the production leve
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <URL>http://vho.nasa.gov/mission/wind/sms/3d/daily</URL>
-        <Description>WIND STICS data archive at NASA/GSFC</Description>
+        <Description>Wind STICS data archive at NASA/GSFC</Description>
       </AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <ProviderResourceName>WIND/STICS ACE SWICS Level 2 Data, 1-hour averages, in CDF Format</ProviderResourceName>
+    <ProviderResourceName>Wind/STICS ACE SWICS Level 2 Data, 1-hour averages, in CDF Format</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
     <ProviderVersion>5</ProviderVersion>
-    <InstrumentID>spase://SMWG/Instrument/WIND/SMS/STICS</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Wind/SMS/STICS</InstrumentID>
     <MeasurementType>IonComposition</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
@@ -95,7 +95,7 @@ Only proton distribution functions are currently released at the production leve
     <Parameter>
       <Name>Sector</Name>
       <ParameterKey>sector</ParameterKey>
-      <Description>Sector refers to the observation direction in the ecliptic plane (as shown in Figure 2 of the Release Notes PDF document). Azimuthal sector index of the data, keyed by the WIND Sun sensor. Sectors 8-10 are the solar direction, while Earthward is sectors 0-2. Each sector is 22.5 degrees. See release notes for details.</Description>
+      <Description>Sector refers to the observation direction in the ecliptic plane (as shown in Figure 2 of the Release Notes PDF document). Azimuthal sector index of the data, keyed by the Wind Sun sensor. Sectors 8-10 are the solar direction, while Earthward is sectors 0-2. Each sector is 22.5 degrees. See release notes for details.</Description>
       <Cadence>P1D</Cadence>
       <ValidMin>0</ValidMin>
       <ValidMax>15</ValidMax>

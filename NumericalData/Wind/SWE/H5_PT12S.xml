@@ -2,12 +2,12 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/WIND/SWE/H5_PT12S</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/Wind/SWE/H5_PT12S</ResourceID>
     <ResourceHeader>
-      <ResourceName>WIND/SWE Electron Quadrature Moments Parameters (12-15s rate) (2002-present)</ResourceName>
+      <ResourceName>Wind/SWE Electron Quadrature Moments Parameters (12-15s rate) (2002-present)</ResourceName>
       <AlternateName>WI_H5_SWE_v01</AlternateName>
-      <ReleaseDate>2010-11-01T22:02:49Z</ReleaseDate>
-      <Description>WIND SWE electron moments from a later mode (post-VEIS-era, ie. 2002-present) of the electron instrument.
+      <ReleaseDate>2011-08-18T22:02:49Z</ReleaseDate>
+      <Description>Wind SWE electron moments from a later mode (post-VEIS-era, ie. 2002-present) of the electron instrument.
          
 The electron moments included in this data set are derived from quadrature integration of the solar wind electron distributions (with some fitting) measured by the Wind/SWE electron instrument (see Ogilvie et al., "SWE, a comprehensive plasma instrument for the Wind spacecraft", Space Sci. Rev., 71, 55, 1995).  Moment parameters are computed from 9s measurements which are usually separated by one or more 3s spin-periods. These quantities are reliable and citable with caution, meaning that the PI advises that the user should discuss their interpretations with a member of the SWE science team before publishing.
 
@@ -28,9 +28,9 @@ The following comments are intended to aid in the use and interpretation of the 
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to WIND/SWE Electron New-mode Quadrature Moments Parameters</Name>
+        <Name>FTP access to Wind/SWE Electron New-mode Quadrature Moments Parameters</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/swe_h5/</URL>
-        <Description>Repository of the WIND/SWE H5 (v01) electron data.</Description>
+        <Description>Repository of the Wind/SWE H5 (v01) electron data.</Description>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb Service Data Access</Name>
@@ -41,7 +41,7 @@ The following comments are intended to aid in the use and interpretation of the 
     </AccessInformation>
     <ProviderResourceName>WI_H5_SWE</ProviderResourceName>
     <ProviderVersion>v01</ProviderVersion>
-    <InstrumentID>spase://SMWG/Instrument/WIND/SWE</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Wind/SWE</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
