@@ -45,13 +45,28 @@
         <Description>Plots, lists, scatter plots, regressions, distributions, means, etc.</Description>
       </AccessURL>
       <Format>Text</Format>
-      <DataExtent>
-        <Quantity>1</Quantity>
-        <Units>MB</Units>
-        <Per>P1Y</Per>
-      </DataExtent>
-      <Acknowledgement>Please acknowledge the magnetic field and plasma Principal Investigators, Drs. E. Smith and P. Gazis, and NSSDC or GSFC-SPDF</Acknowledgement>
-    </AccessInformation>
+        </AccessInformation>
+        <AccessInformation>    
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/pioneer/pioneer11/coho1hr_magplasma/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+               <Description>PIONEER11_COHO1HR_MERGED_MAG_PLASMA</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+            <DataExtent>
+                <Quantity>1</Quantity>
+                <Units>MB</Units>
+                <Per>P1Y</Per>
+            </DataExtent>
+            <Acknowledgement>Please acknowledge the magnetic field and plasma Principal Investigators, Drs. E. Smith and P. Gazis, and NSSDC or GSFC-SPDF</Acknowledgement>
+        </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Pioneer11/MAG1</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/Pioneer11/PLS</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
