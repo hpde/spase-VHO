@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/Pioneer11/MAGandPLS/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Pioneer 11 hourly merged magnetic field and plasma data</ResourceName>
-      <ReleaseDate>2009-05-20T19:08:28Z</ReleaseDate>
+      <ReleaseDate>2011-08-25T10:08:28Z</ReleaseDate>
       <Description>This is an hourly resolution, merged magnetic field and plasma data set created at NSSDC for COHOWeb.  Magnetic field vectors and plasma flow direction angles are given in RTN coordinates.  Spacecraft position data are given in Heliographic inertial (HGI coordinates).</Description>
       <Acknowledgement>Please acknowledge the magnetic field and plasma Principal Investigators, Drs. E. Smith and P. Gazis, and NSSDC or GSFC-SPDF</Acknowledgement>
       <Contact>

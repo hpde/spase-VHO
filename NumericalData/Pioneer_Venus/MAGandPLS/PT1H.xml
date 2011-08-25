@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Pioneer_Venus/MAGandPLS/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Pioneer Venus Orbiter(PVO) hourly merged magnetic field and plasma data</ResourceName>
-      <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
+      <ReleaseDate>2011-08-25T10:08:29Z</ReleaseDate>
       <Description>This is an hourly resolution, merged magnetic field and plasma data set created at NSSDC for COHOWeb.  Magnetic field vectors and plasma flow direction angles are given in RTN coordinates.  Spacecraft position data are given in Heliographic inertial (HGI coordinates).</Description>
       <Acknowledgement>Please acknowledge the magnetic field and plasma Principal Investigators, Drs. C.T. Russell and P. Gazis, and NSSDC or GSFC-SPDF</Acknowledgement>
       <Contact>
