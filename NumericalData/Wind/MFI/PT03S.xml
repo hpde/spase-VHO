@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Wind/MFI/PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind MFI Data</ResourceName>
-      <ReleaseDate>2011-08-18T19:08:30Z</ReleaseDate>
-      <Description>Wind MFI composite data. The files contain multiple time resolution data: 3-second, 1-minute, and 1-hour. Data come in either version 3 or version 4 with version 4 preferred when available.  Both are calibrated science quality data, however, the version 4 data has a small, final correction applied to the Bz component which is not found in the version 3 data.  Details of this correction can be found in the caveats section of this document.  The version 4 correction is a manual correction for long term drifts which can not be applied upon first release of the data.  Thus, version 3 files are released to within a few days of the present to allow quick access to the data.  Subsequently, the manual corrections are applied and version 3 files are replaced with a corresponding version 4 file.</Description>
-      <Acknowledgement>User will acknowledge the Wind MFI instrument team in any publication resulting from the use of these data.</Acknowledgement>
+      <ReleaseDate>2011-08-30T19:08:30Z</ReleaseDate>
+      <Description>Wind MFI composite data. The files contain multiple 
+time resolution data: 3-second, 1-minute, and 1-hour. Data come in 
+either version 3 or version 4 with version 4 preferred when available.  
+Both are calibrated science quality data, however, the version 4 data 
+has a small, final correction applied to the Bz component which is not 
+found in the version 3 data.  Details of this correction can be found 
+in the caveats section of this document.  The version 4 correction is 
+a manual correction for long term drifts which can not be applied upon 
+first release of the data.  Thus, version 3 files are released to within 
+a few days of the present to allow quick access to the data.  
+Subsequently, the manual corrections are applied and version 3 files 
+are replaced with a corresponding version 4 file.  Multi-resolution 
+data are available in CDF for ftp downloads from Wind and SPDF sites 
+and with subset, plot and list capabilities from Wind and CDAWeb.
+Single resolution data (3s or 1m or 1h) are available in ASCII for 
+ftp downloads from SPDF.</Description>
+      <Acknowledgement>User will acknowledge the Wind MFI instrument 
+team, and the site from which data are pulled, in any publication 
+resulting from the use of these data.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Ronald.P.Lepping</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -19,22 +39,63 @@
       <InformationURL>
         <Name>Wind Spacecraft Homepage</Name>
         <URL>http://wind.nasa.gov</URL>
-        <Description>A web site hosting instrument information as well as web utilities for plotting and downloading data</Description>
+        <Description>A web site hosting instrument information as well 
+as web utilities for plotting and downloading data</Description>
       </InformationURL>
-      <PriorID>spase://VHO/NumericalData/Wind/MFI/v3_PT03S</PriorID>
-      <PriorID>spase://VHO/NumericalData/Wind/MFI/v4_PT03S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Wind</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>Download of Wind MFI data</Name>
+        <Name>Via ftp in CDF from Wind site</Name>
         <URL>http://wind.nasa.gov/data/mfi</URL>
-        <Description>The Wind mission web site which also serves as the data distribution site for MFI data</Description>
+        <Description>For ftp downloads of CDF formatted data from Wind site</Description>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Wind</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Subset, plot, list from Wind site</Name>
+        <URL>http://wind.nasa.gov/mfi_swe_plot.php</URL>
+        <Description>Interactive interface for subsets, plots and lists of 
+MFI and SWE data</Description>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Via ftp in CDF from CDAWeb</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/mfi_h0/</URL>
+        <Description>For ftp downloads of CDF formatted data from CDAWeb</Description>
+      </AccessURL>
+      <Format>CDF</Format>
+      <Encoding>None</Encoding>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Subset, plot, list from CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+        <Description>CDAWeb interactive interface for subsets, plots 
+and lists of MFI data</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Via ftp in ASCII from nssdcftp</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/wind/mag</URL>
+        <Description>For ftp downloads of ASCII Wind/MFI data at one
+resolution (3s or 1m or 1h)</Description>
+      </AccessURL>
+      <Format>Text</Format>
     </AccessInformation>
     <ProviderResourceName>Wind MFI Data</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
@@ -47,12 +108,20 @@
       </TimeSpan>
     </TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-    <ObservedRegion>Heliosphere.Inner</ObservedRegion>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
-    <Caveats>Version 3 and 4 data are both science quality data.  However, version 4 files contain a final Bz correction not found in the version 3 files.  The correction is on the order of 0.1 nT and is applied manually after release of the initial version 3 data.  The generation of the version 4 files requires many months of data prior to and after the corrected time periods.  Thus it will always significantly lag the release of the version 3 files.  When version 4 files become available the corresponding version 3 file is removed and the version 4 file becomes the only file available for that time period</Caveats>
+    <Caveats>Version 3 and 4 data are both science quality data.  
+However, version 4 files contain a final Bz correction not found in 
+the version 3 files.  The correction is on the order of 0.1 nT and 
+is applied manually after release of the initial version 3 data.  
+The generation of the version 4 files requires many months of data 
+prior to and after the corrected time periods.  Thus it will always 
+significantly lag the release of the version 3 files.  When 
+version 4 files become available the corresponding version 3 file 
+is removed and the version 4 file becomes the only file available 
+for that time period</Caveats>
     <Keyword>Magnetic field</Keyword>
     <!-- One Minute Data Averages -->
     <Parameter>
@@ -150,17 +219,17 @@
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>By</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Bz</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -185,17 +254,17 @@
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>RMS By</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>RMS Bz</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -220,17 +289,17 @@
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>By</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Bz</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -255,17 +324,17 @@
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>RMS By</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>RMS Bz</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -306,17 +375,17 @@
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -339,17 +408,17 @@
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -371,17 +440,17 @@
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -403,17 +472,17 @@
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -437,17 +506,17 @@
         <Size>3</Size>
         <Element>
           <Name>DBx</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>DBy</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>DBz</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -518,23 +587,23 @@
       <ParameterKey>MAG_MODE</ParameterKey>
       <Description>Wind/MFI instrument operational mode (1 min)
 
- 0 - Primary to Secondary mag data collection rate ratio (1:1), 
+0 - Primary to Secondary mag data collection rate ratio (1:1), 
 Outboard mag primary with FFT &amp; Snapshot data
- 1 - Primary to Secondary Ratio (20:1), Outboard primary with FFT &amp; 
+1 - Primary to Secondary Ratio (20:1), Outboard primary with FFT &amp; 
 Snapshot
- 2 - Primary to Secondary Ratio (20:1), Outboard primary with 
+2 - Primary to Secondary Ratio (20:1), Outboard primary with 
 Snapshot only
- 3 - Primary to Secondary Ratio (1:1), Outboard primary, Maneuver 
+3 - Primary to Secondary Ratio (1:1), Outboard primary, Maneuver 
 mode - no useful data
- 7 - Primary to Secondary Ratio (1:1), Outboard primary but used 
+7 - Primary to Secondary Ratio (1:1), Outboard primary but used 
 Inboard data for processing
- 10 - Primary to Secondary Ratio (1:1), Inboard primary with FFT &amp; 
+10 - Primary to Secondary Ratio (1:1), Inboard primary with FFT &amp; 
 Snapshot
- 11 - Primary to Secondary Ratio (20:1), Inboard primary with FFT &amp; 
+11 - Primary to Secondary Ratio (20:1), Inboard primary with FFT &amp; 
 Snapshot
- 12 - Primary to Secondary Ratio (20:1), Inboard primary with 
+12 - Primary to Secondary Ratio (20:1), Inboard primary with 
 Snapshot only
- 13 - Primary to Secondary Ratio (1:1), Inboard primary, Maneuver 
+13 - Primary to Secondary Ratio (1:1), Inboard primary, Maneuver 
 mode - no useful data
       </Description>
       <Cadence>PT01M</Cadence>
@@ -643,17 +712,17 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>By</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Bz</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -678,17 +747,17 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>RMS By</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>RMS Bz</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -713,17 +782,17 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>By</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Bz</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -748,17 +817,17 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>RMS By</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>RMS Bz</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -866,17 +935,17 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>By</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Bz</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -901,17 +970,17 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>RMS By</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>RMS Bz</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -936,17 +1005,17 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>Bx</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>By</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Bz</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -971,17 +1040,17 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>RMS Bx</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>RMS By</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>RMS Bz</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -1022,17 +1091,17 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -1055,17 +1124,17 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -1087,17 +1156,17 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
@@ -1119,17 +1188,17 @@ mode - no useful data
         <Size>3</Size>
         <Element>
           <Name>X</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
         </Element>
         <Element>
           <Name>Y</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
         </Element>
         <Element>
           <Name>Z</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
         </Element>
       </Structure>
