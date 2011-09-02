@@ -41,6 +41,11 @@
         <Description>for annual files via ftp</Description>
       </AccessURL>
       <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+        <Description>For CDAWeb subset,plot and list capabilities</Description>
+      </AccessURL>
+      <AccessURL>
         <Name>COHOWeb plots and lists</Name>
         <URL>http://cohoweb.gsfc.nasa.gov/form/voyager1.html</URL>
         <Description>Voyager 1-specific page for plots and lists</Description>
