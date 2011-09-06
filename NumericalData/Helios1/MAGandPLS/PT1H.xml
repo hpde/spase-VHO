@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/Helios1/MAGandPLS/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Helios 1 hourly merged magnetic field and plasma data</ResourceName>
-      <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
+      <ReleaseDate>2011-09-06T19:08:29Z</ReleaseDate>
       <Description>This is an hourly resolution, merged magnetic field and plasma data set created at NSSDC for COHOWeb.  Magnetic field vectors and plasma flow direction angles are given in RTN coordinates.  Spacecraft position data are given in Heliographic inertial (HGI coordinates).</Description>
       <Acknowledgement>Please acknowledge N.F. Ness (P.I.) and F. Mariani for magnetic field data and H. Rosenbauer (P.I.) and R. Schwenn for plasma data, and NSSDC or GSFC-SPDF</Acknowledgement>
       <Contact>
