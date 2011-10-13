@@ -1,53 +1,81 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xmlns="http://www.spase-group.org/data/schema" 
-  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
-  <Version>2.1.0</Version>
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
   <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/WIND/3DP/PT96S</ResourceID>
+    <ResourceID>spase://VHO/NumericalData/Wind/3DP/ELPD</ResourceID>
     <ResourceHeader>
-      <ResourceName>WIND 3DP EESA-LOW Pitch-Angle Distributions</ResourceName>
-      <ReleaseDate>2010-03-24T19:08:30Z</ReleaseDate>
-      <Description>WIND 3DP electron pitch angle product providing electron fluxes in 8 directional bins relative to the instantaneous magnetic field direction at 15 different energy levels. Calibrated science quality data. PADs are created using all available 3DP look directions (ie., the whole cone), not just those in the spin plane.</Description>
-      <Acknowledgement>User will acknowledge the WIND 3DP Team in any publication resulting from use of this data.</Acknowledgement>
+      <ResourceName>Wind 3DP EESA-LOW Electron Pitch-Angle Distributions</ResourceName>
+      <ReleaseDate>2011-10-13T00:00:00Z</ReleaseDate>
+      <Description>Wind 3DP electron pitch angle product providing electron 
+fluxes in 8 directional bins relative to the local magnetic field 
+direction at 15 different energy levels. Time resolution is mode-
+dependent, with 96s being used for the past several years and with
+higher resolution (e.g., 24s) used for some earlier intervals.
+For any given cadence, electron observations made over the full
+cadence interval and in all look directions in and out of the spacecraft
+spin plane, are folded together with the magnetic field vector as averaged
+over the cadence interval, to produce the pitch angle distributions.
+The data are calibrated science quality data.</Description>
+      <Acknowledgement>User will acknowledge the Wind 3DP Team in any 
+publication resulting from use of this data.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Peter.Schroeder</PersonID>
         <Role>DataProducer</Role>
       </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
       <InformationURL>
-        <Name>WIND 3DP instrument home page</Name>
+        <Name>Wind 3DP instrument home page</Name>
         <URL>http://sprg.ssl.berkeley.edu/wind3dp/</URL>
-        <Description>The WIND 3DP instrument home page contains information on the WIND 3DP instruments and their associated data sets.</Description>
+        <Description>The Wind 3DP instrument home page contains 
+information on the Wind 3DP instruments and their associated data sets.</Description>
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>WIND 3DP ELPD data</Name>
+        <Name>CDAWeb ftp area</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/3dp_elpd</URL>
-        <Description>Location of WIND 3DP EESA-LOW pitch-angle distribution data files</Description>
+        <Description>in CDF via ftp from CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/UCB/WIND/3DP</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>WIND 3DP ELPD data</Name>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+        <Description>Subsets, plots, lists from CDAWeb</Description>
+      </AccessURL>
+      <Format>Text</Format>
+      <Encoding>None</Encoding>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/UCB/Wind/3DP</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>WIND 3DP ELPD data at UCB</Name>
         <URL>http://sprg.ssl.berkeley.edu/wind3dp/data/wi/3dp/elpd/</URL>
-        <Description>Location of WIND 3DP EESA-Low pitch-angle distribution data files</Description>
+        <Description>in CDF via ftp from CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
-    <ProviderResourceName>WIND 3DP ELPD Data</ProviderResourceName>
+    <ProviderResourceName>Wind 3DP ELPD Data</ProviderResourceName>
     <ProviderProcessingLevel>1</ProviderProcessingLevel>
     <ProviderVersion>2</ProviderVersion>
-    <InstrumentID>spase://SMWG/Instrument/WIND/3DP</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Wind/3DP</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
@@ -57,7 +85,6 @@
       <Cadence>PT96S</Cadence>
     </TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-    <ObservedRegion>Heliosphere.Inner</ObservedRegion>
     <Caveats>There are several variables in the data files which are not populated in the publicly
      available data product. These variables include EDENS, TEMP, QP, QM, QT, REDF, and VSW.</Caveats>
     <Parameter>
@@ -82,14 +109,20 @@
     <Parameter>
       <Name>Electron Flux</Name>
       <ParameterKey>FLUX</ParameterKey>
-      <Description>Electron flux A 15 by 8 dimensional array. The first dimension corresponds to 15 time dependent energy levels (parameter ENERGY) and the 2nd to 8 time dependent pitch angles (parameter PANGLE) relative to the instantenous magnetic field direction as averaged over the 96 sec interval. PADs are calculated using all EESA look directions (ie., the whole cone), not just those in the spin plane.</Description>
+      <Description>Electron flux is a 15 by 8 dimensional array. The first 
+dimension corresponds to 15 time dependent energy bands (parameter ENERGY,
+centered from ~5 eV to ~1150 eV).  The 2nd dimension corresponds to 8 time 
+dependent pitch angles (parameter PANGLE, ranging from ~15 deg to ~165 deg) 
+relative to the magnetic field direction as averaged over the 96 sec (or 
+other mode-dependent cadence) interval. Pitch angle distributions are 
+calculated using all EESA look directions (ie., the whole cone), not just 
+those in the spin plane.</Description>
       <Units>#/(cm^2*ster*eV*s)</Units>
       <Structure>
         <Size>15 8</Size>
       </Structure>
       <Particle>
         <ParticleType>Electron</ParticleType>
-        <Qualifier>Integral</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <EnergyRange>
           <Low>3</Low>
@@ -114,6 +147,9 @@
       <Description>Average electron energy</Description>
       <Units>eV</Units>
       <Structure>
+        <Size>15</Size>
+        <Description>The 15 average electron energies for this pitch angle
+distribution</Description>
       </Structure>
       <Particle>
         <ParticleType>Electron</ParticleType>
@@ -132,7 +168,9 @@
       <Description>Average electron pitch angle with respect to the magnetic field vector</Description>
       <Units>degree</Units>
       <Structure>
-
+        <Size>8</Size>
+        <Description>The 8 average pitch angles for this pitch angle
+distribution</Description>
       </Structure>
       <Particle>
         <ParticleType>Electron</ParticleType>
@@ -148,9 +186,10 @@
     <Parameter>
       <Name>Magnetic field vector in GSE coordinates</Name>
       <ParameterKey>MAGF</ParameterKey>
-      <Description>Magnetic field vector in GSE coordinates</Description>
+      <Description>Magnetic field vector in GSE coordinates, as averaged
+over higher resolutuion measurements during the 96s interval (or other
+instrument-mode-dependent interval)</Description>
       <Units>nT</Units>
-      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
