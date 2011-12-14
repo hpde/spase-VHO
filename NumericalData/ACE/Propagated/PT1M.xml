@@ -6,7 +6,7 @@
         <ResourceHeader>
             <ResourceName>ACE MAG SWEPAM 1-min field and plasma data at bow shock nose</ResourceName>
             <AlternateName>ACE at BSN</AlternateName>
-            <ReleaseDate>2009-08-01T00:00:00</ReleaseDate>
+            <ReleaseDate>2011-12-14T00:00:00</ReleaseDate>
             <Description>Solar wind magnetic field and plasma data at 1-min resolution 
 created from ACE data shifted to the Earth's bow shock nose (BSN).</Description>
             <Acknowledgement>We acknowledge N.Ness and C. Smith of the MAG team, D. McComas 
@@ -30,6 +30,16 @@ who created this product.</Acknowledgement>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
+                <Name>nssdcftp</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/omni/high_res_omni/sc_specific/monthly</URL>
+                <Description>FTP path at SPDF/NSSDC - data stored as monthly files</Description>
+            </AccessURL>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
                 <Name>OMNIWeb</Name>
                 <URL>http://omniweb.gsfc.nasa.gov/form/sc_merge_min1.html</URL>
                 <Description>OMNIWeb, 1-min ACE</Description>
@@ -44,7 +54,7 @@ who created this product.</Acknowledgement>
             <AccessURL>
                 <Name>nssdcftp</Name>
                 <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/omni/high_res_omni/sc_specific</URL>
-                <Description>FTP path at SPDF/NSSDC</Description>
+                <Description>FTP path at SPDF/NSSDC - data stored as yearly files</Description>
             </AccessURL>
             <Format>Text</Format>
             <Encoding>None</Encoding>
