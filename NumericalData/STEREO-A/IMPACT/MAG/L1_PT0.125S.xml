@@ -4,7 +4,7 @@
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/STEREO-A/IMPACT/MAG/L1_PT0.125S</ResourceID>
     <ResourceHeader>
-      <ResourceName>STEREO Ahead IMPACT/MAG Magnetic Field Vectors and Ancillary Data</ResourceName>
+      <ResourceName>STEREO-A IMPACT/MAG Magnetic Field Vectors and Ancillary Data</ResourceName>
       <AlternateName>STEREO-A IMPACT/MAG Level 1 Data</AlternateName>
       <ReleaseDate>2009-09-02T12:30:00Z</ReleaseDate>
       <Description>Level 1 calibrated magnetic field vectors from the IMPACT/MAG instrument on the STEREO Ahead spacecraft in RTN coordinate system.</Description>
