@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Ulysses/Ephemeris/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses Spacecraft Positions</ResourceName>
       <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
-      <Description>Ulysses spacecraft positions data product generated from data at SSCWeb (sscweb.gsfc.nasa.gov)</Description>
+      <Description>Ulysses spacecraft positions data product generated at 
+Helioweb (http://cohoweb.gsfc.nasa.gov/helios/heli.html)</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
         <Role>MetadataContact</Role>
