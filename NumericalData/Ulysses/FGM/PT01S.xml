@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Ulysses/FGM/PT01S</ResourceID>
     <ResourceHeader>
@@ -13,15 +16,19 @@ nanoteslas and in RTN coordinates, where R is the sun-s/c axis, T is the
 cross product of the solar rotation axis and R, and T is the cross product 
 of R and T. The field magnitudes in nT are averages of scalar magnitudes 
 at higher time resolution. Times are computed at the mid-point of each 
-minute  interval and expressed in Spacecraft Event Time - UT (SCET-UT). 
+averaging interval and expressed in Spacecraft Event Time - UT (SCET-UT). 
 Data gaps have not been flagged in any way - if there were no available 
 data in a particular hour then there is no data record for that hour. No 
 data from the Feb. 1992 encounter with Jupiter are included. Each file 
-includes one day of data. Further details on the magnetic field 
+includes one day of data. Parameter key information given below is specific
+to the data version at nssdcftp and at the ESA Research and Scientific Support 
+Department site identified below.  Further details on the magnetic field 
 measurements can be found in the following reference: Balogh, A., et al.,
 Astron. Astrophys. Suppl. Ser., 92(2), 221, 1992. 
 </Description>
-      <Acknowledgement>Please acknowledge the National Space Science Data Center and the Principal Investigator, A. Balogh of Imperial College, London, UK.</Acknowledgement>
+      <Acknowledgement>Please acknowledge the Principal Investigator, A. Balogh of 
+Imperial College, London, UK. and the repository from which you accessed
+the data.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Andre.Balogh</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -41,11 +48,38 @@ Astron. Astrophys. Suppl. Ser., 92(2), 221, 1992.
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
+        <Name>ESA RSSD</Name>
         <URL>ftp://www.rssd.esa.int/pub/ulysses/VHM-FGM/</URL>
-        <Description>FTP repository of 1-second magnetic field data in ascii format</Description>
+        <Description>FTP repository of 1-second magnetic field data in ascii format,
+at ESA's Research and Scientific Support Department</Description>
       </AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in CDF via ftp from SPDF</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/vhm_1SEC/</URL>
+      </AccessURL>           
+      <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/</URL>  
+        <Description>UY_1SEC_VHM</Description>                   
+      </AccessURL>
+      <AccessURL>
+        <Name>in ASCII via ftp from nssdcftp</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/mag/interplanetary/second/</URL>
+      </AccessURL>            
+      <Format>Text</Format>
     </AccessInformation>
     <ProviderResourceName>Vector Helium Magnetometer/Flux Gate Magnetometer</ProviderResourceName>
     <InstrumentID>spase://SMWG/Instrument/Ulysses/FGM</InstrumentID>
@@ -53,7 +87,7 @@ Astron. Astrophys. Suppl. Ser., 92(2), 221, 1992.
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1990-10-25T16:50:46Z</StartDate>
-        <StopDate>2006-12-31T23:59:59Z</StopDate>
+        <StopDate>2009-06-30T23:59:59Z</StopDate>
       </TimeSpan>
       <Cadence>PT01S</Cadence>
     </TemporalDescription>
