@@ -6,7 +6,7 @@
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Voyager1/MAG/PT48S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Voyager 1 Magnetic Field Data (48 s averages)</ResourceName>
+      <ResourceName>Voyager 1 Magnetic Field Data Near and Beyond Termination Shock</ResourceName>
       <ReleaseDate>2010-07-09T09:45:00Z</ReleaseDate>
       <Description>The average magnetic field strength produced by the spacecraft at the location of the 
         outboard magnetometer, of the dual magnetometers system on V1, varies between 0.1 and 0.2 nT, comparable 
@@ -21,7 +21,11 @@
         ever-changing extraneous signals. We estimate that the 1-sigma uncertainty in the 48 sec averages 
         in the components of the magnetic field is typically +/- 0.02 nT. The uncertainties in F1, BR, BT, 
         and BN can differ from one another and they may vary with time, but there is no practical way to 
-        determine these uncertainties more precisely at present.
+        determine these uncertainties more precisely at present.  This descriptor, and the data
+        access path identified below, are specific to 48s Voyager 1 MAG data taken when the spacecraft
+        was in the vicinity of, and beyond, the heliospheric termination shock.  48s and 1hr ASCII data 
+        from Voyager 1 MAG, from earlier in the mission, are accessible at 
+        ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/voyager/voyager1/magnetic_fields/
 
         References 
         
@@ -61,7 +65,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <URL>http://vho.nasa.gov/mission/voyager/1/mag</URL>
-        <Description>Voyager 1 repository of 48-second magnetic field data in ascii format</Description>
+        <Description>VHO repository of recent Voyager 1 MAG 48-second ascii data</Description>
       </AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>
@@ -70,8 +74,9 @@
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>1977-08-24T00:00:00Z</StartDate>
-        <RelativeStopDate>-P06M</RelativeStopDate>
+        <StartDate>2005-07-04T00:00:00Z</StartDate>
+        <StopDate>2009-11-26T00:00:00</StopDate>
+        <Note>This data set is expected be updated.</Note>
       </TimeSpan>
       <Cadence>PT48S</Cadence>
     </TemporalDescription>
