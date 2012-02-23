@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Pioneer11/MAGandPLS/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Pioneer 11 hourly merged magnetic field and plasma data</ResourceName>
-      <ReleaseDate>2011-08-25T10:08:28Z</ReleaseDate>
+      <ReleaseDate>2012-02-23T04:13:37Z</ReleaseDate>
       <Description>This is an hourly resolution, merged magnetic field and plasma data set created at NSSDC for COHOWeb.  Magnetic field vectors and plasma flow direction angles are given in RTN coordinates.  Spacecraft position data are given in Heliographic inertial (HGI coordinates).</Description>
       <Acknowledgement>Please acknowledge the magnetic field and plasma Principal Investigators, Drs. E. Smith and P. Gazis, and NSSDC or GSFC-SPDF</Acknowledgement>
       <Contact>
@@ -45,28 +45,29 @@
         <Description>Plots, lists, scatter plots, regressions, distributions, means, etc.</Description>
       </AccessURL>
       <Format>Text</Format>
-        </AccessInformation>
-        <AccessInformation>    
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
-            <Availability>Online</Availability>
-            <AccessRights>Open</AccessRights>
-            <AccessURL>
-                <Name>in CDF via CDAWeb</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/pioneer/pioneer11/coho1hr_magplasma/</URL>
-            </AccessURL>
-            <AccessURL>
-                <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-               <Description>PIONEER11_COHO1HR_MERGED_MAG_PLASMA</Description>
-            </AccessURL>
-            <Format>CDF</Format>
-            <DataExtent>
-                <Quantity>1</Quantity>
-                <Units>MB</Units>
-                <Per>P1Y</Per>
-            </DataExtent>
-            <Acknowledgement>Please acknowledge the magnetic field and plasma Principal Investigators, Drs. E. Smith and P. Gazis, and NSSDC or GSFC-SPDF</Acknowledgement>
-        </AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in CDF via CDAWeb</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/pioneer/pioneer11/coho1hr_magplasma/</URL>
+        <ProductKey>PIONEER11_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+        <Description>PIONEER11_COHO1HR_MERGED_MAG_PLASMA</Description>
+      </AccessURL>
+      <Format>CDF</Format>
+      <DataExtent>
+        <Quantity>1</Quantity>
+        <Units>MB</Units>
+        <Per>P1Y</Per>
+      </DataExtent>
+      <Acknowledgement>Please acknowledge the magnetic field and plasma Principal Investigators, Drs. E. Smith and P. Gazis, and NSSDC or GSFC-SPDF</Acknowledgement>
+    </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Pioneer11/MAG1</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/Pioneer11/PLS</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>

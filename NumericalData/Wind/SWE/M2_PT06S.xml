@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Wind/SWE/M2_PT06S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind/SWE Averaged Electron Pitch Angle Distribution (6-12s rate) (1994-2001)</ResourceName>
       <AlternateName>WI_M2_SWE_v01</AlternateName>
-      <ReleaseDate>2011-08-18T22:03:26Z</ReleaseDate>
+      <ReleaseDate>2012-02-23T04:07:24Z</ReleaseDate>
       <Description>Averaged Wind SWE electron pitch angle data (6-12 seconds rate) from an earlier mode (VEIS-era, i.e. 1994-2001) of the electron instrument.
 
 The electron pitch-angle distribution averages included in this data set are derived from integrating the electron pitch-angle distributions measured by the Wind/SWE electron instrument (see Ogilvie et al., "SWE, a comprehensive plasma instrument for the Wind spacecraft", Space Sci. Rev., 71, 55, 1995).  Averages of phase-space density (f) over key regions of the unit sphere (the set of all possible electron velocity directions) are computed from 3s measurements which are spaced either 6s or 12s in time.  These quantities are reliable and citable with caution, meaning that the PI advises that the user should discuss their interpretations with a member of the SWE science team before publishing.
@@ -34,6 +34,7 @@ The above analysis is carried out for each of 16 energy channels ranging from ab
         <Name>FTP access to Wind/SWE VEIS-era Electron PAD Regime-Averages</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/swe_m2/</URL>
         <Description>Repository of the Wind/SWE M2 (v01) electron data.</Description>
+        <ProductKey>WI_M2_SWE</ProductKey>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb Service Data Access</Name>

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Helios1/MAGandPLS/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Helios 1 hourly merged magnetic field and plasma data</ResourceName>
-      <ReleaseDate>2011-09-06T19:08:29Z</ReleaseDate>
+      <ReleaseDate>2012-02-23T04:12:03Z</ReleaseDate>
       <Description>This is an hourly resolution, merged magnetic field and plasma data set created at NSSDC for COHOWeb.  Magnetic field vectors and plasma flow direction angles are given in RTN coordinates.  Spacecraft position data are given in Heliographic inertial (HGI coordinates).</Description>
       <Acknowledgement>Please acknowledge N.F. Ness (P.I.) and F. Mariani for magnetic field data and H. Rosenbauer (P.I.) and R. Schwenn for plasma data, and NSSDC or GSFC-SPDF</Acknowledgement>
       <Contact>
@@ -43,9 +43,10 @@
         <Description>for annual files via ftp</Description>
       </AccessURL>
       <AccessURL>
-          <Name>CDAWeb</Name>
-          <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-          <Description>For CDAWeb subset,plot and list capabilities</Description>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+        <Description>For CDAWeb subset,plot and list capabilities</Description>
+        <ProductKey>HELIOS1_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
       </AccessURL>
       <AccessURL>
         <Name>COHOWeb plots and lists</Name>

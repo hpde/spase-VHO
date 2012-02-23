@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns="http://www.spase-group.org/data/schema" 
-xsi:schemaLocation="http://www.spase-group.org/data/schema 
-http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Wind/3DP/PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind 3DP PESA Moments Data</ResourceName>
-      <ReleaseDate>2011-08-30T19:08:30Z</ReleaseDate>
+      <ReleaseDate>2012-02-23T04:25:14Z</ReleaseDate>
       <Description>Wind 3DP proton and ion onboard calculated moments 
 from the PESA instrument. Calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the Wind 3DP Team in any 
@@ -32,6 +29,7 @@ on the Wind 3DP instruments and their associated data sets.</Description>
         <Name>Via ftp in CDF from SPDF</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/3dp_pm</URL>
         <Description>Ftp access to Wind 3DP PESA moments data files at SPDF</Description>
+        <ProductKey>WI_PM_3DP</ProductKey>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
@@ -58,6 +56,7 @@ on the Wind 3DP instruments and their associated data sets.</Description>
         <Name>CDAWeb</Name>
         <URL>http://cdaweb.gsfc.nasa.gov/</URL>
         <Description>Subset, plot, list via CDAWeb</Description>
+        <ProductKey>WI_PM_3DP</ProductKey>
       </AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>

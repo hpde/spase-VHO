@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Pioneer_Venus/MAGandPLS/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Pioneer Venus Orbiter(PVO) hourly merged magnetic field and plasma data</ResourceName>
-      <ReleaseDate>2011-08-25T10:08:29Z</ReleaseDate>
+      <ReleaseDate>2012-02-23T04:14:22Z</ReleaseDate>
       <Description>This is an hourly resolution, merged magnetic field and plasma data set created at NSSDC for COHOWeb.  Magnetic field vectors and plasma flow direction angles are given in RTN coordinates.  Spacecraft position data are given in Heliographic inertial (HGI coordinates).</Description>
       <Acknowledgement>Please acknowledge the magnetic field and plasma Principal Investigators, Drs. C.T. Russell and P. Gazis, and NSSDC or GSFC-SPDF</Acknowledgement>
       <Contact>
@@ -46,28 +45,29 @@
         <Description>Plots, lists, scatter plots, regressions, distributions, means, etc.</Description>
       </AccessURL>
       <Format>Text</Format>
-        </AccessInformation>
-        <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
-            <Availability>Online</Availability>
-            <AccessRights>Open</AccessRights>
-            <AccessURL>
-                <Name>in CDF via CDAWeb</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/pioneer/pioneervenus/coho1hr_magplasma/</URL>
-            </AccessURL>
-            <AccessURL>
-                <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-                <Description>PIONEERVENUS_COHO1HR_MERGED_MAG_PLASMA</Description>
-            </AccessURL>
-            <Format>CDF</Format>
-            <DataExtent>
-                <Quantity>1.2</Quantity>
-                <Units>MB</Units>
-                <Per>P1Y</Per>
-            </DataExtent>
-            <Acknowledgement>Please acknowledge the magnetic field and plasma Principal Investigators, Drs. C.T. Russell and P. Gazis, and NSSDC or GSFC-SPDF</Acknowledgement>
-        </AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in CDF via CDAWeb</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/pioneer/pioneervenus/coho1hr_magplasma/</URL>
+        <ProductKey>PIONEERVENUS_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+        <Description>PIONEERVENUS_COHO1HR_MERGED_MAG_PLASMA</Description>
+      </AccessURL>
+      <Format>CDF</Format>
+      <DataExtent>
+        <Quantity>1.2</Quantity>
+        <Units>MB</Units>
+        <Per>P1Y</Per>
+      </DataExtent>
+      <Acknowledgement>Please acknowledge the magnetic field and plasma Principal Investigators, Drs. C.T. Russell and P. Gazis, and NSSDC or GSFC-SPDF</Acknowledgement>
+    </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/PioneerVenusOrbiter/OMAG</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/PioneerVenusOrbiter/ORPA</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
@@ -202,7 +202,7 @@
         </Element>
         <Element>
           <Name>Y component</Name>
-            <Qualifier>Component.J</Qualifier>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
           <ParameterKey>Column11</ParameterKey>
         </Element>

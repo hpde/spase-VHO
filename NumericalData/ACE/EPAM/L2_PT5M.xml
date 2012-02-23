@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-  <Version>2.2.1</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/ACE/EPAM/L2_PT5M</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Electron Proton Alpha Monitor (EPAM) 5-min Level 2 Data</ResourceName>
-      <ReleaseDate>2011-11-23T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2012-02-23T04:07:21Z</ReleaseDate>
       <Description>ACE EPAM Electron Proton Alpha Monitor (EPAM) Level 2 intensities at 5-min time resolution. 
 Calibrated science quality data.  The data are accessible via ftp in HDF and CDF from the ACE Science Center
 and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites.  The "parameter
@@ -41,6 +40,7 @@ keys" given below are as used by CDAWeb.</Description>
         <Name>CDAWeb ftp area</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/epm_h1</URL>
         <Description>FTP repository of 5-min ACE/EPAM L2 data in CDF format at CDAWeb</Description>
+        <ProductKey>AC_H1_EPM</ProductKey>
       </AccessURL>
       <Format>CDF</Format>
       <Acknowledgement>Please acknowledge the ACE/EPAM instrument team, the ACE Science Center,

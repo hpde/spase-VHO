@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns="http://www.spase-group.org/data/schema" 
-xsi:schemaLocation="http://www.spase-group.org/data/schema 
-http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-  <Version>2.2.1</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/ACE/SWEPAM/L2_PT64S</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Wind Electron Proton Alpha Monitor (SWEPAM) 
 64-Second Level 2 Data</ResourceName>
-      <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
+      <ReleaseDate>2012-02-23T04:07:22Z</ReleaseDate>
       <Description>Solar Wind Ion parameters from ACE/SWEPAM. Level 2 data, 
 64-second averages.  Parameters include proton density, temperature (radial
 component) and flow speed, flow velocity vector in GSE, GSM and RTN coordinates,
@@ -53,6 +50,7 @@ data</Description>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/swe_h0/</URL>
         <Description>FTP repository of 64-second ACE SWEPAM data in 
 CDF format at CDAWeb</Description>
+        <ProductKey>AC_H0_SWE</ProductKey>
       </AccessURL>
       <Format>CDF</Format>
       <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team, the ACE 

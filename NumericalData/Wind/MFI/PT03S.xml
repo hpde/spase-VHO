@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns="http://www.spase-group.org/data/schema" 
-xsi:schemaLocation="http://www.spase-group.org/data/schema 
-http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Wind/MFI/PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind MFI Data</ResourceName>
-      <ReleaseDate>2012-01-12T19:08:30Z</ReleaseDate>
+      <ReleaseDate>2012-02-23T04:27:30Z</ReleaseDate>
       <Description>Wind MFI composite data. The files contain multiple time resolution
         data: 3-second, 1-minute, and 1-hour.  At each resolution, the data
         consist of averages and standard deviations of magnetic field magnitude
@@ -52,6 +49,7 @@ as web utilities for plotting and downloading data</Description>
         <Name>Via ftp in CDF from Wind site</Name>
         <URL>http://wind.nasa.gov/data/mfi</URL>
         <Description>For ftp downloads of CDF formatted data from Wind site</Description>
+        <ProductKey>WI_H0_MFI</ProductKey>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
@@ -76,6 +74,7 @@ MFI and SWE data</Description>
         <Name>Via ftp in CDF from CDAWeb</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/mfi_h0/</URL>
         <Description>For ftp downloads of CDF formatted data from CDAWeb</Description>
+        <ProductKey>WI_H0_MFI</ProductKey>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
@@ -89,6 +88,7 @@ MFI and SWE data</Description>
         <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
         <Description>CDAWeb interactive interface for subsets, plots 
 and lists of MFI data</Description>
+        <ProductKey>WI_H0_MFI</ProductKey>
       </AccessURL>
       <AccessURL>
         <Name>Via ftp in ASCII from nssdcftp</Name>

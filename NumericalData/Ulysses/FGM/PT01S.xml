@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns="http://www.spase-group.org/data/schema" 
-xsi:schemaLocation="http://www.spase-group.org/data/schema 
-http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-  <Version>2.2.1</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Ulysses/FGM/PT01S</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses High Resolution Magnetic Field Data</ResourceName>
-      <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
+      <ReleaseDate>2012-02-23T04:23:32Z</ReleaseDate>
       <Description>This data set contains high resolution samples at about one-second 
 intervals of the interplanetary magnetic field measured by the Ulysses 
 Magnetic Field experiment. Field vector components are given in units of 
@@ -63,7 +60,8 @@ at ESA's Research and Scientific Support Department</Description>
       <AccessURL>
         <Name>in CDF via ftp from SPDF</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/vhm_1SEC/</URL>
-      </AccessURL>           
+        <ProductKey>UY_1SEC_VHM</ProductKey>
+      </AccessURL>
       <Format>CDF</Format>
     </AccessInformation>
     <AccessInformation>
@@ -72,13 +70,13 @@ at ESA's Research and Scientific Support Department</Description>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/</URL>  
-        <Description>UY_1SEC_VHM</Description>                   
+        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+        <Description>UY_1SEC_VHM</Description>
       </AccessURL>
       <AccessURL>
         <Name>in ASCII via ftp from nssdcftp</Name>
         <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/mag/interplanetary/second/</URL>
-      </AccessURL>            
+      </AccessURL>
       <Format>Text</Format>
     </AccessInformation>
     <ProviderResourceName>Vector Helium Magnetometer/Flux Gate Magnetometer</ProviderResourceName>

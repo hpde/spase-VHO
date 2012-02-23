@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Wind/SWE/M0_PT12S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind/SWE Averaged Electron Pitch Angle Distribution (12-15s rate) (2002-present)</ResourceName>
       <AlternateName>WI_M0_SWE_v01</AlternateName>
-      <ReleaseDate>2011-08-18T22:03:07Z</ReleaseDate>
+      <ReleaseDate>2012-02-23T04:07:24Z</ReleaseDate>
       <Description>Averaged Wind SWE electron pitch angle data (12-15 seconds rate) from a later  mode (post-VEIS-era, i.e. 2002-present) of the electron instrument.
          
 The electron pitch-angle distribution averages included in this data set are derived from integrating the electron pitch-angle distributions measured by the Wind/SWE electron instrument (see Ogilvie et al., "SWE, a comprehensive plasma instrument for the Wind spacecraft", Space Sci. Rev., 71, 55, 1995).  Averages of phase-space density (f) over key regions of the unit sphere (the set of all possible electron velocity directions) are computed from 9s measurements which are usually separated by one or more 3s spin-periods.  These quantities are reliable and citable with caution, meaning that the PI advises that the user should discuss their interpretations with a member of the SWE science team before publishing.
@@ -33,6 +33,7 @@ The above analysis is carried out for each of 13 energy channels: E = 19.34, 38.
         <Name>FTP access to Wind/SWE Electron New-mode PAD Regime-Averages</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/swe_m0/</URL>
         <Description>Repository of the Wind/SWE M0 (v01) electron data.</Description>
+        <ProductKey>WI_M0_SWE</ProductKey>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb Service Data Access</Name>

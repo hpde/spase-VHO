@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Wind/SWE/H4_PT06S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind/SWE Electron Pitch-Angle Distributions (6-12s rate) (1994-2001)</ResourceName>
       <AlternateName>WI_H4_SWE_v01</AlternateName>
-      <ReleaseDate>2011-08-18T22:02:33Z</ReleaseDate>
+      <ReleaseDate>2012-02-23T04:07:24Z</ReleaseDate>
       <Description>Wind SWE electron pitch angle product providing electron fluxes at 30 directional bins relative to the instantaneous magnetic field direction at 16 different energy levels from the old mode (VEIS-era, i.e. 1994-2001) of the electron instrument.
          
          The electron pitch-angle distributions included in this data set are derived from sorting, by pitch (wrt B) and energy, the solar wind electron distributions measured by the Wind/SWE electron instrument (see Ogilvie et al., "SWE, a comprehensive plasma instrument for the Wind spacecraft", Space Sci. Rev., 71, 55, 1955).  Pitch-angle distrubutions, organized by energy, are computed from 3s measurements which are spaced either 6s or 12s in time.  These quantities are reliable and citable with caution, meaning that the PI advises that the user should discuss their interpretations with a member of the SWE science team before publishing.
@@ -32,6 +32,7 @@ The following comments are intended to aid in the use and interpretation of the 
         <Name>FTP access to Wind/SWE Electron VEIS-era Pitch-Angle Distributions</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/swe_h4/</URL>
         <Description>Repository of the Wind/SWE H4 (v01) electron data.</Description>
+        <ProductKey>WI_H4_SWE</ProductKey>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb Service Data Access</Name>

@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns="http://www.spase-group.org/data/schema" 
-xsi:schemaLocation="http://www.spase-group.org/data/schema 
-http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-  <Version>2.2.1</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/ACE/CRIS/L2_PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Cosmic Ray Isotope Spectrometer (CRIS) 1-Hour 
 Level 2 Data</ResourceName>
-      <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
+      <ReleaseDate>2012-02-23T04:07:23Z</ReleaseDate>
       <Description>ACE Cosmic Ray Isotope Spectrometer (CRIS) intensities 
 and counts, for each of 7 energy bins for each of 24 elements (Z=5, boron, 
 to Z=28, nickel) at 1-hour time resolution.  Overall energy ranges covered
@@ -46,6 +43,7 @@ notes, as well as web utilities for plotting and downloading data</Description>
         <Name>CDAWeb ftp area</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/cris_h2</URL>
         <Description>In CDF via ftp from CDAWeb</Description>
+        <ProductKey>AC_H2_CRIS</ProductKey>
       </AccessURL>
       <Format>CDF</Format>
       <Acknowledgement>Please acknowledge the ACE/CRIS instrument team, the ACE 

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns="http://www.spase-group.org/data/schema" 
-xsi:schemaLocation="http://www.spase-group.org/data/schema 
-http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Genesis/GIM/3DMOM/PT2M30S</ResourceID>
     <ResourceHeader>
       <ResourceName>Genesis 3D Ion Moments</ResourceName>
-      <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
+      <ReleaseDate>2012-02-23T04:10:23Z</ReleaseDate>
       <Description>Genesis level 2 3-dimensional ion moments and 
 a bidirectional electron streaming flag</Description>
       <Contact>
@@ -16,8 +13,8 @@ a bidirectional electron streaming flag</Description>
         <Role>DataProducer</Role>
       </Contact>
       <InformationURL>
-         <Name>Data Description at LANL</Name>
-         <URL>http://genesis.lanl.gov/l2_description.html</URL>
+        <Name>Data Description at LANL</Name>
+        <URL>http://genesis.lanl.gov/l2_description.html</URL>
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
@@ -57,6 +54,7 @@ a bidirectional electron streaming flag</Description>
         <Name>SPDF's ftp area for CDF's</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/genesis/3dl2_gim/</URL>
         <Description>For ftp downloads of daily CDF-formatted files</Description>
+        <ProductKey>GENESIS_3DL2_GIM</ProductKey>
       </AccessURL>
       <Format>CDF</Format>
     </AccessInformation>
