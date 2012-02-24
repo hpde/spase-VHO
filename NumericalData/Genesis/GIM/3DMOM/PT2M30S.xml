@@ -5,9 +5,8 @@
     <ResourceID>spase://VHO/NumericalData/Genesis/GIM/3DMOM/PT2M30S</ResourceID>
     <ResourceHeader>
       <ResourceName>Genesis 3D Ion Moments</ResourceName>
-      <ReleaseDate>2012-02-23T04:10:23Z</ReleaseDate>
-      <Description>Genesis level 2 3-dimensional ion moments and 
-a bidirectional electron streaming flag</Description>
+      <ReleaseDate>2012-02-24T02:52:58Z</ReleaseDate>
+      <Description>Genesis level 2 3-dimensional ion moments and a bidirectional electron streaming flag</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.T.Steinberg</PersonID>
         <Role>DataProducer</Role>
@@ -53,8 +52,8 @@ a bidirectional electron streaming flag</Description>
       <AccessURL>
         <Name>SPDF's ftp area for CDF's</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/genesis/3dl2_gim/</URL>
-        <Description>For ftp downloads of daily CDF-formatted files</Description>
         <ProductKey>GENESIS_3DL2_GIM</ProductKey>
+        <Description>For ftp downloads of daily CDF-formatted files</Description>
       </AccessURL>
       <Format>CDF</Format>
     </AccessInformation>
@@ -218,8 +217,7 @@ a bidirectional electron streaming flag</Description>
     <Parameter>
       <Name>Bidirectional Electron Streaming Flag</Name>
       <ParameterKey>bde</ParameterKey>
-      <Description>Flag indicating if bidirectional electron streaming was detected 
-(0 = no, 1 = yes)</Description>
+      <Description>Flag indicating if bidirectional electron streaming was detected (0 = no, 1 = yes)</Description>
       <FillValue>-9999</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>

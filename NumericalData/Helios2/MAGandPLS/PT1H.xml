@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/Helios2/MAGandPLS/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Helios 2 hourly merged magnetic field and plasma data</ResourceName>
-      <ReleaseDate>2012-02-23T04:12:19Z</ReleaseDate>
+      <ReleaseDate>2012-02-24T02:52:58Z</ReleaseDate>
       <Description>This is an hourly resolution, merged magnetic field and plasma data set created at NSSDC for COHOWeb.  Magnetic field vectors and plasma flow direction angles are given in RTN coordinates.  Spacecraft position data are given in Heliographic inertial (HGI coordinates).</Description>
       <Acknowledgement>Please acknowledge N.F. Ness (P.I.) and F. Mariani for magnetic field data and H. Rosenbauer (P.I.) and R. Schwenn for plasma data, and NSSDC or GSFC-SPDF</Acknowledgement>
       <Contact>
@@ -45,8 +45,8 @@
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-        <Description>For CDAWeb subset,plot and list capabilities</Description>
         <ProductKey>HELIOS2_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
+        <Description>For CDAWeb subset,plot and list capabilities</Description>
       </AccessURL>
       <AccessURL>
         <Name>COHOWeb plots and lists</Name>
@@ -180,19 +180,19 @@
         <Description>X,Y,Z components</Description>
         <Element>
           <Name>X component</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
           <ParameterKey>Column09</ParameterKey>
         </Element>
         <Element>
           <Name>Y component</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
           <ParameterKey>Column10</ParameterKey>
         </Element>
         <Element>
           <Name>Z component</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
           <ParameterKey>Column11</ParameterKey>
         </Element>
@@ -217,19 +217,19 @@
         <Description>R,T,N components</Description>
         <Element>
           <Name>R component</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
           <ParameterKey>Column12</ParameterKey>
         </Element>
         <Element>
           <Name>T component</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
           <ParameterKey>Column13</ParameterKey>
         </Element>
         <Element>
           <Name>N component</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
           <ParameterKey>Column14</ParameterKey>
         </Element>

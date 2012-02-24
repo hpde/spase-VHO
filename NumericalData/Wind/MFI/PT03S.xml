@@ -5,27 +5,9 @@
     <ResourceID>spase://VHO/NumericalData/Wind/MFI/PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind MFI Data</ResourceName>
-      <ReleaseDate>2012-02-23T04:27:30Z</ReleaseDate>
-      <Description>Wind MFI composite data. The files contain multiple time resolution
-        data: 3-second, 1-minute, and 1-hour.  At each resolution, the data
-        consist of averages and standard deviations of magnetic field magnitude
-        and Cartesian components in GSE and GSM coordinates, plus the number of
-        points in each average.  In addition, Wind geocentric distance and GSE
-        and GSM components of the Wind position vector are given at 1-minute
-        and 1-hour resolution.  In 2011 the data were wholly reprocessed as
-        described at
-        ftp://igpp.ucla.edu/scratch/aguspa/volume18_2011/vol18no065.  All
-        publicly accessible Wind/MFI data were replaced with the new data in
-        October, 2011.  Into the future, final Version 5 data are expected
-        to be accessible to within 3 months of current date, newly defined
-        Version 4 data (with final Bz offsets and not-yet-final spacecraft
-        position vectors) between 3 months and 2 weeks of current date, and
-        newly defined Version 3 data (with the most recently determined Bz
-        offset value, not yet final for the Version 3interval) from 2 weeks
-        to 2 days of current.</Description>
-      <Acknowledgement>User will acknowledge the Wind MFI instrument 
-team, and the site from which data are pulled, in any publication 
-resulting from the use of these data.</Acknowledgement>
+      <ReleaseDate>2012-02-24T02:52:58Z</ReleaseDate>
+      <Description>Wind MFI composite data. The files contain multiple time resolution        data: 3-second, 1-minute, and 1-hour.  At each resolution, the data        consist of averages and standard deviations of magnetic field magnitude        and Cartesian components in GSE and GSM coordinates, plus the number of        points in each average.  In addition, Wind geocentric distance and GSE        and GSM components of the Wind position vector are given at 1-minute        and 1-hour resolution.  In 2011 the data were wholly reprocessed as        described at        ftp://igpp.ucla.edu/scratch/aguspa/volume18_2011/vol18no065.  All        publicly accessible Wind/MFI data were replaced with the new data in        October, 2011.  Into the future, final Version 5 data are expected        to be accessible to within 3 months of current date, newly defined        Version 4 data (with final Bz offsets and not-yet-final spacecraft        position vectors) between 3 months and 2 weeks of current date, and        newly defined Version 3 data (with the most recently determined Bz        offset value, not yet final for the Version 3interval) from 2 weeks        to 2 days of current.</Description>
+      <Acknowledgement>User will acknowledge the Wind MFI instrument team, and the site from which data are pulled, in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Ronald.P.Lepping</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -37,8 +19,7 @@ resulting from the use of these data.</Acknowledgement>
       <InformationURL>
         <Name>Wind Spacecraft Homepage</Name>
         <URL>http://wind.nasa.gov</URL>
-        <Description>A web site hosting instrument information as well 
-as web utilities for plotting and downloading data</Description>
+        <Description>A web site hosting instrument information as well as web utilities for plotting and downloading data</Description>
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
@@ -48,8 +29,8 @@ as web utilities for plotting and downloading data</Description>
       <AccessURL>
         <Name>Via ftp in CDF from Wind site</Name>
         <URL>http://wind.nasa.gov/data/mfi</URL>
-        <Description>For ftp downloads of CDF formatted data from Wind site</Description>
         <ProductKey>WI_H0_MFI</ProductKey>
+        <Description>For ftp downloads of CDF formatted data from Wind site</Description>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
@@ -61,8 +42,7 @@ as web utilities for plotting and downloading data</Description>
       <AccessURL>
         <Name>Subset, plot, list from Wind site</Name>
         <URL>http://wind.nasa.gov/mfi_swe_plot.php</URL>
-        <Description>Interactive interface for subsets, plots and lists of 
-MFI and SWE data</Description>
+        <Description>Interactive interface for subsets, plots and lists of MFI and SWE data</Description>
       </AccessURL>
       <Format>Text</Format>
     </AccessInformation>
@@ -73,8 +53,8 @@ MFI and SWE data</Description>
       <AccessURL>
         <Name>Via ftp in CDF from CDAWeb</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/mfi_h0/</URL>
-        <Description>For ftp downloads of CDF formatted data from CDAWeb</Description>
         <ProductKey>WI_H0_MFI</ProductKey>
+        <Description>For ftp downloads of CDF formatted data from CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
@@ -86,15 +66,13 @@ MFI and SWE data</Description>
       <AccessURL>
         <Name>Subset, plot, list from CDAWeb</Name>
         <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
-        <Description>CDAWeb interactive interface for subsets, plots 
-and lists of MFI data</Description>
         <ProductKey>WI_H0_MFI</ProductKey>
+        <Description>CDAWeb interactive interface for subsets, plots and lists of MFI data</Description>
       </AccessURL>
       <AccessURL>
         <Name>Via ftp in ASCII from nssdcftp</Name>
         <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/wind/mag</URL>
-        <Description>For ftp downloads of ASCII Wind/MFI data at one
-resolution (3s or 1m or 1h)</Description>
+        <Description>For ftp downloads of ASCII Wind/MFI data at oneresolution (3s or 1m or 1h)</Description>
       </AccessURL>
       <Format>Text</Format>
     </AccessInformation>
@@ -123,9 +101,6 @@ resolution (3s or 1m or 1h)</Description>
       <Cadence>PT01M</Cadence>
       <Units>ms</Units>
       <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
-      <Structure>
-        <Description>Epoch starts on 1994-11-12T00:00:00.000Z</Description>
-      </Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
@@ -159,8 +134,6 @@ resolution (3s or 1m or 1h)</Description>
       <ParameterKey>NUM_PTS</ParameterKey>
       <Description>Number of data points in one-minute average</Description>
       <Cadence>PT01M</Cadence>
-      <Structure>
-      </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -173,8 +146,6 @@ resolution (3s or 1m or 1h)</Description>
       <Cadence>PT01M</Cadence>
       <Units>nT</Units>
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
-      <Structure>
-      </Structure>
       <Field>
         <Qualifier>Average</Qualifier>
         <Qualifier>Magnitude</Qualifier>
@@ -188,8 +159,6 @@ resolution (3s or 1m or 1h)</Description>
       <Cadence>PT01M</Cadence>
       <Units>nT</Units>
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
-      <Structure>
-      </Structure>
       <Field>
         <Qualifier>Deviation</Qualifier>
         <Qualifier>Magnitude</Qualifier>
@@ -524,8 +493,6 @@ resolution (3s or 1m or 1h)</Description>
       <Description>Dipole tilt angle (degrees)</Description>
       <Cadence>PT01M</Cadence>
       <Units>degree</Units>
-      <Structure>
-      </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -536,8 +503,6 @@ resolution (3s or 1m or 1h)</Description>
       <Description>Average range status of the inner magnetometer (1 min)</Description>
       <Cadence>PT01M</Cadence>
       <Units>unitless</Units>
-      <Structure>
-      </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -548,8 +513,6 @@ resolution (3s or 1m or 1h)</Description>
       <Description>Average range status of the outer magnetometer (1 min)</Description>
       <Cadence>PT01M</Cadence>
       <Units>unitless</Units>
-      <Structure>
-      </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -557,19 +520,9 @@ resolution (3s or 1m or 1h)</Description>
     <Parameter>
       <Name>S/C operational mode (1 min)</Name>
       <ParameterKey>SPC_MODE</ParameterKey>
-      <Description>Spacecraft operational mode (1 min)
-
-1 - Science mode with normal telemetry rate (92 sec major frame)
-3 - Maneuver mode normal telemetry rate - no useful data
-4 - Contingency mode normal telemetry rate - no useful data
-5 - Science mode with double telemetry rate (46 sec major frame)
-7 - Maneuver mode double telemetry rate - no useful data
-8 - Contingency mode double telemetry rate - no useful data   
-      </Description>
+      <Description>Spacecraft operational mode (1 min)1 - Science mode with normal telemetry rate (92 sec major frame)3 - Maneuver mode normal telemetry rate - no useful data4 - Contingency mode normal telemetry rate - no useful data5 - Science mode with double telemetry rate (46 sec major frame)7 - Maneuver mode double telemetry rate - no useful data8 - Contingency mode double telemetry rate - no useful data         </Description>
       <Cadence>PT01M</Cadence>
       <Units>unitless</Units>
-      <Structure>
-      </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -577,31 +530,9 @@ resolution (3s or 1m or 1h)</Description>
     <Parameter>
       <Name>Wind/MFI operational mode (1 min)</Name>
       <ParameterKey>MAG_MODE</ParameterKey>
-      <Description>Wind/MFI instrument operational mode (1 min)
-
-0 - Primary to Secondary mag data collection rate ratio (1:1), 
-Outboard mag primary with FFT &amp; Snapshot data
-1 - Primary to Secondary Ratio (20:1), Outboard primary with FFT &amp; 
-Snapshot
-2 - Primary to Secondary Ratio (20:1), Outboard primary with 
-Snapshot only
-3 - Primary to Secondary Ratio (1:1), Outboard primary, Maneuver 
-mode - no useful data
-7 - Primary to Secondary Ratio (1:1), Outboard primary but used 
-Inboard data for processing
-10 - Primary to Secondary Ratio (1:1), Inboard primary with FFT &amp; 
-Snapshot
-11 - Primary to Secondary Ratio (20:1), Inboard primary with FFT &amp; 
-Snapshot
-12 - Primary to Secondary Ratio (20:1), Inboard primary with 
-Snapshot only
-13 - Primary to Secondary Ratio (1:1), Inboard primary, Maneuver 
-mode - no useful data
-      </Description>
+      <Description>Wind/MFI instrument operational mode (1 min)0 - Primary to Secondary mag data collection rate ratio (1:1), Outboard mag primary with FFT &amp; Snapshot data1 - Primary to Secondary Ratio (20:1), Outboard primary with FFT &amp; Snapshot2 - Primary to Secondary Ratio (20:1), Outboard primary with Snapshot only3 - Primary to Secondary Ratio (1:1), Outboard primary, Maneuver mode - no useful data7 - Primary to Secondary Ratio (1:1), Outboard primary but used Inboard data for processing10 - Primary to Secondary Ratio (1:1), Inboard primary with FFT &amp; Snapshot11 - Primary to Secondary Ratio (20:1), Inboard primary with FFT &amp; Snapshot12 - Primary to Secondary Ratio (20:1), Inboard primary with Snapshot only13 - Primary to Secondary Ratio (1:1), Inboard primary, Maneuver mode - no useful data      </Description>
       <Cadence>PT01M</Cadence>
       <Units>unitless</Units>
-      <Structure>
-      </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -615,9 +546,6 @@ mode - no useful data
       <Cadence>PT03S</Cadence>
       <Units>ms</Units>
       <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
-      <Structure>
-        <Description>Epoch starts on 1994-11-12T00:00:00.000Z</Description>
-      </Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
@@ -652,8 +580,6 @@ mode - no useful data
       <Description>Number of data points in 3-second average</Description>
       <Cadence>PT03S</Cadence>
       <Units>unitless</Units>
-      <Structure>
-      </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -666,8 +592,6 @@ mode - no useful data
       <Cadence>PT03S</Cadence>
       <Units>nT</Units>
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
-      <Structure>
-      </Structure>
       <Field>
         <Qualifier>Average</Qualifier>
         <Qualifier>Magnitude</Qualifier>
@@ -681,8 +605,6 @@ mode - no useful data
       <Cadence>PT03S</Cadence>
       <Units>nT</Units>
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
-      <Structure>
-      </Structure>
       <Field>
         <Qualifier>Deviation</Qualifier>
         <Qualifier>Magnitude</Qualifier>
@@ -838,9 +760,6 @@ mode - no useful data
       <Cadence>PT01H</Cadence>
       <Units>ms</Units>
       <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
-      <Structure>
-        <Description>Epoch starts on 1994-11-12T00:00:00.000Z</Description>
-      </Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
@@ -875,8 +794,6 @@ mode - no useful data
       <Description>Number of data points in 1-hour average</Description>
       <Cadence>PT01H</Cadence>
       <Units>unitless</Units>
-      <Structure>
-      </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -889,8 +806,6 @@ mode - no useful data
       <Cadence>PT01H</Cadence>
       <Units>nT</Units>
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
-      <Structure>
-      </Structure>
       <Field>
         <Qualifier>Average</Qualifier>
         <Qualifier>Magnitude</Qualifier>
@@ -904,8 +819,6 @@ mode - no useful data
       <Cadence>PT01H</Cadence>
       <Units>nT</Units>
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
-      <Structure>
-      </Structure>
       <Field>
         <Qualifier>Deviation</Qualifier>
         <Qualifier>Magnitude</Qualifier>
@@ -1201,10 +1114,7 @@ mode - no useful data
     <Parameter>
       <Name>Sensor zeros (inner)</Name>
       <ParameterKey>ZERO_I</ParameterKey>
-      <Description>Inboard sensor zero computed once a day. The count-to-nT conversion formula:
-      
-     B(nT) = SENS * (B(counts) - ZERO) / AMPL    
-      </Description>
+      <Description>Inboard sensor zero computed once a day. The count-to-nT conversion formula:           B(nT) = SENS * (B(counts) - ZERO) / AMPL          </Description>
       <Structure>
         <Size>3 8</Size>
         <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_I.</Description>
@@ -1216,10 +1126,7 @@ mode - no useful data
     <Parameter>
       <Name>Sensor sensitivities (inner)</Name>
       <ParameterKey>SENS_I</ParameterKey>
-      <Description>Inboard sensor sensitivity computed once a day. The count-to-nT conversion formula:
-      
-     B(nT) = SENS * (B(counts) - ZERO) / AMPL    
-</Description>
+      <Description>Inboard sensor sensitivity computed once a day. The count-to-nT conversion formula:           B(nT) = SENS * (B(counts) - ZERO) / AMPL    </Description>
       <Structure>
         <Size>3 8</Size>
         <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_I.</Description>
@@ -1231,10 +1138,7 @@ mode - no useful data
     <Parameter>
       <Name>Amplitude correction (inner)</Name>
       <ParameterKey>AMPL_I</ParameterKey>
-      <Description>Inboard sensor conversion amplitude computed once a day. The count-to-nT conversion formula:
-      
-     B(nT) = SENS * (B(counts) - ZERO) / AMPL    
-</Description>
+      <Description>Inboard sensor conversion amplitude computed once a day. The count-to-nT conversion formula:           B(nT) = SENS * (B(counts) - ZERO) / AMPL    </Description>
       <Structure>
         <Size>3 8</Size>
         <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_I.</Description>
@@ -1268,12 +1172,7 @@ mode - no useful data
     <Parameter>
       <Name>Sensor zero flag (inner)</Name>
       <ParameterKey>FLAG_I</ParameterKey>
-      <Description>Sensor zero flag (inner magnetometer):
- 1 - No calibration data for day, used last available calibration
- 2 - Daily calibration value used (version 3 file)
- 3 - Daily calibration value used with updated Z correction (version 4 file)</Description>
-      <Structure>
-      </Structure>
+      <Description>Sensor zero flag (inner magnetometer): 1 - No calibration data for day, used last available calibration 2 - Daily calibration value used (version 3 file) 3 - Daily calibration value used with updated Z correction (version 4 file)</Description>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -1281,10 +1180,7 @@ mode - no useful data
     <Parameter>
       <Name>Sensor zeros (outer)</Name>
       <ParameterKey>ZERO_O</ParameterKey>
-      <Description>Outboard sensor zero computed once a day. The count-to-nT conversion formula:
-      
-     B(nT) = SENS * (B(counts) - ZERO) / AMPL    
-</Description>
+      <Description>Outboard sensor zero computed once a day. The count-to-nT conversion formula:           B(nT) = SENS * (B(counts) - ZERO) / AMPL    </Description>
       <Structure>
         <Size>3 8</Size>
         <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_O.</Description>
@@ -1296,10 +1192,7 @@ mode - no useful data
     <Parameter>
       <Name>Sensor sensitivities (outer)</Name>
       <ParameterKey>SENS_O</ParameterKey>
-      <Description>Outboard sensor sensitivity computed once a day. The count-to-nT conversion formula:
-      
-     B(nT) = SENS * (B(counts) - ZERO) / AMPL    
-</Description>
+      <Description>Outboard sensor sensitivity computed once a day. The count-to-nT conversion formula:           B(nT) = SENS * (B(counts) - ZERO) / AMPL    </Description>
       <Structure>
         <Size>3 8</Size>
         <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_O.</Description>
@@ -1311,10 +1204,7 @@ mode - no useful data
     <Parameter>
       <Name>Amplitude correction (outer)</Name>
       <ParameterKey>AMPL_O</ParameterKey>
-      <Description>Outboard sensor conversion amplitude computed once a day. The count-to-nT conversion formula:
-      
-     B(nT) = SENS * (B(counts) - ZERO) / AMPL    
-</Description>
+      <Description>Outboard sensor conversion amplitude computed once a day. The count-to-nT conversion formula:           B(nT) = SENS * (B(counts) - ZERO) / AMPL    </Description>
       <Structure>
         <Size>3 8</Size>
         <Description>The 3 rows are for magnetic field components and 8 columns for sensor zeros for different sensor ranges. Current range is specified in RANGE_O.</Description>
@@ -1348,12 +1238,7 @@ mode - no useful data
     <Parameter>
       <Name>Sensor zero flag (outer)</Name>
       <ParameterKey>FLAG_O</ParameterKey>
-      <Description>Sensor zero flag (outer magnetometer):
- 1 - No calibration data for day, used last available calibration
- 2 - Daily calibration value used (version 3 file)
- 3 - Daily calibration value used with updated Z correction (version 4 file)</Description>
-      <Structure>
-      </Structure>
+      <Description>Sensor zero flag (outer magnetometer): 1 - No calibration data for day, used last available calibration 2 - Daily calibration value used (version 3 file) 3 - Daily calibration value used with updated Z correction (version 4 file)</Description>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>

@@ -5,11 +5,8 @@
     <ResourceID>spase://VHO/NumericalData/ACE/EPAM/L2_PT5M</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Electron Proton Alpha Monitor (EPAM) 5-min Level 2 Data</ResourceName>
-      <ReleaseDate>2012-02-23T04:07:21Z</ReleaseDate>
-      <Description>ACE EPAM Electron Proton Alpha Monitor (EPAM) Level 2 intensities at 5-min time resolution. 
-Calibrated science quality data.  The data are accessible via ftp in HDF and CDF from the ACE Science Center
-and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites.  The "parameter
-keys" given below are as used by CDAWeb.</Description>
+      <ReleaseDate>2012-02-24T02:52:58Z</ReleaseDate>
+      <Description>ACE EPAM Electron Proton Alpha Monitor (EPAM) Level 2 intensities at 5-min time resolution. Calibrated science quality data.  The data are accessible via ftp in HDF and CDF from the ACE Science Centerand CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites.  The "parameterkeys" given below are as used by CDAWeb.</Description>
       <Acknowledgement>Please acknowledge the ACE/EPAM instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
         <!--Dennis Haggerty-->
@@ -39,12 +36,11 @@ keys" given below are as used by CDAWeb.</Description>
       <AccessURL>
         <Name>CDAWeb ftp area</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/epm_h1</URL>
-        <Description>FTP repository of 5-min ACE/EPAM L2 data in CDF format at CDAWeb</Description>
         <ProductKey>AC_H1_EPM</ProductKey>
+        <Description>FTP repository of 5-min ACE/EPAM L2 data in CDF format at CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
-      <Acknowledgement>Please acknowledge the ACE/EPAM instrument team, the ACE Science Center,
-and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
+      <Acknowledgement>Please acknowledge the ACE/EPAM instrument team, the ACE Science Center,and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
@@ -68,8 +64,7 @@ and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
         <Description>ACE/EPAM L2 5-min data with subset, plot, list from CDAWeb</Description>
       </AccessURL>
       <Format>Text</Format>
-      <Acknowledgement>Please acknowledge the ACE/EPAM instrument team, the ACE Science Center,
-and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
+      <Acknowledgement>Please acknowledge the ACE/EPAM instrument team, the ACE Science Center,and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
@@ -96,11 +91,7 @@ and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
       <Cadence>PT5M</Cadence>
     </TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-    <Caveats>The quality of ACE level 2 data is such that it is suitable for serious scientific study.
-    However, to avoid confusion and misunderstanding, it is recommended that users consult with the appropriate ACE team members before publishing work derived from the data
-    The ACE team has worked hard to ensure that the level 2 data are free from errors, but the team cannot accept responsibility for erroneous data, or for misunderstandings about
-    how the data may be used. This is especially true if the appropriate ACE team members are not consulted before publication. At the very least, preprints should be forwarded to
-    the ACE team before publication.</Caveats>
+    <Caveats>The quality of ACE level 2 data is such that it is suitable for serious scientific study.    However, to avoid confusion and misunderstanding, it is recommended that users consult with the appropriate ACE team members before publishing work derived from the data    The ACE team has worked hard to ensure that the level 2 data are free from errors, but the team cannot accept responsibility for erroneous data, or for misunderstandings about    how the data may be used. This is especially true if the appropriate ACE team members are not consulted before publication. At the very least, preprints should be forwarded to    the ACE team before publication.</Caveats>
     <Parameter>
       <Name>Time</Name>
       <ParameterKey>Epoch</ParameterKey>

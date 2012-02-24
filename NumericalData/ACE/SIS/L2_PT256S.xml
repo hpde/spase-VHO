@@ -5,16 +5,9 @@
     <ResourceID>spase://VHO/NumericalData/ACE/SIS/L2_PT256S</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE SIS 256-sec Level 2 Data</ResourceName>
-      <ReleaseDate>2012-02-23T04:07:22Z</ReleaseDate>
-      <Description>ACE Solar Isotope Spectrometer (SIS) 256-sec intensities 
-and count rates, for each of 14 elements (He,C,N,O,Ne,Na,Mg,Al,Si,S,Ar,Ca,Fe,Ni).
-in each of 8 energy bins.  Overall energy ranges covered go from 3.4-41 MeV/n 
-for helium to 10.5-168 MeV/n for iron.  These are calibrated science quality data.  
-The data are accessible via ftp in HDF and CDF from the ACE Science Center and 
-CDAWeb, respectively, and in ASCII format from the value-added interfaces at 
-those sites.  The "parameter keys" given below are as used by CDAWeb.</Description>
-      <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the 
-ACE Science Center</Acknowledgement>
+      <ReleaseDate>2012-02-24T02:52:58Z</ReleaseDate>
+      <Description>ACE Solar Isotope Spectrometer (SIS) 256-sec intensities and count rates, for each of 14 elements (He,C,N,O,Ne,Na,Mg,Al,Si,S,Ar,Ca,Fe,Ni).in each of 8 energy bins.  Overall energy ranges covered go from 3.4-41 MeV/n for helium to 10.5-168 MeV/n for iron.  These are calibrated science quality data.  The data are accessible via ftp in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites.  The "parameter keys" given below are as used by CDAWeb.</Description>
+      <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
         <!--Christina Cohen-->
         <PersonID>spase://SMWG/Person/C.M.S.Cohen</PersonID>
@@ -28,8 +21,7 @@ ACE Science Center</Acknowledgement>
       <InformationURL>
         <Name>ACE Solar Isotope Spectrometer (SIS) Level 2 data Home Page</Name>
         <URL>http://www.srl.caltech.edu/ACE/ASC/level2/sis_l2desc.html</URL>
-        <Description>A web site hosting instrument information, data release 
-notes, as well as web utilities for plotting and downloading data</Description>
+        <Description>A web site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data</Description>
       </InformationURL>
       <InformationURL>
         <Name>Rules of use, and caveats</Name>
@@ -44,12 +36,11 @@ notes, as well as web utilities for plotting and downloading data</Description>
       <AccessURL>
         <Name>FTP area at CDAWeb</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/sis_h1</URL>
-        <Description>In CDF via ftp from CDAWeb</Description>
         <ProductKey>AC_H1_SIS</ProductKey>
+        <Description>In CDF via ftp from CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
-      <Acknowledgement>Please acknowledge the ACE/SIS instrument team, the 
-ACE Science Center, and the CDAWeb team at GSFC/SPDF</Acknowledgement>
+      <Acknowledgement>Please acknowledge the ACE/SIS instrument team, the ACE Science Center, and the CDAWeb team at GSFC/SPDF</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -58,12 +49,10 @@ ACE Science Center, and the CDAWeb team at GSFC/SPDF</Acknowledgement>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>http://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys/</URL>
-        <Description>For plots, numeric lists, and user specified
-          files</Description>
+        <Description>For plots, numeric lists, and user specified          files</Description>
       </AccessURL>
       <Format>Text</Format>
-      <Acknowledgement>Please acknowledge the ACE/SIS instrument team, the 
-ACE Science Center, and the CDAWeb team at GSFC/SPDF</Acknowledgement>
+      <Acknowledgement>Please acknowledge the ACE/SIS instrument team, the ACE Science Center, and the CDAWeb team at GSFC/SPDF</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
@@ -75,8 +64,7 @@ ACE Science Center, and the CDAWeb team at GSFC/SPDF</Acknowledgement>
         <Description>Plots and lists of user-selected parameters</Description>
       </AccessURL>
       <Format>Text</Format>
-      <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the 
-ACE Science Center</Acknowledgement>
+      <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the ACE Science Center</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
@@ -88,8 +76,7 @@ ACE Science Center</Acknowledgement>
         <Description>In HDF via ftp from the ACE Science center</Description>
       </AccessURL>
       <Format>HDF</Format>
-      <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the 
-ACE Science Center</Acknowledgement>
+      <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the ACE Science Center</Acknowledgement>
     </AccessInformation>
     <ProviderResourceName>ACE SIS Level 2 Data, 256-sec averages</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
@@ -104,11 +91,7 @@ ACE Science Center</Acknowledgement>
       <Cadence>PT256S</Cadence>
     </TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-    <Caveats>The quality of ACE level 2 data is such that it is suitable for serious scientific study.
-    However, to avoid confusion and misunderstanding, it is recommended that users consult with the appropriate ACE team members before publishing work derived from the data
-    The ACE team has worked hard to ensure that the level 2 data are free from errors, but the team cannot accept responsibility for erroneous data, or for misunderstandings about
-    how the data may be used. This is especially true if the appropriate ACE team members are not consulted before publication. At the very least, preprints should be forwarded to
-    the ACE team before publication.</Caveats>
+    <Caveats>The quality of ACE level 2 data is such that it is suitable for serious scientific study.    However, to avoid confusion and misunderstanding, it is recommended that users consult with the appropriate ACE team members before publishing work derived from the data    The ACE team has worked hard to ensure that the level 2 data are free from errors, but the team cannot accept responsibility for erroneous data, or for misunderstandings about    how the data may be used. This is especially true if the appropriate ACE team members are not consulted before publication. At the very least, preprints should be forwarded to    the ACE team before publication.</Caveats>
     <Parameter>
       <Name>Time</Name>
       <ParameterKey>Epoch</ParameterKey>

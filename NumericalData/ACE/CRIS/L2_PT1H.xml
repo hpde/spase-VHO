@@ -4,21 +4,10 @@
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/ACE/CRIS/L2_PT1H</ResourceID>
     <ResourceHeader>
-      <ResourceName>ACE Cosmic Ray Isotope Spectrometer (CRIS) 1-Hour 
-Level 2 Data</ResourceName>
-      <ReleaseDate>2012-02-23T04:07:23Z</ReleaseDate>
-      <Description>ACE Cosmic Ray Isotope Spectrometer (CRIS) intensities 
-and counts, for each of 7 energy bins for each of 24 elements (Z=5, boron, 
-to Z=28, nickel) at 1-hour time resolution.  Overall energy ranges covered
-go from 49-172 MeV/n for boron to 130-496 MeV/n for nickel.  Calibrated science 
-quality data.  Parameter segments below address intensities but not also
-the count rates included in the data set.  The data are accessible via ftp 
-in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and 
-in ASCII format from the value-added interfaces at those sites.  Daily 
-averaged L2 fluxes and rates are also available from these access paths.  
-The "parameter keys" given below are as used by CDAWeb.</Description>
-      <Acknowledgement>Please acknowledgethe ACE/CRIS instrument team and 
-the ACE Science Center</Acknowledgement>
+      <ResourceName>ACE Cosmic Ray Isotope Spectrometer (CRIS) 1-Hour Level 2 Data</ResourceName>
+      <ReleaseDate>2012-02-24T02:52:58Z</ReleaseDate>
+      <Description>ACE Cosmic Ray Isotope Spectrometer (CRIS) intensities and counts, for each of 7 energy bins for each of 24 elements (Z=5, boron, to Z=28, nickel) at 1-hour time resolution.  Overall energy ranges coveredgo from 49-172 MeV/n for boron to 130-496 MeV/n for nickel.  Calibrated science quality data.  Parameter segments below address intensities but not alsothe count rates included in the data set.  The data are accessible via ftp in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites.  Daily averaged L2 fluxes and rates are also available from these access paths.  The "parameter keys" given below are as used by CDAWeb.</Description>
+      <Acknowledgement>Please acknowledgethe ACE/CRIS instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Richard.Leske</PersonID>
         <Role>TechnicalContact</Role>
@@ -31,8 +20,7 @@ the ACE Science Center</Acknowledgement>
       <InformationURL>
         <Name>ACE Cosmic Ray Isotope Spectrometer (CRIS) Level 2 data Home Page</Name>
         <URL>http://www.srl.caltech.edu/ACE/ASC/level2/cris_l2desc.html</URL>
-        <Description>A web site hosting instrument information, data release 
-notes, as well as web utilities for plotting and downloading data</Description>
+        <Description>A web site hosting instrument information, data release notes, as well as web utilities for plotting and downloading data</Description>
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
@@ -42,12 +30,11 @@ notes, as well as web utilities for plotting and downloading data</Description>
       <AccessURL>
         <Name>CDAWeb ftp area</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/cris_h2</URL>
-        <Description>In CDF via ftp from CDAWeb</Description>
         <ProductKey>AC_H2_CRIS</ProductKey>
+        <Description>In CDF via ftp from CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
-      <Acknowledgement>Please acknowledge the ACE/CRIS instrument team, the ACE 
-Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
+      <Acknowledgement>Please acknowledge the ACE/CRIS instrument team, the ACE Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
@@ -59,8 +46,7 @@ Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
         <Description>In HDF via ftp from ACE Science Center</Description>
       </AccessURL>
       <Format>HDF</Format>
-      <Acknowledgement>Please acknowledge the ACE/CRIS instrument team and the 
-ACE Science Center</Acknowledgement>
+      <Acknowledgement>Please acknowledge the ACE/CRIS instrument team and the ACE Science Center</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -69,12 +55,10 @@ ACE Science Center</Acknowledgement>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
-        <Description>ACE/CRIS L2 hourly data with subset, plot, list functionalities 
-from CDAWeb</Description>
+        <Description>ACE/CRIS L2 hourly data with subset, plot, list functionalities from CDAWeb</Description>
       </AccessURL>
       <Format>Text</Format>
-      <Acknowledgement>Please acknowledge the ACE/CRIS instrument team, the ACE 
-Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
+      <Acknowledgement>Please acknowledge the ACE/CRIS instrument team, the ACE Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
@@ -83,12 +67,10 @@ Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
       <AccessURL>
         <Name>ACE Science Center</Name>
         <URL>http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_CRIS.html</URL>
-        <Description>ACE/CRIS L2 hourly data with subset, plot, list functionalities 
-from the ACE Science Center</Description>
+        <Description>ACE/CRIS L2 hourly data with subset, plot, list functionalities from the ACE Science Center</Description>
       </AccessURL>
       <Format>Text</Format>
-      <Acknowledgement>Please acknowledge the ACE/CRIS instrument team and the ACE 
-Science Center</Acknowledgement>
+      <Acknowledgement>Please acknowledge the ACE/CRIS instrument team and the ACE Science Center</Acknowledgement>
     </AccessInformation>
     <ProviderResourceName>ACE CRIS Level 2 Data, 1-hour averages. in CDF Format</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
