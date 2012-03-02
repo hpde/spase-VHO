@@ -5,7 +5,7 @@
     <ResourceID>spase://VHO/NumericalData/Ulysses/FGM/PT01S</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses High Resolution Magnetic Field Data</ResourceName>
-      <ReleaseDate>2012-02-23T04:23:32Z</ReleaseDate>
+      <ReleaseDate>2012-03-02T21:54:55Z</ReleaseDate>
       <Description>This data set contains high resolution samples at about one-second 
 intervals of the interplanetary magnetic field measured by the Ulysses 
 Magnetic Field experiment. Field vector components are given in units of 
@@ -41,9 +41,20 @@ the data.</Acknowledgement>
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/Ulysses/VHM-FGM</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in CDF via ftp from SPDF</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/vhm_1sec/</URL>
+        <ProductKey>UY_1SEC_VHM</ProductKey>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/Ulysses/VHM-FGM</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Restricted</AccessRights>
       <AccessURL>
         <Name>ESA RSSD</Name>
         <URL>ftp://www.rssd.esa.int/pub/ulysses/VHM-FGM/</URL>
@@ -52,17 +63,6 @@ at ESA's Research and Scientific Support Department</Description>
       </AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>
-    </AccessInformation>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>in CDF via ftp from SPDF</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/vhm_1SEC/</URL>
-        <ProductKey>UY_1SEC_VHM</ProductKey>
-      </AccessURL>
-      <Format>CDF</Format>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
