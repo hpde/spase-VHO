@@ -42,6 +42,11 @@ information on the Wind 3DP instruments and their associated data sets.</Descrip
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/3dp_elpd</URL>
         <Description>in CDF via ftp from CDAWeb</Description>
       </AccessURL>
+      <AccessURL>
+          <Name>CDAWeb HTTP area</Name>
+          <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/wind/3dp_elpd/</URL>
+          <Description>In CDF via HTTP from CDAWeb</Description>
+      </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
