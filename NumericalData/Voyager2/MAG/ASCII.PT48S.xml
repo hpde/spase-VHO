@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VHO/NumericalData/Voyager2/MAG/ASCII.PT48S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Voyager 2 MAG 48-s ASCII data at MAG team site</ResourceName>
+            <ReleaseDate>2012-08-29T00:00:00</ReleaseDate>
+            <Description>Voyager 2 MAG 48-s ASCII data at the Voyager
+MAG team site.  Magnetic field component averages in RTN coordinates,
+and their standard deviations, are presently given for 1977 through 1990.
+Voyager 2 was at 33.6 AU at the end of 1990.  Data files cover 5 days 
+each and are about 1 MB in size.  This data set is expected to be extended 
+in time. Near- and within-heliosheath data are available in other data 
+sets.</Description>
+            <Acknowledgement>Please acknowledge the Principal Investigator, N. Ness 
+of University of Delaware and Co-Investigator L. Burlaga of NASA GSFC.</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                 <Name>Readme at Voyager MAG team web site</Name>
+                 <URL>ftp://vgrmag-data.gsfc.nasa.gov/pub/voyager/summary/readme.summary</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Voyager/MAG</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Voyager/MAG team site</Name>
+                <URL>ftp://vgrmag-data.gsfc.nasa.gov/pub/voyager/summary/v2/</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Voyager2/MAG</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1977-08-20T00:00:00</StartDate>
+                <StopDate>1990-12-31T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT48S</Cadence>
+        </TemporalDescription>      
+        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+    <Parameter>
+      <Name>Spacecraft ID</Name>
+      <ParameterKey>Column_1</ParameterKey>
+      <Description>Spacecraft ID. Value FLT2 means Voyager 2.</Description>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Coordinate system</Name>
+      <ParameterKey>Column_2</ParameterKey>
+      <Description>Flag for coordinate system.  Virtually all values are HG,
+meaning Heliographic Inertial</Description>
+      <Support>
+        <SupportQuantity>Other</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Year</Name>
+      <ParameterKey>Column_3</ParameterKey>
+      <Description>Year of the measurement, 2 digits</Description>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Day of year</Name>
+      <ParameterKey>Column_4</ParameterKey>
+      <Description>Fractional day of year of the measurement (Jan 1 = 1).</Description>
+      <ValidMin>1</ValidMin>
+      <ValidMax>366.9999</ValidMax>
+      <Support>
+        <SupportQuantity>Temporal</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>B</Name>
+      <ParameterKey>Column_5</ParameterKey>
+      <Description>The magnetic field strength, the average of higher resolution field strengths, in nT</Description>
+      <Units>nT</Units>
+      <Field>
+        <Qualifier>Magnitude</Qualifier>
+        <Qualifier>Average</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
+      <Name></Name>
+      <ParameterKey>Column_6</ParameterKey>
+      <Description>Magnitude of vector constituted by average field components</Description>
+      <Units>nT</Units>
+      <Field>
+        <Qualifier>Magnitude</Qualifier>
+        <Qualifier>Average</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
+      <Name>Field elevation angle</Name>
+      <ParameterKey>Column_7</ParameterKey>
+      <Description>Elevation angle of magnetic field vector</Description>
+      <Units>Deg</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
+      </CoordinateSystem>
+      <ValidMin>-90.</ValidMin>
+      <ValidMax>90.</ValidMax>
+      <Field>
+        <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+        <Qualifier>Average</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
+      <Name>Field azimuth angle</Name>
+      <ParameterKey>Column_8</ParameterKey>
+      <Description>Azimuth angle of magnetic field vector</Description>
+      <Units>Deg</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
+      </CoordinateSystem>
+      <ValidMin>0.</ValidMin>
+      <ValidMax>360.</ValidMax>
+      <Field>
+        <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+        <Qualifier>Average</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
+      <Name>Br</Name>
+      <ParameterKey>Column_9</ParameterKey>
+      <Description>Radial component of vector magnetic field in RTN coordinates.</Description>
+      <Units>nT</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
+      </CoordinateSystem>
+      <Field>
+        <Qualifier>Component.I</Qualifier>
+        <Qualifier>Average</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
+      <Name>Bt</Name>
+      <ParameterKey>Column_10</ParameterKey>
+      <Description>Transverse component of vector magnetic field in RTN coordinates</Description>
+      <Units>nT</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
+      </CoordinateSystem>
+      <Field>
+        <Qualifier>Component.J</Qualifier>
+        <Qualifier>Average</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
+      <Name>Bn</Name>
+      <ParameterKey>Column_11</ParameterKey>
+      <Description>Normal component of vector magnetic field in RTN coordinates</Description>
+      <Units>nT</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
+      </CoordinateSystem>
+      <Field>
+        <Qualifier>Component.K</Qualifier>
+        <Qualifier>Average</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
+      <Name>dBr</Name>
+      <ParameterKey>Column_12</ParameterKey>
+      <Description>1-sigma uncertainty in the radial component of vector magnetic field in RTN coordinates.</Description>
+      <Units>nT</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
+      </CoordinateSystem>
+      <Field>
+        <Qualifier>Component.I</Qualifier>
+        <Qualifier>StandardDeviation</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
+      <Name>dBt</Name>
+      <ParameterKey>Column_13</ParameterKey>
+      <Description>1-sigma uncertainty in the transverse component of vector magnetic field in RTN coordinates</Description>
+      <Units>nT</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
+      </CoordinateSystem>
+      <Field>
+        <Qualifier>Component.J</Qualifier>
+        <Qualifier>StandardDeviation</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
+      <Name>dBn</Name>
+      <ParameterKey>Column_14</ParameterKey>
+      <Description>1-sigma uncertainty in the normal component of vector magnetic field in RTN coordinates</Description>
+      <Units>nT</Units>
+      <UnitsConversion>1e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
+      </CoordinateSystem>
+      <Field>
+        <Qualifier>Component.K</Qualifier>
+        <Qualifier>StandardDeviation</Qualifier>
+        <FieldQuantity>Magnetic</FieldQuantity>
+      </Field>
+    </Parameter>
+    <Parameter>
+      <Name>X</Name>
+      <ParameterKey>Column_15</ParameterKey>
+      <Description>X component of HGI spacecraft position vector.</Description>
+      <Units>AU</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>HGI</CoordinateSystemName>
+      </CoordinateSystem>
+      <Support>
+        <Qualifier>Component.I</Qualifier>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Y</Name>
+      <ParameterKey>Column_16</ParameterKey>
+      <Description>Y component of HGI spacecraft position vector.</Description>
+      <Units>AU</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>HGI</CoordinateSystemName>
+      </CoordinateSystem>
+      <Support>
+        <Qualifier>Component.J</Qualifier>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>Z</Name>
+      <ParameterKey>Column_17</ParameterKey>
+      <Description>Z component of HGI spacecraft position vector.</Description>
+      <Units>AU</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>HGI</CoordinateSystemName>
+      </CoordinateSystem>
+      <Support>
+        <Qualifier>Component.K</Qualifier>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </Parameter>
+    <Parameter>
+      <Name>R</Name>
+      <ParameterKey>Column_18</ParameterKey>
+      <Description>Heliocentric radial distance of spacecraft.</Description>
+      <Units>AU</Units>
+      <Support>
+        <SupportQuantity>Positional</SupportQuantity>
+      </Support>
+    </Parameter>
+    </NumericalData>
+</Spase>
