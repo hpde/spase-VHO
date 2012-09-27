@@ -25,7 +25,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Via ftp in CDF from SPDF</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/3dp_pm</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/wind/3dp_pm</URL>
         <ProductKey>WI_PM_3DP</ProductKey>
         <Description>Ftp access to Wind 3DP PESA moments data files at SPDF</Description>
       </AccessURL>

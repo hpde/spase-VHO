@@ -35,7 +35,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb ftp area</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/epm_h2</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ace/epm_h2</URL>
         <ProductKey>AC_H2_EPM</ProductKey>
         <Description>FTP repository of 1-hour ACE/EPAM L2 data in CDF format at CDAWeb</Description>
       </AccessURL>

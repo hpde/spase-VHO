@@ -35,7 +35,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb ftp area</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/mfi_h0/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ace/mfi_h0/</URL>
         <ProductKey>AC_H0_MFI</ProductKey>
         <Description>In CDF via ftp from CDAWeb</Description>
       </AccessURL>

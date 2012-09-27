@@ -59,7 +59,7 @@ at ESA's Research and Scientific Support Department</Description>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb FTP area</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/vhm_1sec/</URL>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ulysses/vhm_1sec/</URL>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>

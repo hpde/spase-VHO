@@ -52,7 +52,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>in CDF via CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/pioneer/pioneer11/coho1hr_magplasma/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/pioneer/pioneer11/coho1hr_magplasma/</URL>
         <ProductKey>PIONEER11_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
       </AccessURL>
       <AccessURL>

@@ -37,7 +37,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>nssdcftp</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/h0/glg/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ulysses/h0/glg/</URL>
         <Description>Directory listing of files</Description>
       </AccessURL>
       <Format>CDF</Format>

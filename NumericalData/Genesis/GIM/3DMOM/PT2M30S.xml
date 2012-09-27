@@ -51,7 +51,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>SPDF's ftp area for CDF's</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/genesis/3dl2_gim/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/genesis/3dl2_gim/</URL>
         <ProductKey>GENESIS_3DL2_GIM</ProductKey>
         <Description>For ftp downloads of daily CDF-formatted files</Description>
       </AccessURL>

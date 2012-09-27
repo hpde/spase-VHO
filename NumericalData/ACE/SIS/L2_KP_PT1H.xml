@@ -40,7 +40,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP area at CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/sis</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ace/sis</URL>
         <ProductKey>AC_K0_SIS</ProductKey>
         <Description>In CDF via ftp from CDAWeb</Description>
       </AccessURL>

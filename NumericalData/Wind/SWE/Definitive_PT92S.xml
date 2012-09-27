@@ -32,7 +32,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Via ftp in CDF from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/swe_h1/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/wind/swe_h1/</URL>
         <ProductKey>WI_H1_SWE</ProductKey>
         <Description>CDAWeb's ftp area for CDF-formatted data</Description>
       </AccessURL>

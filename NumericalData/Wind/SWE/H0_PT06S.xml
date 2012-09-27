@@ -26,7 +26,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to Wind/SWE Electron Moments Parameters</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/swe_h0/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/wind/swe_h0/</URL>
         <ProductKey>WI_H0_SWE</ProductKey>
         <Description>Repository of the Wind/SWE H0 electron data.</Description>
       </AccessURL>

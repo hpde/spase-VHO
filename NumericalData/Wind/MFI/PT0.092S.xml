@@ -45,7 +45,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Via ftp in CDF from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/mfi_h2/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/wind/mfi_h2/</URL>
         <ProductKey>WI_H2_MFI</ProductKey>
         <Description>For ftp downloads of CDF formatted data from SPDF</Description>
       </AccessURL>
