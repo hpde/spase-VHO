@@ -19,7 +19,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb FTP Access</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ace/or_ssc/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ace/orbit/level_2_cdaweb/or_ssc/</URL>
         <Description>NASA/GSFC CDAWeb ftp access to ACE orbital data.</Description>
       </AccessURL>
       <Format>CDF</Format>

@@ -37,7 +37,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb ftp area</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ace/cris_h3</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ace/cris/level_2_cdaweb/cris_h3</URL>
         <ProductKey>AC_H3_CRIS</ProductKey>
         <Description>In CDF via ftp from CDAWeb</Description>
       </AccessURL>
