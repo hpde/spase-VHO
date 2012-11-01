@@ -46,8 +46,8 @@
                 <Role>PrincipalInvestigator</Role>
             </Contact>
             <InformationURL>
-                <Name>Data set description page at NSSDCFTP</Name>
-                <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/voyager/voyager1/magnetic_fields/ip_1hour_ascii/1990-2004/00readme.txt</URL>
+                <Name>Data set description page at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_1hour_ascii/1990-2004/00readme.txt</URL>
             </InformationURL>
             <Association>
                 <AssociationID>spase://VHO/NumericalData/Voyager1/MAG/1977.PT1H</AssociationID>
@@ -63,8 +63,8 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>NSSDCFTP site</Name>
-                <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/voyager/voyager1/magnetic_fields/ip_1hour_ascii/1990-2004/</URL>
+                <Name>SPDF site</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_1hour_ascii/1990-2004/</URL>
             </AccessURL>
             <Format>Text.ASCII</Format>
         </AccessInformation>

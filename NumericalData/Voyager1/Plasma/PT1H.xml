@@ -41,8 +41,8 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>nssdcftp</Name>
-        <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/voyager/voyager1/plasma/hour/</URL>
+        <Name>SPDF</Name>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/plasma/hour/</URL>
         <Description>Directory listing of files</Description>
       </AccessURL>
       <Format>CDF</Format>

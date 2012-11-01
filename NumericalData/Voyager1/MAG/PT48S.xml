@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xmlns="http://www.spase-group.org/data/schema" 
-  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <NumericalData>
-    <ResourceID>spase://VHO/NumericalData/Voyager1/MAG/PT48S</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Voyager 1 Magnetic Field Data Near and Beyond Termination Shock</ResourceName>
-      <ReleaseDate>2010-07-09T09:45:00Z</ReleaseDate>
-      <Description>The average magnetic field strength produced by the spacecraft at the location of the 
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
+    <NumericalData>
+        <ResourceID>spase://VHO/NumericalData/Voyager1/MAG/PT48S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Voyager 1 Magnetic Field Data Near and Beyond Termination Shock</ResourceName>
+            <ReleaseDate>2010-07-09T09:45:00Z</ReleaseDate>
+            <Description>The average magnetic field strength produced by the spacecraft at the location of the 
         outboard magnetometer, of the dual magnetometers system on V1, varies between 0.1 and 0.2 nT, comparable 
         to the most probable magnetic field strength in the inner heliosheath and significantly larger 
         than the most probable magnetic field strength in the distant supersonic solar wind. The spacecraft 
@@ -25,7 +22,7 @@
         access path identified below, are specific to 48s Voyager 1 MAG data taken when the spacecraft
         was in the vicinity of, and beyond, the heliospheric termination shock.  48s and 1hr ASCII data 
         from Voyager 1 MAG, from earlier in the mission, are accessible at 
-        ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/voyager/voyager1/magnetic_fields/
+        ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/
 
         References 
         
@@ -41,198 +38,198 @@
         Ness, N., K.W. Behannon, R. Lepping, and K.H. Schatten, J. Geophys. Res., , 76, 3564, 1971.
         
       </Description>
-      <Acknowledgement>Please acknowledge the Principal Investigator, N. Ness of University of Delaware and Co-Investigator L. Burlaga of NASA GSFC.</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
-        <Role>CoInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
-        <Role>MetadataContact</Role>
-      </Contact>
-      <InformationURL>
-        <Name>The Voyager web site</Name>
-        <URL>http://voyager.jpl.nasa.gov</URL>
-      </InformationURL>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <URL>http://vho.nasa.gov/mission/voyager/1/mag</URL>
-        <Description>VHO repository of recent Voyager 1 MAG 48-second ascii data</Description>
-      </AccessURL>
-      <Format>Text</Format>
-      <Encoding>ASCII</Encoding>
-    </AccessInformation>
-    <InstrumentID>spase://SMWG/Instrument/Voyager1/MAG</InstrumentID>
-    <MeasurementType>MagneticField</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>2005-07-04T00:00:00Z</StartDate>
-        <StopDate>2009-11-26T00:00:00</StopDate>
-        <Note>This data set is expected be updated.</Note>
-      </TimeSpan>
-      <Cadence>PT48S</Cadence>
-    </TemporalDescription>
-    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-    <ObservedRegion>Heliosphere.Heliosheath</ObservedRegion>
-    <Caveats>Extracting the signal describing the solar wind and heliosheath from the many sources of uncertainty is a complex and 
+            <Acknowledgement>Please acknowledge the Principal Investigator, N. Ness of University of Delaware and Co-Investigator L. Burlaga of NASA GSFC.</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>The Voyager web site</Name>
+                <URL>http://voyager.jpl.nasa.gov</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <URL>http://vho.nasa.gov/mission/voyager/1/mag</URL>
+                <Description>VHO repository of recent Voyager 1 MAG 48-second ascii data</Description>
+            </AccessURL>
+            <Format>Text</Format>
+            <Encoding>ASCII</Encoding>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/Voyager1/MAG</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2005-07-04T00:00:00Z</StartDate>
+                <StopDate>2009-11-26T00:00:00</StopDate>
+                <Note>This data set is expected be updated.</Note>
+            </TimeSpan>
+            <Cadence>PT48S</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+        <ObservedRegion>Heliosphere.Heliosheath</ObservedRegion>
+        <Caveats>Extracting the signal describing the solar wind and heliosheath from the many sources of uncertainty is a complex and 
       partly subjective process that requires understanding of the instrument and judgment based on experience in dealing with 
       the ever-changing extraneous signals. As a result, users should consult the specific caveats that are included in the header
       of each granule.  The granule headers list any caveats that are specific to that time interval.</Caveats>
-    <Parameter>
-      <Name>Spacecraft ID</Name>
-      <ParameterKey>SC</ParameterKey>
-      <Description>Spacecraft ID. Value 1 means Voyager 1.</Description>
-      <ValidMin>1</ValidMin>
-      <ValidMax>1</ValidMax>
-      <Support>
-        <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>Year</Name>
-      <ParameterKey>year</ParameterKey>
-      <Description>Year of the measurement</Description>
-      <Support>
-        <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>Day of year</Name>
-      <ParameterKey>DOY</ParameterKey>
-      <Description>Fractional day of year of the measurement (Jan 1 = 1).</Description>
-      <ValidMin>1</ValidMin>
-      <ValidMax>366.9999</ValidMax>
-      <Support>
-        <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>B</Name>
-      <ParameterKey>F1</ParameterKey>
-      <Description>The magnetic field strength, the average of higher resolution field strengths, in nT</Description>
-      <Units>nT</Units>
-      <UnitsConversion>1e-9&gt;T</UnitsConversion>
-      <Field>
-        <Qualifier>Magnitude</Qualifier>
-        <Qualifier>Average</Qualifier>
-        <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
-    <Parameter>
-      <Name>Br</Name>
-      <ParameterKey>BR</ParameterKey>
-      <Description>Radial component of vector magnetic field in RTN coordinates.</Description>
-      <Units>nT</Units>
-      <UnitsConversion>1e-9&gt;T</UnitsConversion>
-      <CoordinateSystem>
-        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>RTN</CoordinateSystemName>
-      </CoordinateSystem>
-      <Field>
-        <Qualifier>Component.I</Qualifier>
-        <Qualifier>Average</Qualifier>
-        <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
-    <Parameter>
-      <Name>Bt</Name>
-      <ParameterKey>BT</ParameterKey>
-      <Description>Transverse component of vector magnetic field in RTN coordinates</Description>
-      <Units>nT</Units>
-      <UnitsConversion>1e-9&gt;T</UnitsConversion>
-      <CoordinateSystem>
-        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>RTN</CoordinateSystemName>
-      </CoordinateSystem>
-      <Field>
-        <Qualifier>Component.J</Qualifier>
-        <Qualifier>Average</Qualifier>
-        <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
-    <Parameter>
-      <Name>Bn</Name>
-      <ParameterKey>BN</ParameterKey>
-      <Description>Normal component of vector magnetic field in RTN coordinates</Description>
-      <Units>nT</Units>
-      <UnitsConversion>1e-9&gt;T</UnitsConversion>
-      <CoordinateSystem>
-        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>RTN</CoordinateSystemName>
-      </CoordinateSystem>
-      <Field>
-        <Qualifier>Component.K</Qualifier>
-        <Qualifier>Average</Qualifier>
-        <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
-    <Parameter>
-      <Name>dB</Name>
-      <ParameterKey>dF1</ParameterKey>
-      <Description>1-sigma uncertainty in the magnetic field strength</Description>
-      <Units>nT</Units>
-      <UnitsConversion>1e-9&gt;T</UnitsConversion>
-      <Field>
-        <Qualifier>Magnitude</Qualifier>
-        <Qualifier>StandardDeviation</Qualifier>
-        <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
-    <Parameter>
-      <Name>dBr</Name>
-      <ParameterKey>dBR</ParameterKey>
-      <Description>1-sigma uncertainty in the radial component of vector magnetic field in RTN coordinates.</Description>
-      <Units>nT</Units>
-      <UnitsConversion>1e-9&gt;T</UnitsConversion>
-      <CoordinateSystem>
-        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>RTN</CoordinateSystemName>
-      </CoordinateSystem>
-      <Field>
-        <Qualifier>Component.I</Qualifier>
-        <Qualifier>StandardDeviation</Qualifier>
-        <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
-    <Parameter>
-      <Name>dBt</Name>
-      <ParameterKey>dBT</ParameterKey>
-      <Description>1-sigma uncertainty in the transverse component of vector magnetic field in RTN coordinates</Description>
-      <Units>nT</Units>
-      <UnitsConversion>1e-9&gt;T</UnitsConversion>
-      <CoordinateSystem>
-        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>RTN</CoordinateSystemName>
-      </CoordinateSystem>
-      <Field>
-        <Qualifier>Component.J</Qualifier>
-        <Qualifier>StandardDeviation</Qualifier>
-        <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
-    <Parameter>
-      <Name>dBn</Name>
-      <ParameterKey>dBN</ParameterKey>
-      <Description>1-sigma uncertainty in the normal component of vector magnetic field in RTN coordinates</Description>
-      <Units>nT</Units>
-      <UnitsConversion>1e-9&gt;T</UnitsConversion>
-      <CoordinateSystem>
-        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>RTN</CoordinateSystemName>
-      </CoordinateSystem>
-      <Field>
-        <Qualifier>Component.K</Qualifier>
-        <Qualifier>StandardDeviation</Qualifier>
-        <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
-  </NumericalData>
+        <Parameter>
+            <Name>Spacecraft ID</Name>
+            <ParameterKey>SC</ParameterKey>
+            <Description>Spacecraft ID. Value 1 means Voyager 1.</Description>
+            <ValidMin>1</ValidMin>
+            <ValidMax>1</ValidMax>
+            <Support>
+                <SupportQuantity>Other</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Year</Name>
+            <ParameterKey>year</ParameterKey>
+            <Description>Year of the measurement</Description>
+            <Support>
+                <SupportQuantity>Temporal</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Day of year</Name>
+            <ParameterKey>DOY</ParameterKey>
+            <Description>Fractional day of year of the measurement (Jan 1 = 1).</Description>
+            <ValidMin>1</ValidMin>
+            <ValidMax>366.9999</ValidMax>
+            <Support>
+                <SupportQuantity>Temporal</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>B</Name>
+            <ParameterKey>F1</ParameterKey>
+            <Description>The magnetic field strength, the average of higher resolution field strengths, in nT</Description>
+            <Units>nT</Units>
+            <UnitsConversion>1e-9&gt;T</UnitsConversion>
+            <Field>
+                <Qualifier>Magnitude</Qualifier>
+                <Qualifier>Average</Qualifier>
+                <FieldQuantity>Magnetic</FieldQuantity>
+            </Field>
+        </Parameter>
+        <Parameter>
+            <Name>Br</Name>
+            <ParameterKey>BR</ParameterKey>
+            <Description>Radial component of vector magnetic field in RTN coordinates.</Description>
+            <Units>nT</Units>
+            <UnitsConversion>1e-9&gt;T</UnitsConversion>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+                <CoordinateSystemName>RTN</CoordinateSystemName>
+            </CoordinateSystem>
+            <Field>
+                <Qualifier>Component.I</Qualifier>
+                <Qualifier>Average</Qualifier>
+                <FieldQuantity>Magnetic</FieldQuantity>
+            </Field>
+        </Parameter>
+        <Parameter>
+            <Name>Bt</Name>
+            <ParameterKey>BT</ParameterKey>
+            <Description>Transverse component of vector magnetic field in RTN coordinates</Description>
+            <Units>nT</Units>
+            <UnitsConversion>1e-9&gt;T</UnitsConversion>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+                <CoordinateSystemName>RTN</CoordinateSystemName>
+            </CoordinateSystem>
+            <Field>
+                <Qualifier>Component.J</Qualifier>
+                <Qualifier>Average</Qualifier>
+                <FieldQuantity>Magnetic</FieldQuantity>
+            </Field>
+        </Parameter>
+        <Parameter>
+            <Name>Bn</Name>
+            <ParameterKey>BN</ParameterKey>
+            <Description>Normal component of vector magnetic field in RTN coordinates</Description>
+            <Units>nT</Units>
+            <UnitsConversion>1e-9&gt;T</UnitsConversion>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+                <CoordinateSystemName>RTN</CoordinateSystemName>
+            </CoordinateSystem>
+            <Field>
+                <Qualifier>Component.K</Qualifier>
+                <Qualifier>Average</Qualifier>
+                <FieldQuantity>Magnetic</FieldQuantity>
+            </Field>
+        </Parameter>
+        <Parameter>
+            <Name>dB</Name>
+            <ParameterKey>dF1</ParameterKey>
+            <Description>1-sigma uncertainty in the magnetic field strength</Description>
+            <Units>nT</Units>
+            <UnitsConversion>1e-9&gt;T</UnitsConversion>
+            <Field>
+                <Qualifier>Magnitude</Qualifier>
+                <Qualifier>StandardDeviation</Qualifier>
+                <FieldQuantity>Magnetic</FieldQuantity>
+            </Field>
+        </Parameter>
+        <Parameter>
+            <Name>dBr</Name>
+            <ParameterKey>dBR</ParameterKey>
+            <Description>1-sigma uncertainty in the radial component of vector magnetic field in RTN coordinates.</Description>
+            <Units>nT</Units>
+            <UnitsConversion>1e-9&gt;T</UnitsConversion>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+                <CoordinateSystemName>RTN</CoordinateSystemName>
+            </CoordinateSystem>
+            <Field>
+                <Qualifier>Component.I</Qualifier>
+                <Qualifier>StandardDeviation</Qualifier>
+                <FieldQuantity>Magnetic</FieldQuantity>
+            </Field>
+        </Parameter>
+        <Parameter>
+            <Name>dBt</Name>
+            <ParameterKey>dBT</ParameterKey>
+            <Description>1-sigma uncertainty in the transverse component of vector magnetic field in RTN coordinates</Description>
+            <Units>nT</Units>
+            <UnitsConversion>1e-9&gt;T</UnitsConversion>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+                <CoordinateSystemName>RTN</CoordinateSystemName>
+            </CoordinateSystem>
+            <Field>
+                <Qualifier>Component.J</Qualifier>
+                <Qualifier>StandardDeviation</Qualifier>
+                <FieldQuantity>Magnetic</FieldQuantity>
+            </Field>
+        </Parameter>
+        <Parameter>
+            <Name>dBn</Name>
+            <ParameterKey>dBN</ParameterKey>
+            <Description>1-sigma uncertainty in the normal component of vector magnetic field in RTN coordinates</Description>
+            <Units>nT</Units>
+            <UnitsConversion>1e-9&gt;T</UnitsConversion>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+                <CoordinateSystemName>RTN</CoordinateSystemName>
+            </CoordinateSystem>
+            <Field>
+                <Qualifier>Component.K</Qualifier>
+                <Qualifier>StandardDeviation</Qualifier>
+                <FieldQuantity>Magnetic</FieldQuantity>
+            </Field>
+        </Parameter>
+    </NumericalData>
 </Spase>

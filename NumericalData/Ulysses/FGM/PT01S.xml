@@ -1,5 +1,4 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
     <Version>2.2.1</Version>
     <NumericalData>
         <ResourceID>spase://VHO/NumericalData/Ulysses/FGM/PT01S</ResourceID>
@@ -58,8 +57,13 @@ at ESA's Research and Scientific Support Department</Description>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>CDAWeb FTP area</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ulysses/vhm_1sec/</URL>
+                <Name>SPDF FTP area </Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/mag_cdaweb/vhm_1sec/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>SPDF HTTP area</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/mag_cdaweb/vhm_1sec/</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
@@ -73,8 +77,13 @@ at ESA's Research and Scientific Support Department</Description>
                 <Description>UY_1SEC_VHM</Description>
             </AccessURL>
             <AccessURL>
-                <Name>in ASCII via ftp from nssdcftp</Name>
-                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/mag/interplanetary/second/</URL>
+                <Name>SPDF FTP area (originally nssdcftp area)</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/mag/interplanetary/second/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>SPDF HTTP area  (originally nssdcftp area)</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/mag/interplanetary/second/</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>

@@ -23,9 +23,9 @@
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
-        <Name>Data set page at NSSDCFTP</Name>
-        <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/helios/helios2/mag/6sec_ness/helios.txt</URL>
-        <Description>Data set page at NSSDCFTP</Description>
+        <Name>Data set page at SPDF</Name>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/helios/helios2/mag/6sec_ness/helios.txt</URL>
+        <Description>Data set page at SPDF</Description>
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
@@ -33,9 +33,9 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>File Listings at NSSDCFTP</Name>
-        <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/helios/helios2/mag/6sec_ness/</URL>
-        <Description>File Listings at NSSDCFTP</Description>
+        <Name>File Listings at SPDF</Name>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/helios/helios2/mag/6sec_ness/</URL>
+        <Description>File Listings at SPDF</Description>
       </AccessURL>
       <Format>Text.ASCII</Format>
     </AccessInformation>

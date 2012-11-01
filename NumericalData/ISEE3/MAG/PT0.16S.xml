@@ -24,8 +24,8 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>nssdcftp</Name>
-        <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/isee/isee3/magnetic_fields/0.16sec_ascii_gz/</URL>
+        <Name>SPDF</Name>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/isee/isee3/magnetic_fields/0.16sec_ascii_gz/</URL>
         <Description>Directory listing of files</Description>
       </AccessURL>
       <Format>Text.ASCII</Format>

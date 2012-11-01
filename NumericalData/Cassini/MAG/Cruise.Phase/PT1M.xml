@@ -13,7 +13,7 @@
                 data are in RTN coordinates.  
                 
                 The data are mostly from the fluxgate magnetometer (FGM). The table at 
-                http://nssdcftp.gsfc.nasa.gov/spacecraft_data/cassini/vhm.txt identifies the 52 days in 2000-2004 
+                http://spdf.gsfc.nasa.gov/pub/data/cassini/vhm.txt identifies the 52 days in 2000-2004 
                 for which the data are solely from the vector helium magnetometer (VHM).  Days not in the 
                 table contain only FGM data.
                 
@@ -28,8 +28,8 @@
                 <Role>TechnicalContact</Role>
             </Contact>
             <InformationURL>
-                <Name>NSSDCFTP README for Cassini Magnetometer Data</Name>
-                <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/cassini/aareadme.txt</URL>
+                <Name>README for Cassini Magnetometer Data</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/cassini/aareadme.txt</URL>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
@@ -37,8 +37,8 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>NSSDCFTP File Listing of Cassini Magnetometer Data</Name>
-                <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/cassini/</URL>
+                <Name>File Listing of Cassini Magnetometer Data</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/cassini/</URL>
                 <Description>ASCII download from NSSDCFTP</Description>
             </AccessURL>
             <Format>Text.ASCII</Format>
