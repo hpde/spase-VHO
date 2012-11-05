@@ -19,7 +19,7 @@ Wind.  Data are for only the solar wind phases of the Wind orbit.</Description>
             </Contact>
             <InformationURL>
                 <Name>Readme file at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/mfi/mag_old/15sec_ascii/00readme</URL>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/mfi/ascii/15sec_ascii/00readme</URL>
                 <Description>Details on creation and content of this data set</Description>
             </InformationURL>
         </ResourceHeader>
