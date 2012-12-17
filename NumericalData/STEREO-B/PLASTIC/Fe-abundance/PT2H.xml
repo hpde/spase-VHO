@@ -64,12 +64,12 @@ charge state used in the V and Vth (1D Maxwellian) fitting algorithm</Descriptio
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>in CDF via ftp from SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l2/plastic/1ron</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l2/plastic/1ron/2hr</URL>
                 <Description>In CDF via ftp</Description>
             </AccessURL>
           <AccessURL>
                 <Name>in CDF via http from SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l2/plastic/1ron</URL>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l2/plastic/1ron/2hr</URL>
                 <Description>In CDF via http</Description>
             </AccessURL>
             <Format>CDF</Format>
