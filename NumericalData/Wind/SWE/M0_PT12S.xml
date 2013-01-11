@@ -25,7 +25,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to Wind/SWE Electron New-mode PAD Regime-Averages</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/wind/swe_m0/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/wind/swe/swe_m0/</URL>
         <ProductKey>WI_M0_SWE</ProductKey>
         <Description>Repository of the Wind/SWE M0 (v01) electron data.</Description>
       </AccessURL>
