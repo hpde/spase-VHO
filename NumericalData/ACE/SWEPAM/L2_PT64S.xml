@@ -35,7 +35,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb ftp area</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ace/swe_h0/</URL>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ace/swepam/level_2_cdaweb/swe_h0/</URL>
         <ProductKey>AC_H0_SWE</ProductKey>
         <Description>FTP repository of 64-second ACE SWEPAM data in CDF format at CDAWeb</Description>
       </AccessURL>
