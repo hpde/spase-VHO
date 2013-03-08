@@ -1,30 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/ACE/Ephemeris/PT12M</ResourceID>
     <ResourceHeader>
-      <ResourceName>ACE Positions</ResourceName>
-      <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
+      <ResourceName>ACE GSE 12-min Position Data</ResourceName>
+      <ReleaseDate>2013-03-04T00:00:00</ReleaseDate>
       <Description>ACE satellite positions.</Description>
       <Contact>
         <!-- Jan Merka -->
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
+      <Contact>
+            <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
+            <Role>GeneralContact</Role>
+        </Contact>
     </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>CDAWeb FTP Access</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/ace/orbit/level_2_cdaweb/or_ssc/</URL>
-        <Description>NASA/GSFC CDAWeb ftp access to ACE orbital data.</Description>
-      </AccessURL>
-      <Format>CDF</Format>
-      <Encoding>None</Encoding>
-    </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ace/orbit/level_2_cdaweb/or_ssc</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/ace/orbit/level_2_cdaweb/or_ssc</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Satellite Situation Center</Name>
+                <URL>http://sscweb.gsfc.nasa.gov</URL>
+                <ProductKey>ace</ProductKey>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/ACE/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
     <TemporalDescription>
@@ -40,8 +57,6 @@
       <Description>Number of milliseconds since the CDF epoch</Description>
       <Units>ms</Units>
       <UnitsConversion>1e-3&gt;s</UnitsConversion>
-      <Structure>
-  </Structure>
       <ValidMin>01-Jan-1956 00:00:00.000</ValidMin>
       <ValidMax>01-Jan-2083 00:00:00.000</ValidMax>
       <FillValue>-1.0E31</FillValue>
@@ -115,7 +130,7 @@
         <Size>3</Size>
         <Element>
           <Name>x</Name>
-          <Component>I</Component>
+          <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
           <ValidMin>-1594535.0</ValidMin>
           <ValidMax>1594535.0</ValidMax>
@@ -123,7 +138,7 @@
         </Element>
         <Element>
           <Name>y</Name>
-          <Component>J</Component>
+          <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
           <ValidMin>-1594535.0</ValidMin>
           <ValidMax>1594535.0</ValidMax>
@@ -131,7 +146,7 @@
         </Element>
         <Element>
           <Name>z</Name>
-          <Component>K</Component>
+          <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
           <ValidMin>-1594535.0</ValidMin>
           <ValidMax>1594535.0</ValidMax>
