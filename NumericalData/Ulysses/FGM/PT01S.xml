@@ -35,7 +35,7 @@ the data.</Acknowledgement>
             </Contact>
             <InformationURL>
                 <Name>Ulysses Magnetometer Home Page</Name>
-                <URL>http://www.rssd.esa.int/helio/archive/vhm_fgm.html</URL>
+                <URL>http://ufa.esac.esa.int/ufa/#instruments</URL>
                 <Description>Site hosting instrument information, data and plots for Ulysses magnetometer</Description>
             </InformationURL>
         </ResourceHeader>
@@ -44,9 +44,9 @@ the data.</Acknowledgement>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>ESA RSSD</Name>
-                <URL>ftp://www.rssd.esa.int/pub/ulysses/VHM-FGM/</URL>
-                <Description>FTP repository of 1-second magnetic field data in ascii format,
+                <Name>Ulysses Final Archive</Name>
+                <URL>http://ufa.esac.esa.int/ufa/#data</URL>
+                <Description>repository of 1-second magnetic field data in ascii format,
 at ESA's Research and Scientific Support Department</Description>
             </AccessURL>
             <Format>Text</Format>
@@ -57,11 +57,11 @@ at ESA's Research and Scientific Support Department</Description>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area </Name>
+                <Name>FTP access to CDFs at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/mag_cdaweb/vhm_1sec/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
+                <Name>HTTP access to CDFs at SPDF</Name>
                 <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/mag_cdaweb/vhm_1sec/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
@@ -77,11 +77,11 @@ at ESA's Research and Scientific Support Department</Description>
                 <Description>UY_1SEC_VHM</Description>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF FTP area (originally nssdcftp area)</Name>
+                <Name>FTP access to ASCII files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/mag/interplanetary/second/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area  (originally nssdcftp area)</Name>
+                <Name>HTTP access to ASCII files at SPDF</Name>
                 <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/mag/interplanetary/second/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
