@@ -35,7 +35,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>SSCWeb</Name>
-                <URL>http://sscweb.gsfc.nasa.gov</URL>
+                <URL>http://sscweb.gsfc.nasa.gov/cgi-bin/Locator.cgi</URL>
                 <ProductKey>ace</ProductKey>
             </AccessURL>
             <Format>CDF</Format>
