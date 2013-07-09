@@ -1,5 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-    <Version>2.2.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VHO/NumericalData/Voyager1/MAGandPLS/PT1H</ResourceID>
         <ResourceHeader>
@@ -12,7 +12,7 @@
                 <Role>PrincipalInvestigator</Role>
             </Contact>
             <Contact>
-                <PersonID>spase://SMWG/Person/John D. Richardson</PersonID>
+                <PersonID>spase://SMWG/Person/John.D.Richardson</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
             <Contact>
@@ -33,18 +33,19 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
+                <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/merged/</URL>
                 <Description>for annual files via ftp</Description>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
+                <Name>HTTP access to files at SPDF</Name>
                 <URL>http://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/merged/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <ProductKey>VOYAGER1_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
                 <Description>For CDAWeb subset,plot and list capabilities</Description>
             </AccessURL>
             <AccessURL>

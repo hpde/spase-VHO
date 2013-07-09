@@ -1,5 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-    <Version>2.2.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd'">
+    <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VHO/NumericalData/Pioneer_Venus/MAGandPLS/PT1H</ResourceID>
         <ResourceHeader>
@@ -21,7 +21,7 @@
             </Contact>
             <InformationURL>
                 <Name>Readme file from SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged/pvomgd.txt</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged/coho1hr_magplasma_ascii/pvomgd.txt</URL>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
@@ -29,13 +29,13 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/cdaweb/coho1hr_magplasma/</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged</URL>
                 <Description>for annual files via ftp</Description>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/cdaweb/coho1hr_magplasma/</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -47,17 +47,8 @@
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <ProductKey>PIONEERVENUS_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
                 <Description>PIONEERVENUS_COHO1HR_MERGED_MAG_PLASMA</Description>
-            </AccessURL>
-            <AccessURL>
-                <Name>SPDF FTP area (originally nssdcftp area)</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged/</URL>
-                <Description>In text via FTP from SPDF</Description>
-            </AccessURL>
-            <AccessURL>
-                <Name>SPDF HTTP area (originally nssdcftp area)</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged/</URL>
-                <Description>In text via HTP from SPDF</Description>
             </AccessURL>
             <AccessURL>
                 <Name>COHOWeb plots and lists</Name>
@@ -69,7 +60,6 @@
                 <URL>http://cohoweb.gsfc.nasa.gov/</URL>
                 <Description>Plots, lists, scatter plots, regressions, distributions, means, etc.</Description>
             </AccessURL>
-            <Format>Text</Format>
             <Format>Text</Format>
             <Acknowledgement>Please acknowledge the magnetic field and plasma Principal Investigators, Drs. E. Smith and P. Gazis, and NSSDC or GSFC-SPDF</Acknowledgement>
         </AccessInformation>

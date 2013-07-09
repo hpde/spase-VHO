@@ -1,5 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-    <Version>2.0.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VHO/NumericalData/Pioneer10/MAGandPLS/PT1H</ResourceID>
         <ResourceHeader>
@@ -21,7 +21,7 @@
             </Contact>
             <InformationURL>
                 <Name>Readme file at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/merged/p10mgd.txt</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/merged/coho1hr_magplasma_ascii/p10mgd.txt</URL>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
@@ -29,13 +29,13 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/cdaweb/coho1hr_magplasma/</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/merged</URL>
                 <Description>for annual files via ftp</Description>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/cdaweb/coho1hr_magplasma/</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/merged</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -47,17 +47,8 @@
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <ProductKey>PIONEER10_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
                 <Description>PIONEER10_COHO1HR_MERGED_MAG_PLASMA</Description>
-            </AccessURL>
-            <AccessURL>
-                <Name>SPDF FTP area (originally nssdcftp area)</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/merged/</URL>
-                <Description>In text via FTP from SPDF</Description>
-            </AccessURL>
-            <AccessURL>
-                <Name>SPDF HTTP area (originally nssdcftp area)</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/merged/</URL>
-                <Description>In text via HTP from SPDF</Description>
             </AccessURL>
             <AccessURL>
                 <Name>COHOWeb plots and lists</Name>
@@ -167,19 +158,19 @@
                 <Description>R,T,N components</Description>
                 <Element>
                     <Name>R component</Name>
-                    <Component>I</Component>
+                    <Qualifier>Component.I</Qualifier>
                     <Index>1</Index>
                     <ParameterKey>Column07</ParameterKey>
                 </Element>
                 <Element>
                     <Name>T component</Name>
-                    <Component>J</Component>
+                    <Qualifier>Component.J</Qualifier>
                     <Index>2</Index>
                     <ParameterKey>Column08</ParameterKey>
                 </Element>
                 <Element>
                     <Name>N component</Name>
-                    <Component>K</Component>
+                    <Qualifier>Component.K</Qualifier>
                     <Index>3</Index>
                     <ParameterKey>Column09</ParameterKey>
                 </Element>
