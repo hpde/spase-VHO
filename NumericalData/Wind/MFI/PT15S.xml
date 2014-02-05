@@ -37,7 +37,7 @@ Wind.  Data are for only the solar wind phases of the Wind orbit.</Description>
             </AccessURL>
             <AccessURL>
                 <Name>OMNIWeb-Plus</Name>
-                <URL>http://ftpbrowser.gsfc.nasa.gov/wind_mag15s.html</URL>
+                <URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/wind_mag15s.html</URL>
                 <Description>FTPBrowser graphical display interface to ASCII data</Description>
             </AccessURL>
             <Format>Text</Format>
