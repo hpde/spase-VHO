@@ -23,21 +23,6 @@ distance and HEE, HEEQ and HCI direction angles.</Description>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/UNH</RepositoryID>
-            <Availability>Online</Availability>
-            <AccessRights>Open</AccessRights>
-            <AccessURL>
-                <Name>PLASTIC FTP site at UNH</Name>
-                <URL>http://fiji.sr.unh.edu/1dmax_ascii/1hr/A/</URL>
-            </AccessURL>
-            <Format>Text</Format>
-            <DataExtent>
-                <Quantity>9</Quantity>
-                <Units>KB</Units>
-                <Per>P1D</Per>
-            </DataExtent>
-        </AccessInformation>
-        <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
