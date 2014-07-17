@@ -5,14 +5,14 @@
         <ResourceHeader>
             <ResourceName>ACE SIS 1-Hour Level 2 Data</ResourceName>
             <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
-            <Description>ACE Solar Isotope Spectrometer (SIS) hourly intensities
+            <Description>ACE Solar Isotope Spectrometer (SIS) hourly intensities 
 and count rates, for each of 14 elements (He,C,N,O,Ne,Na,Mg,Al,Si,S,Ar,Ca,Fe,Ni).
-in each of 8 energy bins.  Overall energy ranges covered go from 3.4-41 MeV/n
-for helium to 10.5-168 MeV/n for iron.  These are calibrated science quality data.
-The data are accessible via ftp in HDF and CDF from the ACE Science Center and
-CDAWeb, respectively, and in ASCII format from the value-added interfaces at
+in each of 8 energy bins.  Overall energy ranges covered go from 3.4-41 MeV/n 
+for helium to 10.5-168 MeV/n for iron.  These are calibrated science quality data.  
+The data are accessible via ftp in HDF and CDF from the ACE Science Center and 
+CDAWeb, respectively, and in ASCII format from the value-added interfaces at 
 those sites.  The "parameter keys" given below are as used by CDAWeb.</Description>
-            <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the
+            <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the 
 ACE Science Center</Acknowledgement>
             <Contact>
         <!--Christina Cohen-->
@@ -27,7 +27,7 @@ ACE Science Center</Acknowledgement>
             <InformationURL>
                 <Name>ACE Solar Isotope Spectrometer (SIS) Level 2 data Home Page</Name>
                 <URL>http://www.srl.caltech.edu/ACE/ASC/level2/sis_l2desc.html</URL>
-                <Description>A web site hosting instrument information, data release
+                <Description>A web site hosting instrument information, data release 
 notes, as well as web utilities for plotting and downloading data</Description>
             </InformationURL>
             <InformationURL>
@@ -51,7 +51,7 @@ notes, as well as web utilities for plotting and downloading data</Description>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
-            <Acknowledgement>Please acknowledge the ACE/SIS instrument team, the
+            <Acknowledgement>Please acknowledge the ACE/SIS instrument team, the 
 ACE Science Center, and the CDAWeb team at GSFC/SPDF</Acknowledgement>
         </AccessInformation>
         <AccessInformation>
@@ -66,7 +66,7 @@ ACE Science Center, and the CDAWeb team at GSFC/SPDF</Acknowledgement>
           files</Description>
             </AccessURL>
             <Format>Text</Format>
-            <Acknowledgement>Please acknowledge the ACE/SIS instrument team, the
+            <Acknowledgement>Please acknowledge the ACE/SIS instrument team, the 
 ACE Science Center, and the CDAWeb team at GSFC/SPDF</Acknowledgement>
         </AccessInformation>
         <AccessInformation>
@@ -79,7 +79,7 @@ ACE Science Center, and the CDAWeb team at GSFC/SPDF</Acknowledgement>
                 <Description>In HDF via ftp from the ACE Science center</Description>
             </AccessURL>
             <Format>HDF</Format>
-            <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the
+            <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the 
 ACE Science Center</Acknowledgement>
         </AccessInformation>
         <AccessInformation>
@@ -92,7 +92,7 @@ ACE Science Center</Acknowledgement>
                 <Description>Plots and lists of user-selected parameters</Description>
             </AccessURL>
             <Format>Text</Format>
-            <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the
+            <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the 
 ACE Science Center</Acknowledgement>
         </AccessInformation>
         <ProviderResourceName>ACE SIS Level 2 Data, 1-hour averages</ProviderResourceName>

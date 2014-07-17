@@ -5,16 +5,16 @@
         <ResourceHeader>
             <ResourceName>ACE Solar Wind Electron Proton Alpha Monitor (SWEPAM) 64-Second Level 2 Data</ResourceName>
             <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
-            <Description>Solar Wind Ion parameters from ACE/SWEPAM. Level 2 data,
+            <Description>Solar Wind Ion parameters from ACE/SWEPAM. Level 2 data, 
 64-second averages.  Parameters include proton density, temperature (radial
 component) and flow speed, flow velocity vector in GSE, GSM and RTN coordinates,
 and alpha to proton density ratio.  ACE position vectors in GSE and GSM are
-included.  The data are accessible via ftp in HDF and CDF from the ACE Science
-Center and CDAWeb, respectively, and in ASCII format from the value-added
-interfaces at those sites.  Hourly averaged L2 plasma parameters are also
-available from these access paths.  The "parameter keys" given below are as
+included.  The data are accessible via ftp in HDF and CDF from the ACE Science 
+Center and CDAWeb, respectively, and in ASCII format from the value-added 
+interfaces at those sites.  Hourly averaged L2 plasma parameters are also 
+available from these access paths.  The "parameter keys" given below are as 
 used by CDAWeb.</Description>
-            <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team
+            <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team 
 and the ACE Science Center</Acknowledgement>
             <Contact>
         <!-- R. Skoug -->
@@ -29,8 +29,8 @@ and the ACE Science Center</Acknowledgement>
             <InformationURL>
                 <Name>ACE SWEPAM Level 2 data Home Page</Name>
                 <URL>http://www.srl.caltech.edu/ACE/ASC/level2/swepam_l2desc.html</URL>
-                <Description>ACE Science Center site hosting instrument information,
-data release notes, as well as web utilities for plotting and downloading
+                <Description>ACE Science Center site hosting instrument information, 
+data release notes, as well as web utilities for plotting and downloading 
 data</Description>
             </InformationURL>
             <InformationURL>
@@ -46,7 +46,7 @@ data</Description>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ace/swepam/level_2_cdaweb/swe_h0/</URL>
-                <Description>FTP repository of 64-second ACE SWEPAM data in
+                <Description>FTP repository of 64-second ACE SWEPAM data in 
 CDF format at CDAWeb</Description>
             </AccessURL>
             <AccessURL>
@@ -55,7 +55,7 @@ CDF format at CDAWeb</Description>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
-            <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team, the ACE
+            <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team, the ACE 
 Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
         </AccessInformation>
         <AccessInformation>
@@ -66,11 +66,11 @@ Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>AC_H0_SWE</ProductKey>
-                <Description>ACE/SWEPAM L2 64-sec data with subset, plot, list functionalities
+                <Description>ACE/SWEPAM L2 64-sec data with subset, plot, list functionalities 
 from CDAWeb</Description>
             </AccessURL>
             <Format>Text</Format>
-            <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team, the ACE
+            <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team, the ACE 
 Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
         </AccessInformation>
         <AccessInformation>
@@ -83,7 +83,7 @@ Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
                 <Description>In HDF via ftp from ACE Science Center</Description>
             </AccessURL>
             <Format>HDF</Format>
-            <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team and the
+            <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team and the 
 ACE Science Center</Acknowledgement>
         </AccessInformation>
         <AccessInformation>
@@ -93,11 +93,11 @@ ACE Science Center</Acknowledgement>
             <AccessURL>
                 <Name>ACE Science Center</Name>
                 <URL>http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_SWEPAM.html</URL>
-                <Description>ACE/SWEPAM L2 64-sec data with subset, plot, list functionalities
+                <Description>ACE/SWEPAM L2 64-sec data with subset, plot, list functionalities 
 from the ACE Science Center</Description>
             </AccessURL>
             <Format>Text</Format>
-            <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team and the ACE
+            <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team and the ACE 
 Science Center</Acknowledgement>
         </AccessInformation>
         <ProviderResourceName>ACE SWEPAM Level 2 Data, 64-second averages</ProviderResourceName>
@@ -113,14 +113,14 @@ Science Center</Acknowledgement>
             <Cadence>PT64S</Cadence>
         </TemporalDescription>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-        <Caveats>The quality of ACE level 2 data is such that it is suitable
-for serious scientific study. However, to avoid confusion and misunderstanding,
-it is recommended that users consult with the appropriate ACE team members
-before publishing work derived from the data. The ACE team has worked hard
-to ensure that the level 2 data are free from errors, but the team cannot
-accept responsibility for erroneous data, or for misunderstandings about
-how the data may be used. This is especially true if the appropriate ACE
-team members are not consulted before publication. At the very least,
+        <Caveats>The quality of ACE level 2 data is such that it is suitable 
+for serious scientific study. However, to avoid confusion and misunderstanding, 
+it is recommended that users consult with the appropriate ACE team members 
+before publishing work derived from the data. The ACE team has worked hard 
+to ensure that the level 2 data are free from errors, but the team cannot 
+accept responsibility for erroneous data, or for misunderstandings about 
+how the data may be used. This is especially true if the appropriate ACE 
+team members are not consulted before publication. At the very least, 
 preprints should be forwarded to the ACE team before publication.</Caveats>
         <Parameter>
             <Name>Time</Name>
@@ -189,8 +189,8 @@ preprints should be forwarded to the ACE team before publication.</Caveats>
             <Name>Solar Wind Proton Speed </Name>
             <ParameterKey>Vp</ParameterKey>
             <Description>Solar Wind Bulk Speed </Description>
-            <Caveats>Vp is the solar wind proton speed, or more generally
-just the solar wind (bulk) speed. It is obtained by integrating the
+            <Caveats>Vp is the solar wind proton speed, or more generally 
+just the solar wind (bulk) speed. It is obtained by integrating the 
 ion (proton) distribution function. </Caveats>
             <Units>km/s </Units>
             <ValidMin>0.0 </ValidMin>
@@ -207,8 +207,8 @@ ion (proton) distribution function. </Caveats>
             <Name>Proton Temperature </Name>
             <ParameterKey>Tpr</ParameterKey>
             <Description>radial component of the proton temperature </Description>
-            <Caveats>The radial component of the proton temperature is the (1,1)
-component of the temperature tensor, along the radial direction. It is
+            <Caveats>The radial component of the proton temperature is the (1,1) 
+component of the temperature tensor, along the radial direction. It is 
 obtained by integration of the ion (proton) distribution function. </Caveats>
             <Units>Kelvin </Units>
             <ValidMin>1000.0 </ValidMin>
@@ -224,7 +224,7 @@ obtained by integration of the ion (proton) distribution function. </Caveats>
             <Name>alpha/proton ratio </Name>
             <ParameterKey>alpha_ratio</ParameterKey>
             <Description>alpha to proton density ratio </Description>
-            <Caveats>Alpha ratio (Na/Np) - is the ratio of the number density of
+            <Caveats>Alpha ratio (Na/Np) - is the ratio of the number density of 
 helium++ ions to the number density of protons. </Caveats>
             <ValidMin>0.0 </ValidMin>
             <ValidMax>10.0 </ValidMax>
@@ -239,7 +239,7 @@ helium++ ions to the number density of protons. </Caveats>
         <Parameter>
             <Name>Solar Wind Velocity (GSE) </Name>
             <ParameterKey>V_GSE</ParameterKey>
-            <Description>Solar Wind Velocity in GSE cartesian coordinates, 64-second
+            <Description>Solar Wind Velocity in GSE cartesian coordinates, 64-second 
 average</Description>
             <Caveats>Solar Wind Velocity in GSE coords, 64-second average</Caveats>
             <Units>km/s </Units>
@@ -287,7 +287,7 @@ average</Description>
         <Parameter>
             <Name>Solar Wind Velocity (RTN) </Name>
             <ParameterKey>V_RTN</ParameterKey>
-            <Description>Solar Wind Velocity in RTN cartesian coordinates, 64-second
+            <Description>Solar Wind Velocity in RTN cartesian coordinates, 64-second 
 average</Description>
             <Caveats>Solar Wind Velocity in RTN cartesian coordinates, 64-second average</Caveats>
             <Units>km/s </Units>

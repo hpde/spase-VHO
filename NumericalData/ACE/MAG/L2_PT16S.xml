@@ -7,12 +7,12 @@
             <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
             <Description>ACE Magnetometer level 2 data, 16-second averages of
 field magnitude and GSE and GSM Cartesian components, plus standard deviations,
-plus ACE location data.  The data are accessible via ftp in HDF and CDF from
-the ACE Science Center and CDAWeb, respectively, and in ASCII format from the
-value-added interfaces at those sites.  The "parameter keys" given below are
-as used by CDAWeb.  One-sec, 4-min, 1-hr, 1-day and 27-day averages are also
+plus ACE location data.  The data are accessible via ftp in HDF and CDF from 
+the ACE Science Center and CDAWeb, respectively, and in ASCII format from the 
+value-added interfaces at those sites.  The "parameter keys" given below are 
+as used by CDAWeb.  One-sec, 4-min, 1-hr, 1-day and 27-day averages are also 
 available via the access paths given below.</Description>
-            <Acknowledgement>Please acknowledge the ACE/MAG instrument team and
+            <Acknowledgement>Please acknowledge the ACE/MAG instrument team and 
 the ACE Science Center</Acknowledgement>
             <Contact>
         <!-- N. Ness -->
@@ -27,7 +27,7 @@ the ACE Science Center</Acknowledgement>
             <InformationURL>
                 <Name>ACE Magnetometer (MAG) Level 2 data Home Page</Name>
                 <URL>http://www.srl.caltech.edu/ACE/ASC/level2/mag_l2desc.html</URL>
-                <Description>ACE Science Center site hosting instrument information, data
+                <Description>ACE Science Center site hosting instrument information, data 
 release notes,  as well as web utilities for plotting and downloading data</Description>
             </InformationURL>
             <InformationURL>
@@ -62,7 +62,7 @@ and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>AC_H0_MFI</ProductKey>
-                <Description>ACE/MAG L2 16-sec data with subset, plot, list functionalities from
+                <Description>ACE/MAG L2 16-sec data with subset, plot, list functionalities from 
 CDAWeb</Description>
             </AccessURL>
             <Format>Text</Format>
@@ -79,7 +79,7 @@ and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
                 <Description>In HDF via ftp from ACE Science Center</Description>
             </AccessURL>
             <Format>HDF</Format>
-            <Acknowledgement>Please acknowledge the ACE/MAG instrument team and the
+            <Acknowledgement>Please acknowledge the ACE/MAG instrument team and the 
 ACE Science Center</Acknowledgement>
         </AccessInformation>
         <AccessInformation>
@@ -89,11 +89,11 @@ ACE Science Center</Acknowledgement>
             <AccessURL>
                 <Name>ACE Science Center</Name>
                 <URL>http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_MAG.html</URL>
-                <Description>ACE/MAG L2 16-sec data with subset, plot, list functionalities
+                <Description>ACE/MAG L2 16-sec data with subset, plot, list functionalities 
 from the ACE Science Center</Description>
             </AccessURL>
             <Format>Text</Format>
-            <Acknowledgement>Please acknowledge the ACE/MAG instrument team and the ACE
+            <Acknowledgement>Please acknowledge the ACE/MAG instrument team and the ACE 
 Science Center</Acknowledgement>
         </AccessInformation>
         <ProviderResourceName>ACE MAG Level 2 Data, 16-second averages</ProviderResourceName>
@@ -109,18 +109,18 @@ Science Center</Acknowledgement>
             <Cadence>PT16S</Cadence>
         </TemporalDescription>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-        <Caveats>The quality of ACE level 2 data is such that it is suitable for serious
-scientific study. However, to avoid confusion and misunderstanding, it is recommended
-that users consult with the appropriate ACE team members before publishing work
-derived from the data. The ACE team has worked hard to ensure that the level 2 data
-are free from errors, but the team cannot accept responsibility for erroneous data,
-or for misunderstandings about how the data may be used. This is especially true if
-the appropriate ACE team members are not consulted before publication. At the very
+        <Caveats>The quality of ACE level 2 data is such that it is suitable for serious 
+scientific study. However, to avoid confusion and misunderstanding, it is recommended 
+that users consult with the appropriate ACE team members before publishing work 
+derived from the data. The ACE team has worked hard to ensure that the level 2 data 
+are free from errors, but the team cannot accept responsibility for erroneous data, 
+or for misunderstandings about how the data may be used. This is especially true if 
+the appropriate ACE team members are not consulted before publication. At the very 
 least, preprints should be forwarded to the ACE team before publication.</Caveats>
         <Parameter>
             <Name>Time</Name>
             <ParameterKey>Epoch</ParameterKey>
-            <Description>Number of milliseconds since CDF_EPOCH: 0000-01-01T00:00:00.000.
+            <Description>Number of milliseconds since CDF_EPOCH: 0000-01-01T00:00:00.000. 
 Timestamp marks beginning of interval</Description>
             <Units>ms</Units>
             <UnitsConversion>1e-3&gt;s</UnitsConversion>
@@ -134,7 +134,7 @@ Timestamp marks beginning of interval</Description>
         <Parameter>
             <Name>Time PB5</Name>
             <ParameterKey>Time_PB5</ParameterKey>
-            <Description>Time of observation in year, day of year, and milliseconds.
+            <Description>Time of observation in year, day of year, and milliseconds. 
 Timestamp marks beginning of interval</Description>
             <Structure>
                 <Size>3</Size>
@@ -293,7 +293,7 @@ Timestamp marks beginning of interval</Description>
         <Parameter>
             <Name>Data Quality Flag</Name>
             <ParameterKey>Q_FLAG</ParameterKey>
-            <Description>Data Quality Flag: 0 = good; 1 = S/C Maneuver &amp;
+            <Description>Data Quality Flag: 0 = good; 1 = S/C Maneuver &amp; 
 subsequent high-nutation period (~4 hr) 2 = Bad data/missing data</Description>
             <ValidMin>0</ValidMin>
             <ValidMax>2</ValidMax>

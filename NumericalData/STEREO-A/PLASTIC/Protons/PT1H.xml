@@ -6,12 +6,12 @@
             <ResourceName>STEREO-A PLASTIC 1-hour Proton Plasma Parameters</ResourceName>
             <ReleaseDate>2012-12-11T00:00:00</ReleaseDate>
             <Description>This data product contains 1-hour averaged values of solar wind
-proton flow speed, density, and temperature and corresponding thermal speed.
-The records also hold flow velocity vector components and direction angles
-in HERTN and RTN coordinates.  Chi-squared and statistical uncertainties are
-included, as are various flags.  STEREO position information is given in radial
+proton flow speed, density, and temperature and corresponding thermal speed.  
+The records also hold flow velocity vector components and direction angles 
+in HERTN and RTN coordinates.  Chi-squared and statistical uncertainties are 
+included, as are various flags.  STEREO position information is given in radial 
 distance and HEE, HEEQ and HCI direction angles.</Description>
-            <Acknowledgement>Please acknowledge STEREO PLASTIC Investigation
+            <Acknowledgement>Please acknowledge STEREO PLASTIC Investigation 
 (A.B. Galvin, PI) and NASA Contract NAS5-00132.</Acknowledgement>
             <Contact>
                 <PersonID>spase://SMWG/Person/Antoinette.B.Galvin</PersonID>
@@ -22,6 +22,21 @@ distance and HEE, HEEQ and HCI direction angles.</Description>
                 <URL>http://stereo.sr.unh.edu/data/PLASTIC_Resources/index.htm</URL>
             </InformationURL>
         </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/UNH</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>PLASTIC FTP site at UNH</Name>
+                <URL>http://fiji.sr.unh.edu/1dmax_ascii/1hr/A/</URL>
+            </AccessURL>
+            <Format>Text</Format>
+            <DataExtent>
+                <Quantity>9</Quantity>
+                <Units>KB</Units>
+                <Per>P1D</Per>
+            </DataExtent>
+        </AccessInformation>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>

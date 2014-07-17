@@ -5,17 +5,17 @@
         <ResourceHeader>
             <ResourceName>ACE Cosmic Ray Isotope Spectrometer (CRIS) 1-Hour Level 2 Data</ResourceName>
             <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
-            <Description>ACE Cosmic Ray Isotope Spectrometer (CRIS) intensities
-and counts, for each of 7 energy bins for each of 24 elements (Z=5, boron,
+            <Description>ACE Cosmic Ray Isotope Spectrometer (CRIS) intensities 
+and counts, for each of 7 energy bins for each of 24 elements (Z=5, boron, 
 to Z=28, nickel) at 1-hour time resolution.  Overall energy ranges covered
-go from 49-172 MeV/n for boron to 130-496 MeV/n for nickel.  Calibrated science
+go from 49-172 MeV/n for boron to 130-496 MeV/n for nickel.  Calibrated science 
 quality data.  Parameter segments below address intensities but not also
-the count rates included in the data set.  The data are accessible via ftp
-in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and
-in ASCII format from the value-added interfaces at those sites.  Daily
-averaged L2 fluxes and rates are also available from these access paths.
+the count rates included in the data set.  The data are accessible via ftp 
+in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and 
+in ASCII format from the value-added interfaces at those sites.  Daily 
+averaged L2 fluxes and rates are also available from these access paths.  
 The "parameter keys" given below are as used by CDAWeb.</Description>
-            <Acknowledgement>Please acknowledgethe ACE/CRIS instrument team and
+            <Acknowledgement>Please acknowledgethe ACE/CRIS instrument team and 
 the ACE Science Center</Acknowledgement>
             <Contact>
                 <PersonID>spase://SMWG/Person/Richard.Leske</PersonID>
@@ -29,7 +29,7 @@ the ACE Science Center</Acknowledgement>
             <InformationURL>
                 <Name>ACE Cosmic Ray Isotope Spectrometer (CRIS) Level 2 data Home Page</Name>
                 <URL>http://www.srl.caltech.edu/ACE/ASC/level2/cris_l2desc.html</URL>
-                <Description>A web site hosting instrument information, data release
+                <Description>A web site hosting instrument information, data release 
 notes, as well as web utilities for plotting and downloading data</Description>
             </InformationURL>
         </ResourceHeader>
@@ -48,7 +48,7 @@ notes, as well as web utilities for plotting and downloading data</Description>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
-            <Acknowledgement>Please acknowledge the ACE/CRIS instrument team, the ACE
+            <Acknowledgement>Please acknowledge the ACE/CRIS instrument team, the ACE 
 Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
         </AccessInformation>
         <AccessInformation>
@@ -59,11 +59,11 @@ Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>AC_H2_CRIS</ProductKey>
-                <Description>ACE/CRIS L2 hourly data with subset, plot, list functionalities
+                <Description>ACE/CRIS L2 hourly data with subset, plot, list functionalities 
 from CDAWeb</Description>
             </AccessURL>
             <Format>Text</Format>
-            <Acknowledgement>Please acknowledge the ACE/CRIS instrument team, the ACE
+            <Acknowledgement>Please acknowledge the ACE/CRIS instrument team, the ACE 
 Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
         </AccessInformation>
         <AccessInformation>
@@ -76,7 +76,7 @@ Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
                 <Description>In HDF via ftp from ACE Science Center</Description>
             </AccessURL>
             <Format>HDF</Format>
-            <Acknowledgement>Please acknowledge the ACE/CRIS instrument team and the
+            <Acknowledgement>Please acknowledge the ACE/CRIS instrument team and the 
 ACE Science Center</Acknowledgement>
         </AccessInformation>
         <AccessInformation>
@@ -86,11 +86,11 @@ ACE Science Center</Acknowledgement>
             <AccessURL>
                 <Name>ACE Science Center</Name>
                 <URL>http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_CRIS.html</URL>
-                <Description>ACE/CRIS L2 hourly data with subset, plot, list functionalities
+                <Description>ACE/CRIS L2 hourly data with subset, plot, list functionalities 
 from the ACE Science Center</Description>
             </AccessURL>
             <Format>Text</Format>
-            <Acknowledgement>Please acknowledge the ACE/CRIS instrument team and the ACE
+            <Acknowledgement>Please acknowledge the ACE/CRIS instrument team and the ACE 
 Science Center</Acknowledgement>
         </AccessInformation>
         <ProviderResourceName>ACE CRIS Level 2 Data, 1-hour averages. in CDF Format</ProviderResourceName>
