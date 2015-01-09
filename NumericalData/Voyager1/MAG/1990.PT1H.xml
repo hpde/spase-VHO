@@ -3,7 +3,7 @@
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VHO/NumericalData/Voyager1/MAG/1977.PT1H</ResourceID>
+        <ResourceID>spase://VHO/NumericalData/Voyager1/MAG/1990.PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Voyager 1 Hourly Magnetic Field Data</ResourceName>
             <ReleaseDate>2012-06-01T00:00:00</ReleaseDate>
