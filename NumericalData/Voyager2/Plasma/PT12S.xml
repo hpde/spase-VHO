@@ -5,8 +5,8 @@
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Voyager2/Plasma/PT12S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Voyager-2 High Resolution Plasma Data</ResourceName>
-      <ReleaseDate>2012-06-07T00:00:00Z</ReleaseDate>
+      <ResourceName>Voyager 2 High Resolution Plasma Data</ResourceName>
+      <ReleaseDate>2015-01-07T00:00:00Z</ReleaseDate>
       <Description>
         The plasma investigation made use of two Faraday-cup detectors, one pointed
         along the earth-spacecraft line and one at right angles to this line. The
@@ -35,16 +35,30 @@
         <Role>PrincipalInvestigator</Role>
       </Contact>
     </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/plasma/hires/</URL>
-        <Description>Directory listing of files</Description>
-      </AccessURL>
-      <Format>CDF</Format>
+         <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>high resolution data from SPDF FTP area</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/plasma/hires</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>high resolution data from SPDF HTTP area</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/plasma/hires</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
+            </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+         <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/MIT_CSR</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>high resolution ASCII data via ftp from MIT</Name>
+                <URL>ftp://space.mit.edu/pub/plasma/vgr/v2/key/</URL>
+            </AccessURL>
+      <Format>Text</Format>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Voyager2/MAG</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
