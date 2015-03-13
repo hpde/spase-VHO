@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-  xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-  <Version>2.2.2</Version>
+  xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+  <Version>2.2.3</Version>
   <NumericalData>
     <ResourceID>spase://VHO/NumericalData/Wind/3DP/PLSP.PT24S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Wind 3DP 24-sec Proton OmniDirectional Fluxes and Moments</ResourceName>
-      <ReleaseDate>2012-07-24T12:00:00Z</ReleaseDate>
+      <ResourceName>Wind 3DP 24-sec Ion OmniDirectional Fluxes and Moments</ResourceName>
+      <ReleaseDate>2015-03-06T00:00:00Z</ReleaseDate>
       <Description></Description>
       <Acknowledgement>User will acknowledge the Wind 3DP Team in any publication resulting from use of this data.</Acknowledgement>
       <Contact>
@@ -19,19 +19,26 @@
         <Description>The Wind 3DP instrument home page contains information on the Wind 3DP instruments and their associated data sets.</Description>
       </InformationURL>
     </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>Via ftp in CDF from SPDF</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/cdaweb_data/wind/3dp_plsp/</URL>
-        <Description>Ftp access to Wind 3DP PLSP data files at SPDF</Description>
-      </AccessURL>
-      <Format>CDF</Format>
-      <Encoding>None</Encoding>
-      <Acknowledgement>Acknowledge the 3DP and SPDF teams</Acknowledgement>
-    </AccessInformation>
+ <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_plsp/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_plsp/</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <ProductKey>WI_PLSP_3DP</ProductKey>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCB/Wind/3DP</RepositoryID>
       <Availability>Online</Availability>
