@@ -40,6 +40,20 @@
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
+		<AccessInformation>
+			  <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+			  <Availability>Online</Availability>
+			  <AccessRights>Open</AccessRights>
+			  <AccessURL>
+					 <Name>PDS/PPI</Name>
+					 <URL>http://ppi.pds.nasa.gov/search/view/?id=pds://PPI/VG1-SS-POS-6-1DAY-V1.0</URL>
+					 <ProductKey>VG1-SS-POS-6-1DAY-V1.0</ProductKey>
+					 <Description>This collection is archived with NASA&apos;s Planetary Data System.</Description>
+					 <Language>En</Language>
+			 </AccessURL>
+			  <Format>Text.ASCII</Format>
+			  <Acknowledgement>NASA&apos;s Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the P.I. for the data.</Acknowledgement>
+		</AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/Voyager1/Ephemeris</InstrumentID>
         <MeasurementType>Ephemeris</MeasurementType>
         <TemporalDescription>
