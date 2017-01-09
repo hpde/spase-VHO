@@ -4,7 +4,7 @@
         <ResourceID>spase://VHO/NumericalData/STEREO-B/PLASTIC/Protons/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO-B PLASTIC 1-hour Proton Plasma Parameters</ResourceName>
-            <ReleaseDate>2012-12-11T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-01-04T00:00:00</ReleaseDate>
             <Description>This data product contains 1-hour averaged values of solar wind
 proton flow speed, density, and temperature and corresponding thermal speed.  
 The records also hold flow velocity vector components and direction angles 
@@ -73,7 +73,7 @@ distance and HEE, HEEQ and HCI direction angles.</Description>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>STEREO Science Center - ASCII</Name>
-                <URL>http://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Protons/ASCII/1hr/B/</URL>
+                <URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Protons/Derived_from_1D_Maxwellian/ASCII/1hr/B/</URL>
                 <Description>In ASCII via ftp from SSC</Description>
             </AccessURL>
             <Format>Text</Format>
@@ -89,7 +89,7 @@ distance and HEE, HEEQ and HCI direction angles.</Description>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>STEREO Science Center - CDF</Name>
-                <URL>http://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Protons/behind/1hr/</URL>
+                <URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Protons/Derived_from_1D_Maxwellian/behind/1hr/</URL>
                 <Description>In CDF via ftp from SSC</Description>
             </AccessURL>
             <Format>CDF</Format>
