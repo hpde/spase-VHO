@@ -6,7 +6,17 @@
         <ResourceHeader>
             <ResourceName>Voyager 1 Spacecraft Positions</ResourceName>
             <ReleaseDate>2009-05-20T19:08:29Z</ReleaseDate>
-            <Description>Voyager 1 spacecraft positions generated from data at HelioWeb (cohoweb.gsfc.nasa.gov/helios/heli.html)</Description>
+            <Description>Voyager 1 spacecraft positions generated from data at HelioWeb (cohoweb.gsfc.nasa.gov/helios/heli.html)
+			
+      These data were obtained from running the program HELICOOR in the       
+      public directory NSSDCA::ANON_DIR:[ACTIVE.HELIO]. These data are        
+      based on predicted trajectories calculated with the GTDS code by the    
+      NSSDC Satellite Situation Center and converted to solar ecliptic and    
+      heliographic coordinates by the HELIOCOOR program. The HELICOOR code was
+      written by R. Parthasarathy. The program GENTRJCON added the HILLON     
+      longitude.                                                              
+			
+			</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
                 <Role>MetadataContact</Role>

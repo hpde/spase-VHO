@@ -22,7 +22,11 @@ of University of Delaware and Co-Investigator L. Burlaga of NASA GSFC.</Acknowle
                 <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
                 <Role>CoInvestigator</Role>
             </Contact>
-            <InformationURL>
+			<Contact>
+				 <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+				 <Role>MetadataContact</Role>
+			</Contact>
+             <InformationURL>
                 <Name>Readme at Voyager MAG team web site</Name>
                 <URL>ftp://vgrmag-data.gsfc.nasa.gov/pub/voyager/summary/readme.summary</URL>
             </InformationURL>
@@ -37,6 +41,20 @@ of University of Delaware and Co-Investigator L. Burlaga of NASA GSFC.</Acknowle
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
+	    <AccessInformation>
+			  <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+			  <Availability>Online</Availability>
+			  <AccessRights>Open</AccessRights>
+			  <AccessURL>
+					 <Name>PDS/PPI</Name>
+					 <URL>http://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/VG2-SW-MAG-4-SUMM-HGCOORDS-48SEC-V1.0</URL>
+					 <ProductKey>VG2-SW-MAG-4-SUMM-HGCOORDS-48SEC-V1.0</ProductKey>
+					 <Description>This collection is archived with NASA&apos;s Planetary Data System.</Description>
+					 <Language>En</Language>
+			 </AccessURL>
+			  <Format>Text.ASCII</Format>
+			  <Acknowledgement>NASA&apos;s Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the P.I. for the data.</Acknowledgement>
+	    </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Voyager2/MAG</InstrumentID>
         <MeasurementType>MagneticField</MeasurementType>

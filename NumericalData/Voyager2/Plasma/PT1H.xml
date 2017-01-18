@@ -35,6 +35,10 @@
         <PersonID>spase://SMWG/Person/John.W.Belcher</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
+	  <Contact>
+			 <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+			 <Role>MetadataContact</Role>
+	  </Contact>
     </ResourceHeader>
    <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -61,7 +65,21 @@
             </AccessURL>
       <Format>Text</Format>
     </AccessInformation>
-    <InstrumentID>spase://SMWG/Instrument/Voyager2/MAG</InstrumentID>
+    <AccessInformation>
+		  <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+		  <Availability>Online</Availability>
+		  <AccessRights>Open</AccessRights>
+		  <AccessURL>
+				 <Name>PDS/PPI</Name>
+				 <URL>http://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/VG2-SS-PLS-4-SUMM-1HR-AVG-V1.0</URL>
+				 <ProductKey>VG2-SS-PLS-4-SUMM-1HR-AVG-V1.0</ProductKey>
+				 <Description>This collection is archived with NASA&apos;s Planetary Data System.</Description>
+				 <Language>En</Language>
+		 </AccessURL>
+		  <Format>Text.ASCII</Format>
+		  <Acknowledgement>NASA&apos;s Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the P.I. for the data.</Acknowledgement>
+    </AccessInformation>
+    <InstrumentID>spase://SMWG/Instrument/Voyager2/PLS</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
